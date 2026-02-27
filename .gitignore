@@ -1,6 +1,7 @@
 # Large binary files
 pdf/
 *.pdf
+*.mp4
 research/corpus.db
 research/chroma_db/
 output/
