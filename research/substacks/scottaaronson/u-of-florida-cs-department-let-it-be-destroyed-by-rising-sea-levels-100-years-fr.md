@@ -1,0 +1,39 @@
+---
+title: "U. of Florida CS department: let it be destroyed by rising sea levels 100 years from now, not reckless administrators today"
+author: "Scott Aaronson"
+date: "Tue, 24 Apr 2012"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=981"
+---
+
+**Update (4/27):** A famous joke concerns an airplane delivered to the US Defense Department in the 1950s, which included a punch-card computer on board. By regulation, the contractor had to provide a list of all the components of the plane--engine, wings, fuselage, etc.--along with the weight of each component. One item in the list read, "Computer software: 0.0 kg."
+
+"That must be a mistake--it _can 't_ weigh 0 kg!" exclaimed the government inspector. "Here, show me where the software is." So the contractor pointed to a stack of punched cards. "OK, fine," said the government inspector. "So just weigh those cards, and that's the weight of the software."
+
+"No, sir, you don't understand," replied the contractor. "The software is the holes."
+
+If the Abernathy saga proves anything, it's the continuing relevance of this joke even in 2012. Abernathy is the government inspector who hears that software weighs nothing, and concludes that it _does_ nothing--or, at least, that whatever division is responsible for punching the holes in the cards, can simply be folded into the division that cuts the card paper into rectangles.
+
+* * *
+
+As many of you have heard by now, Cammy Abernathy, Dean of Engineering at the University of Florida, has targeted her school's Computer and Information Science and Engineering (CISE) department for [disembowelment](http://saveufcise.wordpress.com/): moving most faculty to other departments, and shunting any who remain into non-research positions. Though CISE is by all accounts one of UF's strongest engineering departments, no other department faces similar cuts, and the move comes just as UF is [increasing __its sports budget](http://www.forbes.com/sites/stevensalzberg/2012/04/22/university-of-florida-eliminates-computer-science-department-increases-athletic-budgets-hmm/) by more than would be saved by killing computer science. (For more, see [Lance's blog](http://blog.computationalcomplexity.org/2012/04/cs-in-sunshine-state.html), or letters from [Eric Grimson](http://cra.org/uploads/documents/resources/rissues/CRAUFLLetter.pdf) and [Zvi Galil](http://saveufcise.wordpress.com/letter-from-dean-of-college-of-computing-at-georgia-tech-and-division-director-of-nsf/). Also, [click here](http://www.change.org/petitions/dean-abernathy-college-of-engineering-university-of-florida-do-not-destroy-the-cise-department) to add your name to the already 7000+ petitioning UF to reconsider.)
+
+On its face, this decision seems _so_ boneheadedly perverse that it immediately raises the suspicion that the real reasons for it, whatever they are, have not been publicly stated. The closest I could find to a comprehensible rationale came from [this comment](http://www.forbes.com/sites/stevensalzberg/2012/04/22/university-of-florida-eliminates-computer-science-department-increases-athletic-budgets-hmm/$canonicalUrl?commentId=comment_blogAndPostId/blog/comment/1505-435-905), which speculates that the UF administration might be sabotaging its CS department as a _threat_ to the Florida State legislature: "see, keep slashing our budget, and _this_ is the sort of thing we'll be forced to do!" But I don't find that theory very plausible; UF must realize that the Republican-controlled legislature's likely reaction would be "go ahead, knock yourselves out!"
+
+On a personal note, my parents live part-time in beautiful Sarasota, FL, home of the [Mote Marine Laboratory](http://www.mote.org/), which does amazing work rehabilitating dolphins, manatees, and sea turtles. Having visited Sarasota just a few weeks ago, I can testify that, despite frequent hurricanes, a proven inability to hold democratic elections, and its reputation as a giant retirement compound, Florida has definite potential as a state.
+
+Academic computer science as a whole will be fine. As for Florida, may the state prove greater than its Katherine Harrises, Rick Scotts, and Cammy Abernathys.
+
+**Update:** See [this document](https://docs.google.com/file/d/0B_BLIH0W6HbJUTlWYlhPNzB3TWc/edit) for more of the backstory on Abernathy's underhanded tactics in dismantling the UF CISE department. Based on the evidence presented there, she really does deserve the scorn now being heaped on her by much of the academic world.
+
+**Another Update:** UF's president issued a [rather mealy-mouthed statement](http://news.ufl.edu/2012/04/25/machen-budget-statement/) saying that they're going to set aside their original evisceration proposal and find a compromise, though who knows what the compromise will look like.
+
+In another news, Greg Kuperberg posted a comment that not only says everything I was trying to say more eloquently, but also explains why I and other CS folks _care_ so much about this issue: because what's really at stake is the concept of Turing-universality itself. Let me repost Greg's comment in its entirety.
+
+It looks like Dean Abernathy hasn’t explained herself all that well, which is not surprising if what she is doing makes no sense. Reading the tea leaves, in particular the back-story document that Scott posted, it looks like she had it in for the CS department from the beginning of her tenure as Dean at Florida. In her interview with Stanford when she had just been appointed as dean, she already said then that “we” wanted to bring EE and CS closer together, even though at the time, there had been no discussion and there was no “we”. Then during discussions with the CS department, she refused to take no for an answer, even though she sometimes pretended to, and as time went on the actual plan looked more and more punitive. She appointed an outside chair to the department, and then in the final plan she terminated the graduate program, moved half of the department to EE, and left the other half to do teaching only. The CS department was apparently very concerned about its NRC ranking, but this ranking only came out when Abernathy’s wheels were already in motion. In any case everyone knows that the NRC rankings were notoriously shabby across all disciplines and the US News rankings, although hardly deep, are much less ridiculous.
+
+So what gives? Apparently from Abernathy’s Stanford interview, and from her actions, she simply takes computer science to be a special case of electrical engineering. Ultimately, it’s a rejection of the fundamental concept of Turing universality. In this world view, there is no such thing as an abstract computer, or at best who really cares if there is one; all that really exists is electronic devices.
+
+Scott points out that those departments that are combined EECS are really combined in name only. This is not just empirical happenstance; it comes from Turing universality and the abstract concept of a computer. Yes, in practice modern computers are electronic. However, if someone does research in compilers, much less CS theory, then really nothing at all is said about electricity. To most people in computer science, it’s completely peripheral that computers are electronic. Nor is this just a matter of theoretical vs applied computer science. CS theory may be theoretical, but compiler research isn’t, much less other topics such as user interfaces or digital libraries.
+
+Abernathy herself works in materials engineering and has a PhD from Stanford. I’m left wondering at what point she failed to understand, or began to misunderstand or dismiss, the abstract concept of a computer. If she were dean of letters of sciences, then I could imagine an attempt to dump half of the literature department into a department of paper and printing technology, and leave the other half only to teach grammar. It would be exactly the same mistake.

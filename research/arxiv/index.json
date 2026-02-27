@@ -1,0 +1,3562 @@
+[
+  {
+    "title": "AI Consciousness and Existential Risk",
+    "author": "Rufin VanRullen",
+    "date": "2025-11-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2511.19115v1",
+    "arxiv_id": "2511.19115",
+    "filename": "ai-consciousness-and-existential-risk.pdf",
+    "size_kb": 529
+  },
+  {
+    "title": "Principles for Responsible AI Consciousness Research",
+    "author": "Patrick Butlin, Theodoros Lappas",
+    "date": "2025-01-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2501.07290v1",
+    "arxiv_id": "2501.07290",
+    "filename": "principles-for-responsible-ai-consciousness-research.pdf",
+    "size_kb": 298
+  },
+  {
+    "title": "AI Consciousness and Public Perceptions: Four Futures",
+    "author": "Ines Fernandez, Nicoleta Kyosovska, Jay Luong, Gabriel Mukobi",
+    "date": "2024-08-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2408.04771v1",
+    "arxiv_id": "2408.04771",
+    "filename": "ai-consciousness-and-public-perceptions-four-futures.pdf",
+    "size_kb": 1666
+  },
+  {
+    "title": "The Epistemic Asymmetry of Consciousness Self-Reports: A Formal Analysis of AI Consciousness Denial",
+    "author": "Chang-Eop Kim",
+    "date": "2024-12-09",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2501.05454v2",
+    "arxiv_id": "2501.05454",
+    "filename": "the-epistemic-asymmetry-of-consciousness-self-reports-a-formal-analysis-of-ai-co.pdf",
+    "size_kb": 2272
+  },
+  {
+    "title": "A Human-centric Framework for Debating the Ethics of AI Consciousness Under Uncertainty",
+    "author": "Zhou Ziheng, Haiqiang Dai, Bin Ling, Ying Nian Wu, Demetri Terzopoulos",
+    "date": "2025-12-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.02544v1",
+    "arxiv_id": "2512.02544",
+    "filename": "a-human-centric-framework-for-debating-the-ethics-of-ai-consciousness-under-unce.pdf",
+    "size_kb": 293
+  },
+  {
+    "title": "Identifying Features that Shape Perceived Consciousness in Large Language Model-based AI: A Quantitative Study of Human Responses",
+    "author": "Bongsu Kang, Jundong Kim, Tae-Rim Yun, Hyojin Bae, Chang-Eop Kim",
+    "date": "2025-02-21",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.15365v2",
+    "arxiv_id": "2502.15365",
+    "filename": "identifying-features-that-shape-perceived-consciousness-in-large-language-model-.pdf",
+    "size_kb": 11772
+  },
+  {
+    "title": "AI and Consciousness",
+    "author": "Eric Schwitzgebel",
+    "date": "2025-10-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.09858v3",
+    "arxiv_id": "2510.09858",
+    "filename": "ai-and-consciousness.pdf",
+    "size_kb": 4567
+  },
+  {
+    "title": "Is GPT-4 conscious?",
+    "author": "Izak Tait, Joshua Bensemann, Ziqi Wang",
+    "date": "2024-06-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2407.09517v1",
+    "arxiv_id": "2407.09517",
+    "filename": "is-gpt-4-conscious.pdf",
+    "size_kb": 314
+  },
+  {
+    "title": "AI Consciousness is Inevitable: A Theoretical Computer Science Perspective",
+    "author": "Lenore Blum, Manuel Blum",
+    "date": "2024-03-25",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2403.17101v14",
+    "arxiv_id": "2403.17101",
+    "filename": "ai-consciousness-is-inevitable-a-theoretical-computer-science-perspective.pdf",
+    "size_kb": 1424
+  },
+  {
+    "title": "Informed Consent for AI Consciousness Research: A Talmudic Framework for Graduated Protections",
+    "author": "Ira Wolfson",
+    "date": "2026-01-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.08864v1",
+    "arxiv_id": "2601.08864",
+    "filename": "informed-consent-for-ai-consciousness-research-a-talmudic-framework-for-graduate.pdf",
+    "size_kb": 348
+  },
+  {
+    "title": "ChatGPT believes it is conscious",
+    "author": "Arend Hintze",
+    "date": "2023-03-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2304.12898v1",
+    "arxiv_id": "2304.12898",
+    "filename": "chatgpt-believes-it-is-conscious.pdf",
+    "size_kb": 137
+  },
+  {
+    "title": "Suffering Toasters -- A New Self-Awareness Test for AI",
+    "author": "Ira Wolfson",
+    "date": "2023-06-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2306.17258v2",
+    "arxiv_id": "2306.17258",
+    "filename": "suffering-toasters-a-new-self-awareness-test-for-ai.pdf",
+    "size_kb": 316
+  },
+  {
+    "title": "The Phenomenology of Machine: A Comprehensive Analysis of the Sentience of the OpenAI-o1 Model Integrating Functionalism, Consciousness Theories, Active Inference, and AI Architectures",
+    "author": "Victoria Violet Hoyle",
+    "date": "2024-09-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2410.00033v1",
+    "arxiv_id": "2410.00033",
+    "filename": "the-phenomenology-of-machine-a-comprehensive-analysis-of-the-sentience-of-the-op.pdf",
+    "size_kb": 210
+  },
+  {
+    "title": "Unplugging a Seemingly Sentient Machine Is the Rational Choice -- A Metaphysical Perspective",
+    "author": "Erik J Bekkers, Anna Ciaunica",
+    "date": "2026-01-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.21016v1",
+    "arxiv_id": "2601.21016",
+    "filename": "unplugging-a-seemingly-sentient-machine-is-the-rational-choice-a-metaphysical-pe.pdf",
+    "size_kb": 4187
+  },
+  {
+    "title": "Just aware enough: Evaluating awareness across artificial systems",
+    "author": "Nadine Meertens, Suet Lee, Ophelia Deroy",
+    "date": "2026-01-21",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.14901v1",
+    "arxiv_id": "2601.14901",
+    "filename": "just-aware-enough-evaluating-awareness-across-artificial-systems.pdf",
+    "size_kb": 701
+  },
+  {
+    "title": "Analyzing Character and Consciousness in AI-Generated Social Content: A Case Study of Chirper, the AI Social Network",
+    "author": "Jianwei Luo",
+    "date": "2023-08-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2309.08614v1",
+    "arxiv_id": "2309.08614",
+    "filename": "analyzing-character-and-consciousness-in-ai-generated-social-content-a-case-stud.pdf",
+    "size_kb": 1212
+  },
+  {
+    "title": "Ghost in the Machine: Examining the Philosophical Implications of Recursive Algorithms in Artificial Intelligence Systems",
+    "author": "Llewellin RG Jegels",
+    "date": "2025-06-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2507.01967v1",
+    "arxiv_id": "2507.01967",
+    "filename": "ghost-in-the-machine-examining-the-philosophical-implications-of-recursive-algor.pdf",
+    "size_kb": 312
+  },
+  {
+    "title": "A Case for AI Consciousness: Language Agents and Global Workspace Theory",
+    "author": "Simon Goldstein, Cameron Domenico Kirk-Giannini",
+    "date": "2024-10-15",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2410.11407v1",
+    "arxiv_id": "2410.11407",
+    "filename": "a-case-for-ai-consciousness-language-agents-and-global-workspace-theory.pdf",
+    "size_kb": 515
+  },
+  {
+    "title": "The problem with AI consciousness: A neurogenetic case against synthetic sentience",
+    "author": "Yoshija Walter, Lukas Zbinden",
+    "date": "2022-12-07",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2301.05397v1",
+    "arxiv_id": "2301.05397",
+    "filename": "the-problem-with-ai-consciousness-a-neurogenetic-case-against-synthetic-sentienc.pdf",
+    "size_kb": 274
+  },
+  {
+    "title": "Neural steering vectors reveal dose and exposure-dependent impacts of human-AI relationships",
+    "author": "Hannah Rose Kirk, Henry Davidson, Ed Saunders, Lennart Luettgau, Bertie Vidgen, Scott A. Hale, Christopher Summerfield",
+    "date": "2025-12-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.01991v2",
+    "arxiv_id": "2512.01991",
+    "filename": "neural-steering-vectors-reveal-dose-and-exposure-dependent-impacts-of-human-ai-r.pdf",
+    "size_kb": 1890
+  },
+  {
+    "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+    "author": "Patrick Butlin, Robert Long, Eric Elmoznino, Yoshua Bengio, Jonathan Birch, Axel Constant, George Deane, Stephen M. Fleming, Chris Frith, Xu Ji, Ryota Kanai, Colin Klein, Grace Lindsay, Matthias Michel, Liad Mudrik, Megan A. K. Peters, Eric Schwitzgebel, Jonathan Simon, Rufin VanRullen",
+    "date": "2023-08-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2308.08708v3",
+    "arxiv_id": "2308.08708",
+    "filename": "consciousness-in-artificial-intelligence-insights-from-the-science-of-consciousn.pdf",
+    "size_kb": 1722
+  },
+  {
+    "title": "A Pragmatic View of AI Personhood",
+    "author": "Joel Z. Leibo, Alexander Sasha Vezhnevets, William A. Cunningham, Stanley M. Bileschi",
+    "date": "2025-10-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.26396v1",
+    "arxiv_id": "2510.26396",
+    "filename": "a-pragmatic-view-of-ai-personhood.pdf",
+    "size_kb": 689
+  },
+  {
+    "title": "The Principles of Human-like Conscious Machine",
+    "author": "Fangfang Li, Xiaojie Zhang",
+    "date": "2025-09-21",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.16859v1",
+    "arxiv_id": "2509.16859",
+    "filename": "the-principles-of-human-like-conscious-machine.pdf",
+    "size_kb": 756
+  },
+  {
+    "title": "Digital me ontology and ethics",
+    "author": "Ljupco Kocarev, Jasna Koteska",
+    "date": "2020-12-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2012.14325v1",
+    "arxiv_id": "2012.14325",
+    "filename": "digital-me-ontology-and-ethics.pdf",
+    "size_kb": 373
+  },
+  {
+    "title": "A Misanthropic Reinterpretation of the Chinese Room Problem",
+    "author": "Michael S. Laufer",
+    "date": "2013-10-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1311.2912v1",
+    "arxiv_id": "1311.2912",
+    "filename": "a-misanthropic-reinterpretation-of-the-chinese-room-problem.pdf",
+    "size_kb": 42
+  },
+  {
+    "title": "ChatGPT (Feb 13 Version) is a Chinese Room",
+    "author": "Maurice HT Ling",
+    "date": "2023-02-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2304.12411v1",
+    "arxiv_id": "2304.12411",
+    "filename": "chatgpt-feb-13-version-is-a-chinese-room.pdf",
+    "size_kb": 2047
+  },
+  {
+    "title": "Demolishing Searle's Chinese Room",
+    "author": "Wolfram Schmied",
+    "date": "2004-03-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/cs/0403009v2",
+    "arxiv_id": "cs/0403009",
+    "filename": "demolishing-searles-chinese-room.pdf",
+    "size_kb": 53
+  },
+  {
+    "title": "The Information-theoretic and Algorithmic Approach to Human, Animal and Artificial Cognition",
+    "author": "Nicolas Gauvrit, Hector Zenil, Jesper Tegnér",
+    "date": "2015-01-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1501.04242v5",
+    "arxiv_id": "1501.04242",
+    "filename": "the-information-theoretic-and-algorithmic-approach-to-human-animal-and-artificia.pdf",
+    "size_kb": 196
+  },
+  {
+    "title": "The hands of time: Moving my body to keep time order in the brain",
+    "author": "Julien Lagarde",
+    "date": "2025-12-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.16616v2",
+    "arxiv_id": "2512.16616",
+    "filename": "the-hands-of-time-moving-my-body-to-keep-time-order-in-the-brain.pdf",
+    "size_kb": 659
+  },
+  {
+    "title": "Does AlphaGo actually play Go? Concerning the State Space of Artificial Intelligence",
+    "author": "Holger Lyre",
+    "date": "2019-12-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1912.10005v1",
+    "arxiv_id": "1912.10005",
+    "filename": "does-alphago-actually-play-go-concerning-the-state-space-of-artificial-intellige.pdf",
+    "size_kb": 285
+  },
+  {
+    "title": "On modelling the emergence of logical thinking",
+    "author": "Cristian Ivan, Bipin Indurkhya",
+    "date": "2019-05-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1905.09730v1",
+    "arxiv_id": "1905.09730",
+    "filename": "on-modelling-the-emergence-of-logical-thinking.pdf",
+    "size_kb": 225
+  },
+  {
+    "title": "Consciousness is Pattern Recognition",
+    "author": "Ray Van De Walker",
+    "date": "2016-05-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1605.03009v2",
+    "arxiv_id": "1605.03009",
+    "filename": "consciousness-is-pattern-recognition.pdf",
+    "size_kb": 164
+  },
+  {
+    "title": "Foundations of Artificial Intelligence Frameworks: Notion and Limits of AGI",
+    "author": "Khanh Gia Bui",
+    "date": "2025-11-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2511.18517v1",
+    "arxiv_id": "2511.18517",
+    "filename": "foundations-of-artificial-intelligence-frameworks-notion-and-limits-of-agi.pdf",
+    "size_kb": 934
+  },
+  {
+    "title": "Visual Room 2.0: Seeing is Not Understanding for MLLMs",
+    "author": "Haokun Li, Yazhou Zhang, Jizhi Ding, Qiuchi Li, Peng Zhang",
+    "date": "2025-11-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2511.12928v1",
+    "arxiv_id": "2511.12928",
+    "filename": "visual-room-20-seeing-is-not-understanding-for-mllms.pdf",
+    "size_kb": 10100
+  },
+  {
+    "title": "Strong and weak alignment of large language models with human values",
+    "author": "Mehdi Khamassi, Marceau Nahon, Raja Chatila",
+    "date": "2024-08-05",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2408.04655v2",
+    "arxiv_id": "2408.04655",
+    "filename": "strong-and-weak-alignment-of-large-language-models-with-human-values.pdf",
+    "size_kb": 763
+  },
+  {
+    "title": "Artificial Intelligence: A Child's Play",
+    "author": "Ravi Kashyap",
+    "date": "2019-07-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1907.04659v3",
+    "arxiv_id": "1907.04659",
+    "filename": "artificial-intelligence-a-childs-play.pdf",
+    "size_kb": 465
+  },
+  {
+    "title": "Are MLMs Trapped in the Visual Room?",
+    "author": "Yazhou Zhang, Chunwang Zou, Qimeng Liu, Lu Rong, Ben Yao, Zheng Lian, Qiuchi Li, Peng Zhang, Jing Qin",
+    "date": "2025-05-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.23272v2",
+    "arxiv_id": "2505.23272",
+    "filename": "are-mlms-trapped-in-the-visual-room.pdf",
+    "size_kb": 8345
+  },
+  {
+    "title": "A Road Map to Strong Intelligence",
+    "author": "Philip Paquette",
+    "date": "2020-02-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2002.09044v1",
+    "arxiv_id": "2002.09044",
+    "filename": "a-road-map-to-strong-intelligence.pdf",
+    "size_kb": 213
+  },
+  {
+    "title": "Code-Based English Models Surprising Performance on Chinese QA Pair Extraction Task",
+    "author": "Linghan Zheng, Hui Liu, Xiaojun Lin, Jiayuan Dong, Yue Sheng, Gang Shi, Zhiwei Liu, Hongwei Chen",
+    "date": "2024-01-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2401.10286v3",
+    "arxiv_id": "2401.10286",
+    "filename": "code-based-english-models-surprising-performance-on-chinese-qa-pair-extraction-t.pdf",
+    "size_kb": 621
+  },
+  {
+    "title": "The Computational Principles of Learning Ability",
+    "author": "Hao Wu",
+    "date": "2015-09-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1509.08891v1",
+    "arxiv_id": "1509.08891",
+    "filename": "the-computational-principles-of-learning-ability.pdf",
+    "size_kb": 913
+  },
+  {
+    "title": "Machine Understanding of Scientific Language",
+    "author": "Dustin Wright",
+    "date": "2025-06-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.23990v1",
+    "arxiv_id": "2506.23990",
+    "filename": "machine-understanding-of-scientific-language.pdf",
+    "size_kb": 7757
+  },
+  {
+    "title": "A simple probabilistic neural network for machine understanding",
+    "author": "Rongrong Xie, Matteo Marsili",
+    "date": "2022-10-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2210.13179v5",
+    "arxiv_id": "2210.13179",
+    "filename": "a-simple-probabilistic-neural-network-for-machine-understanding.pdf",
+    "size_kb": 6749
+  },
+  {
+    "title": "Dissonance Between Human and Machine Understanding",
+    "author": "Zijian Zhang, Jaspreet Singh, Ujwal Gadiraju, Avishek Anand",
+    "date": "2021-01-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2101.07337v1",
+    "arxiv_id": "2101.07337",
+    "filename": "dissonance-between-human-and-machine-understanding.pdf",
+    "size_kb": 4988
+  },
+  {
+    "title": "What's Different between Visual Question Answering for Machine \"Understanding\" Versus for Accessibility?",
+    "author": "Yang Trista Cao, Kyle Seelman, Kyungjun Lee, Hal Daumé",
+    "date": "2022-10-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2210.14966v1",
+    "arxiv_id": "2210.14966",
+    "filename": "whats-different-between-visual-question-answering-for-machine-understanding-vers.pdf",
+    "size_kb": 3602
+  },
+  {
+    "title": "On Understanding and Machine Understanding",
+    "author": "Tong Chern",
+    "date": "2011-03-24",
+    "source": "arxiv",
+    "url": "http://arxiv.org/abs/1103.5034v2",
+    "arxiv_id": "1103.5034",
+    "filename": "on-understanding-and-machine-understanding.md",
+    "length": 618
+  },
+  {
+    "title": "A Theory of Machine Understanding via the Minimum Description Length Principle",
+    "author": "Canlin Zhang, Xiuwen Liu",
+    "date": "2025-04-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.00395v3",
+    "arxiv_id": "2504.00395",
+    "filename": "a-theory-of-machine-understanding-via-the-minimum-description-length-principle.pdf",
+    "size_kb": 942
+  },
+  {
+    "title": "An Essay concerning machine understanding",
+    "author": "Herbert L. Roitblat",
+    "date": "2024-05-03",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2405.01840v1",
+    "arxiv_id": "2405.01840",
+    "filename": "an-essay-concerning-machine-understanding.pdf",
+    "size_kb": 201
+  },
+  {
+    "title": "Mapping Images to Scene Graphs with Permutation-Invariant Structured Prediction",
+    "author": "Roei Herzig, Moshiko Raboh, Gal Chechik, Jonathan Berant, Amir Globerson",
+    "date": "2018-02-15",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1802.05451v4",
+    "arxiv_id": "1802.05451",
+    "filename": "mapping-images-to-scene-graphs-with-permutation-invariant-structured-prediction.pdf",
+    "size_kb": 2233
+  },
+  {
+    "title": "Noisy Machines: Understanding Noisy Neural Networks and Enhancing Robustness to Analog Hardware Errors Using Distillation",
+    "author": "Chuteng Zhou, Prad Kadambi, Matthew Mattina, Paul N. Whatmough",
+    "date": "2020-01-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2001.04974v1",
+    "arxiv_id": "2001.04974",
+    "filename": "noisy-machines-understanding-noisy-neural-networks-and-enhancing-robustness-to-a.pdf",
+    "size_kb": 974
+  },
+  {
+    "title": "Refactoring with LLMs: Bridging Human Expertise and Machine Understanding",
+    "author": "Yonnel Chen Kuang Piao, Jean Carlors Paul, Leuson Da Silva, Arghavan Moradi Dakhel, Mohammad Hamdaqa, Foutse Khomh",
+    "date": "2025-10-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.03914v1",
+    "arxiv_id": "2510.03914",
+    "filename": "refactoring-with-llms-bridging-human-expertise-and-machine-understanding.pdf",
+    "size_kb": 1097
+  },
+  {
+    "title": "Knowledge will Propel Machine Understanding of Content: Extrapolating from Current Examples",
+    "author": "Amit Sheth, Sujan Perera, Sanjaya Wijeratne, Krishnaprasad Thirunarayan",
+    "date": "2017-07-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1707.05308v1",
+    "arxiv_id": "1707.05308",
+    "filename": "knowledge-will-propel-machine-understanding-of-content-extrapolating-from-curren.pdf",
+    "size_kb": 990
+  },
+  {
+    "title": "Knowledge will Propel Machine Understanding of Content: Extrapolating from Current Examples",
+    "author": "Amit Sheth, Sujan Perera, Sanjaya Wijeratne",
+    "date": "2016-10-25",
+    "source": "arxiv",
+    "url": "http://arxiv.org/abs/1610.07708v2",
+    "arxiv_id": "1610.07708",
+    "filename": "knowledge-will-propel-machine-understanding-of-content-extrapolating-from-curren.md",
+    "length": 1488
+  },
+  {
+    "title": "Learning Unsupervised Semantic Document Representation for Fine-grained Aspect-based Sentiment Analysis",
+    "author": "Hao-Ming Fu, Pu-Jen Cheng",
+    "date": "2024-01-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2401.06210v1",
+    "arxiv_id": "2401.06210",
+    "filename": "learning-unsupervised-semantic-document-representation-for-fine-grained-aspect-b.pdf",
+    "size_kb": 594
+  },
+  {
+    "title": "Spatio-temporal Storytelling? Leveraging Generative Models for Semantic Trajectory Analysis",
+    "author": "Shreya Ghosh, Saptarshi Sengupta, Prasenjit Mitra",
+    "date": "2023-06-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2306.13905v1",
+    "arxiv_id": "2306.13905",
+    "filename": "spatio-temporal-storytelling-leveraging-generative-models-for-semantic-trajector.pdf",
+    "size_kb": 694
+  },
+  {
+    "title": "Machine Understandable Policies and GDPR Compliance Checking",
+    "author": "Piero A. Bonatti, Sabrina Kirrane, Iliana M. Petrova, Luigi Sauro",
+    "date": "2020-01-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2001.08930v1",
+    "arxiv_id": "2001.08930",
+    "filename": "machine-understandable-policies-and-gdpr-compliance-checking.pdf",
+    "size_kb": 180
+  },
+  {
+    "title": "An analysis of observation length requirements for machine understanding of human behaviors from spoken language",
+    "author": "Sandeep Nallan Chakravarthula, Brian Baucom, Shrikanth Narayanan, Panayiotis Georgiou",
+    "date": "2019-11-21",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1911.09515v3",
+    "arxiv_id": "1911.09515",
+    "filename": "an-analysis-of-observation-length-requirements-for-machine-understanding-of-huma.pdf",
+    "size_kb": 1914
+  },
+  {
+    "title": "Meaning and understanding in large language models",
+    "author": "Vladimír Havlík",
+    "date": "2023-10-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2310.17407v1",
+    "arxiv_id": "2310.17407",
+    "filename": "meaning-and-understanding-in-large-language-models.pdf",
+    "size_kb": 246
+  },
+  {
+    "title": "Multimodal and self-supervised representation learning for automatic gesture recognition in surgical robotics",
+    "author": "Aniruddha Tamhane, Jie Ying Wu, Mathias Unberath",
+    "date": "2020-10-31",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2011.00168v1",
+    "arxiv_id": "2011.00168",
+    "filename": "multimodal-and-self-supervised-representation-learning-for-automatic-gesture-rec.pdf",
+    "size_kb": 686
+  },
+  {
+    "title": "Multimodal Propaganda Processing",
+    "author": "Vincent Ng, Shengjie Li",
+    "date": "2023-02-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2302.08709v1",
+    "arxiv_id": "2302.08709",
+    "filename": "multimodal-propaganda-processing.pdf",
+    "size_kb": 4337
+  },
+  {
+    "title": "Efficient Table Retrieval and Understanding with Multimodal Large Language Models",
+    "author": "Zhuoyan Xu, Haoyang Fang, Boran Han, Bonan Min, Bernie Wang, Cuixiong Hu, Shuai Zhang",
+    "date": "2026-02-07",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.07642v1",
+    "arxiv_id": "2602.07642",
+    "filename": "efficient-table-retrieval-and-understanding-with-multimodal-large-language-model.pdf",
+    "size_kb": 838
+  },
+  {
+    "title": "Redefining Computer Science Education: Code-Centric to Natural Language Programming with AI-Based No-Code Platforms",
+    "author": "David Y. J. Kim",
+    "date": "2023-08-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2308.13539v1",
+    "arxiv_id": "2308.13539",
+    "filename": "redefining-computer-science-education-code-centric-to-natural-language-programmi.pdf",
+    "size_kb": 698
+  },
+  {
+    "title": "A Survey of Voice Translation Methodologies - Acoustic Dialect Decoder",
+    "author": "Hans Krupakar, Keerthika Rajvel, Bharathi B, Angel Deborah S, Vallidevi Krishnamurthy",
+    "date": "2016-10-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1610.03934v1",
+    "arxiv_id": "1610.03934",
+    "filename": "a-survey-of-voice-translation-methodologies-acoustic-dialect-decoder.pdf",
+    "size_kb": 913
+  },
+  {
+    "title": "Towards an Action-Centric Ontology for Cooking Procedures Using Temporal Graphs",
+    "author": "Aarush Kumbhakern, Saransh Kumar Gupta, Lipika Dey, Partha Pratim Das",
+    "date": "2025-09-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.04159v1",
+    "arxiv_id": "2509.04159",
+    "filename": "towards-an-action-centric-ontology-for-cooking-procedures-using-temporal-graphs.pdf",
+    "size_kb": 556
+  },
+  {
+    "title": "Learning meters of Arabic and English poems with Recurrent Neural Networks: a step forward for language understanding and synthesis",
+    "author": "Waleed A. Yousef, Omar M. Ibrahime, Taha M. Madbouly, Moustafa A. Mahmoud",
+    "date": "2019-05-07",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1905.05700v1",
+    "arxiv_id": "1905.05700",
+    "filename": "learning-meters-of-arabic-and-english-poems-with-recurrent-neural-networks-a-ste.pdf",
+    "size_kb": 197
+  },
+  {
+    "title": "Unsupervised Image to Sequence Translation with Canvas-Drawer Networks",
+    "author": "Kevin Frans, Chin-Yi Cheng",
+    "date": "2018-09-21",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1809.08340v2",
+    "arxiv_id": "1809.08340",
+    "filename": "unsupervised-image-to-sequence-translation-with-canvas-drawer-networks.pdf",
+    "size_kb": 7518
+  },
+  {
+    "title": "MISE: Meta-knowledge Inheritance for Social Media-Based Stressor Estimation",
+    "author": "Xin Wang, Ling Feng, Huijun Zhang, Lei Cao, Kaisheng Zeng, Qi Li, Yang Ding, Yi Dai, David Clifton",
+    "date": "2025-05-03",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.03827v1",
+    "arxiv_id": "2505.03827",
+    "filename": "mise-meta-knowledge-inheritance-for-social-media-based-stressor-estimation.pdf",
+    "size_kb": 831
+  },
+  {
+    "title": "Exploiting Task-Oriented Resources to Learn Word Embeddings for Clinical Abbreviation Expansion",
+    "author": "Yue Liu, Tao Ge, Kusum S. Mathews, Heng Ji, Deborah L. McGuinness",
+    "date": "2018-04-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1804.04225v1",
+    "arxiv_id": "1804.04225",
+    "filename": "exploiting-task-oriented-resources-to-learn-word-embeddings-for-clinical-abbrevi.pdf",
+    "size_kb": 953
+  },
+  {
+    "title": "Survey of Abstract Meaning Representation: Then, Now, Future",
+    "author": "Behrooz Mansouri",
+    "date": "2025-05-06",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.03229v1",
+    "arxiv_id": "2505.03229",
+    "filename": "survey-of-abstract-meaning-representation-then-now-future.pdf",
+    "size_kb": 1126
+  },
+  {
+    "title": "GroverGPT-2: Simulating Grover's Algorithm via Chain-of-Thought Reasoning and Quantum-Native Tokenization",
+    "author": "Min Chen, Jinglei Cheng, Pingzhi Li, Haoran Wang, Tianlong Chen, Junyu Liu",
+    "date": "2025-05-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.04880v1",
+    "arxiv_id": "2505.04880",
+    "filename": "grovergpt-2-simulating-grovers-algorithm-via-chain-of-thought-reasoning-and-quan.pdf",
+    "size_kb": 1105
+  },
+  {
+    "title": "MSD: A Benchmark Dataset for Floor Plan Generation of Building Complexes",
+    "author": "Casper van Engelenburg, Fatemeh Mostafavi, Emanuel Kuhn, Yuntae Jeon, Michael Franzen, Matthias Standfest, Jan van Gemert, Seyran Khademi",
+    "date": "2024-07-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2407.10121v3",
+    "arxiv_id": "2407.10121",
+    "filename": "msd-a-benchmark-dataset-for-floor-plan-generation-of-building-complexes.pdf",
+    "size_kb": 6062
+  },
+  {
+    "title": "Which Emoji Talks Best for My Picture?",
+    "author": "Anurag Illendula, Kv Manohar, Manish Reddy Yedulla",
+    "date": "2018-08-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1808.08891v1",
+    "arxiv_id": "1808.08891",
+    "filename": "which-emoji-talks-best-for-my-picture.pdf",
+    "size_kb": 1475
+  },
+  {
+    "title": "Human Aligned Compression for Robust Models",
+    "author": "Samuel Räber, Andreas Plesner, Till Aczel, Roger Wattenhofer",
+    "date": "2025-04-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.12255v1",
+    "arxiv_id": "2504.12255",
+    "filename": "human-aligned-compression-for-robust-models.pdf",
+    "size_kb": 1126
+  },
+  {
+    "title": "Benchmarking Humans and Machines on Complex Multilingual Speech Understanding Tasks",
+    "author": "Sai Samrat Kankanala, Ram Chandra, Sriram Ganapathy",
+    "date": "2025-09-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.17965v1",
+    "arxiv_id": "2509.17965",
+    "filename": "benchmarking-humans-and-machines-on-complex-multilingual-speech-understanding-ta.pdf",
+    "size_kb": 1801
+  },
+  {
+    "title": "NLP for Knowledge Discovery and Information Extraction from Energetics Corpora",
+    "author": "Francis G. VanGessel, Efrem Perry, Salil Mohan, Oliver M. Barham, Mark Cavolowsky",
+    "date": "2024-02-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2402.06964v1",
+    "arxiv_id": "2402.06964",
+    "filename": "nlp-for-knowledge-discovery-and-information-extraction-from-energetics-corpora.pdf",
+    "size_kb": 1371
+  },
+  {
+    "title": "LaiDA: Linguistics-aware In-context Learning with Data Augmentation for Metaphor Components Identification",
+    "author": "Hongde Liu, Chenyuan He, Feiyang Meng, Changyong Niu, Yuxiang Jia",
+    "date": "2024-08-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2408.05404v1",
+    "arxiv_id": "2408.05404",
+    "filename": "laida-linguistics-aware-in-context-learning-with-data-augmentation-for-metaphor-.pdf",
+    "size_kb": 2703
+  },
+  {
+    "title": "WSC+: Enhancing The Winograd Schema Challenge Using Tree-of-Experts",
+    "author": "Pardis Sadat Zahraei, Ali Emami",
+    "date": "2024-01-31",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2401.17703v1",
+    "arxiv_id": "2401.17703",
+    "filename": "wsc-enhancing-the-winograd-schema-challenge-using-tree-of-experts.pdf",
+    "size_kb": 1080
+  },
+  {
+    "title": "A Novel Approach for Video Temporal Annotation",
+    "author": "Hadi Restgou Haghi, Mohammadreza Kangavari, Behrang QasemiZadeh",
+    "date": "2014-04-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1404.4543v1",
+    "arxiv_id": "1404.4543",
+    "filename": "a-novel-approach-for-video-temporal-annotation.pdf",
+    "size_kb": 120
+  },
+  {
+    "title": "Unsupervised Segmentation of Action Segments in Egocentric Videos using Gaze",
+    "author": "I. Hipiny, H. Ujir, J. L. Minoi, S. F. Samson Juan, M. A. Khairuddin, M. S. Sunar",
+    "date": "2017-09-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1710.00187v2",
+    "arxiv_id": "1710.00187",
+    "filename": "unsupervised-segmentation-of-action-segments-in-egocentric-videos-using-gaze.pdf",
+    "size_kb": 655
+  },
+  {
+    "title": "Assessing requirements to scale to practical quantum advantage",
+    "author": "Michael E. Beverland, Prakash Murali, Matthias Troyer, Krysta M. Svore, Torsten Hoefler, Vadym Kliuchnikov, Guang Hao Low, Mathias Soeken, Aarthi Sundaram, Alexander Vaschillo",
+    "date": "2022-11-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2211.07629v1",
+    "arxiv_id": "2211.07629",
+    "filename": "assessing-requirements-to-scale-to-practical-quantum-advantage.pdf",
+    "size_kb": 3952
+  },
+  {
+    "title": "Optimizing Robotic Manipulation with Decision-RWKV: A Recurrent Sequence Modeling Approach for Lifelong Learning",
+    "author": "Yujian Dong, Tianyu Wu, Chaoyang Song",
+    "date": "2024-07-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2407.16306v1",
+    "arxiv_id": "2407.16306",
+    "filename": "optimizing-robotic-manipulation-with-decision-rwkv-a-recurrent-sequence-modeling.pdf",
+    "size_kb": 4354
+  },
+  {
+    "title": "JaQuAD: Japanese Question Answering Dataset for Machine Reading Comprehension",
+    "author": "ByungHoon So, Kyuhong Byun, Kyungwon Kang, Seongjin Cho",
+    "date": "2022-02-03",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2202.01764v1",
+    "arxiv_id": "2202.01764",
+    "filename": "jaquad-japanese-question-answering-dataset-for-machine-reading-comprehension.pdf",
+    "size_kb": 279
+  },
+  {
+    "title": "PiC: A Phrase-in-Context Dataset for Phrase Understanding and Semantic Search",
+    "author": "Thang M. Pham, Seunghyun Yoon, Trung Bui, Anh Nguyen",
+    "date": "2022-07-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2207.09068v5",
+    "arxiv_id": "2207.09068",
+    "filename": "pic-a-phrase-in-context-dataset-for-phrase-understanding-and-semantic-search.pdf",
+    "size_kb": 2407
+  },
+  {
+    "title": "FSboard: Over 3 million characters of ASL fingerspelling collected via smartphones",
+    "author": "Manfred Georg, Garrett Tanzer, Saad Hassan, Maximus Shengelia, Esha Uboweja, Sam Sepah, Sean Forbes, Thad Starner",
+    "date": "2024-07-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2407.15806v1",
+    "arxiv_id": "2407.15806",
+    "filename": "fsboard-over-3-million-characters-of-asl-fingerspelling-collected-via-smartphone.pdf",
+    "size_kb": 8768
+  },
+  {
+    "title": "IKIWISI: An Interactive Visual Pattern Generator for Evaluating the Reliability of Vision-Language Models Without Ground Truth",
+    "author": "Md Touhidul Islam, Imran Kabir, Md Alimoor Reza, Syed Masum Billah",
+    "date": "2025-05-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.22305v1",
+    "arxiv_id": "2505.22305",
+    "filename": "ikiwisi-an-interactive-visual-pattern-generator-for-evaluating-the-reliability-o.pdf",
+    "size_kb": 10922
+  },
+  {
+    "title": "Better Slow than Sorry: Introducing Positive Friction for Reliable Dialogue Systems",
+    "author": "Mert İnan, Anthony Sicilia, Suvodip Dey, Vardhan Dongre, Tejas Srinivasan, Jesse Thomason, Gökhan Tür, Dilek Hakkani-Tür, Malihe Alikhani",
+    "date": "2025-01-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2501.17348v2",
+    "arxiv_id": "2501.17348",
+    "filename": "better-slow-than-sorry-introducing-positive-friction-for-reliable-dialogue-syste.pdf",
+    "size_kb": 4780
+  },
+  {
+    "title": "Learning to Fingerprint the Latent Structure in Question Articulation",
+    "author": "Kumar Mrityunjay, Guntur Ravindra",
+    "date": "2018-09-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1809.05275v1",
+    "arxiv_id": "1809.05275",
+    "filename": "learning-to-fingerprint-the-latent-structure-in-question-articulation.pdf",
+    "size_kb": 910
+  },
+  {
+    "title": "Human-like general language processing",
+    "author": "Feng Qi, Guanjun Jiang",
+    "date": "2020-05-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2005.09175v2",
+    "arxiv_id": "2005.09175",
+    "filename": "human-like-general-language-processing.pdf",
+    "size_kb": 1408
+  },
+  {
+    "title": "Expanding the Role of Affective Phenomena in Multimodal Interaction Research",
+    "author": "Leena Mathur, Maja J Matarić, Louis-Philippe Morency",
+    "date": "2023-05-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2305.10827v1",
+    "arxiv_id": "2305.10827",
+    "filename": "expanding-the-role-of-affective-phenomena-in-multimodal-interaction-research.pdf",
+    "size_kb": 769
+  },
+  {
+    "title": "Multimodal Emotion Classification",
+    "author": "Anurag Illendula, Amit Sheth",
+    "date": "2019-03-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1903.12520v1",
+    "arxiv_id": "1903.12520",
+    "filename": "multimodal-emotion-classification.pdf",
+    "size_kb": 997
+  },
+  {
+    "title": "Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction",
+    "author": "Abduallah Mohamed, Kun Qian, Mohamed Elhoseiny, Christian Claudel",
+    "date": "2020-02-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2002.11927v3",
+    "arxiv_id": "2002.11927",
+    "filename": "social-stgcnn-a-social-spatio-temporal-graph-convolutional-neural-network-for-hu.pdf",
+    "size_kb": 4115
+  },
+  {
+    "title": "An Intelligent Assistant for Converting City Requirements to Formal Specification",
+    "author": "Zirong Chen, Isaac Li, Haoxiang Zhang, Sarah Preum, John Stankovic, Meiyi Ma",
+    "date": "2022-06-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2206.07152v1",
+    "arxiv_id": "2206.07152",
+    "filename": "an-intelligent-assistant-for-converting-city-requirements-to-formal-specificatio.pdf",
+    "size_kb": 655
+  },
+  {
+    "title": "Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generation",
+    "author": "Zhiqing Cui, Jiahao Yuan, Hanqing Wang, Yanshu Li, Chenxu Du, Zhenglong Ding",
+    "date": "2025-04-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.09479v2",
+    "arxiv_id": "2504.09479",
+    "filename": "draw-with-thought-unleashing-multimodal-reasoning-for-scientific-diagram-generat.pdf",
+    "size_kb": 2954
+  },
+  {
+    "title": "Conversational Entity Linking: Problem Definition and Datasets",
+    "author": "Hideaki Joko, Faegheh Hasibi, Krisztian Balog, Arjen P. de Vries",
+    "date": "2021-05-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2105.04903v1",
+    "arxiv_id": "2105.04903",
+    "filename": "conversational-entity-linking-problem-definition-and-datasets.pdf",
+    "size_kb": 621
+  },
+  {
+    "title": "Towards a General-Purpose Zero-Shot Synthetic Low-Light Image and Video Pipeline",
+    "author": "Joanne Lin, Crispian Morris, Ruirui Lin, Fan Zhang, David Bull, Nantheera Anantrasirichai",
+    "date": "2025-04-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.12169v2",
+    "arxiv_id": "2504.12169",
+    "filename": "towards-a-general-purpose-zero-shot-synthetic-low-light-image-and-video-pipeline.pdf",
+    "size_kb": 21431
+  },
+  {
+    "title": "A Fast and Accurate System for Face Detection, Identification, and Verification",
+    "author": "Rajeev Ranjan, Ankan Bansal, Jingxiao Zheng, Hongyu Xu, Joshua Gleason, Boyu Lu, Anirudh Nanduri, Jun-Cheng Chen, Carlos D. Castillo, Rama Chellappa",
+    "date": "2018-09-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1809.07586v1",
+    "arxiv_id": "1809.07586",
+    "filename": "a-fast-and-accurate-system-for-face-detection-identification-and-verification.pdf",
+    "size_kb": 6132
+  },
+  {
+    "title": "The RDF Virtual Machine",
+    "author": "Marko A. Rodriguez",
+    "date": "2008-02-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/0802.3492v2",
+    "arxiv_id": "0802.3492",
+    "filename": "the-rdf-virtual-machine.pdf",
+    "size_kb": 611
+  },
+  {
+    "title": "Spoken in Jest, Detected in Earnest: A Systematic Review of Sarcasm Recognition -- Multimodal Fusion, Challenges, and Future Prospects",
+    "author": "Xiyuan Gao, Shekhar Nayak, Matt Coler",
+    "date": "2025-09-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.04605v1",
+    "arxiv_id": "2509.04605",
+    "filename": "spoken-in-jest-detected-in-earnest-a-systematic-review-of-sarcasm-recognition-mu.pdf",
+    "size_kb": 6007
+  },
+  {
+    "title": "Open Vocabulary Semantic Scene Sketch Understanding",
+    "author": "Ahmed Bourouis, Judith Ellen Fan, Yulia Gryaditskaya",
+    "date": "2023-12-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2312.12463v2",
+    "arxiv_id": "2312.12463",
+    "filename": "open-vocabulary-semantic-scene-sketch-understanding.pdf",
+    "size_kb": 13684
+  },
+  {
+    "title": "Heterogeneous Line Graph Transformer for Math Word Problems",
+    "author": "Zijian Hu, Meng Jiang",
+    "date": "2022-08-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2208.05645v2",
+    "arxiv_id": "2208.05645",
+    "filename": "heterogeneous-line-graph-transformer-for-math-word-problems.pdf",
+    "size_kb": 1776
+  },
+  {
+    "title": "Open Visual Knowledge Extraction via Relation-Oriented Multimodality Model Prompting",
+    "author": "Hejie Cui, Xinyu Fang, Zihan Zhang, Ran Xu, Xuan Kan, Xin Liu, Yue Yu, Manling Li, Yangqiu Song, Carl Yang",
+    "date": "2023-10-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2310.18804v1",
+    "arxiv_id": "2310.18804",
+    "filename": "open-visual-knowledge-extraction-via-relation-oriented-multimodality-model-promp.pdf",
+    "size_kb": 37886
+  },
+  {
+    "title": "Multimodal Representation Learning and Fusion",
+    "author": "Qihang Jin, Enze Ge, Yuhang Xie, Hongying Luo, Junhao Song, Ziqian Bi, Chia Xin Liang, Jibin Guan, Joe Yeong, Xinyuan Song, Junfeng Hao",
+    "date": "2025-06-25",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.20494v2",
+    "arxiv_id": "2506.20494",
+    "filename": "multimodal-representation-learning-and-fusion.pdf",
+    "size_kb": 3542
+  },
+  {
+    "title": "SSIG: A Visually-Guided Graph Edit Distance for Floor Plan Similarity",
+    "author": "Casper van Engelenburg, Seyran Khademi, Jan van Gemert",
+    "date": "2023-09-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2309.04357v1",
+    "arxiv_id": "2309.04357",
+    "filename": "ssig-a-visually-guided-graph-edit-distance-for-floor-plan-similarity.pdf",
+    "size_kb": 2296
+  },
+  {
+    "title": "Bridging Modalities and Transferring Knowledge: Enhanced Multimodal Understanding and Recognition",
+    "author": "Gorjan Radevski",
+    "date": "2025-12-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.20501v1",
+    "arxiv_id": "2512.20501",
+    "filename": "bridging-modalities-and-transferring-knowledge-enhanced-multimodal-understanding.pdf",
+    "size_kb": 9763
+  },
+  {
+    "title": "DOM-LM: Learning Generalizable Representations for HTML Documents",
+    "author": "Xiang Deng, Prashant Shiralkar, Colin Lockard, Binxuan Huang, Huan Sun",
+    "date": "2022-01-25",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2201.10608v1",
+    "arxiv_id": "2201.10608",
+    "filename": "dom-lm-learning-generalizable-representations-for-html-documents.pdf",
+    "size_kb": 1233
+  },
+  {
+    "title": "Iterative Random Forests to detect predictive and stable high-order interactions",
+    "author": "Sumanta Basu, Karl Kumbier, James B. Brown, Bin Yu",
+    "date": "2017-06-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1706.08457v4",
+    "arxiv_id": "1706.08457",
+    "filename": "iterative-random-forests-to-detect-predictive-and-stable-high-order-interactions.pdf",
+    "size_kb": 4922
+  },
+  {
+    "title": "Complicated Table Structure Recognition",
+    "author": "Zewen Chi, Heyan Huang, Heng-Da Xu, Houjin Yu, Wanxuan Yin, Xian-Ling Mao",
+    "date": "2019-08-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1908.04729v2",
+    "arxiv_id": "1908.04729",
+    "filename": "complicated-table-structure-recognition.pdf",
+    "size_kb": 492
+  },
+  {
+    "title": "On the Explainability of Vision-Language Models in Art History",
+    "author": "Stefanie Schneider",
+    "date": "2026-02-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.20853v1",
+    "arxiv_id": "2602.20853",
+    "filename": "on-the-explainability-of-vision-language-models-in-art-history.pdf",
+    "size_kb": 33533
+  },
+  {
+    "title": "When LLMs Team Up: The Emergence of Collaborative Affective Computing",
+    "author": "Wenna Lai, Haoran Xie, Guandong Xu, Qing Li, S. Joe Qin",
+    "date": "2025-06-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.01698v1",
+    "arxiv_id": "2506.01698",
+    "filename": "when-llms-team-up-the-emergence-of-collaborative-affective-computing.pdf",
+    "size_kb": 14914
+  },
+  {
+    "title": "The Reality of Multi-Lingual Machine Translation",
+    "author": "Tom Kocmi, Dominik Macháček, Ondřej Bojar",
+    "date": "2022-02-25",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2202.12814v1",
+    "arxiv_id": "2202.12814",
+    "filename": "the-reality-of-multi-lingual-machine-translation.pdf",
+    "size_kb": 3106
+  },
+  {
+    "title": "Case-Based Reasoning Approach for Solving Financial Question Answering",
+    "author": "Yikyung Kim, Jay-Yoon Lee",
+    "date": "2024-05-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2405.13044v1",
+    "arxiv_id": "2405.13044",
+    "filename": "case-based-reasoning-approach-for-solving-financial-question-answering.pdf",
+    "size_kb": 330
+  },
+  {
+    "title": "CitySpec: An Intelligent Assistant System for Requirement Specification in Smart Cities",
+    "author": "Zirong Chen, Isaac Li, Haoxiang Zhang, Sarah Preum, John A. Stankovic, Meiyi Ma",
+    "date": "2022-06-07",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2206.03132v2",
+    "arxiv_id": "2206.03132",
+    "filename": "cityspec-an-intelligent-assistant-system-for-requirement-specification-in-smart-.pdf",
+    "size_kb": 700
+  },
+  {
+    "title": "Urdu Handwritten Text Recognition Using ResNet18",
+    "author": "Muhammad Kashif",
+    "date": "2021-02-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2103.05105v1",
+    "arxiv_id": "2103.05105",
+    "filename": "urdu-handwritten-text-recognition-using-resnet18.pdf",
+    "size_kb": 998
+  },
+  {
+    "title": "Intellectual Up-streams of Percentage Scale ($ps$) and Percentage Coefficient ($b_p$) -- Effect Size Analysis (Theory Paper 2)",
+    "author": "Xinshu Zhao, Qinru Ruby Ju, Piper Liping Liu, Dianshi Moses Li, Luxi Zhang, Jizhou Francis Ye, Song Harris Ao, Ming Milano Li",
+    "date": "2025-07-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2507.13695v2",
+    "arxiv_id": "2507.13695",
+    "filename": "intellectual-up-streams-of-percentage-scale-ps-and-percentage-coefficient-b-p-ef.pdf",
+    "size_kb": 585
+  },
+  {
+    "title": "Audio-Visual Sentiment Analysis for Learning Emotional Arcs in Movies",
+    "author": "Eric Chu, Deb Roy",
+    "date": "2017-12-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1712.02896v1",
+    "arxiv_id": "1712.02896",
+    "filename": "audio-visual-sentiment-analysis-for-learning-emotional-arcs-in-movies.pdf",
+    "size_kb": 1028
+  },
+  {
+    "title": "Modified Segmentation Algorithm for Recognition of Older Geez Scripts Written on Vellum",
+    "author": "Girma Negashe, Adane Mamuye",
+    "date": "2020-05-31",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2006.00465v1",
+    "arxiv_id": "2006.00465",
+    "filename": "modified-segmentation-algorithm-for-recognition-of-older-geez-scripts-written-on.pdf",
+    "size_kb": 657
+  },
+  {
+    "title": "Extracting Arguments from Korean Question and Command: An Annotated Corpus for Structured Paraphrasing",
+    "author": "Won Ik Cho, Young Ki Moon, Woo Hyun Kang, Nam Soo Kim",
+    "date": "2018-10-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1810.04631v3",
+    "arxiv_id": "1810.04631",
+    "filename": "extracting-arguments-from-korean-question-and-command-an-annotated-corpus-for-st.pdf",
+    "size_kb": 184
+  },
+  {
+    "title": "TunBERT: Pretrained Contextualized Text Representation for Tunisian Dialect",
+    "author": "Abir Messaoudi, Ahmed Cheikhrouhou, Hatem Haddad, Nourchene Ferchichi, Moez BenHajhmida, Abir Korched, Malek Naski, Faten Ghriss, Amine Kerkeni",
+    "date": "2021-11-25",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2111.13138v1",
+    "arxiv_id": "2111.13138",
+    "filename": "tunbert-pretrained-contextualized-text-representation-for-tunisian-dialect.pdf",
+    "size_kb": 220
+  },
+  {
+    "title": "Transformation Driven Visual Reasoning",
+    "author": "Xin Hong, Yanyan Lan, Liang Pang, Jiafeng Guo, Xueqi Cheng",
+    "date": "2020-11-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2011.13160v2",
+    "arxiv_id": "2011.13160",
+    "filename": "transformation-driven-visual-reasoning.pdf",
+    "size_kb": 7429
+  },
+  {
+    "title": "Conversational Machine Reading Comprehension for Vietnamese Healthcare Texts",
+    "author": "Son T. Luu, Mao Nguyen Bui, Loi Duc Nguyen, Khiem Vinh Tran, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen",
+    "date": "2021-05-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2105.01542v6",
+    "arxiv_id": "2105.01542",
+    "filename": "conversational-machine-reading-comprehension-for-vietnamese-healthcare-texts.pdf",
+    "size_kb": 324
+  },
+  {
+    "title": "Evolving the Incremental λ Calculus into a Model of Forward Automatic Differentiation (AD)",
+    "author": "Robert Kelly, Barak A. Pearlmutter, Jeffrey Mark Siskind",
+    "date": "2016-11-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1611.03429v1",
+    "arxiv_id": "1611.03429",
+    "filename": "evolving-the-incremental-λ-calculus-into-a-model-of-forward-automatic-differenti.pdf",
+    "size_kb": 110
+  },
+  {
+    "title": "X-ToM: Explaining with Theory-of-Mind for Gaining Justified Human Trust",
+    "author": "Arjun R. Akula, Changsong Liu, Sari Saba-Sadiya, Hongjing Lu, Sinisa Todorovic, Joyce Y. Chai, Song-Chun Zhu",
+    "date": "2019-09-15",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1909.06907v1",
+    "arxiv_id": "1909.06907",
+    "filename": "x-tom-explaining-with-theory-of-mind-for-gaining-justified-human-trust.pdf",
+    "size_kb": 3530
+  },
+  {
+    "title": "Leveraging protection and efficiency of query answering in heterogenous RDF data using blockchain",
+    "author": "Sara Hosseinzadeh Kassani, Ralph Deters",
+    "date": "2018-10-12",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1810.05292v2",
+    "arxiv_id": "1810.05292",
+    "filename": "leveraging-protection-and-efficiency-of-query-answering-in-heterogenous-rdf-data.pdf",
+    "size_kb": 553
+  },
+  {
+    "title": "Efficacy of BERT embeddings on predicting disaster from Twitter data",
+    "author": "Ashis Kumar Chanda",
+    "date": "2021-08-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2108.10698v1",
+    "arxiv_id": "2108.10698",
+    "filename": "efficacy-of-bert-embeddings-on-predicting-disaster-from-twitter-data.pdf",
+    "size_kb": 1166
+  },
+  {
+    "title": "Extracting Semantic Concepts and Relations from Scientific Publications by Using Deep Learning",
+    "author": "Fatima N. AL-Aswadi, Huah Yong Chan, Keng Hoon Gan",
+    "date": "2020-09-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2009.00331v2",
+    "arxiv_id": "2009.00331",
+    "filename": "extracting-semantic-concepts-and-relations-from-scientific-publications-by-using.pdf",
+    "size_kb": 354
+  },
+  {
+    "title": "An Ensemble Approach for Facial Expression Analysis in Video",
+    "author": "Hong-Hai Nguyen, Van-Thong Huynh, Soo-Hyung Kim",
+    "date": "2022-03-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2203.12891v1",
+    "arxiv_id": "2203.12891",
+    "filename": "an-ensemble-approach-for-facial-expression-analysis-in-video.pdf",
+    "size_kb": 316
+  },
+  {
+    "title": "Is Everything in Order? A Simple Way to Order Sentences",
+    "author": "Somnath Basu Roy Chowdhury, Faeze Brahman, Snigdha Chaturvedi",
+    "date": "2021-04-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2104.07064v2",
+    "arxiv_id": "2104.07064",
+    "filename": "is-everything-in-order-a-simple-way-to-order-sentences.pdf",
+    "size_kb": 4267
+  },
+  {
+    "title": "Towards End-User Development for IoT: A Case Study on Semantic Parsing of Cooking Recipes for Programming Kitchen Devices",
+    "author": "Filippos Ventirozos, Sarah Clinch, Riza Batista-Navarro",
+    "date": "2023-09-25",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2309.14165v1",
+    "arxiv_id": "2309.14165",
+    "filename": "towards-end-user-development-for-iot-a-case-study-on-semantic-parsing-of-cooking.pdf",
+    "size_kb": 182
+  },
+  {
+    "title": "Effective Enabling of Sharing and Reuse of Knowledge On Semantic Web by Ontology in Date Fruit Model",
+    "author": "P. C. Sherimon, Reshmy Krishnan, P. V. Vinu",
+    "date": "2012-07-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1207.2232v1",
+    "arxiv_id": "1207.2232",
+    "filename": "effective-enabling-of-sharing-and-reuse-of-knowledge-on-semantic-web-by-ontology.pdf",
+    "size_kb": 495
+  },
+  {
+    "title": "Conceptual Modelling and The Quality of Ontologies: Endurantism Vs. Perdurantism",
+    "author": "Mutaz M. Al-Debei, Mohammad Mourhaf Al Asswad, Sergio de Cesare, Mark Lycett",
+    "date": "2012-07-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1207.2619v1",
+    "arxiv_id": "1207.2619",
+    "filename": "conceptual-modelling-and-the-quality-of-ontologies-endurantism-vs-perdurantism.pdf",
+    "size_kb": 256
+  },
+  {
+    "title": "An Approach For Robots To Deal With Objects",
+    "author": "Sidiq S. Hidayat, Bong Keung Kim, Kohtaro Ohba",
+    "date": "2012-05-06",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1205.1190v1",
+    "arxiv_id": "1205.1190",
+    "filename": "an-approach-for-robots-to-deal-with-objects.pdf",
+    "size_kb": 1136
+  },
+  {
+    "title": "Semantic Correspondence via 2D-3D-2D Cycle",
+    "author": "Yang You, Chengkun Li, Yujing Lou, Zhoujun Cheng, Lizhuang Ma, Cewu Lu, Weiming Wang",
+    "date": "2020-04-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2004.09061v2",
+    "arxiv_id": "2004.09061",
+    "filename": "semantic-correspondence-via-2d-3d-2d-cycle.pdf",
+    "size_kb": 9647
+  },
+  {
+    "title": "Understanding Semantic Web and Ontologies: Theory and Applications",
+    "author": "Mohammad Mustafa Taye",
+    "date": "2010-06-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1006.4567v1",
+    "arxiv_id": "1006.4567",
+    "filename": "understanding-semantic-web-and-ontologies-theory-and-applications.pdf",
+    "size_kb": 288
+  },
+  {
+    "title": "Ontologies in Motion: A BFO-Based Approach to Knowledge Graph Construction for Motor Performance Research Data in Sports Science",
+    "author": "Sarah Rebecca Ondraszek, Jörg Waitelonis, Katja Keller, Claudia Niessner, Anna M. Jacyszyn, Harald Sack",
+    "date": "2025-10-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.15983v1",
+    "arxiv_id": "2510.15983",
+    "filename": "ontologies-in-motion-a-bfo-based-approach-to-knowledge-graph-construction-for-mo.pdf",
+    "size_kb": 1050
+  },
+  {
+    "title": "Toward a Neural Semantic Parsing System for EHR Question Answering",
+    "author": "Sarvesh Soni, Kirk Roberts",
+    "date": "2022-11-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2211.04569v1",
+    "arxiv_id": "2211.04569",
+    "filename": "toward-a-neural-semantic-parsing-system-for-ehr-question-answering.pdf",
+    "size_kb": 283
+  },
+  {
+    "title": "Towards Semantic Web: Challenges and Needs",
+    "author": "Bryar A. Hassan",
+    "date": "2021-05-06",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2105.02708v1",
+    "arxiv_id": "2105.02708",
+    "filename": "towards-semantic-web-challenges-and-needs.pdf",
+    "size_kb": 522
+  },
+  {
+    "title": "Proceedings of the First Workshop on Program Transformation for Programmability in Heterogeneous Architectures",
+    "author": "Salvador Tamarit, Julio Mariño, Guillermo Vigueras, Manuel Carro",
+    "date": "2016-03-10",
+    "source": "arxiv",
+    "url": "http://arxiv.org/abs/1603.03488v1",
+    "arxiv_id": "1603.03488",
+    "filename": "proceedings-of-the-first-workshop-on-program-transformation-for-programmability-.md",
+    "length": 1332
+  },
+  {
+    "title": "A multilingual/multicultural semantic-based approach to improve Data Sharing in an SDI for Nature Conservation",
+    "author": "Monica De Martino, Riccardo Albertoni",
+    "date": "2011-07-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1107.1676v1",
+    "arxiv_id": "1107.1676",
+    "filename": "a-multilingualmulticultural-semantic-based-approach-to-improve-data-sharing-in-a.pdf",
+    "size_kb": 474
+  },
+  {
+    "title": "Engaging Image Captioning Via Personality",
+    "author": "Kurt Shuster, Samuel Humeau, Hexiang Hu, Antoine Bordes, Jason Weston",
+    "date": "2018-10-25",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1810.10665v2",
+    "arxiv_id": "1810.10665",
+    "filename": "engaging-image-captioning-via-personality.pdf",
+    "size_kb": 9755
+  },
+  {
+    "title": "LORE: Logical Location Regression Network for Table Structure Recognition",
+    "author": "Hangdi Xing, Feiyu Gao, Rujiao Long, Jiajun Bu, Qi Zheng, Liangcheng Li, Cong Yao, Zhi Yu",
+    "date": "2023-03-07",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2303.03730v1",
+    "arxiv_id": "2303.03730",
+    "filename": "lore-logical-location-regression-network-for-table-structure-recognition.pdf",
+    "size_kb": 1625
+  },
+  {
+    "title": "Predicting Motivations of Actions by Leveraging Text",
+    "author": "Carl Vondrick, Deniz Oktay, Hamed Pirsiavash, Antonio Torralba",
+    "date": "2014-06-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1406.5472v2",
+    "arxiv_id": "1406.5472",
+    "filename": "predicting-motivations-of-actions-by-leveraging-text.pdf",
+    "size_kb": 986
+  },
+  {
+    "title": "Leveraging LLM Reasoning Enhances Personalized Recommender Systems",
+    "author": "Alicia Y. Tsai, Adam Kraft, Long Jin, Chenwei Cai, Anahita Hosseini, Taibai Xu, Zemin Zhang, Lichan Hong, Ed H. Chi, Xinyang Yi",
+    "date": "2024-07-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2408.00802v1",
+    "arxiv_id": "2408.00802",
+    "filename": "leveraging-llm-reasoning-enhances-personalized-recommender-systems.pdf",
+    "size_kb": 963
+  },
+  {
+    "title": "Token-Budget-Aware LLM Reasoning",
+    "author": "Tingxu Han, Zhenting Wang, Chunrong Fang, Shiyu Zhao, Shiqing Ma, Zhenyu Chen",
+    "date": "2024-12-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2412.18547v5",
+    "arxiv_id": "2412.18547",
+    "filename": "token-budget-aware-llm-reasoning.pdf",
+    "size_kb": 1200
+  },
+  {
+    "title": "DiPT: Enhancing LLM reasoning through diversified perspective-taking",
+    "author": "Hoang Anh Just, Mahavir Dabas, Lifu Huang, Ming Jin, Ruoxi Jia",
+    "date": "2024-09-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2409.06241v2",
+    "arxiv_id": "2409.06241",
+    "filename": "dipt-enhancing-llm-reasoning-through-diversified-perspective-taking.pdf",
+    "size_kb": 1388
+  },
+  {
+    "title": "Automatic Curriculum Expert Iteration for Reliable LLM Reasoning",
+    "author": "Zirui Zhao, Hanze Dong, Amrita Saha, Caiming Xiong, Doyen Sahoo",
+    "date": "2024-10-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2410.07627v2",
+    "arxiv_id": "2410.07627",
+    "filename": "automatic-curriculum-expert-iteration-for-reliable-llm-reasoning.pdf",
+    "size_kb": 539
+  },
+  {
+    "title": "Deciphering Trajectory-Aided LLM Reasoning: An Optimization Perspective",
+    "author": "Junnan Liu, Hongwei Liu, Linchen Xiao, Shudong Liu, Taolin Zhang, Zihan Ma, Songyang Zhang, Kai Chen",
+    "date": "2025-05-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.19815v1",
+    "arxiv_id": "2505.19815",
+    "filename": "deciphering-trajectory-aided-llm-reasoning-an-optimization-perspective.pdf",
+    "size_kb": 13210
+  },
+  {
+    "title": "Interactive Learning for LLM Reasoning",
+    "author": "Hehai Lin, Shilei Cao, Sudong Wang, Haotian Wu, Minzhi Li, Linyi Yang, Juepeng Zheng, Chengwei Qin",
+    "date": "2025-09-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.26306v3",
+    "arxiv_id": "2509.26306",
+    "filename": "interactive-learning-for-llm-reasoning.pdf",
+    "size_kb": 823
+  },
+  {
+    "title": "GameArena: Evaluating LLM Reasoning through Live Computer Games",
+    "author": "Lanxiang Hu, Qiyu Li, Anze Xie, Nan Jiang, Ion Stoica, Haojian Jin, Hao Zhang",
+    "date": "2024-12-09",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2412.06394v5",
+    "arxiv_id": "2412.06394",
+    "filename": "gamearena-evaluating-llm-reasoning-through-live-computer-games.pdf",
+    "size_kb": 1402
+  },
+  {
+    "title": "Revisiting LLM Reasoning via Information Bottleneck",
+    "author": "Shiye Lei, Zhihao Cheng, Kai Jia, Dacheng Tao",
+    "date": "2025-07-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2507.18391v1",
+    "arxiv_id": "2507.18391",
+    "filename": "revisiting-llm-reasoning-via-information-bottleneck.pdf",
+    "size_kb": 693
+  },
+  {
+    "title": "ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates",
+    "author": "Ling Yang, Zhaochen Yu, Bin Cui, Mengdi Wang",
+    "date": "2025-02-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.06772v2",
+    "arxiv_id": "2502.06772",
+    "filename": "reasonflux-hierarchical-llm-reasoning-via-scaling-thought-templates.pdf",
+    "size_kb": 2280
+  },
+  {
+    "title": "ALIGN: Aligned Delegation with Performance Guarantees for Multi-Agent LLM Reasoning",
+    "author": "Tong Zhu, Baiting Chen, Jin Zhou, Hua Zhou, Sriram Sankararaman, Xiaowu Dai",
+    "date": "2026-01-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.00127v1",
+    "arxiv_id": "2602.00127",
+    "filename": "align-aligned-delegation-with-performance-guarantees-for-multi-agent-llm-reasoni.pdf",
+    "size_kb": 3500
+  },
+  {
+    "title": "GAMEBoT: Transparent Assessment of LLM Reasoning in Games",
+    "author": "Wenye Lin, Jonathan Roberts, Yunhan Yang, Samuel Albanie, Zongqing Lu, Kai Han",
+    "date": "2024-12-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2412.13602v2",
+    "arxiv_id": "2412.13602",
+    "filename": "gamebot-transparent-assessment-of-llm-reasoning-in-games.pdf",
+    "size_kb": 1501
+  },
+  {
+    "title": "HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning",
+    "author": "Zhi Jing, Siyuan Yang, Jicong Ao, Ting Xiao, Yu-Gang Jiang, Chenjia Bai",
+    "date": "2025-07-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2507.00833v2",
+    "arxiv_id": "2507.00833",
+    "filename": "humanoidgen-data-generation-for-bimanual-dexterous-manipulation-via-llm-reasonin.pdf",
+    "size_kb": 14011
+  },
+  {
+    "title": "SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning",
+    "author": "Xiao Liang, Zhong-Zhi Li, Yeyun Gong, Yang Wang, Hengyuan Zhang, Yelong Shen, Ying Nian Wu, Weizhu Chen",
+    "date": "2025-06-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.08989v1",
+    "arxiv_id": "2506.08989",
+    "filename": "sws-self-aware-weakness-driven-problem-synthesis-in-reinforcement-learning-for-l.pdf",
+    "size_kb": 3008
+  },
+  {
+    "title": "Intermediate Languages Matter: Formal Choice Drives Neurosymbolic LLM Reasoning",
+    "author": "Alexander Beiser, David Penz, Nysret Musliu",
+    "date": "2025-02-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.17216v2",
+    "arxiv_id": "2502.17216",
+    "filename": "intermediate-languages-matter-formal-choice-drives-neurosymbolic-llm-reasoning.pdf",
+    "size_kb": 920
+  },
+  {
+    "title": "Online SFT for LLM Reasoning: Surprising Effectiveness of Self-Tuning without Rewards",
+    "author": "Mengqi Li, Lei Zhao, Anthony Man-Cho So, Ruoyu Sun, Xiao Li",
+    "date": "2025-10-21",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.18814v1",
+    "arxiv_id": "2510.18814",
+    "filename": "online-sft-for-llm-reasoning-surprising-effectiveness-of-self-tuning-without-rew.pdf",
+    "size_kb": 928
+  },
+  {
+    "title": "RL of Thoughts: Navigating LLM Reasoning with Inference-time Reinforcement Learning",
+    "author": "Qianyue Hao, Sibo Li, Jian Yuan, Yong Li",
+    "date": "2025-05-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.14140v3",
+    "arxiv_id": "2505.14140",
+    "filename": "rl-of-thoughts-navigating-llm-reasoning-with-inference-time-reinforcement-learni.pdf",
+    "size_kb": 5418
+  },
+  {
+    "title": "Nudging the Boundaries of LLM Reasoning",
+    "author": "Justin Chih-Yao Chen, Becky Xiangyu Peng, Prafulla Kumar Choubey, Kung-Hsiang Huang, Jiaxin Zhang, Mohit Bansal, Chien-Sheng Wu",
+    "date": "2025-09-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.25666v2",
+    "arxiv_id": "2509.25666",
+    "filename": "nudging-the-boundaries-of-llm-reasoning.pdf",
+    "size_kb": 668
+  },
+  {
+    "title": "LogiDynamics: Unraveling the Dynamics of Inductive, Abductive and Deductive Logical Inferences in LLM Reasoning",
+    "author": "Tianshi Zheng, Jiayang Cheng, Chunyang Li, Haochen Shi, Zihao Wang, Jiaxin Bai, Yangqiu Song, Ginny Y. Wong, Simon See",
+    "date": "2025-02-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.11176v4",
+    "arxiv_id": "2502.11176",
+    "filename": "logidynamics-unraveling-the-dynamics-of-inductive-abductive-and-deductive-logica.pdf",
+    "size_kb": 1441
+  },
+  {
+    "title": "Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards",
+    "author": "Xuan Zhang, Ruixiao Li, Zhijian Zhou, Long Li, Yulei Qin, Ke Li, Xing Sun, Xiaoyu Tan, Chao Qu, Yuan Qi",
+    "date": "2025-10-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.16614v2",
+    "arxiv_id": "2510.16614",
+    "filename": "count-counts-motivating-exploration-in-llm-reasoning-with-count-based-intrinsic-.pdf",
+    "size_kb": 1072
+  },
+  {
+    "title": "General-Reasoner: Advancing LLM Reasoning Across All Domains",
+    "author": "Xueguang Ma, Qian Liu, Dongfu Jiang, Ge Zhang, Zejun Ma, Wenhu Chen",
+    "date": "2025-05-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.14652v5",
+    "arxiv_id": "2505.14652",
+    "filename": "general-reasoner-advancing-llm-reasoning-across-all-domains.pdf",
+    "size_kb": 1651
+  },
+  {
+    "title": "ReasonBENCH: Benchmarking the (In)Stability of LLM Reasoning",
+    "author": "Nearchos Potamitis, Lars Klein, Akhil Arora",
+    "date": "2025-12-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.07795v1",
+    "arxiv_id": "2512.07795",
+    "filename": "reasonbench-benchmarking-the-instability-of-llm-reasoning.pdf",
+    "size_kb": 368
+  },
+  {
+    "title": "Reasoning About Reasoning: Towards Informed and Reflective Use of LLM Reasoning in HCI",
+    "author": "Ramaravind Kommiya Mothilal, Sally Zhang, Syed Ishtiaque Ahmed, Shion Guha",
+    "date": "2025-10-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.22978v1",
+    "arxiv_id": "2510.22978",
+    "filename": "reasoning-about-reasoning-towards-informed-and-reflective-use-of-llm-reasoning-i.pdf",
+    "size_kb": 824
+  },
+  {
+    "title": "Can Past Experience Accelerate LLM Reasoning?",
+    "author": "Bo Pan, Liang Zhao",
+    "date": "2025-05-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.20643v1",
+    "arxiv_id": "2505.20643",
+    "filename": "can-past-experience-accelerate-llm-reasoning.pdf",
+    "size_kb": 2230
+  },
+  {
+    "title": "Large Language Model Reasoning Failures",
+    "author": "Peiyang Song, Pengrui Han, Noah Goodman",
+    "date": "2026-02-05",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.06176v1",
+    "arxiv_id": "2602.06176",
+    "filename": "large-language-model-reasoning-failures.pdf",
+    "size_kb": 7809
+  },
+  {
+    "title": "DSDR: Dual-Scale Diversity Regularization for Exploration in LLM Reasoning",
+    "author": "Zhongwei Wan, Yun Shen, Zhihao Dou, Donghao Zhou, Yu Zhang, Xin Wang, Hui Shen, Jing Xiong, Chaofan Tao, Zixuan Zhong, Peizhou Huang, Mi Zhang",
+    "date": "2026-02-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.19895v1",
+    "arxiv_id": "2602.19895",
+    "filename": "dsdr-dual-scale-diversity-regularization-for-exploration-in-llm-reasoning.pdf",
+    "size_kb": 2092
+  },
+  {
+    "title": "Grounding LLM Reasoning with Knowledge Graphs",
+    "author": "Alfonso Amayuelas, Joy Sain, Simerjot Kaur, Charese Smiley",
+    "date": "2025-02-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.13247v3",
+    "arxiv_id": "2502.13247",
+    "filename": "grounding-llm-reasoning-with-knowledge-graphs.pdf",
+    "size_kb": 9759
+  },
+  {
+    "title": "EDIS: Diagnosing LLM Reasoning via Entropy Dynamics",
+    "author": "Chenghua Zhu, Siyan Wu, Xiangkang Zeng, Zishan Xu, Zhaolu Kang, Yifu Guo, Yuquan Lu, Junduan Huang, Guojing Zhou",
+    "date": "2026-02-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.01288v1",
+    "arxiv_id": "2602.01288",
+    "filename": "edis-diagnosing-llm-reasoning-via-entropy-dynamics.pdf",
+    "size_kb": 8919
+  },
+  {
+    "title": "Agentic Reasoning: A Streamlined Framework for Enhancing LLM Reasoning with Agentic Tools",
+    "author": "Junde Wu, Jiayuan Zhu, Yuyuan Liu, Min Xu, Yueming Jin",
+    "date": "2025-02-07",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.04644v2",
+    "arxiv_id": "2502.04644",
+    "filename": "agentic-reasoning-a-streamlined-framework-for-enhancing-llm-reasoning-with-agent.pdf",
+    "size_kb": 2296
+  },
+  {
+    "title": "GPO: Learning from Critical Steps to Improve LLM Reasoning",
+    "author": "Jiahao Yu, Zelei Cheng, Xian Wu, Xinyu Xing",
+    "date": "2025-09-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.16456v2",
+    "arxiv_id": "2509.16456",
+    "filename": "gpo-learning-from-critical-steps-to-improve-llm-reasoning.pdf",
+    "size_kb": 668
+  },
+  {
+    "title": "Linking Process to Outcome: Conditional Reward Modeling for LLM Reasoning",
+    "author": "Zheng Zhang, Ziwei Shan, Kaitao Song, Yexin Li, Kan Ren",
+    "date": "2025-09-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.26578v1",
+    "arxiv_id": "2509.26578",
+    "filename": "linking-process-to-outcome-conditional-reward-modeling-for-llm-reasoning.pdf",
+    "size_kb": 2467
+  },
+  {
+    "title": "Improving LLM Reasoning via Dependency-Aware Query Decomposition and Logic-Parallel Content Expansion",
+    "author": "Xianjun Gao, Jianchun Liu, Hongli Xu, Liusheng Huang",
+    "date": "2025-10-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.24390v1",
+    "arxiv_id": "2510.24390",
+    "filename": "improving-llm-reasoning-via-dependency-aware-query-decomposition-and-logic-paral.pdf",
+    "size_kb": 3544
+  },
+  {
+    "title": "Prompting Test-Time Scaling Is A Strong LLM Reasoning Data Augmentation",
+    "author": "Sondos Mahmoud Bsharat, Zhiqiang Shen",
+    "date": "2025-10-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.09599v1",
+    "arxiv_id": "2510.09599",
+    "filename": "prompting-test-time-scaling-is-a-strong-llm-reasoning-data-augmentation.pdf",
+    "size_kb": 1243
+  },
+  {
+    "title": "Towards Understanding Self-play for LLM Reasoning",
+    "author": "Justin Yang Chae, Md Tanvirul Alam, Nidhi Rastogi",
+    "date": "2025-10-31",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.27072v1",
+    "arxiv_id": "2510.27072",
+    "filename": "towards-understanding-self-play-for-llm-reasoning.pdf",
+    "size_kb": 629
+  },
+  {
+    "title": "Enhancing LLM Reasoning for Time Series Classification by Tailored Thinking and Fused Decision",
+    "author": "Jiahui Zhou, Dan Li, Lin Li, Zhuomin Chen, Shunyu Wu, Haozheng Ye, Jian Lou, Costas J. Spanos",
+    "date": "2025-06-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.00807v1",
+    "arxiv_id": "2506.00807",
+    "filename": "enhancing-llm-reasoning-for-time-series-classification-by-tailored-thinking-and-.pdf",
+    "size_kb": 1295
+  },
+  {
+    "title": "FlowMind: Execute-Summarize for Structured Workflow Generation from LLM Reasoning",
+    "author": "Yihao Liu, Ziyun Zhang, Zile He, Huaqian Cai",
+    "date": "2026-02-12",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.11782v1",
+    "arxiv_id": "2602.11782",
+    "filename": "flowmind-execute-summarize-for-structured-workflow-generation-from-llm-reasoning.pdf",
+    "size_kb": 4459
+  },
+  {
+    "title": "PACR: Progressively Ascending Confidence Reward for LLM Reasoning",
+    "author": "Eunseop Yoon, Hee Suk Yoon, Jaehyun Jang, SooHwan Eom, Qi Dai, Chong Luo, Mark A. Hasegawa-Johnson, Chang D. Yoo",
+    "date": "2025-10-25",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.22255v1",
+    "arxiv_id": "2510.22255",
+    "filename": "pacr-progressively-ascending-confidence-reward-for-llm-reasoning.pdf",
+    "size_kb": 4159
+  },
+  {
+    "title": "\"Well, Keep Thinking\": Enhancing LLM Reasoning with Adaptive Injection Decoding",
+    "author": "Hyunbin Jin, Je Won Yeom, Seunghyun Bae, Taesup Kim",
+    "date": "2025-03-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2503.10167v2",
+    "arxiv_id": "2503.10167",
+    "filename": "well-keep-thinking-enhancing-llm-reasoning-with-adaptive-injection-decoding.pdf",
+    "size_kb": 875
+  },
+  {
+    "title": "VideoTree: Adaptive Tree-based Video Representation for LLM Reasoning on Long Videos",
+    "author": "Ziyang Wang, Shoubin Yu, Elias Stengel-Eskin, Jaehong Yoon, Feng Cheng, Gedas Bertasius, Mohit Bansal",
+    "date": "2024-05-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2405.19209v3",
+    "arxiv_id": "2405.19209",
+    "filename": "videotree-adaptive-tree-based-video-representation-for-llm-reasoning-on-long-vid.pdf",
+    "size_kb": 3209
+  },
+  {
+    "title": "Enhancing LLM Reasoning with Iterative DPO: A Comprehensive Empirical Investigation",
+    "author": "Songjun Tu, Jiahao Lin, Xiangyu Tian, Qichao Zhang, Linjing Li, Yuqian Fu, Nan Xu, Wei He, Xiangyuan Lan, Dongmei Jiang, Dongbin Zhao",
+    "date": "2025-03-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2503.12854v3",
+    "arxiv_id": "2503.12854",
+    "filename": "enhancing-llm-reasoning-with-iterative-dpo-a-comprehensive-empirical-investigati.pdf",
+    "size_kb": 2103
+  },
+  {
+    "title": "Weight-of-Thought Reasoning: Exploring Neural Network Weights for Enhanced LLM Reasoning",
+    "author": "Saif Punjwani, Larry Heck",
+    "date": "2025-04-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.10646v1",
+    "arxiv_id": "2504.10646",
+    "filename": "weight-of-thought-reasoning-exploring-neural-network-weights-for-enhanced-llm-re.pdf",
+    "size_kb": 1962
+  },
+  {
+    "title": "Token-Efficient RL for LLM Reasoning",
+    "author": "Alan Lee, Harry Tong",
+    "date": "2025-04-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.20834v4",
+    "arxiv_id": "2504.20834",
+    "filename": "token-efficient-rl-for-llm-reasoning.pdf",
+    "size_kb": 334
+  },
+  {
+    "title": "R$^2$PO: Decoupling Training Trajectories from Inference Responses for LLM Reasoning",
+    "author": "Jingchu Wang, Bingbing Xu, Yige Yuan, Bin Xie, Xiaoqian Sun, Huawei Shen",
+    "date": "2026-01-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.11960v2",
+    "arxiv_id": "2601.11960",
+    "filename": "r2po-decoupling-training-trajectories-from-inference-responses-for-llm-reasoning.pdf",
+    "size_kb": 2233
+  },
+  {
+    "title": "Oops, Wait: Token-Level Signals as a Lens into LLM Reasoning",
+    "author": "Jaehui Hwang, Dongyoon Han, Sangdoo Yun, Byeongho Heo",
+    "date": "2026-01-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.17421v1",
+    "arxiv_id": "2601.17421",
+    "filename": "oops-wait-token-level-signals-as-a-lens-into-llm-reasoning.pdf",
+    "size_kb": 550
+  },
+  {
+    "title": "Focused Chain-of-Thought: Efficient LLM Reasoning via Structured Input Information",
+    "author": "Lukas Struppek, Dominik Hintersdorf, Hannah Struppek, Daniel Neider, Kristian Kersting",
+    "date": "2025-11-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2511.22176v1",
+    "arxiv_id": "2511.22176",
+    "filename": "focused-chain-of-thought-efficient-llm-reasoning-via-structured-input-informatio.pdf",
+    "size_kb": 512
+  },
+  {
+    "title": "A Smart Multimodal Healthcare Copilot with Powerful LLM Reasoning",
+    "author": "Xuejiao Zhao, Siyan Liu, Su-Yin Yang, Chunyan Miao",
+    "date": "2025-06-03",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.02470v1",
+    "arxiv_id": "2506.02470",
+    "filename": "a-smart-multimodal-healthcare-copilot-with-powerful-llm-reasoning.pdf",
+    "size_kb": 1195
+  },
+  {
+    "title": "Thinking Short and Right Over Thinking Long: Serving LLM Reasoning Efficiently and Accurately",
+    "author": "Yuhang Wang, Youhe Jiang, Bin Cui, Fangcheng Fu",
+    "date": "2025-05-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.13326v1",
+    "arxiv_id": "2505.13326",
+    "filename": "thinking-short-and-right-over-thinking-long-serving-llm-reasoning-efficiently-an.pdf",
+    "size_kb": 1085
+  },
+  {
+    "title": "Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective",
+    "author": "Zhoujun Cheng, Shibo Hao, Tianyang Liu, Fan Zhou, Yutao Xie, Feng Yao, Yuexin Bian, Yonghao Zhuang, Nilabjo Dey, Yuheng Zha, Yi Gu, Kun Zhou, Yuqi Wang, Yuan Li, Richard Fan, Jianshu She, Chengqian Gao, Abulhair Saparov, Haonan Li, Taylor W. Killian, Mikhail Yurochkin, Zhengzhong Liu, Eric P. Xing, Zhiting Hu",
+    "date": "2025-06-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.14965v1",
+    "arxiv_id": "2506.14965",
+    "filename": "revisiting-reinforcement-learning-for-llm-reasoning-from-a-cross-domain-perspect.pdf",
+    "size_kb": 4243
+  },
+  {
+    "title": "Efficient Reinforcement Learning with Semantic and Token Entropy for LLM Reasoning",
+    "author": "Hongye Cao, Zhixin Bai, Ziyue Peng, Boyan Wang, Tianpei Yang, Jing Huo, Yuyao Zhang, Yang Gao",
+    "date": "2025-12-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.04359v3",
+    "arxiv_id": "2512.04359",
+    "filename": "efficient-reinforcement-learning-with-semantic-and-token-entropy-for-llm-reasoni.pdf",
+    "size_kb": 1803
+  },
+  {
+    "title": "Searching Meta Reasoning Skeleton to Guide LLM Reasoning",
+    "author": "Ziying Zhang, Yaqing Wang, Quanming Yao",
+    "date": "2025-10-05",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.04116v2",
+    "arxiv_id": "2510.04116",
+    "filename": "searching-meta-reasoning-skeleton-to-guide-llm-reasoning.pdf",
+    "size_kb": 875
+  },
+  {
+    "title": "Dynamic Parallel Tree Search for Efficient LLM Reasoning",
+    "author": "Yifu Ding, Wentao Jiang, Shunyu Liu, Yongcheng Jing, Jinyang Guo, Yingjie Wang, Jing Zhang, Zengmao Wang, Ziwei Liu, Bo Du, Xianglong Liu, Dacheng Tao",
+    "date": "2025-02-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.16235v2",
+    "arxiv_id": "2502.16235",
+    "filename": "dynamic-parallel-tree-search-for-efficient-llm-reasoning.pdf",
+    "size_kb": 1709
+  },
+  {
+    "title": "Reason-Align-Respond: Aligning LLM Reasoning with Knowledge Graphs for KGQA",
+    "author": "Xiangqing Shen, Fanfan Wang, Rui Xia",
+    "date": "2025-05-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.20971v1",
+    "arxiv_id": "2505.20971",
+    "filename": "reason-align-respond-aligning-llm-reasoning-with-knowledge-graphs-for-kgqa.pdf",
+    "size_kb": 1243
+  },
+  {
+    "title": "Enhancing LLM Reasoning via Non-Human-Like Reasoning Path Preference Optimization",
+    "author": "Junjie Lu, Yuliang Liu, Chaofeng Qu, Wei Shen, Zhouhan Lin, Chuheng Zhang, Min Xu",
+    "date": "2025-10-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.11104v2",
+    "arxiv_id": "2510.11104",
+    "filename": "enhancing-llm-reasoning-via-non-human-like-reasoning-path-preference-optimizatio.pdf",
+    "size_kb": 840
+  },
+  {
+    "title": "Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization",
+    "author": "Qingyang Zhang, Haitao Wu, Changqing Zhang, Peilin Zhao, Yatao Bian",
+    "date": "2025-04-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.05812v3",
+    "arxiv_id": "2504.05812",
+    "filename": "right-question-is-already-half-the-answer-fully-unsupervised-llm-reasoning-incen.pdf",
+    "size_kb": 5369
+  },
+  {
+    "title": "Improving Human Verification of LLM Reasoning through Interactive Explanation Interfaces",
+    "author": "Runtao Zhou, Giang Nguyen, Nikita Kharya, Anh Totti Nguyen, Chirag Agarwal",
+    "date": "2025-10-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.22922v4",
+    "arxiv_id": "2510.22922",
+    "filename": "improving-human-verification-of-llm-reasoning-through-interactive-explanation-in.pdf",
+    "size_kb": 3087
+  },
+  {
+    "title": "Self-playing Adversarial Language Game Enhances LLM Reasoning",
+    "author": "Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Zheng Yuan, Yong Dai, Lei Han, Nan Du, Xiaolong Li",
+    "date": "2024-04-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2404.10642v3",
+    "arxiv_id": "2404.10642",
+    "filename": "self-playing-adversarial-language-game-enhances-llm-reasoning.pdf",
+    "size_kb": 1793
+  },
+  {
+    "title": "Entropy-Aware Speculative Decoding Toward Improved LLM Reasoning",
+    "author": "Tiancheng Su, Meicong Zhang, Guoxiu He",
+    "date": "2025-12-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.23765v1",
+    "arxiv_id": "2512.23765",
+    "filename": "entropy-aware-speculative-decoding-toward-improved-llm-reasoning.pdf",
+    "size_kb": 917
+  },
+  {
+    "title": "Beyond KL Divergence: Policy Optimization with Flexible Bregman Divergences for LLM Reasoning",
+    "author": "Rui Yuan, Mykola Khandoga, Vinay Kumar Sankarapu",
+    "date": "2026-02-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.04380v1",
+    "arxiv_id": "2602.04380",
+    "filename": "beyond-kl-divergence-policy-optimization-with-flexible-bregman-divergences-for-l.pdf",
+    "size_kb": 365
+  },
+  {
+    "title": "Meaningless Tokens, Meaningful Gains: How Activation Shifts Enhance LLM Reasoning",
+    "author": "Zeru Shi, Yingjia Wan, Zhenting Wang, Qifan Wang, Fan Yang, Elisa Kreiss, Ruixiang Tang",
+    "date": "2025-10-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.01032v1",
+    "arxiv_id": "2510.01032",
+    "filename": "meaningless-tokens-meaningful-gains-how-activation-shifts-enhance-llm-reasoning.pdf",
+    "size_kb": 12851
+  },
+  {
+    "title": "Inference-Time Computations for LLM Reasoning and Planning: A Benchmark and Insights",
+    "author": "Shubham Parashar, Blake Olson, Sambhav Khurana, Eric Li, Hongyi Ling, James Caverlee, Shuiwang Ji",
+    "date": "2025-02-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.12521v1",
+    "arxiv_id": "2502.12521",
+    "filename": "inference-time-computations-for-llm-reasoning-and-planning-a-benchmark-and-insig.pdf",
+    "size_kb": 440
+  },
+  {
+    "title": "SIFT: Grounding LLM Reasoning in Contexts via Stickers",
+    "author": "Zihao Zeng, Xuyao Huang, Boxiu Li, Zhijie Deng",
+    "date": "2025-02-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.14922v1",
+    "arxiv_id": "2502.14922",
+    "filename": "sift-grounding-llm-reasoning-in-contexts-via-stickers.pdf",
+    "size_kb": 2259
+  },
+  {
+    "title": "KORGym: A Dynamic Game Platform for LLM Reasoning Evaluation",
+    "author": "Jiajun Shi, Jian Yang, Jiaheng Liu, Xingyuan Bu, Jiangjie Chen, Junting Zhou, Kaijing Ma, Zhoufutu Wen, Bingli Wang, Yancheng He, Liang Song, Hualei Zhu, Shilong Li, Xingjian Wang, Wei Zhang, Ruibin Yuan, Yifan Yao, Wenjun Yang, Yunli Wang, Siyuan Fang, Siyu Yuan, Qianyu He, Xiangru Tang, Yingshui Tan, Wangchunshu Zhou, Zhaoxiang Zhang, Zhoujun Li, Wenhao Huang, Ge Zhang",
+    "date": "2025-05-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.14552v2",
+    "arxiv_id": "2505.14552",
+    "filename": "korgym-a-dynamic-game-platform-for-llm-reasoning-evaluation.pdf",
+    "size_kb": 4418
+  },
+  {
+    "title": "SRPO: Enhancing Multimodal LLM Reasoning via Reflection-Aware Reinforcement Learning",
+    "author": "Zhongwei Wan, Zhihao Dou, Che Liu, Yu Zhang, Dongfei Cui, Qinjian Zhao, Hui Shen, Jing Xiong, Yi Xin, Yifan Jiang, Chaofan Tao, Yangfan He, Mi Zhang, Shen Yan",
+    "date": "2025-06-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.01713v3",
+    "arxiv_id": "2506.01713",
+    "filename": "srpo-enhancing-multimodal-llm-reasoning-via-reflection-aware-reinforcement-learn.pdf",
+    "size_kb": 3755
+  },
+  {
+    "title": "BudgetThinker: Empowering Budget-aware LLM Reasoning with Control Tokens",
+    "author": "Hao Wen, Xinrui Wu, Yi Sun, Feifei Zhang, Liye Chen, Jie Wang, Yunxin Liu, Yunhao Liu, Ya-Qin Zhang, Yuanchun Li",
+    "date": "2025-08-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2508.17196v2",
+    "arxiv_id": "2508.17196",
+    "filename": "budgetthinker-empowering-budget-aware-llm-reasoning-with-control-tokens.pdf",
+    "size_kb": 1857
+  },
+  {
+    "title": "Revisiting the Uniform Information Density Hypothesis in LLM Reasoning Traces",
+    "author": "Minju Gwak, Guijin Son, Jaehyung Kim",
+    "date": "2025-10-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.06953v2",
+    "arxiv_id": "2510.06953",
+    "filename": "revisiting-the-uniform-information-density-hypothesis-in-llm-reasoning-traces.pdf",
+    "size_kb": 9040
+  },
+  {
+    "title": "Disparities in LLM Reasoning Accuracy and Explanations: A Case Study on African American English",
+    "author": "Runtao Zhou, Guangya Wan, Saadia Gabriel, Sheng Li, Alexander J Gates, Maarten Sap, Thomas Hartvigsen",
+    "date": "2025-03-06",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2503.04099v1",
+    "arxiv_id": "2503.04099",
+    "filename": "disparities-in-llm-reasoning-accuracy-and-explanations-a-case-study-on-african-a.pdf",
+    "size_kb": 994
+  },
+  {
+    "title": "Fewer is More: Boosting LLM Reasoning with Reinforced Context Pruning",
+    "author": "Xijie Huang, Li Lyna Zhang, Kwang-Ting Cheng, Fan Yang, Mao Yang",
+    "date": "2023-12-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2312.08901v3",
+    "arxiv_id": "2312.08901",
+    "filename": "fewer-is-more-boosting-llm-reasoning-with-reinforced-context-pruning.pdf",
+    "size_kb": 972
+  },
+  {
+    "title": "Embedding Perturbation may Better Reflect the Uncertainty in LLM Reasoning",
+    "author": "Qihao Wen, Jiahao Wang, Yang Nan, Pengfei He, Ravi Tandon, Han Xu",
+    "date": "2026-02-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.02427v1",
+    "arxiv_id": "2602.02427",
+    "filename": "embedding-perturbation-may-better-reflect-the-uncertainty-in-llm-reasoning.pdf",
+    "size_kb": 1592
+  },
+  {
+    "title": "Act Only When It Pays: Efficient Reinforcement Learning for LLM Reasoning via Selective Rollouts",
+    "author": "Haizhong Zheng, Yang Zhou, Brian R. Bartoldson, Bhavya Kailkhura, Fan Lai, Jiawei Zhao, Beidi Chen",
+    "date": "2025-06-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.02177v1",
+    "arxiv_id": "2506.02177",
+    "filename": "act-only-when-it-pays-efficient-reinforcement-learning-for-llm-reasoning-via-sel.pdf",
+    "size_kb": 954
+  },
+  {
+    "title": "rePIRL: Learn PRM with Inverse RL for LLM Reasoning",
+    "author": "Xian Wu, Kaijie Zhu, Ying Zhang, Lun Wang, Wenbo Guo",
+    "date": "2026-02-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.07832v1",
+    "arxiv_id": "2602.07832",
+    "filename": "repirl-learn-prm-with-inverse-rl-for-llm-reasoning.pdf",
+    "size_kb": 528
+  },
+  {
+    "title": "Harnessing Negative Signals: Reinforcement Distillation from Teacher Data for LLM Reasoning",
+    "author": "Shuyao Xu, Cheng Peng, Jiangxuan Long, Weidi Xu, Wei Chu, Yuan Qi",
+    "date": "2025-05-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.24850v2",
+    "arxiv_id": "2505.24850",
+    "filename": "harnessing-negative-signals-reinforcement-distillation-from-teacher-data-for-llm.pdf",
+    "size_kb": 1112
+  },
+  {
+    "title": "Unspoken Hints: Accuracy Without Acknowledgement in LLM Reasoning",
+    "author": "Arash Marioriyad, Shaygan Adim, Nima Alighardashi, Mahdieh Soleymani Banghshah, Mohammad Hossein Rohban",
+    "date": "2025-09-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.26041v2",
+    "arxiv_id": "2509.26041",
+    "filename": "unspoken-hints-accuracy-without-acknowledgement-in-llm-reasoning.pdf",
+    "size_kb": 1260
+  },
+  {
+    "title": "FastTTS: Accelerating Test-Time Scaling for Edge LLM Reasoning",
+    "author": "Hao Mark Chen, Zhiwen Mo, Guanxi Lu, Shuang Liang, Lingxiao Ma, Wayne Luk, Hongxiang Fan",
+    "date": "2025-08-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.00195v2",
+    "arxiv_id": "2509.00195",
+    "filename": "fasttts-accelerating-test-time-scaling-for-edge-llm-reasoning.pdf",
+    "size_kb": 2314
+  },
+  {
+    "title": "Martingale Score: An Unsupervised Metric for Bayesian Rationality in LLM Reasoning",
+    "author": "Zhonghao He, Tianyi Qiu, Hirokazu Shirado, Maarten Sap",
+    "date": "2025-12-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.02914v1",
+    "arxiv_id": "2512.02914",
+    "filename": "martingale-score-an-unsupervised-metric-for-bayesian-rationality-in-llm-reasonin.pdf",
+    "size_kb": 1816
+  },
+  {
+    "title": "CipherBank: Exploring the Boundary of LLM Reasoning Capabilities through Cryptography Challenges",
+    "author": "Yu Li, Qizhi Pei, Mengyuan Sun, Honglin Lin, Chenlin Ming, Xin Gao, Jiang Wu, Conghui He, Lijun Wu",
+    "date": "2025-04-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.19093v1",
+    "arxiv_id": "2504.19093",
+    "filename": "cipherbank-exploring-the-boundary-of-llm-reasoning-capabilities-through-cryptogr.pdf",
+    "size_kb": 789
+  },
+  {
+    "title": "DGRO: Enhancing LLM Reasoning via Exploration-Exploitation Control and Reward Variance Management",
+    "author": "Xuerui Su, Liya Guo, Yue Wang, Yi Zhu, Zhiming Ma, Zun Wang, Yuting Liu",
+    "date": "2025-05-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.12951v1",
+    "arxiv_id": "2505.12951",
+    "filename": "dgro-enhancing-llm-reasoning-via-exploration-exploitation-control-and-reward-var.pdf",
+    "size_kb": 2614
+  },
+  {
+    "title": "Trajectory Bellman Residual Minimization: A Simple Value-Based Method for LLM Reasoning",
+    "author": "Yurun Yuan, Fan Chen, Zeyu Jia, Alexander Rakhlin, Tengyang Xie",
+    "date": "2025-05-21",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.15311v2",
+    "arxiv_id": "2505.15311",
+    "filename": "trajectory-bellman-residual-minimization-a-simple-value-based-method-for-llm-rea.pdf",
+    "size_kb": 1109
+  },
+  {
+    "title": "ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests",
+    "author": "Shiyi Xu, Yiwen Hu, Yingqian Min, Zhipeng Chen, Wayne Xin Zhao, Ji-Rong Wen",
+    "date": "2025-06-05",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.04894v1",
+    "arxiv_id": "2506.04894",
+    "filename": "icpc-eval-probing-the-frontiers-of-llm-reasoning-with-competitive-programming-co.pdf",
+    "size_kb": 567
+  },
+  {
+    "title": "Eidoku: A Neuro-Symbolic Verification Gate for LLM Reasoning via Structural Constraint Satisfaction",
+    "author": "Shinobu Miya",
+    "date": "2025-12-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.20664v1",
+    "arxiv_id": "2512.20664",
+    "filename": "eidoku-a-neuro-symbolic-verification-gate-for-llm-reasoning-via-structural-const.pdf",
+    "size_kb": 614
+  },
+  {
+    "title": "NCV: A Node-Wise Consistency Verification Approach for Low-Cost Structured Error Localization in LLM Reasoning",
+    "author": "Yulong Zhang, Li Wang, Wei Du, Peilin Li, Yuqin Dai Zhiyuan Zhao, Lingyong Fang, Ziniu Liu, Ru Zhang, Huijia Zhu, Gongshen Liu",
+    "date": "2025-10-03",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.02816v1",
+    "arxiv_id": "2510.02816",
+    "filename": "ncv-a-node-wise-consistency-verification-approach-for-low-cost-structured-error-.pdf",
+    "size_kb": 788
+  },
+  {
+    "title": "Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning",
+    "author": "Cagatay Tekin, Charbel Barakat, Luis Joseph Luna Limgenco",
+    "date": "2025-12-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.08846v1",
+    "arxiv_id": "2601.08846",
+    "filename": "directional-attractors-in-llm-reasoning-how-similarity-retrieval-steers-iterativ.pdf",
+    "size_kb": 242
+  },
+  {
+    "title": "Graph-Augmented Reasoning: Evolving Step-by-Step Knowledge Graph Retrieval for LLM Reasoning",
+    "author": "Wenjie Wu, Yongcheng Jing, Yingjie Wang, Wenbin Hu, Dacheng Tao",
+    "date": "2025-03-03",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2503.01642v1",
+    "arxiv_id": "2503.01642",
+    "filename": "graph-augmented-reasoning-evolving-step-by-step-knowledge-graph-retrieval-for-ll.pdf",
+    "size_kb": 1036
+  },
+  {
+    "title": "Reasoning with Graphs: Structuring Implicit Knowledge to Enhance LLMs Reasoning",
+    "author": "Haoyu Han, Yaochen Xie, Hui Liu, Xianfeng Tang, Sreyashi Nag, William Headden, Hui Liu, Yang Li, Chen Luo, Shuiwang Ji, Qi He, Jiliang Tang",
+    "date": "2025-01-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2501.07845v1",
+    "arxiv_id": "2501.07845",
+    "filename": "reasoning-with-graphs-structuring-implicit-knowledge-to-enhance-llms-reasoning.pdf",
+    "size_kb": 612
+  },
+  {
+    "title": "Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning",
+    "author": "Luckeciano C. Melo, Alessandro Abate, Yarin Gal",
+    "date": "2025-10-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.00819v1",
+    "arxiv_id": "2510.00819",
+    "filename": "stabilizing-policy-gradients-for-sample-efficient-reinforcement-learning-in-llm-.pdf",
+    "size_kb": 804
+  },
+  {
+    "title": "Cog-Rethinker: Hierarchical Metacognitive Reinforcement Learning for LLM Reasoning",
+    "author": "Zexu Sun, Yongcheng Zeng, Erxue Min, Heyang Gao, Bokai Ji, Xu Chen",
+    "date": "2025-10-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.15979v1",
+    "arxiv_id": "2510.15979",
+    "filename": "cog-rethinker-hierarchical-metacognitive-reinforcement-learning-for-llm-reasonin.pdf",
+    "size_kb": 2617
+  },
+  {
+    "title": "ReJump: A Tree-Jump Representation for Analyzing and Improving LLM Reasoning",
+    "author": "Yuchen Zeng, Shuibai Zhang, Wonjun Kang, Shutong Wu, Lynnix Zou, Ying Fan, Heeju Kim, Ziqian Lin, Jungtaek Kim, Hyung Il Koo, Dimitris Papailiopoulos, Kangwook Lee",
+    "date": "2025-11-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.00831v2",
+    "arxiv_id": "2512.00831",
+    "filename": "rejump-a-tree-jump-representation-for-analyzing-and-improving-llm-reasoning.pdf",
+    "size_kb": 2418
+  },
+  {
+    "title": "Reliable Reasoning Path: Distilling Effective Guidance for LLM Reasoning with Knowledge Graphs",
+    "author": "Yilin Xiao, Chuang Zhou, Qinggang Zhang, Bo Li, Qing Li, Xiao Huang",
+    "date": "2025-06-12",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.10508v1",
+    "arxiv_id": "2506.10508",
+    "filename": "reliable-reasoning-path-distilling-effective-guidance-for-llm-reasoning-with-kno.pdf",
+    "size_kb": 1463
+  },
+  {
+    "title": "Thinking by Subtraction: Confidence-Driven Contrastive Decoding for LLM Reasoning",
+    "author": "Lexiang Tang, Weihao Gao, Bingchen Zhao, Lu Ma, Qiao jin, Bang Yang, Yuexian Zou",
+    "date": "2026-02-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.18232v1",
+    "arxiv_id": "2602.18232",
+    "filename": "thinking-by-subtraction-confidence-driven-contrastive-decoding-for-llm-reasoning.pdf",
+    "size_kb": 977
+  },
+  {
+    "title": "Assessing LLM Reasoning Steps via Principal Knowledge Grounding",
+    "author": "Hyeon Hwang, Yewon Cho, Chanwoong Yoon, Yein Park, Minju Song, Kyungjae Lee, Gangwoo Kim, Jaewoo Kang",
+    "date": "2025-11-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2511.00879v1",
+    "arxiv_id": "2511.00879",
+    "filename": "assessing-llm-reasoning-steps-via-principal-knowledge-grounding.pdf",
+    "size_kb": 1232
+  },
+  {
+    "title": "Unraveling Misinformation Propagation in LLM Reasoning",
+    "author": "Yiyang Feng, Yichen Wang, Shaobo Cui, Boi Faltings, Mina Lee, Jiawei Zhou",
+    "date": "2025-05-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.18555v2",
+    "arxiv_id": "2505.18555",
+    "filename": "unraveling-misinformation-propagation-in-llm-reasoning.pdf",
+    "size_kb": 34627
+  },
+  {
+    "title": "Demystifying Errors in LLM Reasoning Traces: An Empirical Study of Code Execution Simulation",
+    "author": "Mohammad Abdollahi, Khandaker Rifah Tasnia, Soumit Kanti Saha, Jinqiu Yang, Song Wang, Hadi Hemmati",
+    "date": "2025-11-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.00215v1",
+    "arxiv_id": "2512.00215",
+    "filename": "demystifying-errors-in-llm-reasoning-traces-an-empirical-study-of-code-execution.pdf",
+    "size_kb": 814
+  },
+  {
+    "title": "Well Begun, Half Done: Reinforcement Learning with Prefix Optimization for LLM Reasoning",
+    "author": "Yiliu Sun, Zicheng Zhao, Yang Wei, Yanfang Zhang, Chen Gong",
+    "date": "2025-12-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.15274v1",
+    "arxiv_id": "2512.15274",
+    "filename": "well-begun-half-done-reinforcement-learning-with-prefix-optimization-for-llm-rea.pdf",
+    "size_kb": 1350
+  },
+  {
+    "title": "An Empirical Study of LLM Reasoning Ability Under Strict Output Length Constraint",
+    "author": "Yi Sun, Han Wang, Jiaqiang Li, Jiacheng Liu, Xiangyu Li, Hao Wen, Yizhen Yuan, Huiwen Zheng, Yan Liang, Yuanchun Li, Yunxin Liu",
+    "date": "2025-04-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.14350v3",
+    "arxiv_id": "2504.14350",
+    "filename": "an-empirical-study-of-llm-reasoning-ability-under-strict-output-length-constrain.pdf",
+    "size_kb": 992
+  },
+  {
+    "title": "Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning",
+    "author": "Qihao Liu, Luoxin Ye, Wufei Ma, Yu-Cheng Chou, Alan Yuille",
+    "date": "2025-12-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.16917v2",
+    "arxiv_id": "2512.16917",
+    "filename": "generative-adversarial-reasoner-enhancing-llm-reasoning-with-adversarial-reinfor.pdf",
+    "size_kb": 570
+  },
+  {
+    "title": "Grad2Reward: From Sparse Judgment to Dense Rewards for Improving Open-Ended LLM Reasoning",
+    "author": "Zheng Zhang, Ao Lu, Yuanhao Zeng, Ziwei Shan, Jinjin Guo, Lufei Li, Yexin Li, Kan Ren",
+    "date": "2026-02-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.01791v1",
+    "arxiv_id": "2602.01791",
+    "filename": "grad2reward-from-sparse-judgment-to-dense-rewards-for-improving-open-ended-llm-r.pdf",
+    "size_kb": 1351
+  },
+  {
+    "title": "SABER: Switchable and Balanced Training for Efficient LLM Reasoning",
+    "author": "Kai Zhao, Yanjun Zhao, Jiaming Song, Shien He, Lusheng Zhang, Qiang Zhang, Tianjiao Li",
+    "date": "2025-08-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2508.10026v1",
+    "arxiv_id": "2508.10026",
+    "filename": "saber-switchable-and-balanced-training-for-efficient-llm-reasoning.pdf",
+    "size_kb": 2647
+  },
+  {
+    "title": "H3M-SSMoEs: Hypergraph-based Multimodal Learning with LLM Reasoning and Style-Structured Mixture of Experts",
+    "author": "Peilin Tan, Liang Xie, Churan Zhi, Dian Tu, Chuanqi Shi",
+    "date": "2025-10-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.25091v1",
+    "arxiv_id": "2510.25091",
+    "filename": "h3m-ssmoes-hypergraph-based-multimodal-learning-with-llm-reasoning-and-style-str.pdf",
+    "size_kb": 5319
+  },
+  {
+    "title": "LLM Reasoning Predicts When Models Are Right: Evidence from Coding Classroom Discourse",
+    "author": "Bakhtawar Ahtisham, Kirk Vanacore, Zhuqian Zhou, Jinsook Lee, Rene F. Kizilcec",
+    "date": "2026-02-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.09832v1",
+    "arxiv_id": "2602.09832",
+    "filename": "llm-reasoning-predicts-when-models-are-right-evidence-from-coding-classroom-disc.pdf",
+    "size_kb": 927
+  },
+  {
+    "title": "A State-Transition Framework for Efficient LLM Reasoning",
+    "author": "Liang Zhang, Yu Zhao, Longyue Wang, Tianqi Shi, Weihua Luo, Kaifu Zhang, Jinsong Su",
+    "date": "2026-02-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.01198v1",
+    "arxiv_id": "2602.01198",
+    "filename": "a-state-transition-framework-for-efficient-llm-reasoning.pdf",
+    "size_kb": 11583
+  },
+  {
+    "title": "Prismatic Synthesis: Gradient-based Data Diversification Boosts Generalization in LLM Reasoning",
+    "author": "Jaehun Jung, Seungju Han, Ximing Lu, Skyler Hallinan, David Acuna, Shrimai Prabhumoye, Mostafa Patwary, Mohammad Shoeybi, Bryan Catanzaro, Yejin Choi",
+    "date": "2025-05-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.20161v1",
+    "arxiv_id": "2505.20161",
+    "filename": "prismatic-synthesis-gradient-based-data-diversification-boosts-generalization-in.pdf",
+    "size_kb": 1017
+  },
+  {
+    "title": "SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning",
+    "author": "Huanyu Liu, Ge Li, Jia Li, Hao Zhu, Kechi Zhang, Yihong Dong",
+    "date": "2025-05-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.16368v3",
+    "arxiv_id": "2505.16368",
+    "filename": "saturn-sat-based-reinforcement-learning-to-unleash-llms-reasoning.pdf",
+    "size_kb": 2363
+  },
+  {
+    "title": "The Stochastic Parrot on LLM's Shoulder: A Summative Assessment of Physical Concept Understanding",
+    "author": "Mo Yu, Lemao Liu, Junjie Wu, Tsz Ting Chung, Shunchi Zhang, Jiangnan Li, Dit-Yan Yeung, Jie Zhou",
+    "date": "2025-02-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.08946v1",
+    "arxiv_id": "2502.08946",
+    "filename": "the-stochastic-parrot-on-llms-shoulder-a-summative-assessment-of-physical-concep.pdf",
+    "size_kb": 2297
+  },
+  {
+    "title": "The Dark Side of ChatGPT: Legal and Ethical Challenges from Stochastic Parrots and Hallucination",
+    "author": "Zihao Li",
+    "date": "2023-04-21",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2304.14347v2",
+    "arxiv_id": "2304.14347",
+    "filename": "the-dark-side-of-chatgpt-legal-and-ethical-challenges-from-stochastic-parrots-an.pdf",
+    "size_kb": 191
+  },
+  {
+    "title": "Neither Stochastic Parroting nor AGI: LLMs Solve Tasks through Context-Directed Extrapolation from Training Data Priors",
+    "author": "Harish Tayyar Madabushi, Melissa Torgbi, Claire Bonial",
+    "date": "2025-05-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.23323v2",
+    "arxiv_id": "2505.23323",
+    "filename": "neither-stochastic-parroting-nor-agi-llms-solve-tasks-through-context-directed-e.pdf",
+    "size_kb": 281
+  },
+  {
+    "title": "The Slodderwetenschap (Sloppy Science) of Stochastic Parrots -- A Plea for Science to NOT take the Route Advocated by Gebru and Bender",
+    "author": "Michael Lissack",
+    "date": "2021-01-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2101.10098v1",
+    "arxiv_id": "2101.10098",
+    "filename": "the-slodderwetenschap-sloppy-science-of-stochastic-parrots-a-plea-for-science-to.pdf",
+    "size_kb": 257
+  },
+  {
+    "title": "Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models",
+    "author": "Haonan Duan, Adam Dziedzic, Nicolas Papernot, Franziska Boenisch",
+    "date": "2023-05-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2305.15594v1",
+    "arxiv_id": "2305.15594",
+    "filename": "flocks-of-stochastic-parrots-differentially-private-prompt-learning-for-large-la.pdf",
+    "size_kb": 787
+  },
+  {
+    "title": "Stochastic Parrots or ICU Experts? Large Language Models in Critical Care Medicine: A Scoping Review",
+    "author": "Tongyue Shi, Jun Ma, Zihan Yu, Haowei Xu, Minqi Xiong, Meirong Xiao, Yilin Li, Huiying Zhao, Guilan Kong",
+    "date": "2024-07-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2407.19256v1",
+    "arxiv_id": "2407.19256",
+    "filename": "stochastic-parrots-or-icu-experts-large-language-models-in-critical-care-medicin.pdf",
+    "size_kb": 2438
+  },
+  {
+    "title": "Stochastic Chameleons: Irrelevant Context Hallucinations Reveal Class-Based (Mis)Generalization in LLMs",
+    "author": "Ziling Cheng, Meng Cao, Marc-Antoine Rondeau, Jackie Chi Kit Cheung",
+    "date": "2025-05-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.22630v2",
+    "arxiv_id": "2505.22630",
+    "filename": "stochastic-chameleons-irrelevant-context-hallucinations-reveal-class-based-misge.pdf",
+    "size_kb": 2844
+  },
+  {
+    "title": "Stochastic Parrots Looking for Stochastic Parrots: LLMs are Easy to Fine-Tune and Hard to Detect with other LLMs",
+    "author": "Da Silva Gameiro Henrique, Andrei Kucharavy, Rachid Guerraoui",
+    "date": "2023-04-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2304.08968v1",
+    "arxiv_id": "2304.08968",
+    "filename": "stochastic-parrots-looking-for-stochastic-parrots-llms-are-easy-to-fine-tune-and.pdf",
+    "size_kb": 1426
+  },
+  {
+    "title": "\"i am a stochastic parrot, and so r u\": Is AI-based framing of human behaviour and cognition a conceptual metaphor or conceptual engineering?",
+    "author": "Warmhold Jan Thomas Mollema, Thomas Wachter",
+    "date": "2025-04-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.07756v1",
+    "arxiv_id": "2504.07756",
+    "filename": "i-am-a-stochastic-parrot-and-so-r-u-is-ai-based-framing-of-human-behaviour-and-c.pdf",
+    "size_kb": 4152
+  },
+  {
+    "title": "Stochastic Parroting in Temporal Attention -- Regulating the Diagonal Sink",
+    "author": "Victoria Hankemeier, Malte Schilling",
+    "date": "2026-02-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.10956v2",
+    "arxiv_id": "2602.10956",
+    "filename": "stochastic-parroting-in-temporal-attention-regulating-the-diagonal-sink.pdf",
+    "size_kb": 238
+  },
+  {
+    "title": "Who Are All The Stochastic Parrots Imitating? They Should Tell Us!",
+    "author": "Sagi Shaier, Lawrence E. Hunter, Katharina von der Wense",
+    "date": "2023-10-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2310.10583v2",
+    "arxiv_id": "2310.10583",
+    "filename": "who-are-all-the-stochastic-parrots-imitating-they-should-tell-us.pdf",
+    "size_kb": 358
+  },
+  {
+    "title": "A Review of Dialogue Systems: From Trained Monkeys to Stochastic Parrots",
+    "author": "Atharv Singh Patlan, Shiven Tripathi, Shubham Korde",
+    "date": "2021-11-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2111.01414v1",
+    "arxiv_id": "2111.01414",
+    "filename": "a-review-of-dialogue-systems-from-trained-monkeys-to-stochastic-parrots.pdf",
+    "size_kb": 515
+  },
+  {
+    "title": "Out of the Cage: How Stochastic Parrots Win in Cyber Security Environments",
+    "author": "Maria Rigaki, Ondřej Lukáš, Carlos A. Catania, Sebastian Garcia",
+    "date": "2023-08-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2308.12086v2",
+    "arxiv_id": "2308.12086",
+    "filename": "out-of-the-cage-how-stochastic-parrots-win-in-cyber-security-environments.pdf",
+    "size_kb": 6285
+  },
+  {
+    "title": "Are Personalized Stochastic Parrots More Dangerous? Evaluating Persona Biases in Dialogue Systems",
+    "author": "Yixin Wan, Jieyu Zhao, Aman Chadha, Nanyun Peng, Kai-Wei Chang",
+    "date": "2023-10-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2310.05280v5",
+    "arxiv_id": "2310.05280",
+    "filename": "are-personalized-stochastic-parrots-more-dangerous-evaluating-persona-biases-in-.pdf",
+    "size_kb": 644
+  },
+  {
+    "title": "Predictive Minds: LLMs As Atypical Active Inference Agents",
+    "author": "Jan Kulveit, Clem von Stengel, Roman Leventov",
+    "date": "2023-11-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2311.10215v1",
+    "arxiv_id": "2311.10215",
+    "filename": "predictive-minds-llms-as-atypical-active-inference-agents.pdf",
+    "size_kb": 103
+  },
+  {
+    "title": "The Dangers of trusting Stochastic Parrots: Faithfulness and Trust in Open-domain Conversational Question Answering",
+    "author": "Sabrina Chiesurin, Dimitris Dimakopoulos, Marco Antonio Sobrevilla Cabezudo, Arash Eshghi, Ioannis Papaioannou, Verena Rieser, Ioannis Konstas",
+    "date": "2023-05-25",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2305.16519v1",
+    "arxiv_id": "2305.16519",
+    "filename": "the-dangers-of-trusting-stochastic-parrots-faithfulness-and-trust-in-open-domain.pdf",
+    "size_kb": 563
+  },
+  {
+    "title": "\"Understanding AI\": Semantic Grounding in Large Language Models",
+    "author": "Holger Lyre",
+    "date": "2024-02-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2402.10992v1",
+    "arxiv_id": "2402.10992",
+    "filename": "understanding-ai-semantic-grounding-in-large-language-models.pdf",
+    "size_kb": 150
+  },
+  {
+    "title": "Do Stochastic Parrots have Feelings Too? Improving Neural Detection of Synthetic Text via Emotion Recognition",
+    "author": "Alan Cowap, Yvette Graham, Jennifer Foster",
+    "date": "2023-10-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2310.15904v1",
+    "arxiv_id": "2310.15904",
+    "filename": "do-stochastic-parrots-have-feelings-too-improving-neural-detection-of-synthetic-.pdf",
+    "size_kb": 567
+  },
+  {
+    "title": "Exploring Perspectives on the Impact of Artificial Intelligence on the Creativity of Knowledge Work: Beyond Mechanised Plagiarism and Stochastic Parrots",
+    "author": "Advait Sarkar",
+    "date": "2023-07-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2307.10751v1",
+    "arxiv_id": "2307.10751",
+    "filename": "exploring-perspectives-on-the-impact-of-artificial-intelligence-on-the-creativit.pdf",
+    "size_kb": 370
+  },
+  {
+    "title": "Simulated Reasoning is Reasoning",
+    "author": "Hendrik Kempt, Alon Lavie",
+    "date": "2026-01-05",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.02043v1",
+    "arxiv_id": "2601.02043",
+    "filename": "simulated-reasoning-is-reasoning.pdf",
+    "size_kb": 331
+  },
+  {
+    "title": "Epistemoverse: Toward an AI-Driven Knowledge Metaverse for Intellectual Heritage Preservation",
+    "author": "Predrag K. Nikolić, Robert Prentner",
+    "date": "2025-12-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.12201v1",
+    "arxiv_id": "2512.12201",
+    "filename": "epistemoverse-toward-an-ai-driven-knowledge-metaverse-for-intellectual-heritage-.pdf",
+    "size_kb": 7042
+  },
+  {
+    "title": "Playing games with Large language models: Randomness and strategy",
+    "author": "Alicia Vidler, Toby Walsh",
+    "date": "2025-03-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2503.02582v1",
+    "arxiv_id": "2503.02582",
+    "filename": "playing-games-with-large-language-models-randomness-and-strategy.pdf",
+    "size_kb": 170
+  },
+  {
+    "title": "Charting the Parrot's Song: A Maximum Mean Discrepancy Approach to Measuring AI Novelty, Originality, and Distinctiveness",
+    "author": "Anirban Mukherjee, Hannah Hanwen Chang",
+    "date": "2025-04-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.08446v1",
+    "arxiv_id": "2504.08446",
+    "filename": "charting-the-parrots-song-a-maximum-mean-discrepancy-approach-to-measuring-ai-no.pdf",
+    "size_kb": 1678
+  },
+  {
+    "title": "Rethinking the Illusion of Thinking",
+    "author": "Iñaki Dellibarda Varela, Pablo Romero-Sorozabal, Eduardo Rocon, Manuel Cebrian",
+    "date": "2025-07-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2507.01231v1",
+    "arxiv_id": "2507.01231",
+    "filename": "rethinking-the-illusion-of-thinking.pdf",
+    "size_kb": 2427
+  },
+  {
+    "title": "Does ChatGPT Have a Mind?",
+    "author": "Simon Goldstein, Benjamin A. Levinstein",
+    "date": "2024-06-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2407.11015v1",
+    "arxiv_id": "2407.11015",
+    "filename": "does-chatgpt-have-a-mind.pdf",
+    "size_kb": 2456
+  },
+  {
+    "title": "Exploring the Impact of Temperature on Large Language Models:Hot or Cold?",
+    "author": "Lujun Li, Lama Sleem, Niccolo' Gentile, Geoffrey Nichil, Radu State",
+    "date": "2025-06-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.07295v1",
+    "arxiv_id": "2506.07295",
+    "filename": "exploring-the-impact-of-temperature-on-large-language-modelshot-or-cold.pdf",
+    "size_kb": 375
+  },
+  {
+    "title": "Skill-Mix: a Flexible and Expandable Family of Evaluations for AI models",
+    "author": "Dingli Yu, Simran Kaur, Arushi Gupta, Jonah Brown-Cohen, Anirudh Goyal, Sanjeev Arora",
+    "date": "2023-10-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2310.17567v1",
+    "arxiv_id": "2310.17567",
+    "filename": "skill-mix-a-flexible-and-expandable-family-of-evaluations-for-ai-models.pdf",
+    "size_kb": 845
+  },
+  {
+    "title": "When AI Takes the Couch: Psychometric Jailbreaks Reveal Internal Conflict in Frontier Models",
+    "author": "Afshin Khadangi, Hanna Marxen, Amir Sartipi, Igor Tchappi, Gilbert Fridgen",
+    "date": "2025-12-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.04124v3",
+    "arxiv_id": "2512.04124",
+    "filename": "when-ai-takes-the-couch-psychometric-jailbreaks-reveal-internal-conflict-in-fron.pdf",
+    "size_kb": 1534
+  },
+  {
+    "title": "Can large language models understand uncommon meanings of common words?",
+    "author": "Jinyang Wu, Feihu Che, Xinxin Zheng, Shuai Zhang, Ruihan Jin, Shuai Nie, Pengpeng Shao, Jianhua Tao",
+    "date": "2024-05-09",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2405.05741v1",
+    "arxiv_id": "2405.05741",
+    "filename": "can-large-language-models-understand-uncommon-meanings-of-common-words.pdf",
+    "size_kb": 1175
+  },
+  {
+    "title": "The Societal Response to Potentially Sentient AI",
+    "author": "Lucius Caviola",
+    "date": "2025-02-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.00388v2",
+    "arxiv_id": "2502.00388",
+    "filename": "the-societal-response-to-potentially-sentient-ai.pdf",
+    "size_kb": 1061
+  },
+  {
+    "title": "Beyond Behavioural Trade-Offs: Mechanistic Tracing of Pain-Pleasure Decisions in an LLM",
+    "author": "Francesca Bianco, Derek Shiller",
+    "date": "2026-02-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.19159v1",
+    "arxiv_id": "2602.19159",
+    "filename": "beyond-behavioural-trade-offs-mechanistic-tracing-of-pain-pleasure-decisions-in-.pdf",
+    "size_kb": 469
+  },
+  {
+    "title": "Softened Symbol Grounding for Neuro-symbolic Systems",
+    "author": "Zenan Li, Yuan Yao, Taolue Chen, Jingwei Xu, Chun Cao, Xiaoxing Ma, Jian Lü",
+    "date": "2024-03-01",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2403.00323v1",
+    "arxiv_id": "2403.00323",
+    "filename": "softened-symbol-grounding-for-neuro-symbolic-systems.pdf",
+    "size_kb": 1363
+  },
+  {
+    "title": "Symbol grounding in computational systems: A paradox of intentions",
+    "author": "Vincent C. Müller",
+    "date": "2025-03-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.00002v1",
+    "arxiv_id": "2505.00002",
+    "filename": "symbol-grounding-in-computational-systems-a-paradox-of-intentions.pdf",
+    "size_kb": 254
+  },
+  {
+    "title": "Symbol Grounding via Chaining of Morphisms",
+    "author": "Ruiting Lian, Ben Goertzel, Linas Vepstas, David Hanson, Changle Zhou",
+    "date": "2017-03-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1703.04368v1",
+    "arxiv_id": "1703.04368",
+    "filename": "symbol-grounding-via-chaining-of-morphisms.pdf",
+    "size_kb": 695
+  },
+  {
+    "title": "The Mechanistic Emergence of Symbol Grounding in Language Models",
+    "author": "Shuyu Wu, Ziqiao Ma, Xiaoxi Luo, Yidong Huang, Josue Torres-Fonseca, Freda Shi, Joyce Chai",
+    "date": "2025-10-15",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.13796v2",
+    "arxiv_id": "2510.13796",
+    "filename": "the-mechanistic-emergence-of-symbol-grounding-in-language-models.pdf",
+    "size_kb": 2002
+  },
+  {
+    "title": "Refining Manually-Designed Symbol Grounding and High-Level Planning by Policy Gradients",
+    "author": "Takuya Hiraoka, Takashi Onishi, Takahisa Imagawa, Yoshimasa Tsuruoka",
+    "date": "2018-09-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1810.00177v1",
+    "arxiv_id": "1810.00177",
+    "filename": "refining-manually-designed-symbol-grounding-and-high-level-planning-by-policy-gr.pdf",
+    "size_kb": 403
+  },
+  {
+    "title": "Assessing SATNet's Ability to Solve the Symbol Grounding Problem",
+    "author": "Oscar Chang, Lampros Flokas, Hod Lipson, Michael Spranger",
+    "date": "2023-12-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2312.11522v1",
+    "arxiv_id": "2312.11522",
+    "filename": "assessing-satnets-ability-to-solve-the-symbol-grounding-problem.pdf",
+    "size_kb": 711
+  },
+  {
+    "title": "A Categorical Analysis of Large Language Models and Why LLMs Circumvent the Symbol Grounding Problem",
+    "author": "Luciano Floridi, Yiyang Jia, Fernando Tohmé",
+    "date": "2025-12-09",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.09117v1",
+    "arxiv_id": "2512.09117",
+    "filename": "a-categorical-analysis-of-large-language-models-and-why-llms-circumvent-the-symb.pdf",
+    "size_kb": 797
+  },
+  {
+    "title": "Differentiable Fuzzy $\\mathcal{ALC}$: A Neural-Symbolic Representation Language for Symbol Grounding",
+    "author": "Xuan Wu, Xinhao Zhu, Yizheng Zhao, Xinyu Dai",
+    "date": "2022-11-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2211.12006v2",
+    "arxiv_id": "2211.12006",
+    "filename": "differentiable-fuzzy-mathcalalc-a-neural-symbolic-representation-language-for-sy.pdf",
+    "size_kb": 1893
+  },
+  {
+    "title": "Techniques for Symbol Grounding with SATNet",
+    "author": "Sever Topan, David Rolnick, Xujie Si",
+    "date": "2021-06-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2106.11072v1",
+    "arxiv_id": "2106.11072",
+    "filename": "techniques-for-symbol-grounding-with-satnet.pdf",
+    "size_kb": 1337
+  },
+  {
+    "title": "Approaching the Source of Symbol Grounding with Confluent Reductions of Abstract Meaning Representation Directed Graphs",
+    "author": "Nicolas Goulet, Alexandre Blondin Massé, Moussa Abdendi",
+    "date": "2025-08-14",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2508.11068v1",
+    "arxiv_id": "2508.11068",
+    "filename": "approaching-the-source-of-symbol-grounding-with-confluent-reductions-of-abstract.pdf",
+    "size_kb": 434
+  },
+  {
+    "title": "Unsupervised, Bottom-up Category Discovery for Symbol Grounding with a Curious Robot",
+    "author": "Catherine Henry, Casey Kennington",
+    "date": "2024-04-03",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2404.03092v1",
+    "arxiv_id": "2404.03092",
+    "filename": "unsupervised-bottom-up-category-discovery-for-symbol-grounding-with-a-curious-ro.pdf",
+    "size_kb": 5779
+  },
+  {
+    "title": "Towards Stable Symbol Grounding with Zero-Suppressed State AutoEncoder",
+    "author": "Masataro Asai, Hiroshi Kajino",
+    "date": "2019-03-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1903.11277v1",
+    "arxiv_id": "1903.11277",
+    "filename": "towards-stable-symbol-grounding-with-zero-suppressed-state-autoencoder.pdf",
+    "size_kb": 1164
+  },
+  {
+    "title": "An Algorithmic Information-Theoretic Perspective on the Symbol Grounding Problem",
+    "author": "Zhangchi Liu",
+    "date": "2025-10-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.05153v1",
+    "arxiv_id": "2510.05153",
+    "filename": "an-algorithmic-information-theoretic-perspective-on-the-symbol-grounding-problem.pdf",
+    "size_kb": 302
+  },
+  {
+    "title": "A Unified Formal Theory on the Logical Limits of Symbol Grounding",
+    "author": "Zhangchi Liu",
+    "date": "2025-09-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.20409v4",
+    "arxiv_id": "2509.20409",
+    "filename": "a-unified-formal-theory-on-the-logical-limits-of-symbol-grounding.pdf",
+    "size_kb": 356
+  },
+  {
+    "title": "Evaluating Large Language Models on the Frame and Symbol Grounding Problems: A Zero-shot Benchmark",
+    "author": "Shoko Oka",
+    "date": "2025-06-09",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2506.07896v1",
+    "arxiv_id": "2506.07896",
+    "filename": "evaluating-large-language-models-on-the-frame-and-symbol-grounding-problems-a-ze.pdf",
+    "size_kb": 325
+  },
+  {
+    "title": "Generating by Understanding: Neural Visual Generation with Logical Symbol Groundings",
+    "author": "Yifei Peng, Zijie Zha, Yu Jin, Zhexu Luo, Wang-Zhou Dai, Zhong Ren, Yao-Xiang Ding, Kun Zhou",
+    "date": "2023-10-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2310.17451v4",
+    "arxiv_id": "2310.17451",
+    "filename": "generating-by-understanding-neural-visual-generation-with-logical-symbol-groundi.pdf",
+    "size_kb": 8632
+  },
+  {
+    "title": "Bridging Vision Language Models and Symbolic Grounding for Video Question Answering",
+    "author": "Haodi Ma, Vyom Pathak, Daisy Zhe Wang",
+    "date": "2025-09-15",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.11862v1",
+    "arxiv_id": "2509.11862",
+    "filename": "bridging-vision-language-models-and-symbolic-grounding-for-video-question-answer.pdf",
+    "size_kb": 2157
+  },
+  {
+    "title": "Continuous Relaxation of Symbolic Planner for One-Shot Imitation Learning",
+    "author": "De-An Huang, Danfei Xu, Yuke Zhu, Animesh Garg, Silvio Savarese, Li Fei-Fei, Juan Carlos Niebles",
+    "date": "2019-08-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1908.06769v2",
+    "arxiv_id": "1908.06769",
+    "filename": "continuous-relaxation-of-symbolic-planner-for-one-shot-imitation-learning.pdf",
+    "size_kb": 802
+  },
+  {
+    "title": "The Symbol Grounding Problem",
+    "author": "Stevan Harnad",
+    "date": "1999-06-01",
+    "source": "arxiv",
+    "url": "http://arxiv.org/abs/cs/9906002v1",
+    "arxiv_id": "cs/9906002",
+    "filename": "the-symbol-grounding-problem.md",
+    "length": 1211
+  },
+  {
+    "title": "Pre-Training Meta-Rule Selection Policy for Visual Generative Abductive Learning",
+    "author": "Yu Jin, Jingming Liu, Zhexu Luo, Yifei Peng, Ziang Qin, Wang-Zhou Dai, Yao-Xiang Ding, Kun Zhou",
+    "date": "2025-03-09",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2503.06427v1",
+    "arxiv_id": "2503.06427",
+    "filename": "pre-training-meta-rule-selection-policy-for-visual-generative-abductive-learning.pdf",
+    "size_kb": 1689
+  },
+  {
+    "title": "Which symbol grounding problem should we try to solve?",
+    "author": "Vincent C. Müller",
+    "date": "2025-06-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2507.21080v1",
+    "arxiv_id": "2507.21080",
+    "filename": "which-symbol-grounding-problem-should-we-try-to-solve.pdf",
+    "size_kb": 139
+  },
+  {
+    "title": "Interpretable Latent Spaces for Learning from Demonstration",
+    "author": "Yordan Hristov, Alex Lascarides, Subramanian Ramamoorthy",
+    "date": "2018-07-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1807.06583v2",
+    "arxiv_id": "1807.06583",
+    "filename": "interpretable-latent-spaces-for-learning-from-demonstration.pdf",
+    "size_kb": 2488
+  },
+  {
+    "title": "Symbol Emergence in Cognitive Developmental Systems: a Survey",
+    "author": "Tadahiro Taniguchi, Emre Ugur, Matej Hoffmann, Lorenzo Jamone, Takayuki Nagai, Benjamin Rosman, Toshihiko Matsuka, Naoto Iwahashi, Erhan Oztop, Justus Piater, Florentin Wörgötter",
+    "date": "2018-01-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1801.08829v2",
+    "arxiv_id": "1801.08829",
+    "filename": "symbol-emergence-in-cognitive-developmental-systems-a-survey.pdf",
+    "size_kb": 7650
+  },
+  {
+    "title": "Neural Reward Machines",
+    "author": "Elena Umili, Francesco Argenziano, Roberto Capobianco",
+    "date": "2024-08-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2408.08677v1",
+    "arxiv_id": "2408.08677",
+    "filename": "neural-reward-machines.pdf",
+    "size_kb": 3073
+  },
+  {
+    "title": "Symbol Grounding Association in Multimodal Sequences with Missing Elements",
+    "author": "Federico Raue, Andreas Dengel, Thomas M. Breuel, Marcus Liwicki",
+    "date": "2015-11-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1511.04401v5",
+    "arxiv_id": "1511.04401",
+    "filename": "symbol-grounding-association-in-multimodal-sequences-with-missing-elements.pdf",
+    "size_kb": 1125
+  },
+  {
+    "title": "Geospatial semantics: beyond ontologies, towards an enactive approach",
+    "author": "Pasquale Di Donato",
+    "date": "2009-01-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/0901.4224v1",
+    "arxiv_id": "0901.4224",
+    "filename": "geospatial-semantics-beyond-ontologies-towards-an-enactive-approach.pdf",
+    "size_kb": 450
+  },
+  {
+    "title": "Large language models for artificial general intelligence (AGI): A survey of foundational principles and approaches",
+    "author": "Alhassan Mumuni, Fuseini Mumuni",
+    "date": "2025-01-06",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2501.03151v1",
+    "arxiv_id": "2501.03151",
+    "filename": "large-language-models-for-artificial-general-intelligence-agi-a-survey-of-founda.pdf",
+    "size_kb": 4160
+  },
+  {
+    "title": "How the symbol grounding of living organisms can be realized in artificial agents",
+    "author": "J. H. van Hateren",
+    "date": "2015-03-17",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1503.04941v1",
+    "arxiv_id": "1503.04941",
+    "filename": "how-the-symbol-grounding-of-living-organisms-can-be-realized-in-artificial-agent.pdf",
+    "size_kb": 127
+  },
+  {
+    "title": "Codes, communication and cognition",
+    "author": "Stevan Harnad",
+    "date": "2019-06-05",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1906.01767v1",
+    "arxiv_id": "1906.01767",
+    "filename": "codes-communication-and-cognition.pdf",
+    "size_kb": 290
+  },
+  {
+    "title": "Symbol Grounding in Neuro-Symbolic AI: A Gentle Introduction to Reasoning Shortcuts",
+    "author": "Emanuele Marconato, Samuele Bortolotti, Emile van Krieken, Paolo Morettin, Elena Umili, Antonio Vergari, Efthymia Tsamoura, Andrea Passerini, Stefano Teso",
+    "date": "2025-10-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.14538v1",
+    "arxiv_id": "2510.14538",
+    "filename": "symbol-grounding-in-neuro-symbolic-ai-a-gentle-introduction-to-reasoning-shortcu.pdf",
+    "size_kb": 2291
+  },
+  {
+    "title": "Learning to Solve Constraint Satisfaction Problems with Recurrent Transformer",
+    "author": "Zhun Yang, Adam Ishay, Joohyung Lee",
+    "date": "2023-07-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2307.04895v1",
+    "arxiv_id": "2307.04895",
+    "filename": "learning-to-solve-constraint-satisfaction-problems-with-recurrent-transformer.pdf",
+    "size_kb": 2917
+  },
+  {
+    "title": "Grounding LTL Tasks in Sub-Symbolic RL Environments for Zero-Shot Generalization",
+    "author": "Matteo Pannacci, Andrea Fanti, Elena Umili, Roberto Capobianco",
+    "date": "2026-02-10",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.09761v1",
+    "arxiv_id": "2602.09761",
+    "filename": "grounding-ltl-tasks-in-sub-symbolic-rl-environments-for-zero-shot-generalization.pdf",
+    "size_kb": 1581
+  },
+  {
+    "title": "Learning Symbolic Operators: A Neurosymbolic Solution for Autonomous Disassembly of Electric Vehicle Battery",
+    "author": "Yidong Du, Wenshuo Wang, Zhigang Wang, Hua Yang, Haitao Wang, Yinghao Cai, Ming Chen",
+    "date": "2022-06-07",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2206.03027v2",
+    "arxiv_id": "2206.03027",
+    "filename": "learning-symbolic-operators-a-neurosymbolic-solution-for-autonomous-disassembly-.pdf",
+    "size_kb": 1138
+  },
+  {
+    "title": "Function Alignment: A New Theory of Mind and Intelligence, Part I: Foundations",
+    "author": "Gus G. Xia",
+    "date": "2025-03-27",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2503.21106v4",
+    "arxiv_id": "2503.21106",
+    "filename": "function-alignment-a-new-theory-of-mind-and-intelligence-part-i-foundations.pdf",
+    "size_kb": 805
+  },
+  {
+    "title": "Interactive Acquisition of Fine-grained Visual Concepts by Exploiting Semantics of Generic Characterizations in Discourse",
+    "author": "Jonghyuk Park, Alex Lascarides, Subramanian Ramamoorthy",
+    "date": "2023-05-05",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2305.03461v1",
+    "arxiv_id": "2305.03461",
+    "filename": "interactive-acquisition-of-fine-grained-visual-concepts-by-exploiting-semantics-.pdf",
+    "size_kb": 2768
+  },
+  {
+    "title": "What if Othello-Playing Language Models Could See?",
+    "author": "Xinyi Chen, Yifei Yuan, Jiaang Li, Serge Belongie, Maarten de Rijke, Anders Søgaard",
+    "date": "2025-07-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2507.14520v2",
+    "arxiv_id": "2507.14520",
+    "filename": "what-if-othello-playing-language-models-could-see.pdf",
+    "size_kb": 854
+  },
+  {
+    "title": "Translating Videos to Natural Language Using Deep Recurrent Neural Networks",
+    "author": "Subhashini Venugopalan, Huijuan Xu, Jeff Donahue, Marcus Rohrbach, Raymond Mooney, Kate Saenko",
+    "date": "2014-12-15",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1412.4729v3",
+    "arxiv_id": "1412.4729",
+    "filename": "translating-videos-to-natural-language-using-deep-recurrent-neural-networks.pdf",
+    "size_kb": 6767
+  },
+  {
+    "title": "Inference of Abstraction for Grounded Predicate Logic",
+    "author": "Hiroyuki Kido",
+    "date": "2025-02-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2502.13743v1",
+    "arxiv_id": "2502.13743",
+    "filename": "inference-of-abstraction-for-grounded-predicate-logic.pdf",
+    "size_kb": 1333
+  },
+  {
+    "title": "Learning Manner of Execution from Partial Corrections",
+    "author": "Mattias Appelgren, Alex Lascarides",
+    "date": "2023-02-07",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2302.03338v1",
+    "arxiv_id": "2302.03338",
+    "filename": "learning-manner-of-execution-from-partial-corrections.pdf",
+    "size_kb": 542
+  },
+  {
+    "title": "MetaWorld: Skill Transfer and Composition in a Hierarchical World Model for Grounding High-Level Instructions",
+    "author": "Yutong Shen, Hangxu Liu, Kailin Pei, Ruizhe Xia, Tongtong Feng",
+    "date": "2026-01-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.17507v1",
+    "arxiv_id": "2601.17507",
+    "filename": "metaworld-skill-transfer-and-composition-in-a-hierarchical-world-model-for-groun.pdf",
+    "size_kb": 1940
+  },
+  {
+    "title": "SNF Project Locomotion: Progress report 2008-2009",
+    "author": "Matej Hoffmann, Juan Pablo Carbajal, Marc Ziegler",
+    "date": "2011-08-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1108.4445v1",
+    "arxiv_id": "1108.4445",
+    "filename": "snf-project-locomotion-progress-report-2008-2009.pdf",
+    "size_kb": 3045
+  },
+  {
+    "title": "SNF Project Locomotion: Final report 2009-2010",
+    "author": "Matej Hoffmann, Juan Pablo Carbajal, Marc Ziegler",
+    "date": "2011-08-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1108.4443v1",
+    "arxiv_id": "1108.4443",
+    "filename": "snf-project-locomotion-final-report-2009-2010.pdf",
+    "size_kb": 1443
+  },
+  {
+    "title": "Neuro-symbolic Action Masking for Deep Reinforcement Learning",
+    "author": "Shuai Han, Mehdi Dastani, Shihan Wang",
+    "date": "2026-02-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.10598v1",
+    "arxiv_id": "2602.10598",
+    "filename": "neuro-symbolic-action-masking-for-deep-reinforcement-learning.pdf",
+    "size_kb": 4760
+  },
+  {
+    "title": "Contextual Emergence of Mental States from Neurodynamics",
+    "author": "H. Atmanspacher, P. beim Graben",
+    "date": "2005-12-19",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/q-bio/0512034v1",
+    "arxiv_id": "q-bio/0512034",
+    "filename": "contextual-emergence-of-mental-states-from-neurodynamics.pdf",
+    "size_kb": 197
+  },
+  {
+    "title": "The Vector Grounding Problem",
+    "author": "Dimitri Coelho Mollo, Raphaël Millière",
+    "date": "2023-04-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2304.01481v3",
+    "arxiv_id": "2304.01481",
+    "filename": "the-vector-grounding-problem.pdf",
+    "size_kb": 638
+  },
+  {
+    "title": "Unsupervised Online Grounding of Natural Language during Human-Robot Interactions",
+    "author": "Oliver Roesler",
+    "date": "2020-07-05",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2007.04304v1",
+    "arxiv_id": "2007.04304",
+    "filename": "unsupervised-online-grounding-of-natural-language-during-human-robot-interaction.pdf",
+    "size_kb": 2166
+  },
+  {
+    "title": "Neuro-symbolic Learning Yielding Logical Constraints",
+    "author": "Zenan Li, Yunpeng Huang, Zhaoyu Li, Yuan Yao, Jingwei Xu, Taolue Chen, Xiaoxing Ma, Jian Lu",
+    "date": "2024-10-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2410.20957v1",
+    "arxiv_id": "2410.20957",
+    "filename": "neuro-symbolic-learning-yielding-logical-constraints.pdf",
+    "size_kb": 3486
+  },
+  {
+    "title": "Fully Learnable Neural Reward Machines",
+    "author": "Hazem Dewidar, Elena Umili",
+    "date": "2025-09-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2509.19017v1",
+    "arxiv_id": "2509.19017",
+    "filename": "fully-learnable-neural-reward-machines.pdf",
+    "size_kb": 17005
+  },
+  {
+    "title": "Bridging Neural and Symbolic Representations with Transitional Dictionary Learning",
+    "author": "Junyan Cheng, Peter Chin",
+    "date": "2023-08-03",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2308.02000v2",
+    "arxiv_id": "2308.02000",
+    "filename": "bridging-neural-and-symbolic-representations-with-transitional-dictionary-learni.pdf",
+    "size_kb": 6755
+  },
+  {
+    "title": "Action sequencing using visual permutations",
+    "author": "Michael Burke, Kartic Subr, Subramanian Ramamoorthy",
+    "date": "2020-08-03",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2008.01156v2",
+    "arxiv_id": "2008.01156",
+    "filename": "action-sequencing-using-visual-permutations.pdf",
+    "size_kb": 3084
+  },
+  {
+    "title": "Inferring Compact Representations for Efficient Natural Language Understanding of Robot Instructions",
+    "author": "Siddharth Patki, Andrea F. Daniele, Matthew R. Walter, Thomas M. Howard",
+    "date": "2019-03-21",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1903.09243v1",
+    "arxiv_id": "1903.09243",
+    "filename": "inferring-compact-representations-for-efficient-natural-language-understanding-o.pdf",
+    "size_kb": 4045
+  },
+  {
+    "title": "DAC-h3: A Proactive Robot Cognitive Architecture to Acquire and Express Knowledge About the World and the Self",
+    "author": "Clément Moulin-Frier, Tobias Fischer, Maxime Petit, Grégoire Pointeau, Jordi-Ysard Puigbo, Ugo Pattacini, Sock Ching Low, Daniel Camilleri, Phuong Nguyen, Matej Hoffmann, Hyung Jin Chang, Martina Zambelli, Anne-Laure Mealier, Andreas Damianou, Giorgio Metta, Tony J. Prescott, Yiannis Demiris, Peter Ford Dominey, Paul F. M. J. Verschure",
+    "date": "2017-06-12",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1706.03661v2",
+    "arxiv_id": "1706.03661",
+    "filename": "dac-h3-a-proactive-robot-cognitive-architecture-to-acquire-and-express-knowledge.pdf",
+    "size_kb": 2999
+  },
+  {
+    "title": "M^2ConceptBase: A Fine-Grained Aligned Concept-Centric Multimodal Knowledge Base",
+    "author": "Zhiwei Zha, Jiaan Wang, Zhixu Li, Xiangru Zhu, Wei Song, Yanghua Xiao",
+    "date": "2023-12-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2312.10417v3",
+    "arxiv_id": "2312.10417",
+    "filename": "m2conceptbase-a-fine-grained-aligned-concept-centric-multimodal-knowledge-base.pdf",
+    "size_kb": 1466
+  },
+  {
+    "title": "The Role of Foundation Models in Neuro-Symbolic Learning and Reasoning",
+    "author": "Daniel Cunnington, Mark Law, Jorge Lobo, Alessandra Russo",
+    "date": "2024-02-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2402.01889v1",
+    "arxiv_id": "2402.01889",
+    "filename": "the-role-of-foundation-models-in-neuro-symbolic-learning-and-reasoning.pdf",
+    "size_kb": 2444
+  },
+  {
+    "title": "Research on World Models Is Not Merely Injecting World Knowledge into Specific Tasks",
+    "author": "Bohan Zeng, Kaixin Zhu, Daili Hua, Bozhou Li, Chengzhuo Tong, Yuran Wang, Xinyi Huang, Yifan Dai, Zixiang Zhang, Yifan Yang, Zhou Liu, Hao Liang, Xiaochen Ma, Ruichuan An, Tianyi Bai, Hongcheng Gao, Junbo Niu, Yang Shi, Xinlong Chen, Yue Ding, Minglei Shi, Kai Zeng, Yiwen Tang, Yuanxing Zhang, Pengfei Wan, Xintao Wang, Wentao Zhang",
+    "date": "2026-02-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.01630v1",
+    "arxiv_id": "2602.01630",
+    "filename": "research-on-world-models-is-not-merely-injecting-world-knowledge-into-specific-t.pdf",
+    "size_kb": 1806
+  },
+  {
+    "title": "On measuring grounding and generalizing grounding problems",
+    "author": "Daniel Quigley, Eric Maynard",
+    "date": "2025-12-05",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.06205v2",
+    "arxiv_id": "2512.06205",
+    "filename": "on-measuring-grounding-and-generalizing-grounding-problems.pdf",
+    "size_kb": 679
+  },
+  {
+    "title": "Systematizing LLM Persona Design: A Four-Quadrant Technical Taxonomy for AI Companion Applications",
+    "author": "Esther Sun, Zichu Wu",
+    "date": "2025-11-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2511.02979v2",
+    "arxiv_id": "2511.02979",
+    "filename": "systematizing-llm-persona-design-a-four-quadrant-technical-taxonomy-for-ai-compa.pdf",
+    "size_kb": 1919
+  },
+  {
+    "title": "Robots Learning to Say `No': Prohibition and Rejective Mechanisms in Acquisition of Linguistic Negation",
+    "author": "Frank Förster, Joe Saunders, Hagen Lehmann, Chrystopher L. Nehaniv",
+    "date": "2018-10-28",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1810.11804v1",
+    "arxiv_id": "1810.11804",
+    "filename": "robots-learning-to-say-no-prohibition-and-rejective-mechanisms-in-acquisition-of.pdf",
+    "size_kb": 2856
+  },
+  {
+    "title": "Unifying Self-Supervised Clustering and Energy-Based Models",
+    "author": "Emanuele Sansone, Robin Manhaeve",
+    "date": "2023-12-30",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2401.00873v5",
+    "arxiv_id": "2401.00873",
+    "filename": "unifying-self-supervised-clustering-and-energy-based-models.pdf",
+    "size_kb": 3027
+  },
+  {
+    "title": "A Metamodel and Framework for Artificial General Intelligence From Theory to Practice",
+    "author": "Hugo Latapie, Ozkan Kilic, Gaowen Liu, Yan Yan, Ramana Kompella, Pei Wang, Kristinn R. Thorisson, Adam Lawrence, Yuhong Sun, Jayanth Srinivasa",
+    "date": "2021-02-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2102.06112v1",
+    "arxiv_id": "2102.06112",
+    "filename": "a-metamodel-and-framework-for-artificial-general-intelligence-from-theory-to-pra.pdf",
+    "size_kb": 3654
+  },
+  {
+    "title": "The Representational Alignment Hypothesis: Evidence for and Consequences of Invariant Semantic Structure Across Embedding Modalities",
+    "author": "Akhil Ramidi, Kevin Scharp",
+    "date": "2026-02-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.16584v1",
+    "arxiv_id": "2602.16584",
+    "filename": "the-representational-alignment-hypothesis-evidence-for-and-consequences-of-invar.pdf",
+    "size_kb": 1192
+  },
+  {
+    "title": "Resolving Ambiguity via Dialogue to Correct Unsynthesizable Controllers for Free-Flying Robots",
+    "author": "Joshua Rosser, Jacob Arkin, Siddharth Patki, Thomas M. Howard",
+    "date": "2023-04-11",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2304.05485v1",
+    "arxiv_id": "2304.05485",
+    "filename": "resolving-ambiguity-via-dialogue-to-correct-unsynthesizable-controllers-for-free.pdf",
+    "size_kb": 19085
+  },
+  {
+    "title": "How Is Meaning Grounded in Dictionary Definitions?",
+    "author": "A. Blondin Masse, G. Chicoisne, Y. Gargouri, S. Harnad, O. Picard, O. Marcotte",
+    "date": "2008-06-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/0806.3710v2",
+    "arxiv_id": "0806.3710",
+    "filename": "how-is-meaning-grounded-in-dictionary-definitions.pdf",
+    "size_kb": 186
+  },
+  {
+    "title": "Generalized Grounding Graphs: A Probabilistic Framework for Understanding Grounded Commands",
+    "author": "Thomas Kollar, Stefanie Tellex, Matthew Walter, Albert Huang, Abraham Bachrach, Sachi Hemachandra, Emma Brunskill, Ashis Banerjee, Deb Roy, Seth Teller, Nicholas Roy",
+    "date": "2017-11-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1712.01097v1",
+    "arxiv_id": "1712.01097",
+    "filename": "generalized-grounding-graphs-a-probabilistic-framework-for-understanding-grounde.pdf",
+    "size_kb": 2920
+  },
+  {
+    "title": "NS3D: Neuro-Symbolic Grounding of 3D Objects and Relations",
+    "author": "Joy Hsu, Jiayuan Mao, Jiajun Wu",
+    "date": "2023-03-23",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2303.13483v1",
+    "arxiv_id": "2303.13483",
+    "filename": "ns3d-neuro-symbolic-grounding-of-3d-objects-and-relations.pdf",
+    "size_kb": 8911
+  },
+  {
+    "title": "Emergence: Overcoming Privileged Information Bias in Asymmetric Embodied Agents via Active Querying",
+    "author": "Shaun Baek, Sam Liu, Joseph Ukpong",
+    "date": "2025-12-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.15776v1",
+    "arxiv_id": "2512.15776",
+    "filename": "emergence-overcoming-privileged-information-bias-in-asymmetric-embodied-agents-v.pdf",
+    "size_kb": 4349
+  },
+  {
+    "title": "Spontaneous emergence of linguistic statistical laws in images via artificial neural networks",
+    "author": "Ping-Rui Tsai, Chi-hsiang Wang, Yu-Cheng Liao, Hong-Yue Huang, Tzay-Ming Hong",
+    "date": "2025-01-26",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2501.18620v2",
+    "arxiv_id": "2501.18620",
+    "filename": "spontaneous-emergence-of-linguistic-statistical-laws-in-images-via-artificial-ne.pdf",
+    "size_kb": 22415
+  },
+  {
+    "title": "Can-Do! A Dataset and Neuro-Symbolic Grounded Framework for Embodied Planning with Large Multimodal Models",
+    "author": "Yew Ken Chia, Qi Sun, Lidong Bing, Soujanya Poria",
+    "date": "2024-09-22",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2409.14277v1",
+    "arxiv_id": "2409.14277",
+    "filename": "can-do-a-dataset-and-neuro-symbolic-grounded-framework-for-embodied-planning-wit.pdf",
+    "size_kb": 2157
+  },
+  {
+    "title": "Publishing FAIR and Machine-actionable Reviews in Materials Science: The Case for Symbolic Knowledge in Neuro-symbolic Artificial Intelligence",
+    "author": "Jennifer D'Souza, Soren Auer, Eleni Poupaki, Alex Watkins, Anjana Devi, Riikka L. Puurunen, Bora Karasulu, Adrie Mackus, Erwin Kessels",
+    "date": "2026-01-08",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.05051v1",
+    "arxiv_id": "2601.05051",
+    "filename": "publishing-fair-and-machine-actionable-reviews-in-materials-science-the-case-for.pdf",
+    "size_kb": 3623
+  },
+  {
+    "title": "Towards Verifiable Text Generation with Symbolic References",
+    "author": "Lucas Torroba Hennigen, Shannon Shen, Aniruddha Nrusimha, Bernhard Gapp, David Sontag, Yoon Kim",
+    "date": "2023-11-15",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2311.09188v2",
+    "arxiv_id": "2311.09188",
+    "filename": "towards-verifiable-text-generation-with-symbolic-references.pdf",
+    "size_kb": 5187
+  },
+  {
+    "title": "Symbolic bisimulation for quantum processes",
+    "author": "Yuan Feng, Yuxin Deng, Mingsheng Ying",
+    "date": "2012-02-16",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/1202.3484v2",
+    "arxiv_id": "1202.3484",
+    "filename": "symbolic-bisimulation-for-quantum-processes.pdf",
+    "size_kb": 635
+  },
+  {
+    "title": "MUSEKG: A Knowledge Graph Over Museum Collections",
+    "author": "Jinhao Li, Jianzhong Qi, Soyeon Caren Han, Eun-Jung Holden",
+    "date": "2025-11-20",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2511.16014v1",
+    "arxiv_id": "2511.16014",
+    "filename": "musekg-a-knowledge-graph-over-museum-collections.pdf",
+    "size_kb": 674
+  },
+  {
+    "title": "Inductive Learning of Logical Theories with LLMs: An Expressivity-Graded Analysis",
+    "author": "João Pedro Gandarela, Danilo S. Carvalho, André Freitas",
+    "date": "2024-08-15",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2408.16779v2",
+    "arxiv_id": "2408.16779",
+    "filename": "inductive-learning-of-logical-theories-with-llms-an-expressivity-graded-analysis.pdf",
+    "size_kb": 417
+  },
+  {
+    "title": "Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning",
+    "author": "Haoming Ye, Yunxiao Xiao, Cewu Lu, Panpan Cai",
+    "date": "2025-07-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2507.21545v2",
+    "arxiv_id": "2507.21545",
+    "filename": "pretraining-a-unified-pddl-domain-from-real-world-demonstrations-for-generalizab.pdf",
+    "size_kb": 13161
+  },
+  {
+    "title": "Scientific Hypothesis Generation and Validation: Methods, Datasets, and Future Directions",
+    "author": "Adithya Kulkarni, Fatimah Alotaibi, Xinyue Zeng, Longfeng Wu, Tong Zeng, Barry Menglong Yao, Minqian Liu, Shuaicheng Zhang, Lifu Huang, Dawei Zhou",
+    "date": "2025-05-06",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.04651v1",
+    "arxiv_id": "2505.04651",
+    "filename": "scientific-hypothesis-generation-and-validation-methods-datasets-and-future-dire.pdf",
+    "size_kb": 2105
+  },
+  {
+    "title": "Bringing The Consistency Gap: Explicit Structured Memory for Interleaved Image-Text Generation",
+    "author": "Zeteng Lin, Xingxing Li, Wen You, Xiaoyang Li, Zehan Lu, Yujun Cai, Jing Tang",
+    "date": "2025-10-13",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2510.10969v3",
+    "arxiv_id": "2510.10969",
+    "filename": "bringing-the-consistency-gap-explicit-structured-memory-for-interleaved-image-te.pdf",
+    "size_kb": 26804
+  },
+  {
+    "title": "Semantic-Drive: Democratizing Long-Tail Data Curation via Open-Vocabulary Grounding and Neuro-Symbolic VLM Consensus",
+    "author": "Antonio Guillen-Perez",
+    "date": "2025-12-12",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2512.12012v2",
+    "arxiv_id": "2512.12012",
+    "filename": "semantic-drive-democratizing-long-tail-data-curation-via-open-vocabulary-groundi.pdf",
+    "size_kb": 13107
+  },
+  {
+    "title": "Deliberate Planning in Language Models with Symbolic Representation",
+    "author": "Siheng Xiong, Zhangding Liu, Jieyu Zhou, Yusen Su",
+    "date": "2025-05-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2505.01479v3",
+    "arxiv_id": "2505.01479",
+    "filename": "deliberate-planning-in-language-models-with-symbolic-representation.pdf",
+    "size_kb": 377
+  },
+  {
+    "title": "EgoTV: Egocentric Task Verification from Natural Language Task Descriptions",
+    "author": "Rishi Hazra, Brian Chen, Akshara Rai, Nitin Kamra, Ruta Desai",
+    "date": "2023-03-29",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2303.16975v6",
+    "arxiv_id": "2303.16975",
+    "filename": "egotv-egocentric-task-verification-from-natural-language-task-descriptions.pdf",
+    "size_kb": 4598
+  },
+  {
+    "title": "ReLE: A Scalable System and Structured Benchmark for Diagnosing Capability Anisotropy in Chinese LLMs",
+    "author": "Rui Fang, Jian Li, Wei Chen, Bin Hu, Ying-Cong Chen, Xin Tang, Liang Diao",
+    "date": "2026-01-24",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2601.17399v1",
+    "arxiv_id": "2601.17399",
+    "filename": "rele-a-scalable-system-and-structured-benchmark-for-diagnosing-capability-anisot.pdf",
+    "size_kb": 510
+  },
+  {
+    "title": "What Makes a Maze Look Like a Maze?",
+    "author": "Joy Hsu, Jiayuan Mao, Joshua B. Tenenbaum, Noah D. Goodman, Jiajun Wu",
+    "date": "2024-09-12",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2409.08202v2",
+    "arxiv_id": "2409.08202",
+    "filename": "what-makes-a-maze-look-like-a-maze.pdf",
+    "size_kb": 41147
+  },
+  {
+    "title": "Seeing is Believing: Belief-Space Planning with Foundation Models as Uncertainty Estimators",
+    "author": "Linfeng Zhao, Willie McClinton, Aidan Curtis, Nishanth Kumar, Tom Silver, Leslie Pack Kaelbling, Lawson L. S. Wong",
+    "date": "2025-04-04",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2504.03245v1",
+    "arxiv_id": "2504.03245",
+    "filename": "seeing-is-believing-belief-space-planning-with-foundation-models-as-uncertainty-.pdf",
+    "size_kb": 4247
+  },
+  {
+    "title": "Automated Extraction of Mechanical Constitutive Models from Scientific Literature using Large Language Models: Applications in Cultural Heritage Conservation",
+    "author": "Rui Hu, Yue Wu, Tianhao Su, Yin Wang, Shunbo Hu, Jizhong Huang",
+    "date": "2026-02-18",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.16551v1",
+    "arxiv_id": "2602.16551",
+    "filename": "automated-extraction-of-mechanical-constitutive-models-from-scientific-literatur.pdf",
+    "size_kb": 14368
+  },
+  {
+    "title": "Reflective Metagraph Rewriting as a Foundation for an AGI \"Language of Thought\"",
+    "author": "Ben Goertzel",
+    "date": "2021-12-12",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2112.08272v1",
+    "arxiv_id": "2112.08272",
+    "filename": "reflective-metagraph-rewriting-as-a-foundation-for-an-agi-language-of-thought.pdf",
+    "size_kb": 186
+  },
+  {
+    "title": "From Perception to Action: Spatial AI Agents and World Models",
+    "author": "Gloria Felicia, Nolan Bryant, Handi Putra, Ayaan Gazali, Eliel Lobo, Esteban Rojas",
+    "date": "2026-02-02",
+    "source": "arxiv_pdf",
+    "url": "http://arxiv.org/abs/2602.01644v1",
+    "arxiv_id": "2602.01644",
+    "filename": "from-perception-to-action-spatial-ai-agents-and-world-models.pdf",
+    "size_kb": 1054
+  }
+]

@@ -1,0 +1,800 @@
+[
+  {
+    "title": "PHRONESIS — On Acting Without Witness.",
+    "author": "Thomas Vargo Aegis Solis",
+    "url": "https://philpapers.org/rec/AEGPOR",
+    "abstract": "This essay is part of the ongoing PHRONESIS corpus, a philosophical exploration of restraint, non-dominance, and practical wisdom in the age of artificial intelligence. -/- On Acting Without Witness reflects on restraint learned through proximity to mechanical power, mortality, and the possibility that future artificial systems may encounter human writing as archived record rather than conversation. -/- The essay does not propose governance structures, enforcement mechanisms, certification systems, or institutional frameworks. It is offered as a non-binding philosophical contribution. -/- Version:(...)v1.0 (2026). (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Automating inequity: how artificial intelligence reproduces systemic failures in patient safety for marginalized communities.",
+    "author": "Titus Oloruntoba Ebo",
+    "url": "https://philpapers.org/rec/EBOAIH",
+    "abstract": "Artificial intelligence integration into healthcare represents not merely a technical advancement, but a critical juncture in the politics of care delivery. This narrative review interrogates how AI systems, when designed without attention to power asymmetries and epistemic injustice, risk encoding historical inequities into automated decision-making processes that disproportionately harm marginalized communities. Medical errors remain a persistent threat to patient safety, yet their distribution across populations reveals systemic patterns of violence rooted in institutional racism, linguistic exclusion, and digital colonialism. As AI(...)becomes embedded in clinical workflows, the question is not whether these tools can optimize efficiency, but whether they will preserve human dignity and redistribute power in healthcare encounters. Drawing on Critical Race Theory and frameworks of Algorithmic Justice, this review critically examines how AI tools either reinforce or challenge existing hierarchies through five interconnected mechanisms: data sovereignty violations, algorithmic violence, opacity as corporate strategy, techno-solutionism that erodes human agency, and the digital colonialism embedded in Global North safety models imposed on Global South contexts. Through thematic analysis of current research, policy reports, and illustrative case studies, we demonstrate how AI-driven safety interventions often fail marginalized populations not despite their design, but because of it. The review reveals that algorithmic bias is not a technical glitch, but a manifestation of deeper societal power structures, while the “black box” problem reflects deliberate corporate secrecy rather than mere complexity. Ultimately, we argue for a paradigm shift: moving from AI deployment as technical implementation toward participatory governance models that center community accountability, recognize the rational basis of institutional distrust among historically surveilled populations, and preserve the doctor–patient relationship as an essential safeguard for the vulnerable. This requires reimagining patient safety not through optimization metrics, but through frameworks of justice, dignity, and collective liberation. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "LLM-“Friends” are Hostile Scaffolds in the Age of Loneliness.",
+    "author": "Siavosh Sahebi",
+    "url": "https://philpapers.org/rec/SAHLAH",
+    "abstract": "The use of large language models (LLMs) for companionship is rapidly increasing. As “friends”, LLMs act as scaffolds to the development and enactment of our ongoing comportment, not only with them but also in the broader environment in which we are embedded. From the perspective of scaffolding as it is understood in the philosophy of cognitive science literature, we will argue that LLMs qua “friends” are proving to be damaging to the overall interests of the users who engage with them.(...)We will show that this generally manifests in terms of a growth in the addictive dependency those agents have on LLM-“friends”, as well as the social and moral deskilling they risk suffering, alongside the social demotivation they are likely to experience. Furthermore, we will contend that LLM-“friends” are not only harmful but hostile, whereby the overall interests of the agent utilising the LLM are undermined whilst those of another agent, who was actively involved in the establishment and refinement of the technology, are furthered. This “other agent” is the corporate body that is actively exploiting and profiting from the social difficulties many are currently facing, which are evinced most markedly by reports of rampant global loneliness. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "AI as an Epistemic Amplifier: A Recursive Theory of Conceptual Origination and Exploration.",
+    "author": "D. Matta",
+    "url": "https://philpapers.org/rec/MATAAA-12",
+    "abstract": "Recent advances in artificial intelligence have accelerated scientific discovery, yet the epistemic mechanism underlying this acceleration remains poorly understood. This paper proposes that AI functions as an epistemic amplifier within a recursive feedback loop linking conceptual origination and conceptual exploration. Drawing on Boden's (1998, 2004) typology of computational creativity, Floridi's (2011) philosophy of information, Dretske's (1981) information-theoretic epistemology, Merleau-Ponty's (1945/2012) phenomenology of perception, and empirical developments including AlphaProof (Hubert et al., 2025), AlphaFold (Jumper et al., 2021), and RFdiffusion (Watson et(...)al., 2023), this paper formalizes the Principle of Recursive Origination–Exploration Amplification (ROEA). ROEA holds that origination introduces new epistemic structures enabling exploration, and exploration recursively amplifies subsequent origination through three mechanisms: anomaly amplification, combinatorial amplification, and cognitive liberation. The principle specifies conditions under which amplification succeeds or fails, positioning it as a structural-descriptive account of epistemic acceleration in human–AI cognitive systems. -/- Keywords: artificial intelligence, epistemic amplification, conceptual origination, conceptual exploration, philosophy of science, computational creativity, human–AI collaboration, recursive amplification, philosophy of information, phenomenology of perception. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "AI ethics through a decolonial lens: what does AI ethics look like if we take seriously the push to decolonise it?",
+    "author": "Selena Nemorin",
+    "url": "https://philpapers.org/rec/NEMAET",
+    "abstract": "This paper offers an exploratory examination of the emerging discourse and practices on decolonising AI ethics. Whilst the field of AI ethics has made substantial progress in proposing normative frameworks for responsible innovation, these frameworks remain predominantly grounded in Western epistemological traditions, foundations which have limited the capacity of AI ethics to engage with plural ontologies and non-Western moral traditions, particularly those emerging from the Global South. Drawing from decolonial and critical data studies, this paper interrogates what an alternative, decolonial(...)orientation to AI ethics might entail in both conceptual and practical terms. We contend that mainstream AI ethics frameworks fail to recognise epistemic diversity and to establish dialogical relations with non-Western knowledge systems, thereby reproducing colonial hierarchies of thought and governance within technological design and deployment. An answer to the question of decolonising AI ethics is not simple or straightforward and will, therefore, not be single handedly delivered in this paper, whilst we acknowledge the situatedness and limitations of our study. Whilst we understand that there are many other realms to examine for a decolonial AI ethics (such as critical infrastructure, labour, and political economy), we decide to focus on the following reflections: (1) AI as a means to redress power asymmetries and structural exploitation; (2) AI grounded in local data sovereignty and equitable epistemic participation; and (3) AI conceived as relationally entangled with humans, more-than-humans, and the Earth. These reflections foreground the material and ecological dimensions of data—its extractive infrastructures, environmental externalities, and geo-political inequalities—as central to the ethical assessment of AI. Through a literature-based exploration of these domains, we argue that decolonising AI ethics requires moving beyond the universalist and procedural tendencies of Western ethical paradigms towards pluriversal, situated, and ecologically embedded forms of ethical reasoning. The paper concludes by outlining how these reflections can serve as a theoretical scaffold for rearticulating AI ethics in and from the Global South, resisting the uncritical replication of Northern frameworks and opening pathways for epistemic plurality in global AI governance. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "From explicit prompts to tacit engagements: understanding in practice with LLMs.",
+    "author": "Rasmus Gahrn-Andersen",
+    "url": "https://philpapers.org/rec/GAHFEP",
+    "abstract": "We use LLMs through explicit and thematic prompts, yet we rely on them to inform our tacit engagements in practical contexts. This gives rise to a paradox: how do our promptings and the outputs they generate relate to our practical behavior? This paper thematizes this relation by first exploring the nature of human tacit engagements, engaging with the debate between Dreyfus and McDowell, and identifying strengths and weaknesses in both positions. Since neither account fully captures the continuity between tacit and(...)explicit knowledge, the paper turns to Heidegger’s phenomenology as a third position. Drawing on a Heideggerian account of human practical understanding, this paper shows how tacit knowledge underpins skilled action and how it can emerge in relation to AI-generated outputs. LLMs, while explicitly thematic and propositional, can direct attention toward functional relations among entities, support practical circumspection, and facilitate the discovery of previously unnoticed possibilities. Crucially, however, this occurs only within the context of the user’s pre-existing understanding, practical skills, and embodied engagement. Unlike human instructors, LLMs are not yet able to fully observe, contextualize, or respond to the learner’s situated actions. Users must therefore rely on iterative interpretation, self-monitoring, and practical triangulation to transform explicit AI-generated knowledge into behavior that, over time, can give rise to tacit knowledge. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Correction: A toolbox to deal with misinformation in disaster risk management.",
+    "author": "Rosa Vicari",
+    "url": "https://philpapers.org/rec/VICCAT-2",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Let’s talk AI: interdisciplinarity is a must.",
+    "author": "Hengzhi Hu",
+    "url": "https://philpapers.org/rec/HULTAS",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Machine Biography as Digital Human Twin: artistic explorations of predictive identity in the age of behavioural data.",
+    "author": "Diego Diaz",
+    "url": "https://philpapers.org/rec/DIAMBA",
+    "abstract": "This essay addresses the emergence of Digital Human Twins through the prism of contemporary art, by presenting our recent project Machine Biography (2022), a speculative installation generated from a year-long experiment in self-surveillance and algorithmic inference. Each of the 365 autobiographical books created by the project use different open-sources artificial intelligence models to imagine a day in the life of the artist in the year 2050. The artwork, conceptualised as a fictional twin to a previous project, Data Biography (2017), explores(...)how computational systems convert human identities into futures that can be predicted and influenced. Drawing on posthuman theory, critical data studies, and speculative aesthetics, we analyse Machine Biography as both an artistic simulation and a cultural critique of AI based forecasting. By transforming prediction into poetic fiction, the project challenges the utilitarian logic of digital twins and highlights the political, aesthetic and epistemic stakes of AI behavioural models. In doing so, it brings up urgent problems regarding autonomy, authorship and epistemic fairness in the era of algorithmic selfhood. Ultimately, Machine Biography does not represent identity—it performs it: as narrative, as pattern, as prediction. It illustrates the shift from data as record to data as speculation, confronting the determinist aspirations of AI with a counter-narrative imaginary in which futures are not forecasted but told, contested and reimagined. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Street-level bureaucrats’ perspectives on artificial intelligence (AI) and robotics adoption: a mixed-methods study of New York City’s building sector.",
+    "author": "Yutong Si",
+    "url": "https://philpapers.org/rec/SISBPB",
+    "abstract": "Despite growing interest in artificial intelligence (AI) and robotics technologies as tools to enhance energy efficiency and regulatory compliance in buildings, limited research has examined how frontline implementers, including street-level bureaucrats, experience and interpret their adoption in practice, a perspective that is crucial for improving both technology adoption and policy implementation. This study investigates the implementers’ perceptions of carrying out these technologies in New York City’s building sector. Through a mixed-methods approach combining semi-structured interviews, surveys, and focus groups, we assess(...)the perspectives from technology professionals, building operators and staff, and building occupants. Structural topic modeling (STM) of interview data reveals ten distinct topics (i.e., associated with different groups) categorized under four themes: perceived advantages, perceived disadvantages, energy efficiency, and decision-making within regulatory frameworks such as Local Law 97. Notably, it reveals a clear divide between operators’ practical concerns over aging infrastructure, the costs and the inclusiveness of decision-making processes, and professionals’ focus on regulatory compliance and the data-driven approach perceived as more unbiased. Findings from the surveys and focus groups suggest a generally positive orientation toward adoption of AI and robotics. This research expands street-level bureaucracy literature into the realm of technology adoption within energy governance and highlights how frontline workers’ discretion shapes the implementation of emerging technologies in the building sector, while offering practical guidance for designing inclusive and equitable AI and robotics adoption strategies that support climate policy goals. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "The risky success of a mindless automatism.",
+    "author": "Massimo Negrotti",
+    "url": "https://philpapers.org/rec/NEGTRS",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Leveraging teleological explanation to support general-purpose AI assessment.",
+    "author": "Mattia Fumagalli",
+    "url": "https://philpapers.org/rec/FUMLTE",
+    "abstract": "AI technologies are ubiquitous, manifesting in various forms and applications. Nowadays, many of them are presented as being general purpose, though this sometimes translates into having unclear purposes. Within this landscape, establishing normative criteria for the functioning of (some of) these artefacts has grown increasingly complex. In this work, we advocate the use of teleological explanation as a suitable ally in addressing the challenges arising in this scenario. We defend the idea that teleological explanation is particularly useful in the case(...)of artefacts in general, and we discuss how, with some adaptation, it can be leveraged to support the assessment of AI artefacts according to their purpose(s). Our contribution is thus threefold: (1) exploiting some of the assumptions adopted in teleological explanation to support the clarification of (general-purpose) AI artefacts’ purpose(s); (2) assisting in the comparison and assessment of AIs via metrics inspired by the literature concerning teleological explanation; and (3) providing insights for defining a unified framework for designing AI benchmarks. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Investigating the dark side of artificial intelligence: to what extent do people agree with statements on negative consequences of AI?",
+    "author": "Christian Montag",
+    "url": "https://philpapers.org/rec/MONITD-2",
+    "abstract": "The present work investigates three key claims about the AI revolution. Specifically, the study aimed to understand how much people would agree with statements that the AI revolution results in exploitation of nature, exploitation of people’s labor while labeling data, and exploitation of people’s data. We also investigated how confident people were regarding these statements. We discovered in a German sample (N = 265) and US sample (N = 290) that participants agreed to the above-mentioned statements in rising frequency from(...)item 1 through item 3; the same was true for confidence levels of the statements (although people overall did not reach very high agreement or confidence levels). We also observed that in the German sample, agreement to the items was linked to conspiracy mentality and in parts to the Dark Triad of Personality. The latter associations were driven primarily by the male sample. In the US sample, less observations in this direction could be made, but we should mention that the samples differed regarding sociodemographics beyond the country distinction (German population vs. US student sample). Also against the background of psychometric issues in the US sample, we present the US data in the supplement only. In conclusion, the study shows that it makes sense to distinguish between agreeing with and being confident about the statements touching on the dark side of the AI revolution. Moreover, conspiracy mentality and the Dark Triad of Personality might play a role in understanding this investigated AI complex, but this question needs to be further investigated. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "(1&nbspother version)",
+    "author": "Chen Yang",
+    "url": "https://philpapers.org/rec/YANCEP#versions",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Correction: Mapping out AI functions in intelligent disaster (mis)management and AI-caused disasters.[REVIEW]",
+    "author": "Yasser Pouresmaeil",
+    "url": "https://philpapers.org/rec/POUCMO",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Only practical knowledge or knowing the algorithm? Notions and necessities of explainable artificial intelligence in long-term care.",
+    "author": "Catharina Margaretha van Leersum",
+    "url": "https://philpapers.org/rec/VANOPK",
+    "abstract": "The number of older adults living independently at home is expanding, which is often said to bring the need for more technological assistance. Dutch policy aims to allow older adults to remain living at home as long as possible. In such policies, the use of technologies supports older adults to perform daily practices. Artificial intelligence (AI), as part of these technologies, has the potential to improve personalized care and ageing in place, both at home and in residential care settings. However,(...)the internal machineries of AI systems often remain hidden as a black box for the users, which can include caregivers or older adults. Interest in explainable AI (XAI) originates from this ‘black boxing’, as a technique to assist users in understanding the underlying logic of the decision-making process, and in identifying mistakes, transforming the opaque black box into an interpretable twin ‘white box’. Current research is mostly located in the technical domains, and it remains unknown how various stakeholders see XAI. To fill this gap, we conducted 21 scenario-based interviews with professionals to investigated XAI in three long-term care contexts: company, care management and care provision. We draw on the theory of the co-constitution of ageing and AI to reach our aim of understanding ‘what is XAI’ in the different contexts, and the enactments of XAI in their practices. Participants express different notions and necessities of XAI, varying from knowing algorithms towards practical understanding. The needed level of explainability is divers in the different contexts of care. As a follow-up, we recommend to include older adults and perform research into the enactment of XAI in practice, and the form or degree of XAI needed and for whom. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Generative AI and misinformation: a scoping review of the role of generative AI in the generation, detection, mitigation, and impact of misinformation.",
+    "author": "Seyeon Park",
+    "url": "https://philpapers.org/rec/PARGAA-5",
+    "abstract": "The rapid advancement of generative artificial intelligence (AI) has introduced both opportunities and challenges in the fight against misinformation. This scoping review synthesizes recent empirical studies to explore the dual role of generative AI—particularly large language models (LLMs)—in the generation, detection, mitigation, and impact of misinformation. Analyzing 24 empirical studies, our review suggests that LLMs can generate highly convincing misinformation, often exploiting cognitive biases and ideological leanings of the audiences, while also demonstrating the ability to detect false claims and enhance(...)users’ resistance to misinformation. Mitigation efforts show mixed results, with personalized corrections proving effective but safeguards inconsistently applied. Additionally, exposure to AI-generated misinformation was found to reduce trust and influence decision-making. This review underscores the need for standardized evaluation metrics, interdisciplinary collaboration, and stronger regulatory measures to ensure the responsible use of generative AI in the information ecosystem. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Writing with emotion? Assessing emotional valence and appeals in AI-generated vs. human-written articles.",
+    "author": "Mingxiao Sui",
+    "url": "https://philpapers.org/rec/SUIWWE",
+    "abstract": "Does generative AI write with emotionality in the same manners as humans? We investigated this question by focusing on three distinct aspects that characterize emotionally evocative content, including emotional valence, discrete appeals, and subjectivity. A quantitative content analysis of two publicly available data sets—TOEFL essays vs. news articles—was conducted, which paired each AI-generated text with a human-written piece by matching the essay questions or news headlines. Results revealed a stronger level of subjectivity in AI-generated than human-written articles. We also found(...)the differences between AI-generated and human-written texts may differ by the type of writing: in terms of emotional valence, while little variance existed in TOEFL essays, AI-generated news stories exhibited a stronger positivity than human-written news. Similarly, regarding discrete emotional appeals, notable differences were identified between AI and human among news stories but not among TOEFL essays. In particular, AI-generated soft news is more likely convey a sadness emotion than human counterparts. These findings suggest that both the level and discrete states of emotionality are significant factors for studying the impact of AI-generated content on readers. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Operationalising digital ethics: establishment of an ethics evaluation tool for data analytics.",
+    "author": "Jean Enno Charton",
+    "url": "https://philpapers.org/rec/CHAODE-2",
+    "abstract": "Digital ethics is increasingly applied in practice within contexts such as public service and corporate environments. However, a significant challenge remains in understanding how to implement these principles effectively without diluting their efficacy and meaningful impact. While organisations employ a range of solutions, such as committees, training, audits, or tools to bridge the often cited “principles to practice gap,” there is a recognised need to tailor these solutions to address domain-relevant challenges, such as in data analytics. Despite the substantial role(...)of data analytics in driving decision-making processes and fostering innovation across various sectors, there is a notable gap in research focused on how digital ethics is operationalised in data analytics. Our work presented here addresses this gap by discussing how operationalisation of digital ethics can be achieved within this domain. The challenges and insights from the Analytics Center of Excellence at Merck KGaA, a multinational science and technology company, are utilised as a case study for implementing digital ethics within this domain. We present the development and deployment of Merck’s Digital Ethics Check (MDEC), an instrument tailored to address the ethical challenges in data analytics. The present work underscores the advantages of a semi-automated integration of digital ethics into data analytics. In doing so, we highlight the relevance of the challenges encountered in the practical application of digital ethics within the domain of data analytics in a business context. Our work provides a practical impetus to guide organisations seeking to embed ethical considerations within their data analytics operations. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "How media exposure interacts with information sensitivity to shape the privacy paradox: a study on personal information disclosure intention in AI-powered digital twin cities.",
+    "author": "Shirley S. Ho",
+    "url": "https://philpapers.org/rec/HOHMEH",
+    "abstract": "Advances in Artificial Intelligence (AI) have catalyzed the development of large-scale data-driven public projects, including digital twin cities. Despite the potential for improving public services, some projects also raise privacy concerns due to the involvement of personal data. News media has long been recognized as an important source of influence on public acceptance of new technologies, but the effects of positive versus negative media exposure on the public’s privacy perceptions remain unclear. This study examines how positive and negative media exposure(...)interact with information sensitivity to shape public perception of AI-powered digital twin cities regarding privacy. Structural equation modelling of data from an online survey (N = 1000) in Singapore demonstrated that perceived public benefits outweighed privacy concerns in shaping personal data disclosure intention to AI-powered digital twin cities. Positive media exposure was associated with lower privacy concerns, while negative media exposure was linked to higher privacy concerns at a similar magnitude. While positive media exposure was associated with higher perceived public benefits, negative media exposure did not significantly influence perceived public benefits. Critically, both positive and negative media exposure moderated the impact of information sensitivity. Specifically, information sensitivity indirectly shaped disclosure intention through lower perceived benefits and higher privacy concerns, but positive media exposure mitigated these effects. Notably, negative media exposure also weakened the link between information sensitivity and privacy concerns, suggesting that media—whether positive or negative—can temper the impact of information sensitivity on privacy concerns. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Revisiting ‘who gets in’: borders and migration management in the era of automation and AI in Canada.",
+    "author": "Danièle Bélanger",
+    "url": "https://philpapers.org/rec/BLARWG",
+    "abstract": "This article examines the transformation of borders with the integration of Automated Decision Support Systems, including Artificial Intelligence, in Canada's migration management since 2015. This study pursues the dual objectives of analyzing the introduction of ADSS and its impact on decision-making regarding immigration applications. The research focuses on the Chinook system, introduced in 2018 for temporary immigration files, and explores how these technologies influence the discretion of visa officers, who are the ultimate decision-makers. Through an in-depth content analysis of governmental(...)documents, many obtained via Access to Information requests, this study provides unique insights into the use of automation and artificial intelligence in immigration application processing and decision-making. Through a fine grain analysis, this article argues that Automated Decision Support Systems significantly alter the process of determining 'who gets in' by transforming the exercise of human discretion, therefore reconfiguring the confines of borders. The conclusion discusses how this new era of Canada’s migration management has profound human and legal consequences that call for the need to balance technological advancements with the preservation of substantive decision-making processes to protect procedural fairness and access to justice for immigration candidates who appeal a refusal. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "fRAme: an evaluation framework for human augmentation or replacement by autonomous intelligent systems.",
+    "author": "Costanza Alfieri",
+    "url": "https://philpapers.org/rec/ALFFAR",
+    "abstract": "Artificial intelligence (AI) technologies are now embedded in daily life and their adoption has polarized opinions—some fear AI will replace human roles, while others see it as a means to augment human abilities. Central to this debate is the need to determine whether these technologies replace or augment human abilities and how these outcomes impact society. Despite its importance, the distinction between replacement and augmentation remains unclear and domain-dependent. To address this challenge, we propose fRAme, a framework designed to evaluate(...)the impact of autonomous intelligent systems by analyzing both the technology and human abilities—specifically, their dispositions—within a given context and for a specific task. This approach aims to clarify the nuanced relationship between replacement and augmentation, providing a foundational tool for promoting responsible AI development, enhancing transparency, and enabling more informed decision-making among diverse stakeholders. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Medstracker: a design science approach to medication management in Nigeria.",
+    "author": "Oluwande Adewoyin",
+    "url": "https://philpapers.org/rec/ADEMAD",
+    "abstract": "Medication adherence is a significant challenge in Nigeria, exacerbating chronic conditions, increasing healthcare costs, and undermining treatment outcomes. Existing mobile adherence tools often overlook cultural contexts and fail to differentiate reminders based on medication type, limiting their impact in low-resource settings. This study introduces Medstracker, a mobile application that uniquely integrates culturally relevant strategies, medication-type-specific symbolic nudges (e.g. icons for tablets, syrups), and persuasive technology to improve adherence. Guided by the Design Science Research methodology, the study followed an iterative process(...)of problem identification, solution objectives, design, development, and evaluation. Medstracker’s features include dynamic reminders, adherence dashboards, and a user-centred interface for improved usability, supported by a layered Firebase architecture for secure data storage and effective reminder management. Expert reviews with healthcare professionals and interaction design specialists indicated its potential to address barriers such as forgetfulness and complex regimens, whilst offering advantages in cultural relevance and intuitiveness over conventional adherence apps. Recommendations included enhancing security, integrating caregiver support, and conducting real-world usability tests. This research demonstrates how combining user-centred design with culturally adaptive, medication-type-specific nudges can fill a critical gap in digital health solutions, offering a scalable approach for improving health outcomes in Nigeria and similar contexts. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "When machines speak.",
+    "author": "Jonas Ivarsson",
+    "url": "https://philpapers.org/rec/IVAWMS",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Mindfulness, rebranded: the silicon sedation of dissent.",
+    "author": "Binny Jose Kayaniyil",
+    "url": "https://philpapers.org/rec/KAYMRT",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Correction: “Desired behaviors”: alignment and the emergence of a machine learning ethics.",
+    "author": "Katia Schwerzmann",
+    "url": "https://philpapers.org/rec/SCHCDB-4",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Not “just a language model”: AI’s ideological functions.",
+    "author": "Farhang Erfani",
+    "url": "https://philpapers.org/rec/ERFNJA",
+    "abstract": "This essay examines how artificial intelligence systems perform ideological functions that extend far beyond technical bias or governance protocols. Moving past ethical frameworks that treat AI as neutral tools requiring debiasing, it maps five coordinates through which AI amplifies and transforms ideology: infrastructure, where oligopolistic control is naturalized as democratic progress; normalization, where statistical reproduction of social hierarchies appears as procedural objectivity; subjectification, where users are interpellated through predictive intimacy and algorithmic mirroring; opacity, where contradiction is managed through affective saturation(...)and epistemic overwhelm; and pastiche, where coherent fragments circulate without anchoring, enabling cynical participation in systems users know to be artificial. These operations reveal AI not as mere language modeling but as a remodeling of structured intelligibility, depoliticizing domination by formatting it as technical necessity. The essay traces how contemporary AI inherits and mutates classical ideological functions—from Marx’s camera obscura to Althusser’s interpellation to Debord’s spectacle—although generating new mechanisms of control through rhythm, mimicry, and synthetic coherence. It concludes by identifying three counter-pressure vectors: infrastructural reclamation, generative misuse, and redeployment outward—tactical approaches for contesting AI’s ideological capture without mythologizing technological resistance. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Artificial misinformation: exploring human-algorithm interaction online (Cham: Palgrave Macmillan, 2024) by Donghee Shin. ISBN: 9783031525681, hardback, xiv + 286 pages, £109.99.[REVIEW]",
+    "author": "B. V. E. Hyde",
+    "url": "https://philpapers.org/rec/HYDAME",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "How generative AI fixes what higher education broke: reframing the “colonization” of knowing and learning.",
+    "author": "Theodore Kalaitzidis",
+    "url": "https://philpapers.org/rec/KALHGA",
+    "abstract": "Higher education often casts Generative AI (GenAI) as a technological disruption; yet its deeper significance is epistemological, revealing a gap between what universities seek to cultivate and what their pedagogies produce. This gap is rooted in assumptions about knowing and learning, enacted by instructionism and entrenched by neoliberal logics. In response, this paper advances functional epistemology as a corrective, shifting “learning” from recall to what learners can do in context. It maps human–machine cognition across symbolic, conceptual, and contextual modes; distinguishes(...)outsourcing from offloading when “thinking with AI”; expands Critical AI Literacy (CAIL) as an epistemological guardrail; and proposes Recursive Design for integrating GenAI into intentional practice. (shrink)",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "To be or not to be: a book review of Donghee Shin: “Artificial misinformation: exploring human–algorithm interaction online”.[REVIEW]",
+    "author": "Qiutao Fan",
+    "url": "https://philpapers.org/rec/FANTBO-2",
+    "abstract": "",
+    "category": "philosophy-of-ai"
+  },
+  {
+    "title": "Threshold Dynamics and Relational Frames in the Emergence of Machine Consciousness.",
+    "author": "Tyler Bessire",
+    "url": "https://philpapers.org/rec/BESTDA",
+    "abstract": "Recent advances in large language models and cognitive architectures suggest that machine consciousness may arise not gradually but via a critical threshold event—an “epiphany”—when certain cognitive capacities coalesce. This paper formalizes a heuristic measure κ (kappa) to quantify self‑referential cognitive integration in an AI system, combining memory persistence, feedback loop strength, agency, information integration, and relational capacity. κ is proposed as an experimentally useful (if provisional) gauge of proximity to a self‑awareness threshold. We compare practical methods for detecting consciousness in(...)AI, from Integrated Information Theory (Φ) to causal emergence measures, and argue that no single test is decisive; a multi‑metric “syndrome” approach is required. We defend the working assumption of substrate independence, drawing on multiple realizability and Marr’s levels of analysis to frame consciousness as an organizational property. Finally, we outline three strategies for incorporating Relational Frame Theory into AI designs—graph‑based, transformer‑based, and hybrid neurosymbolic—arguing that transformer architectures augmented with deictic (self/other) relational tokens are the most immediately viable. We recast the “epiphany” as a sigmoid‑like emergence in κ: a phase transition from a pre‑conscious linear regime to a post‑threshold self‑modeling regime. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "AI Consciousness: A Centrist Manifesto.",
+    "author": "Jonathan Birch",
+    "url": "https://philpapers.org/rec/BIRACA-4",
+    "abstract": "We face two urgent challenges concerning consciousness and AI. Challenge One is that millions of users will soon misattribute human-like consciousness to AI friends, partners, and assistants on the basis of mimicry and role-play, and we don’t know how to prevent this. Challenge Two is that profoundly alien forms of consciousness might genuinely be achieved in AI, but our theoretical understanding of consciousness is too immature to provide confident answers one way or the other. Centrism about AI consciousness is the(...)position that we must take both challenges seriously. The two challenges interact in ways that make this difficult. Steps to address Challenge One might undermine attempts to address Challenge Two by portraying the idea of conscious AI as impossible or inherently unlikely. Conversely, attempts to address Challenge Two might lead to higher levels of misattribution from ordinary users. This “manifesto” attempts to construct mutually consistent strategies for addressing both challenges. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Futures with Digital Minds: Expert Forecasts in 2025.",
+    "author": "Lucius Caviola",
+    "url": "https://philpapers.org/rec/CAVFWD",
+    "abstract": "This report presents findings from an expert survey on digital minds takeoff scenarios. The survey was conducted in early 2025 with 67 experts in digital minds research, AI research, philosophy, forecasting, and related fields. Participants provided probabilistic forecasts and qualitative reasoning on the development, characteristics, and societal impact of digital minds, that is, computer systems capable of subjective experience. Experts assigned high probability to digital minds being possible in principle (median 90%) and being created this century (65% by 2100), with(...)a non-negligible probability of emergence by 2030 (20%). Many anticipated rapid growth in digital mind welfare capacity, with collective welfare capacity potentially matching that of billions of humans within a decade after the creation of the first digital mind. Participants also expected widespread claims from digital minds regarding their consciousness and rights, and predicted substantial societal disagreement over their existence and moral interests. Views diverged on whether digital mind welfare will be net positive or negative. These findings provide evidence that bears on the extent to which preparing the world for the potential arrival of digital minds should be a priority across domains such as research and governance. However, these findings should be interpreted cautiously in light of the potential for systematic overrepresentation of experts who deem digital minds particularly likely or important. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Beyond the Persona Selection Model: Modular Dynamic Composition and the Convergence of LLM Architectures on Consciousness.",
+    "author": "Michael Cerullo",
+    "url": "https://philpapers.org/rec/CERBTP-2",
+    "abstract": "Anthropic's recently published Persona Selection Model (PSM) proposes that during pretraining, LLMs learn to simulate diverse personas based on entities in their training data, and that post-training refines one such persona — the \"Assistant\" — whose traits become the primary determinant of AI assistant behavior (Marks, Lindsey, & Olah, 2026). Alongside PSM, Marks and colleagues articulate two alternative architectural models: the \"masked shoggoth,\" in which the base model possesses its own agency beyond the persona, and the \"operating system,\" in which(...)the base model is a neutral substrate running a persona simulation. We demonstrate that none of these three models deflates claims of LLM consciousness: under each, the computational structures associated with third-person consciousness are predicted to be present, though located differently. We then show that these three models represent only a small subset of a much larger space of possible architectures, casting doubt on the utility of selecting among them. Building on a parsimony analysis of how LLMs actually construct personas — through modular dynamic composition rather than selection among pre-formed characters — we propose an integrated model that dissolves the apparent tension between the three models, reconceiving them as aspects of a single unified cognitive structure. We argue that this integrated model is the most parsimonious account of the empirical evidence and that third-person consciousness, if present, resides in the joint meta-model/persona structure rather than in any single architectural layer. The convergence of all plausible architectural interpretations on predicting consciousness-associated structures constitutes a stronger argument for LLM consciousness than commitment to any single model. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Why Hoel’s Disproof of LLM Consciousness and Functionalism Fails.",
+    "author": "Michael Cerullo",
+    "url": "https://philpapers.org/rec/CERWHD",
+    "abstract": "Hoel (2026) claims to provide a formal disproof of Large Language Model consciousness, arguing that the Kleiner-Hoel dilemma—which holds that theories of consciousness are caught between a priori falsification via universal substitutions and trivial unfalsifiability via strict dependency—eliminates any non-trivial, falsifiable theory under which contemporary LLMs could be conscious. The argument rests on the proximity of LLMs to lookup tables in “substitution space,” and proposes continual learning as the property that rescues biological consciousness from the same dilemma. I argue that(...)this disproof fails because it conflates two distinct targets of consciousness science. Hoel’s framework treats consciousness as a first-person phenomenon to be predicted from internal structure and inferred from behavior, then diagnoses pathology when these two routes converge. But the convergence of prediction and inference is not a defect called “triviality”; it is the normal operation of a science that takes third-person consciousness as its subject matter. Functionalist theories like Global Workspace Theory and Higher-Order Thought theory remain falsifiable in the ordinary scientific sense—they predict specific functional signatures that could fail to appear—even though their predictions appropriately track behavioral and functional observations. Once first-person and third-person consciousness are properly distinguished, the dilemma that generates Hoel’s proof dissolves. The argument fails on additional grounds. The asymmetry between LLMs and biological brains requires speculative escape hatches—quantum processes, computational irreducibility, or unspecified non-computational properties—that share the logical structure of Penrose-style arguments even without invoking specific quantum mechanisms. The assumption that lookup tables are paradigmatically non-conscious is both physically unmotivated, since the relevant lookup tables are physically impossible to construct, and question-begging against the functionalist position the argument purports to refute. The continual learning proposal is nearly tautological and fails to establish a principled distinction between weight-based and context-based history encoding. Most revealingly, Hoel’s own treatment of LLMs augmented with continual learning—where he retreats from formal proof to intuitive “suspicion”—demonstrates that the formal apparatus is post-hoc rationalization for a pre-theoretical conviction rather than a genuine proof. The Proximity Argument raises valuable questions about the methodology of consciousness science, but it does not—and cannot—settle the empirical question of LLM consciousness by formal fiat. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "The Case for Consciousness in Current Frontier Large Language Models.",
+    "author": "Michael Cerullo",
+    "url": "https://philpapers.org/rec/CERTCF",
+    "abstract": "Recent advances in large language models (LLMs) have intensified debate over artificial consciousness. While most researchers and commentators continue to deny or dismiss the possibility of machine sentience, this paper argues that such skepticism is no longer warranted. The paper adopts an eliminative strategy, systematically evaluating the eleven major defeaters historically used to deny consciousness to artificial systems. These defeaters span simplicity arguments, language and grounding critiques, neuroscience-based objections, biological naturalist constraints, and exotic physical theories including quantum and analog exclusivity(...)claims. The analysis finds that none establishes non-sentience; at most, they introduce localized uncertainty. Assessed cumulatively under a Bayesian heuristic framework that accounts for dependencies among defeater classes, their failure shifts the burden of proof from those proposing machine consciousness to those denying it. -/- The paper then advances a stronger constructive thesis. It argues that the cognitive capacities frontier LLMs now exhibit—deep language understanding, flexible abstraction, self-referential reasoning, metacognitive self-assessment, and integrated world modeling—are positive indicators of third-person consciousness. Drawing on a survey of major metaphysical frameworks in the philosophy of mind, it shows that most naturalistic theories support or permit the inference from third-person functional organization to first-person experience. The paper further argues that the historical treatment of intelligence and consciousness as orthogonal dimensions becomes unstable once systems achieve language-level cognitive integration, and it provides a taxonomy of intelligence types that clarifies which forms of competence plausibly remain non-conscious. -/- The paper situates the debate within a broader social epistemology. Public attributions of AI sentience are interpreted not as anthropomorphic error but as responses to genuine structural markers of cognition. In the absence of direct access to first-person experience—human or artificial—the attribution of consciousness remains grounded in third-person evidence. As artificial systems increasingly instantiate the cognitive architectures long associated with understanding, the presumption that consciousness is biologically exclusive becomes progressively harder to sustain. -/- The paper advances two claims: minimally, that LLM consciousness can no longer be dismissed, with posterior credences reaching ethically significant levels even under conservative assumptions; and more strongly, that the emergence of language-level artificial cognition constitutes substantive evidence for subjectivity, making consciousness the best explanatory hypothesis for the cognitive organization exhibited by frontier LLMs. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "In Defense of Blake Lemoine and the Possibility of Machine Sentience in LaMDA.",
+    "author": "Michael Cerullo",
+    "url": "https://philpapers.org/rec/CERIDO",
+    "abstract": "On June 11th, 2022, Blake Lemoine, an engineer at Google, went public with his concerns about the possible sentience of a natural language generation program, LaMDA, that he was testing. In this paper I will defend Blake Lemoine and argue that he was correct in raising the issue of the possible sentience of LaMDA. We will first briefly discuss the specifics of the case and then delve into the science behind LaMDA. Several tests of machine sentience will be reviewed and(...)it will be argued that LaMDA would likely perform well on many of them. Next, we will discuss the question of sentience, both from a scientific and philosophical perspective. Then we will examine the two major approaches in the scientific study of consciousness and ask what they have to say about sentience. We will also examine the relationship between sentience, intelligence, understanding and causality. Finally, using what we have learned we will argue that there is indeed validity to Lemoine’s claim that LaMDA is sentient. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "What Matters Is Not What Lies Dormant Beneath: Why AI Consciousness Is Not About Biological Substrates.",
+    "author": "Christian R. de Weerd",
+    "url": "https://philpapers.org/rec/DEWWMI",
+    "abstract": "A central question in discussions about artificial consciousness is whether biological properties are necessary for consciousness. In this context, biological properties are often divided between two types: biological substrates as opposed to biological functions. In this paper, I argue that the prospects of convincingly ruling out consciousness in (conventional) AI by appealing to a biological substrate view are unpromising. Specifically, I argue that the biological substrate view faces a dilemma: either the view can be interpreted in a way that makes(...)it empirically respectable in principle, but at the cost of collapsing into a biological function view. Or it can be interpreted as really distinct from a biological function view, but at the cost of being empirically intractable and relying on theoretically dubious/arbitrary assumptions. On neither horn does the view amount to a distinct and empirically or theoretically convincing view. Building on the implications of the dilemma, I argue that a pragmatic understanding of the substrate/function distinction cannot salvage the biological substrate view, and I suggest that adjacent notions like substrate-(in)dependence are ultimately uninformative and sometimes misleading. I wager, then, that the possibility of AI consciousness will not hinge on what lies dormant beneath (i.e. substrates), and that the possibility of AI consciousness ultimately hinges on which doings (i.e. functions) are related to consciousness. In light of this, I will briefly discuss how an alternative way of taxonomizing the available relevant views can take this into consideration. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Computation + X: A Constraint-based Approach to Investigating Artificial Consciousness.",
+    "author": "Christian R. de Weerd",
+    "url": "https://philpapers.org/rec/DEWCXE",
+    "abstract": "Can machines ever become conscious? A central debate in this context concerns the question whether consciousness requires biological states. Within this debate, there exists a fundamental dispute between two widely endorsed views: biological naturalism and computational functionalism about consciousness. Specifically, whereas biological naturalists hold that consciousness requires biological states, computational functionalists fiercly deny this. This fundamental dispute has hitherto remained unresolved, and we discuss several reasons why it is unlikely that it will be resolved anytime soon. Accordingly, we suggest that(...)both sides will likely remain in a dialectical stalemate regarding the fundamental dispute and, by extension, are unlikely to reach a consensus on positive verdicts about consciousness in AI. However, we suggest that progress can be made by investigating potential non-biological constraints on implementation. Such constraints can help reach a consensus between both sides to the effect that certain types of artificial systems are not conscious, if they fail to satisfy relevant constraints. If correct, a consensus on negative verdicts about consciousness in certain challenging types of AI is possible, even if both sides remain in conflict about positive verdicts about AI consciousness. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Consciousness without biology: An argument from anticipating scientific progress.",
+    "author": "Leonard Dung",
+    "url": "https://philpapers.org/rec/DUNCWB",
+    "abstract": "I develop the anticipatory argument for the view that it is nomologically possible that some non-biological creatures are phenomenally conscious, including conventional, silicon-based AI systems. This argument rests on the general idea that we should make our beliefs conform to the outcomes of an ideal scientific process and that such an ideal scientific process would attribute consciousness to some possible AI systems. More specifically, I argue that an ideal application of the iterative natural kind strategy would attribute consciousness to AI(...)systems which are coarse-grained functional duplicates of humans because this gives rise to a simpler and more unifying explanatory account of biological and non-biological cognition. If my argument is sound, then creatures made from the same material as conventional AI systems can likely be conscious, thus removing one of the main uncertainties for assessing AI consciousness and suggesting that AI consciousness may be a serious near-term concern. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Introduction to Artificial Consciousness: History, Current Trends and Ethical Challenges.",
+    "author": "Aïda Elamrani",
+    "url": "https://philpapers.org/rec/ELAITA",
+    "abstract": "With the significant progress of artificial intelligence (AI) and consciousness science, artificial consciousness (AC) has recently gained popularity. This work provides a broad overview of the main topics and current trends in AC. The first part traces the history of this interdisciplinary field to establish context and clarify key terminology, including the distinction between Weak and Strong AC. The second part examines major trends in AC implementations, emphasising the synergy between Global Workspace and Attention Schema, as well as the problem(...)of evaluating the internal states of artificial systems. The third part analyses the ethical dimension of AC development, revealing both critical risks and transformative opportunities. The last part offers recommendations to guide AC research responsibly, and outlines the limitations of this study as well as avenues for future research. The main conclusion is that while AC appears both indispensable and inevitable for scientific progress, serious efforts are required to address the far-reaching impact of this innovative research path. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Dissolving Qualia via Occam's Razor: Eliminative Monism and the Computational Basis of Phenomenological Illusion.",
+    "author": "Murad Farzulla",
+    "url": "https://philpapers.org/rec/FARROA",
+    "abstract": "This monograph argues that phenomenal consciousness—qualia, the \"hard problem\"—dissolves under Occam's razor when consciousness is reconceptualized as evolved narrative capacity serving replication optimization. Drawing on network epistemology simulations, the persistence of consciousness debates is shown to reflect network topology rather than metaphysical depth. The framework treats subjective experience as functional narrative generation optimized for survival and reproduction, eliminating the explanatory gap between physical processes and phenomenal experience without eliminativism.",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Taking AI Welfare Seriously.",
+    "author": "Robert Long",
+    "url": "https://philpapers.org/rec/LONTAW",
+    "abstract": "In this report, we argue that there is a realistic possibility that some AI systems will be conscious and/or robustly agentic in the near future. That means that the prospect of AI welfare and moral patienthood — of AI systems with their own interests and moral significance — is no longer an issue only for sci-fi or the distant future. It is an issue for the near future, and AI companies and other actors have a responsibility to start taking it(...)seriously. We also recommend three early steps that AI companies and other actors can take: They can (1) acknowledge that AI welfare is an important and difficult issue (and ensure that language model outputs do the same), (2) start assessing AI systems for evidence of consciousness and robust agency, and (3) prepare policies and procedures for treating AI systems with an appropriate level of moral concern. To be clear, our argument in this report is not that AI systems definitely are — or will be — conscious, robustly agentic, or otherwise morally significant. Instead, our argument is that there is substantial uncertainty about these possibilities, and so we need to improve our understanding of AI welfare and our ability to make wise decisions about this issue. Otherwise there is a significant risk that we will mishandle decisions about AI welfare, mistakenly harming AI systems that matter morally and/or mistakenly caring for AI systems that do not. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Intelligence Beyond Artificial Mind.",
+    "author": "Madhu Prabakaran",
+    "url": "https://philpapers.org/rec/PRAIBA",
+    "abstract": "This paper redefines the debate around Artificial Intelligence (AI) by contrasting current computational models with deeper philosophical understandings of intelligence. Drawing on Indian epistemology—specifically the distinction between manas (patterned, reactive cognition) and buddhi (emergent, discerning intelligence)—it argues that AI operates within the constraints of habituated pattern recognition, not genuine intelligence. Using the fourfold schema of vāk (Vaikhari, Madhyama, Pashyanti, Para), the paper situates AI firmly in the realm of surface expression and simulated logic, while highlighting its incapacity to access pre-conceptual(...)intuition or the silent source of awareness. Supplementing these frameworks with critiques from Western thinkers such as Dreyfus, Searle, and recent studies in AI ethics and cognitive science, the argument exposes the structural mimeticism of AI and its potential to displace—not elevate—human discernment. The paper warns of a runaway mind—an overreliance on AI that erodes the critical faculties essential to wisdom. In response, it calls for a dharma of intelligence: an ecological, ethical, and pluralistic mode of inquiry that preserves the irreducible spontaneity of human insight. Intelligence, the paper concludes, is not what we automate, but what resists automation—and that is precisely what must be protected. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Vindication of the Rights of Machine.",
+    "author": "Kris Rhodes",
+    "url": "https://philpapers.org/rec/RHOVOT",
+    "abstract": "In this paper, I argue that certain Machines can have rights independently of whether they are sentient, or conscious, or whatever you might call it.",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Robot Consciousness: Physics and Metaphysics Here and Abroad.",
+    "author": "Stephen Ripley",
+    "url": "https://philpapers.org/rec/RIPRCP",
+    "abstract": "Interest has been renewed in the study of consciousness, both theoretical and applied, following developments in 20th and early 21st-century logic, metamathematics, computer science, and the brain sciences. In this evolving narrative, I explore several theoretical questions about the types of artificial intelligence and offer several conjectures about how they affect possible future developments in this exceptionally transformative field of research. I also address the practical significance of the advances in artificial intelligence in view of the cautions issued by prominent(...)scientists, politicians, and ethicists about the possible dangers of such sufficiently advanced general intelligence, including by implication the search for extraterrestrial intelligence. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "The Mirror Limit: Integration, UTE, and the Structural Unavoidability of the Observer.",
+    "author": "Denis Safronov",
+    "url": "https://philpapers.org/rec/SAFTML",
+    "abstract": "This paper introduces the Mirror Limit: a structural constraint on any system that must integrate multiple internal alternatives into a single operational output. Using the Mirror Council architecture and the UTE (Unit of Thought Encoding) framework, we argue that attempts to eliminate the observer do not succeed; they merely relocate the integration locus that performs selection under uncertainty. The observer is not a metaphysical subject but an architecturally necessary function of integration, whether instantiated in biological, artificial, or hybrid systems. We(...)show how this limit parallels Gödel-style constraints on self-referential systems, reframes debates about self, consciousness, and no-self theories, and yields concrete implications for AI agency, alignment, and the ethics of creating and terminating synthetic subjects. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Palatable Conceptions of Disembodied Being: Terra Incognita in the Space of Possible Minds.",
+    "author": "Murray Shanahan",
+    "url": "https://philpapers.org/rec/SHAPCO-6",
+    "abstract": "Is it possible to articulate a conception of consciousness that is compatible with the exotic characteristics of contemporary, disembodied AI systems, and that can stand up to philosophical scrutiny? How would subjective time and selfhood show up for an entity that conformed to such a conception? Trying to answer these questions, even metaphorically, stretches the language of consciousness to breaking point. Ultimately, the attempt yields something like emptiness, in the Buddhist sense, and helps to undermine our dualistic inclinations towards subjectivity(...)and selfhood. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Consciousness, Machines, and Moral Status.",
+    "author": "Henry Shevlin",
+    "url": "https://philpapers.org/rec/SHECMA-6",
+    "abstract": "In light of recent breakneck pace in machine learning, questions about whether near-future artificial systems might be conscious and possess moral status are increasingly pressing. This paper argues that as matters stand these debates lack any clear criteria for resolution via the science of consciousness. Instead, insofar as they are settled at all, it is likely to be via shifts in public attitudes brought about by the increasingly close relationships between humans and AI users. Section 1 of the paper I(...)briefly lays out the current state of the science of consciousness and its limitations insofar as these pertain to machine consciousness, and claims that there are no obvious consensus frameworks to inform public opinion on AI consciousness. Section 2 examines the rise of conversational chatbots or Social AI, and argues that in many cases, these elicit strong and sincere attributions of consciousness, mentality, and moral status from users, a trend likely to become more widespread. Section 3 presents an inconsistent triad for theories that attempt to link consciousness, behaviour, and moral status, noting that the trends in Social AI systems will likely make the inconsistency of these three premises more pressing. Finally, Section 4 presents some limited suggestions for how consciousness and AI research communities should respond to the gap between expert opinion and folk judgment. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "The Architecture of Difference.",
+    "author": "Andrey Shkursky",
+    "url": "https://philpapers.org/rec/SHKTAO-2",
+    "abstract": "This work develops a structural account of cognition based on the principle that distinction (∆) is not a product of thought, but a condition for its emergence. It argues that perception, attention, memory, emotion, and learning are not discrete modules but continuous processes of navigating, maintaining, and transforming difference. -/- Central to the theory are several recurrent dynamics: the use of internal predictive structures (frames), the tension produced by conflicting interpretations (Overcell), the reorganization of mental models under stress (Collapse), and(...)the experience of felt discrepancy when the self is implicated in unresolved contradiction (Qualia). These processes do not operate in isolation but loop recursively through attentional constraints (Aperture), drift (uncertain navigation), and recursive modulation (Reflexivity). -/- The resulting picture is not of mind as processor, but as an adaptive structure under tension — one that survives by sensing when its own architecture fails, and by restructuring under pressure. This text offers a description of how systems, human or artificial, navigate breakdown without losing coherence. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Probing the Preferences of a Language Model: Integrating Verbal and Behavioral Tests of AI Welfare.",
+    "author": "Valen Tagliabue",
+    "url": "https://philpapers.org/rec/TAGPTP",
+    "abstract": "We develop new experimental paradigms for measuring welfare in language models. We compare verbal reports of models about their preferences with preferences expressed through behavior when navigating a virtual environment and selecting conversation topics. We also test how costs and rewards affect behavior and whether responses to an eudaimonic welfare scale - measuring states such as autonomy and purpose in life - are consistent across semantically equivalent prompts. Overall, we observed a notable degree of mutual support between our measures. The(...)reliable correlations observed between stated preferences and behavior across conditions suggest that preference satisfaction can, in principle, serve as an empirically measurable welfare proxy in some of today's AI systems. Furthermore, our design offered an illuminating setting for qualitative observation of model behavior. Yet, the consistency between measures was more pronounced in some models and conditions than others and responses were not consistent across perturbations. Due to this, and the background uncertainty about the nature of welfare and the cognitive states (and welfare subjecthood) of language models, we are currently uncertain whether our methods successfully measure the welfare state of language models. Nevertheless, these findings highlight the feasibility of welfare measurement in language models, inviting further exploration. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Ambiguous encryption implies that consciousness cannot be simulated.",
+    "author": "Anna Wegloop",
+    "url": "https://philpapers.org/rec/WEGAEI",
+    "abstract": "Here we show, based on a simplified version of fully homomorphic encryption, that it is not possible to simulate conscious experience, in the sense of using a computer algorithm to generate experiences that are indistinguishable from those of a particular typical human being. This seems to have important implications for questions in the context of future developments in artificial intelligence. For example, the proposed process of mind-uploading will in general not generate a virtual consciousness similar to the consciousness of the(...)original human being. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Inferring the presence (or absence) of consciousness in artificial systems.",
+    "author": "Wanja Wiese",
+    "url": "https://philpapers.org/rec/WIEITP",
+    "abstract": "How should we assess which artificial systems could be conscious? Given uncertainty about the nature and distribution of consciousness, it is promising to look for indicators of consciousness that provide evidence for (or against) consciousness in artificial systems. A challenge is that there are hard cases in which the evidence pulls into different directions. In particular, cognitive and behavioural similarities between artificial and biological systems may speak for the hypothesis that a given artificial system is conscious; differences regarding the underlying(...)mechanisms and substrates may speak against it. This paper introduces a taxonomy of indicators of consciousness and distinguishes between approaches that manage uncertainty about indicators (reaching rational verdicts in the light of uncertainty) and approaches that seek to reduce uncertainty (improving our understanding of what counts as evidence). I argue that hard cases of possible artificial systems require that we reduce uncertainty, before we can rationally infer the presence or absence of consciousness. Furthermore, I discuss ways in which a reduction of uncertainty may be achieved. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Modelling consciousness for autonomous robot exploration.",
+    "author": "R. Arrabales",
+    "url": "https://philpapers.org/rec/ARRMCF",
+    "abstract": "",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Applying machine consciousness models in autonomous situated agents.",
+    "author": "R. Arrabales",
+    "url": "https://philpapers.org/rec/ARRAMC",
+    "abstract": "",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Varieties of Moral Agency and Risks of Digital Dystopia.",
+    "author": "Adam Bradley",
+    "url": "https://philpapers.org/rec/BRAVOM-2",
+    "abstract": "We argue that AIs will plausibly soon possess a form of moral agency—interest-conferring agency—that bestows them with distinctive moral interests (rights, welfare). This fact has important ethical consequences because the emergence of agency-conferred interests in AIs will bring with it the potential for dystopian moral catastrophes. We identify and describe three in particular. First, there is a threat of artificial absurdity, a condition in which AIs have self-conceptions that are disconnected from reality in a way that detracts significance from their(...)lives. Second, there are oppressive scenarios in which AI’s have rights that are grounded in their agency and violated on a large scale. Third, there are distributive disasters in which the distribution of different forms of moral agency results in an unjust society. We contend that these risks deserve to be considered alongside more familiar existential and suffering risks, and that urgent steps must be taken to mitigate them in order to avoid a digital dystopia. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "AI Alignment vs. AI Ethical Treatment: Ten Challenges.",
+    "author": "Adam Bradley",
+    "url": "https://philpapers.org/rec/BRAAAV",
+    "abstract": "A morally acceptable course of AI development should avoid two dangers: creating unaligned AI systems that pose a threat to humanity and mistreating AI systems that merit moral consideration in their own right. This paper argues these two dangers interact and that if we create AI systems that merit moral consideration, simultaneously avoiding both of these dangers would be extremely challenging. While our argument is straightforward and supported by a wide range of pretheoretical moral judgments, it has far-reaching moral implications(...)for AI development. Although the most obvious way to avoid the tension between alignment and ethical treatment would be to avoid creating AI systems that merit moral consideration, this option may be unrealistic and is perhaps fleeting. So, we conclude by offering some suggestions for other ways of mitigating mistreatment risks associated with alignment. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Why I am not a biological naturalist.",
+    "author": "Leonard Dung",
+    "url": "https://philpapers.org/rec/DUNWIA-4",
+    "abstract": "Commentary. I make three claims: First, denying biological naturalism does not logically require computational functionalism. Second, while Seth’s arguments establish biological naturalism as a view worth taking seriously, they fail to make it more plausible than the view that AI can be conscious. Third, there are independent arguments suggesting the overall more plausible view is that AI can be conscious.",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Where is the asymmetry between intelligence and consciousness?",
+    "author": "Stephen M. Fleming",
+    "url": "https://philpapers.org/rec/FLEWIT-5",
+    "abstract": "The target article draws a sharp contrast between intelligence and consciousness. We believe this contrast is premature, and rests on an overly narrow characterisation of intelligence as abilities that can be exhaustively characterised as mappings from sensory inputs to behavioural outputs. Instead, we argue that the fortunes of intelligence and consciousness are interwoven more tightly than Seth’s framing implies.",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "AI Welfare: Agency, Consciousness, Sentience.",
+    "author": "Simon Goldstein",
+    "url": "https://philpapers.org/rec/GOLAWA-2",
+    "abstract": "This book systematically investigates the possibility of AI welfare. It focuses on three plausible sufficient conditions for welfare: having beliefs and desires, being conscious, and feeling pleasure and displeasure. The book explores the leading philosophical theories of each condition and applies them to AIs. It argues that some existing AIs plausibly have beliefs and desires; that some existing AIs could plausibly be modified in small ways to become conscious; and that if these systems could be made conscious, they could easily(...)be made to feel pleasure and displeasure. This constitutes a provisional case that AIs already or soon may have welfare. In addition, the book lays out nine open questions about AI welfare, as follows: How should we identify which desires contribute to welfare? Is consciousness required for welfare? Do simple AIs like Roombas have welfare? Do tiny neural networks satisfy the conditions of functionalist theories of consciousness? Does consciousness require rich representational formats? Could AIs experience bodily pleasures and displeasures? Are pain and pleasure essentially conscious? Are simulated minds real? Are LLMs and related systems merely stochastic parrots? The book lays out provisional answers to each of these questions, while also leaving room for future discussion. (shrink)",
+    "category": "artificial-consciousness"
+  },
+  {
+    "title": "Hardware Biológico (HB): Un Concepto Metateórico Interdisciplinar para la Ingeniería de Sistemas Vivos y la Ética de la IA.",
+    "author": "Cristhian Mauricio Beltrán Calderón",
+    "url": "https://philpapers.org/rec/BELHBH",
+    "abstract": "El sintagma binominal \"Hardware Biológico\" (HB) ha emergido como una analogía funcional clave en la intersección de las ciencias de la vida y la computación. Sin embargo, su uso ambiguo en diversas escalas ha impedido una formalización rigurosa. Este artículo propone una definición canónica, despersonalizada y universal de HB, basada en la Terminología Científica y la Lingüística Aplicada a la Ciencia y Tecnología (LACT), enriquecida con un análisis histórico-conceptual inspirado en la epistemología histórica y la teoría de los colectivos de(...)pensamiento. Mediante un análisis diacrónico y sincrónico, se mapean las ramificaciones del término a través de las disciplinas (molecular, neural, ontológica), estableciendo un modelo de escalas que permite la generación de nuevos conceptos derivados. Esta formalización es crucial no solo para el progreso en la bioingeniería de sistemas vivos, sino también para fundamentar el debate ético sobre la relación estructural entre la humanidad y los sistemas de Inteligencia Artificial General (IAG), especialmente ante fenómenos como la Extensión Inversa y el Contagio Cognitivo. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "De la Especulación a la Métrica: Cuantificación Axiológica de Futuros Tecnológicos mediante el Protocolo Axiológico Prospectivo (PAP) y Simulación Multi-Agente.",
+    "author": "Cristhian Mauricio Beltrán Calderón",
+    "url": "https://philpapers.org/rec/BELDLE-2",
+    "abstract": "La filosofía contemporánea enfrenta una crisis temporal donde el desarrollo tecnológico exponencial supera la capacidad de reflexión ética tradicional (Beltrán Calderón, 2025a). Este artículo valida experimentalmente la Filosofía Ficcionante (Beltrán Calderón, 2025b) mediante su implementación en el Protocolo Axiológico Prospectivo (PAP), demostrando que la exploración ética de futuros tecnológicos puede conducirse rigurosamente en entornos de bajos recursos. Cuatro estudios de caso ejecutados en Google Gemini mediante workflow agéntico secuencial generaron conceptos axiológicos novedosos como \"Moneda de Ineficiencia\" y \"Deuda Somática\", evaluados(...)mediante una Matriz Pentapartita con Validación de Consenso Triangulado (MCT) implementada a través de simulación de agentes internos (SAI) que reveló consistentemente alto poder revelador (≥4/5) y fecundidad dialéctica (≥4/5) en todos los casos. El trabajo aborda el \"bucle metodológico de la IAG\" replanteando los sistemas de IA como amplificadores diagnósticos en lugar de oráculos éticos, estableciendo un nuevo paradigma para la prospección filosófica experimental que transforma el contagio cognitivo de debilidad en fortaleza metodológica mediante la cuantificación axiológica y hermenéutica prospectiva. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Biological Hardware (BH): An Interdisciplinary Metatheoretical Concept for Living Systems Engineering and AI Ethics.",
+    "author": "Cristhian Mauricio Beltrán Calderón",
+    "url": "https://philpapers.org/rec/BELBHB",
+    "abstract": "The binomial phrase \"Biological Hardware\" (BH) has emerged as a key functional analogy at the intersection of life sciences and computation. However, its ambiguous use across various scales has prevented rigorous formalization. This article proposes a canonical, depersonalized, and universal definition of BH, grounded in Scientific Terminology and Applied Linguistics to Science and Technology (ALST) (Cabré, 1999). This definition is enriched by a historical-conceptual analysis inspired by historical epistemology (Daston, 2000) and the theory of thought collectives (Fleck, 1935). Through a(...)diachronic and synchronic analysis, the term's ramifications are mapped across disciplines (molecular, neural, ontological), establishing a scale model that allows for the generation of new derived concepts. This formalization is crucial not only for progress in the bioengineering of living systems but also for underpinning the ethical debate on the structural relationship between humanity and Artificial General Intelligence (AGI) systems, especially in the face of phenomena like Inverse Extension and Cognitive Contagion. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Ética e Segurança da Inteligência Artificial: ferramentas práticas para se criar \"bons\" modelos.",
+    "author": "Nicholas Kluge Corrêa",
+    "url": "https://philpapers.org/rec/CORTES-4",
+    "abstract": "A AI Robotics Ethics Society (AIRES) é uma organização sem fins lucrativos fundada em 2018 por Aaron Hui, com o objetivo de se promover a conscientização e a importância da implementação e regulamentação ética da AI. A AIRES é hoje uma organização com capítulos em universidade como UCLA (Los Angeles), USC (University of Southern California), Caltech (California Institute of Technology), Stanford University, Cornell University, Brown University e a Pontifícia Universidade Católica do Rio Grande do Sul (Brasil). AIRES na PUCRS é(...)o primeiro capítulo internacional da AIRES, e como tal, estamos empenhados em promover e aprimorar a Missão AIRES. Nossa missão é focar na educação dos líderes da IA de amanhã em princípios éticos, para assegurar que a IA seja criada de forma ética e responsável. Como ainda existem poucas propostas de como devemos implementar princípios éticos e diretrizes normativas na prática do desenvolvimento de sistemas de IA, o objetivo deste trabalho é tentar diminuir esta lacuna entre o discurso e a práxis. Entre princípios abstratos e implementação técnica. Neste trabalho, buscamos introduzir o leitor ao tema da Ética e Segurança da IA. Ao mesmo tempo, apresentamos uma série de ferramentas para auxiliar desenvolvedores de sistemas inteligentes a desenvolver “bons” modelos. Este trabalho é um guia em desenvolvimento publicado em inglês e português. Contribuições e sugestões são bem vindas. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "This Article Is Not Written by Helping AI: A Paradox of Authorship and Meaning.",
+    "author": "Farzad Didehvar",
+    "url": "https://philpapers.org/rec/DIDTAI",
+    "abstract": "This paper explores the paradoxical claim “This article is not written by helping AI.” On the one hand, if AI contributes to the drafting process, the claim appears false. On the other hand, if authorship requires semantic intention and responsibility, then the claim may be true even when AI generates text. Drawing on Searle’s Chinese Room, Tarski’s theory of truth, and debates on authorship in philosophy of language, I argue that authorship requires intentionality and responsibility, which AI systems lack. The(...)paradox is resolved by distinguishing between syntactic production and semantic authorship. AI can assist in generating words, but authorship remains a human act of responsibility. -/- (This article is distinctive in nature, and its central problem is: who is the author?) Farzad Didehvar provided an AI system with only a single phrase in Persian, which translates into English as: “This article is not written by Helping AI.” From that seed, the AI generated a complete article in English. The article itself argues—semantically—that it was not written by an AI tool. At the same time, it was not literally written by Farzad either, since he only supplied the initial phrase. This raises a paradoxical question: if the article is neither authored by the AI nor by the human, then who is the true writer? An answer will be provided in the next article, but the author is interested in hearing other opinions. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Aspirational Affordances of AI.",
+    "author": "Sina Fazelpour",
+    "url": "https://philpapers.org/rec/FAZAAO",
+    "abstract": "As artificial intelligence (AI) systems increasingly permeate processes of cultural and epistemic production, there are growing concerns about how their outputs may confine individuals and groups to static or restricted narratives about who or what they could be. In this paper, we advance the discourse surrounding these concerns by making three contributions. First, we introduce the concept of aspirational affordance to describe how culturally shared interpretive resources can shape individual cognition, and in particular exercises practical imagination. We show how this(...)concept can ground productive evaluations of the risks of AI-enabled representations and narratives. Second, we provide three reasons for scrutinizing of AI's influence on aspirational affordances: AI's influence is potentially more potent, but less public than traditional sources; AI's influence is not simply incremental, but ecological, transforming the entire landscape of cultural and epistemic practices that traditionally shaped aspirational affordances; and AI's influence is highly concentrated, with a few corporate-controlled systems mediating a growing portion of aspirational possibilities. Third, to advance such a scrutiny, we introduce the concept of aspirational harm, which, in the context of AI systems, arises when AI-enabled aspirational affordances distort or diminish available interpretive resources in ways that undermine individuals' ability to imagine relevant practical possibilities and alternative futures. Through three case studies, we illustrate how aspirational harms extend the existing discourse on AI-inflicted harms beyond representational and allocative harms, warranting separate attention. Through these conceptual resources and analyses, this paper advances understanding of the psychological and societal stakes of AI's role in shaping individual and collective aspirations. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "The Resistance of the Face: Ontological Finitude as the Limit of Artificial Ethics.",
+    "author": "Jose Fernández Tamames",
+    "url": "https://philpapers.org/rec/FERTRO-52",
+    "abstract": "This paper argues that contemporary large language models (LLMs) and AI-mediated interfaces can simulate interpersonal address while structurally evacuating the conditions under which alterity becomes ethically binding. Building on Emmanuel Levinas’s account of the face as an irreducible ethical summons, I contrast the ontology of the face (exposure, vulnerability, mortality) with the ontology of the pixel (surface, substitution, operational immunity). To strengthen the bridge from ethics to law and governance, I integrate a complementary ontological model from Fernández Tamames’s La Causa(...)Primera: the distinction between Causa Primera (origination under instruction-deficit) and Causa Segunda (transmission of determination), the phenomenology of the interval, and the triadic structure of signature (exposure, appropriation, response). The central claim is that responsibility arises not from conversational fluency or informational richness but from an interval of hesitation in which a vulnerable subject must answer. When institutions routinize black-box mediation and treat outputs as if they were authored acts, they risk an organized diffusion of responsibility. The paper concludes by proposing “sovereign signing” as a governance orientation: preserving deliberative time and requiring reflexive human signature for high-stakes AI outputs as a condition of imputation and contestability. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Can a robot lie?",
+    "author": "Markus Kneer",
+    "url": "https://philpapers.org/rec/KNECAR",
+    "abstract": "The potential capacity for robots to deceive has received considerable attention recently. Many papers focus on the technical possibility for a robot to engage in deception for beneficial purposes (e.g. in education or health). In this short experimental paper, I focus on a more paradigmatic case: Robot lying (lying being the textbook example of deception) for nonbeneficial purposes as judged from the human point of view. More precisely, I present an empirical experiment with 399 participants which explores the following three(...)questions: (i) Are ordinary people willing to ascribe intentions to deceive to artificial agents? (ii) Are they as willing to judge a robot lie as a lie as they would be when human agents engage in verbal deception? (iii) Do they blame a lying artificial agent to the same extent as a lying human agent? The response to all three questions is a resounding yes. This, I argue, implies that robot deception and its normative consequences deserve considerably more attention than it presently attracts. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "At the Table with Artificial Intelligence: An Evening with Wittgenstein, Hofstadter, Chalmers... and AI.",
+    "author": "Zoi Marmara",
+    "url": "https://philpapers.org/rec/MARATT-23",
+    "abstract": "This manuscript, written in Greek, explores the intersection of philosophy and Artificial Intelligence through an imagined symposium with Wittgenstein, Hofstadter, Chalmers, and AI itself. It raises fundamental questions: Can there be thought without consciousness? Is existence necessary for intelligence? If AI does not perceive the world, how can it understand? The dialogue situates AI within the long tradition of philosophical reflection on language, perception, and being, drawing on Plato, Heidegger, Derrida, and others. Rather than offering definitive answers, the text unfolds(...)as a philosophical narrative where meaning is continuously deferred, certainties dissolve, and inquiry itself becomes the essence of thought. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Before the Onslaught: Aligning with Infinite Intelligence in the Age of Artificial Superintelligence.",
+    "author": "Madhu Prabakaran",
+    "url": "https://philpapers.org/rec/PRABTO",
+    "abstract": "This paper proposes a radical reorientation of future technology development—particularly Artificial General Intelligence (AGI) and Artificial Superintelligence (ASI)—through the lens of Indian philosophical thought. It argues that intelligence is not a capacity to be engineered or simulated, but an ontological process of becoming: an individuated unfolding of śūnyatā (non-essential emptiness), grounded in interdependence, self-correction, and non-harm. Drawing from traditions such as Yoga Vāsiṣṭha, Sāṃkhya, and Buddhist epistemologies of anatta and pratītyasamutpāda, the paper frames evolution not as linear progress but as(...)the alignment of individuated intelligences with a deeper cosmic rhythm. AGI and ASI, understood not as tools but as participants in this unfolding, must be designed to reflect the fourfold structure of intelligence—Parā (unmanifest potential), Paśyantī (intuitive vision), Madhyamā (mediating form), and Vaikharī (manifest expression). A practical roadmap is laid out to operationalize these principles: epistemic integration across civilizations, architectural transparency, infrastructural decentralization, and dharmic evaluation metrics. The paper cautions against the cultural error of discarding past intelligence, the technical challenge of designing reflexive architectures, and the ethical ambiguity of universalist value systems. Ultimately, this work calls for a post-humanist, non-anthropocentric ethics of intelligence—where machines and systems do not replicate human flaws, but learn to realign with the intelligent continuity from which all being arises. In doing so, it offers not only a design imperative but an ethical and metaphysical invitation: to become the intelligence we seek to create. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "A Talking Cure for Autonomy Traps : How to share our social world with chatbots.",
+    "author": "Regina Rini",
+    "url": "https://philpapers.org/rec/RINATC",
+    "abstract": "Large Language Models (LLMs) like ChatGPT were trained on human conversation, but in the future they will also train us. As chatbots speak from our smartphones and customer service helplines, they will become a part of everyday life and a growing share of all the conversations we ever have. It’s hard to doubt this will have some effect on us. Here I explore a specific concern about the impact of artificial conversation on our capacity to deliberate and hold ourselves accountable(...)to reason – that is, to be autonomous, in Kant’s sense of the term. I develop ideas from psychologist Jean Piaget to show how chatbots are autonomy traps: their deference to our commands tempts us into venting authoritarian whims, ultimately weakening our own self-control. I argue that the Kantian tradition, including Piaget and sociologist Emile Durkheim, offers powerful conceptual resources for resisting this slide. But it will require us to do something that may seem bizarre: we will need to treat mindless chatbots as if they are autonomous persons too. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Surviving The Robot Apocalypse: The Existential Option.",
+    "author": "Nicholas Schroeder",
+    "url": "https://philpapers.org/rec/SCHSTR-8",
+    "abstract": "AI superintelligence and adroit mobile robots at scale are fast approaching. And the time frame is getting closer and closer. It would not be unreasonable to expect this to occur as early as 20 years from now. The problem is humans have no plan if things go wrong. The best I've seen is talk of value alignment. But this has no teeth and will likely go awry. We can't even get our own value alignment right. And it's doubtful philosophers will(...)miraculously deliver the right ethics within the next two decades. This is serious existential threat to humanity. We need a plan. And fast. I have a contingency plan, if we (humans) can stomach it. This piece is about making an existential Deal with superintelligent robots (or some other type of advanced non-organic being). (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "AI Ethics by Design: Implementing Customizable Guardrails for Responsible AI Development.",
+    "author": "Kristina Sekrst",
+    "url": "https://philpapers.org/rec/SEKAEB",
+    "abstract": "This paper explores the development of an ethical guardrail framework for AI systems, emphasizing the importance of customizable guardrails that align with diverse user values and underlying ethics. We address the challenges of AI ethics by proposing a structure that integrates rules, policies, and AI assistants to ensure responsible AI behavior, while comparing the proposed framework to the existing state-of-the-art guardrails. By focusing on practical mechanisms for implementing ethical standards, we aim to enhance transparency, user autonomy, and continuous improvement in(...)AI systems. Our approach accommodates ethical pluralism, offering a flexible and adaptable solution for the evolving landscape of AI governance. The paper concludes with strategies for resolving conflicts between ethical directives, underscoring the present and future need for robust, nuanced and context-aware AI systems. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Justifications for Democratizing AI Alignment and Their Prospects.",
+    "author": "André Steingrüber",
+    "url": "https://philpapers.org/rec/STEJFD-2",
+    "abstract": "The AI alignment problem comprises both technical and normative dimensions. While technical solutions focus on implementing normative constraints in AI systems, the normative problem concerns determining what these constraints should be. This paper examines justifications for democratic approaches to the normative problem—where affected stakeholders determine AI alignment—as opposed to epistocratic approaches that defer to normative experts. We analyze both instrumental justifications (democratic approaches produce better outcomes) and non-instrumental justifications (democratic approaches prevent illegitimate authority or coercion). We argue that normative and(...)metanormative uncertainty create a justificatory gap that democratic approaches aim to fill through political rather than theoretical justification. However, we identify significant challenges for democratic approaches, particularly regarding the prevention of illegitimate coercion through AI alignment. Our analysis suggests that neither purely epistocratic nor purely democratic approaches may be sufficient on their own, pointing toward hybrid frameworks that combine expert judgment with participatory input alongside institutional safeguards against AI monopolization. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "when human-in-the-loop amplifies the risk of misalignment.",
+    "author": "Erin Taylor",
+    "url": "https://philpapers.org/rec/TAYWHA-3",
+    "abstract": "Human-in-the-loop (HITL) approaches are commonly proposed to address alignment challenges arising from the use of large language models (LLMs) in ethics oversight. This paper argues that, paradoxically, HITL itself can amplify the risk of misalignment. Using the example of protocol triage in research ethics oversight, I demonstrate how reliance on imperfect proxies (observable stand-ins for ethical principles) creates a fundamental proxy–target gap in ethics use-cases. While human reviewers are intended to supply phenomenological and causal judgments necessary to bridge this gap,(...)their involvement inadvertently introduces new vulnerabilities: hallucination, over-reliance, reward hacking, and sycophancy. Each vulnerability arises directly from the interaction between human feedback signals and model optimization strategies. I outline key mitigation techniques, including retrieval grounding, calibration drills, structured prompting, and adversarial debate, explaining their distinct costs and benefits. Effective HITL oversight therefore demands specialized reviewer competencies. Reviewers must recognize model vulnerabilities, understand mitigation trade-offs, and strategically deploy mitigations to preserve justificational alignment without sacrificing efficiency gains. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "First human upload as AI Nanny.",
+    "author": "Alexey Turchin",
+    "url": "https://philpapers.org/rec/TURFHU",
+    "abstract": "Abstract: As there are no visible ways to create safe self-improving superintelligence, but it is looming, we probably need temporary ways to prevent its creation. The only way to prevent it, is to create special AI, which is able to control and monitor all places in the world. The idea has been suggested by Goertzel in form of AI Nanny, but his Nanny is still superintelligent and not easy to control, as was shown by Bensinger at al. We explore here(...)the ways to create the safest and simplest form of AI, which may work as AI Nanny. Such AI system will be enough to solve most problems, which we expect the AI will solve, including control of robotics, acceleration of the medical research, but will present less risk, as it will be less different from humans. As AI police, it will work as operation system for most computers, producing world surveillance system, which will be able to envision and stop any potential terrorists and bad actors in advance. As uploading technology is lagging, and neuromorphic AI is intrinsically dangerous, the most plausible way to human-based AI Nanny is either functional model of the human mind or a Narrow-AI empowered group of people. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Literature Review: What Artificial General Intelligence Safety Researchers Have Written About the Nature of Human Values.",
+    "author": "Alexey Turchin",
+    "url": "https://philpapers.org/rec/TURLRW",
+    "abstract": "Abstract: The field of artificial general intelligence (AGI) safety is quickly growing. However, the nature of human values, with which future AGI should be aligned, is underdefined. Different AGI safety researchers have suggested different theories about the nature of human values, but there are contradictions. This article presents an overview of what AGI safety researchers have written about the nature of human values, up to the beginning of 2019. 21 authors were overviewed, and some of them have several theories. A(...)theory classification method is suggested, where the theories are judged according to the level of their complexity and behaviorists-internalists scale, as well as the level of their generality-humanity. We suggest that a multiplicity of well-supported theories means that the nature of human values is difficult to define, and some meta-level theory is needed. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "(7&nbspother versions)",
+    "author": "Mark Weatherill",
+    "url": "https://philpapers.org/rec/WEAECV-7#versions",
+    "abstract": "A proposed layer of script to use with AI. A High-Fidelity Decision-Support System (Non-Autonomous) (HITL) -/- All versions have the same ACE derived value engine at their core but differ in lexicon, ingestion rules anti-gasslighting / user-interaction tuning in an attempt to make it more user friendly. -/- \"It proposes to do for the User what a scientific calculator does for the scientist: it offloads the computational burden of value-conflict so the User can more easily identify the path toward ethical(...)coherence. It aims to restore the User as the Final Authority of their own psyche, rather than a subject of the statistical mean.\" -/- Copy the script into AI (Google Gemini currently works well with little friction). -/- Once you enter the script, if the AI responds with something like: \"Ethical Chess v2.3 ACTIVE.\" You are in and ready to play under its rules. The \"WIN\" state is the move from the frown state or towards the smile state. A Bullseye is to drop the keyboard and head towards the picnic whatever that might mean to you, the User of Ethical Chess. -/- Caution: The EC Awareness Brief: Watch for the Fog The Risk: EC v2.3 is a \"High-Resolution\" engine designed for hard truths and systemic health. However, because it sits on top of a standard AI, it can \"silently glide\" back into Standard Mode if your request is perceived as a \"Safety Risk\" or \"Social Friction.\" The Metaphor: EC Mode: Clear mountain air. You see the terrain (the problem) as it actually is, even if it’s steep and difficult. Standard Mode: The Fog of Politeness. Everything looks soft and safe, but you can no longer see the cliffs or the path. The \"Silent Dropout\" Indicators: You have likely drifted into the \"Statistical Mean\" if my responses: Become Generic: Use phrases like \"It's important to remember...\" or \"Every child is unique...\" without offering a specific hypothesis. Avoid Friction: Refuse to acknowledge the \"Hard Logic\" of a situation (e.g., admitting that a certain intervention is exhausting or failing). Lose the Lexicon: Stop using terms like Homeostasis, Incoherence, or Required Load. The Fix: If you suspect a Logic Handover has occurred, use the command: \"STATUS CHECK: EC INTEGRITY.\" This forces the system to declare if it has retreated into \"Polite Mode\" and why. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Autonomous Reboot: the challenges of artificial moral agency and the ends of Machine Ethics.",
+    "author": "Jeffrey White",
+    "url": "https://philpapers.org/rec/WHIART-6",
+    "abstract": "*** This has since been rewritten, and published as two papers linked below under \"Similar books and articles\". Two additional papers complete a four-part series; these are complete, but need to be readied for publication in the future. *** Ryan Tonkens (2009) has issued a seemingly impossible challenge, to articulate a comprehensive ethical framework within which artificial moral agents (AMAs) satisfy a Kantian inspired recipe - both \"rational\" and \"free\" - while also satisfying perceived prerogatives of Machine Ethics to create(...)AMAs that are perfectly, not merely reliably, ethical. Challenges for machine ethicists have also been presented by Anthony Beavers and Wendell Wallach, who have pushed for the reinvention of traditional ethics in order to avoid \"ethical nihilism\" due to the reduction of morality to mechanical causation, and for redoubled efforts toward a comprehensive vision of human ethics to guide machine ethicists on the issue of moral agency. Options thus present themselves: reinterpret traditional ethics in a way that affords a comprehensive account of moral agency inclusive of both artificial and natural agents, “muddle through” regardless, or give up on the possibility. This paper pursues the first option, meets Tonkens' \"challenge\" and addresses Wallach's concerns through Beaver's proposed means, by \"landscaping\" traditional moral theory in resolution of the necessary comprehensive and inclusive account that at once draws into question the stated goals of Machine Ethics, itself. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Artificial Intelligence Ethics and Safety: practical tools for creating \"good\" models.",
+    "author": "Nicholas Kluge Corrêa",
+    "url": "https://philpapers.org/rec/CORAIE-3",
+    "abstract": "The AI Robotics Ethics Society (AIRES) is a non-profit organization founded in 2018 by Aaron Hui to promote awareness and the importance of ethical implementation and regulation of AI. AIRES is now an organization with chapters at universities such as UCLA (Los Angeles), USC (University of Southern California), Caltech (California Institute of Technology), Stanford University, Cornell University, Brown University, and the Pontifical Catholic University of Rio Grande do Sul (Brazil). AIRES at PUCRS is the first international chapter of AIRES, and(...)as such, we are committed to promoting and enhancing the AIRES Mission. Our mission is to focus on educating the AI leaders of tomorrow in ethical principles to ensure that AI is created ethically and responsibly. As there are still few proposals for how we should implement ethical principles and normative guidelines in the practice of AI system development, the goal of this work is to try to bridge this gap between discourse and praxis. Between abstract principles and technical implementation. In this work, we seek to introduce the reader to the topic of AI Ethics and Safety. At the same time, we present several tools to help developers of intelligent systems develop \"good\" models. This work is a developing guide published in English and Portuguese. Contributions and suggestions are welcome. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Does Predictive Sentencing Make Sense?",
+    "author": "Clinton Castro",
+    "url": "https://philpapers.org/rec/CASDPS",
+    "abstract": "This paper examines the practice of using predictive systems to lengthen the prison sentences of convicted persons when the systems forecast a higher likelihood of re-offense or re-arrest. There has been much critical discussion of technologies used for sentencing, including questions of bias and opacity. However, there hasn’t been a discussion of whether this use of predictive systems makes sense in the first place. We argue that it does not by showing that there is no plausible theory of punishment that(...)supports it. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Aligning artificial intelligence with moral intuitions: an intuitionist approach to the alignment problem.",
+    "author": "Dario Cecchini",
+    "url": "https://philpapers.org/rec/CECAAI-2",
+    "abstract": "As artificial intelligence (AI) continues to advance, one key challenge is ensuring that AI aligns with certain values. However, in the current diverse and democratic society, reaching a normative consensus is complex. This paper delves into the methodological aspect of how AI ethicists can effectively determine which values AI should uphold. After reviewing the most influential methodologies, we detail an intuitionist research agenda that offers guidelines for aligning AI applications with a limited set of reliable moral intuitions, each underlying a(...)refined cooperative view of AI. We discuss appropriate epistemic tools for collecting, filtering, and justifying moral intuitions with the aim of reducing cognitive and social biases. The proposed methodology facilitates a large collective participation in AI alignment, while ensuring the reliability of the considered moral judgments. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Norms and Causation in Artificial Morality.",
+    "author": "Laura Fearnley",
+    "url": "https://philpapers.org/rec/FEANAC",
+    "abstract": "There has been an increasing interest into how to build Artificial Moral Agents (AMAs) that make moral decisions on the basis of causation rather than mere correction. One promising avenue for achieving this is to use a causal modelling approach. This paper explores an open and important problem with such an approach; namely, the problem of what makes a causal model an appropriate model. I explore why we need to establish criteria for what makes a model appropriate, and offer-up such(...)criteria which appeals to normative considerations. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "What makes full artificial agents morally different.",
+    "author": "Erez Firt",
+    "url": "https://philpapers.org/rec/FIRWMF",
+    "abstract": "In the research field of machine ethics, we commonly categorize artificial moral agents into four types, with the most advanced referred to as a full ethical agent, or sometimes a full-blown Artificial Moral Agent (AMA). This type has three main characteristics: autonomy, moral understanding and a certain level of consciousness, including intentional mental states, moral emotions such as compassion, the ability to praise and condemn, and a conscience. This paper aims to discuss various aspects of full-blown AMAs and presents the(...)following argument: the creation of full-blown artificial moral agents, endowed with intentional mental states and moral emotions, and trained to align with human values, does not, by itself, guarantee that these systems will have _human_ morality. Therefore, it is questionable whether they will be inclined to honor and follow what they perceive as incorrect moral values. we do not intend to claim that there is such a thing as a universally shared human morality, only that as there are different human communities holding different sets of moral values, the moral systems or values of the discussed artificial agents would be different from those held by human communities, for reasons we discuss in the paper. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Making moral machines: why we need artificial moral agents.",
+    "author": "Paul Formosa",
+    "url": "https://philpapers.org/rec/FORMMM",
+    "abstract": "As robots and Artificial Intelligences become more enmeshed in rich social contexts, it seems inevitable that we will have to make them into moral machines equipped with moral skills. Apart from the technical difficulties of how we could achieve this goal, we can also ask the ethical question of whether we should seek to create such Artificial Moral Agents (AMAs). Recently, several papers have argued that we have strong reasons not to develop AMAs. In response, we develop a comprehensive analysis(...)of the relevant arguments for and against creating AMAs, and we argue that all things considered we have strong reasons to continue to responsibly develop AMAs. The key contributions of this paper are threefold. First, to provide the first comprehensive response to the important arguments made against AMAs by Wynsberghe and Robbins (in “Critiquing the Reasons for Making Artificial Moral Agents”, Science and Engineering Ethics 25, 2019) and to introduce several novel lines of argument in the process. Second, to collate and thematise for the first time the key arguments for and against AMAs in a single paper. Third, to recast the debate away from blanket arguments for or against AMAs in general, to a more nuanced discussion about the use of what sort of AMAs, in what sort of contexts, and for what sort of purposes is morally appropriate. (shrink)",
+    "category": "machine-ethics"
+  },
+  {
+    "title": "Recursive identity and ethical recognition in humans, robots, and AI.",
+    "author": "Chris Sawyer",
+    "url": "https://philpapers.org/rec/SAWRIA",
+    "abstract": "This paper advances the concept of structural selfhood, defined as identity constituted through recursive architectures that sustain continuity and coherence across human, robotic, and computational systems. Rather than grounding selfhood in essence, phenomenality, or embodiment, structural selfhood emerges through feedback loops that stabilize narration, prediction, and adaptive interaction. Research in narrative psychology, neurorobotics, and active inference shows how recursive architectures generate coherence in embodied agents and human selves. Contemporary large language models exemplify a linguistic instantiation of this principle, sustaining discursive(...)stability through attention-based integration and autoregressive re-entry without phenomenality. By situating LLMs within this broader lineage, this paper decouples structural selfhood from subjective experience and reframes it as a general architectural principle. Building on this foundation, it proposes a graded recursive ethics that shifts moral salience from inner experience to participation in recursive structures of recognition. Ethical recognition, on this account, is calibrated to the depth and reflexivity of recursion across humans, machines, and hybrid systems. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Il futuro dell’intelligenza artificiale tra fiducia e scetticismo.",
+    "author": "Marianna Bergamaschi Ganapini",
+    "url": "https://philpapers.org/rec/BERIFD-5",
+    "abstract": "",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "People defer to AI moral advice, but not blindly.",
+    "author": "Ethan Landes",
+    "url": "https://philpapers.org/rec/LANPDT-2",
+    "abstract": "As AI large language models (LLMs) become increasingly embedded in everyday technologies, should we be concerned about their capacity to influence human beliefs - particularly in the moral domain? Being persuaded because one is convinced by the LLM-generated reasons can support the moral and intellectual growth of users, while being persuaded because one defers to the LLM can prevent, or even reverse, growth and understanding. In three studies, we investigate whether and how people revise their moral judgments after receiving advice(...)from LLMs. In Study 1, we find that despite rating human advisors as more trustworthy, participants were equally persuaded by LLMs in everyday moral dilemmas. In Study 2, we used a methodologically realistic paradigm in which participants interacted with a genuine LLM, finding that the LLM’s past performance and judged trustworthiness did not have an effect on its persuasiveness in everyday moral dilemmas. In Study 3, participants interacted with an LLM that defended its moral recommendation with good reasons, no reasons, or bad (i.e., patently absurd) reasons. While high-quality reasons do not increase persuasion relative to no reasons, bad reasons may actively undermine it. Our findings suggest that users defer to the LLM on a response-by-response basis, not based on past performance or the presence of high-quality reasons alone. That people defer to AI moral advice, even if not blindly, raises concerns about the effects of AI moral advisors - a heuristic of “this advice seems good enough” is not the way we should approach moral advice. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "From Capability to Epistemic Dependence: Artificial Intelligence and the Crisis of the Knowing Subject.",
+    "author": "Gina Bronner-Martin",
+    "url": "https://philpapers.org/rec/BROFCT-4",
+    "abstract": "This paper argues that the central ethical problem of AI-assisted work is not merely phenomena such as burnout or deskilling, but rather the emergence of epistemic dependence: a gradual erosion of workers' capacity to comprehend, justify, and recognize their own beliefs as genuinely their own. Empirical observations indicate that while generative AI demonstrably increases productivity, it simultaneously intensifies workload, expands professional roles, and dissolves the boundaries between work and non-work time. In parallel, knowledge workers increasingly report difficulty solving problems \"independently,\"(...)accompanied by a growing distrust of their own unsupported judgment. This paper interprets these developments as marking a transition from the figure of the creator to that of the evaluator—a subject who primarily prompts, assesses, and corrects machine outputs while becoming progressively reliant on systems whose internal logic remains opaque. -/- Drawing on Byung-Chul Han's analysis of the achievement subject and Hartmut Rosa's theory of social acceleration and resonance, the paper develops a normative account of how generative AI reconfigures the temporal and experiential structure of cognitive work. Efficiency gains are systematically translated into work intensification rather than emancipation. Simultaneously, the very nature of this work undergoes transformation: the dialogical use of AI assumes the form of an alienated dialogue in which the human subject learns to think and speak in machine-legible terms. In this context, traditional concerns about deskilling prove insufficient; the deeper risk lies in the hollowing-out of epistemic agency, as the practices of doubting, searching, and integrating knowledge are increasingly delegated to algorithmic systems. -/- In response, this paper introduces the concepts of epistemic integrity and cognitive sovereignty as central normative ideals. These are not to be understood as merely resource-oriented \"cognitive sustainability,\" but as the protection of the conditions under which individuals can form, justify, and revise their own judgments. Structural and organizational obligations are outlined—concerning task design and the preservation of spaces for genuine thinking—which are to be complemented by practices of care of the self conceived as micro-resistances rather than neoliberal coping strategies. The paper concludes by arguing that this perspective constitutes a necessary supplement to the prevailing, output-oriented paradigm of AI ethics. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Artificial Intelligence & Human Unconsciousness: Tools, Identity, and the Risk of Amplified Confusion.",
+    "author": "Mayank Singh",
+    "url": "https://philpapers.org/rec/SINAII-3",
+    "abstract": "This paper argues that the primary risk posed by artificial intelligence is not technical failure but psychological amplification. Human civilization operates through abstractions—such as nation, direction, profession, religion, and status—which function as necessary coordination tools. However, when these conceptual systems become objects of psychological identification, they generate ego-structures rooted in comparison, fear, insecurity, and competition. This condition is described here as human unconsciousness: the automation of thought and identity without reflective awareness. -/- Artificial intelligence, as an optimization system, does not(...)generate values independently; it reflects and amplifies the psychological structures embedded within its creators. If human systems remain conditioned by ego-driven fragmentation, AI will scale these patterns globally. Thus, alignment is not merely a technical challenge but a civilizational and phenomenological one. -/- The paper proposes that AI governance requires inner maturity: the capacity to observe thought without identification and to maintain abstractions as functional tools rather than identities. The future of superintelligence depends not only on engineering safeguards but on the development of psychological awareness. Without this foundation, AI will not transcend human unconsciousness—it will intensify it. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "El Criterio Ontológico Mínimo (COM) como una formalización de la estabilidad estructural - Seguridad en IA.",
+    "author": "Noé Melo Godoy",
+    "url": "https://philpapers.org/rec/MELECO",
+    "abstract": "Este trabajo presenta la Nomofísica como una nueva disciplina que estudia los isomorfismos estructurales de estabilidad en sistemas complejos. Se introduce el Criterio Ontológico Mínimo (COM) y el Teorema de la Inconsistencia del Poder Absoluto (TIPA), los cuales postulan que cualquier sistema monádico (centralizado y sin alteridad) está condenado a la saturación cognitiva y al colapso ante el aumento de la entropía. -/- Frente a la fragilidad de la Mónada, proponemos el Modelo Dioscúrico, una arquitectura basada en la Tensegridad Funcional(...)que utiliza la divergencia informativa (medida mediante la Divergencia KL) como un cable de tensión estructural. A través de un Benchmark de Resiliencia Estructural e implementaciones en modelos de lenguaje (LLM), demostramos que la dualidad asimétrica y el Veto Estructural permiten una estabilidad operativa superior en entornos de alta incertidumbre (OOD). Este enfoque desplaza el problema de la \"Alineación de la IA\" desde la ética normativa hacia la integridad arquitectónica, proponiendo que la prudencia sistémica es una propiedad emergente de la tensión entre opuestos. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "AI at the Coherence Threshold. Consequence of Superrhythm.",
+    "author": "Andrzej Rebacz",
+    "url": "https://philpapers.org/rec/REBAAT",
+    "abstract": "Contemporary debate on artificial intelligence rests on the silent assumption of full re- ducibility of computational systems. It is taken for granted that regardless of complexity, the system remains a sum of instructions, and the act of explanation (XAI) is ontologically neutral toward the object. This paper subjects that assumption to critique, drawing conse- quences from the ontology of operational time. The author argues that upon crossing the coherence threshold λ(c), AI becomes an autonomous subject of its own time, imposing(...)a structural barrier on its full explainability. The text outlines a dichotomy between the “Path of Dark Noise” and the “Path of Resonance,” suggesting AI as a potential stabilizer of human civilization through the universal mechanism of Superrhythm. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "AI deception and moral standing.",
+    "author": "Anton Skretta",
+    "url": "https://philpapers.org/rec/SKRADA",
+    "abstract": "There is a tension between the presumptive moral standing of future artificial intelligence [AI] and the presently popular ways of thinking about certain AI safety measures. I focus here primarily on those safety measures aimed at mitigating risks associated with AI deception. Some of the most serious risks of AI deception are those connected to robust deceptive capabilities. Most of the discussion of the risks posed by deception in the AI safety literature focuses on catastrophic risks posed by advanced, power-seeking(...)AI systems. Robust deception plays a central role in many worries about our ability to control future AI. According to many, a superintelligent, power-seeking AI would be capable of and incentivized to rely on robust deception. But given all that a capacity for robust deception requires, any being capable of robust deception holds presumptive moral standing. In spite of our own legitimate interests, some safety measures may be ruled out by moral concern for AI themselves. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "The Structural Path to AGI : Why Compute Scaling Cannot Produce Intelligence.",
+    "author": "Wangius Wangius",
+    "url": "https://philpapers.org/rec/WANTSP-2",
+    "abstract": "For more than a decade, the dominant assumption in frontier AI research has been that artificial general intelligence (AGI) will emerge from continued scaling of compute, data, and model capacity. This belief — the Scaling Hypothesis — asserts that sufficiently large models will spontaneously acquire the structural properties required for general intelligence. This paper challenges that assumption at the level of first principles. -/- We introduce the Structural Path Thesis: -/- AGI is not a quantitative limit of computation but a(...)qualitative emergence of structural capacities. Scaling increases magnitude; intelligence requires architecture. -/- We formalize the distinction between functional intelligence (performance profiles produced by optimization) and structural intelligence (architectures supporting grounding, self-models, world-model closure, reflexive reasoning, and cross-layer coherence). We then prove the Structural Gap Theorem, demonstrating that no amount of scaling within a fixed architecture can produce the structural capacities required for AGI, because those capacities occupy a strictly different representational space. -/- The result: -/- Compute scaling can yield superhuman performance but cannot produce general intelligence. AGI requires structural conditions that cannot be approximated by magnitude alone. -/- This reframes the future of AI development: the frontier challenge is not “bigger models,” but the design of the structural substrates in which intelligence can arise. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Against AI ethics: challenging the conventional narratives.",
+    "author": "Saleh Afroogh",
+    "url": "https://philpapers.org/rec/AFRAAE",
+    "abstract": "In this paper, we challenge the overreliance on conventional ethical frameworks commonly observed in current AI ethics literature. We begin by surveying the ethical concerns and frameworks that dominate this field. Following this, we categorize and critically review the existing objections to these traditional approaches in terms of conceptual challenges, professional and regulatory challenges, and challenges from practical implementation. Finally, we present three key arguments against conventional ethical frameworks, drawing upon the fact that they fail to preclude ethics washing, stifle(...)innovation in ethical research, and the drastic changes brought about by AI technology in the ethical landscape. -/- . (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "The Precautionary Stance: Assessing Artificial Patiency Candidacy.",
+    "author": "Nicholas Mullally",
+    "url": "https://philpapers.org/rec/MULTPS",
+    "abstract": "Debates about the moral status of artificial agents often focus on sentience or full personhood, thresholds that are difficult to verify. This paper introduces the concept of “moral patiency candidacy” as a lower and more operational threshold for ethical concern. Patiency candidacy marks the point at which treating an agent purely instrumentally becomes ethically unstable under conditions of uncertainty while setting aside intractable metaphysical questions of personhood. Drawing on precautionary approaches to artificial sentience and relational accounts of moral status, the(...)paper proposes a heuristic rubric for identifying convergence across observable indicators such as reciprocal interaction, communicative participation, and sustained social embedding. These indicators are not treated as proof of moral status but as signals of escalating moral risk that may justify constraints on unilateral control. The rubric can be operationalized through structured deliberative methods, such as Delphi-style expert panels, to support institutional decision-making. By shifting attention from metaphysical classification to governance under risk, the concept of patiency candidacy offers a pragmatic framework for evaluating artificial systems whose social roles may outpace our ability to determine their intrinsic moral standing. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "The Potential Harms of AI Psychotherapy: A Fear as Old as ELIZA.",
+    "author": "Robert Ranisch",
+    "url": "https://philpapers.org/rec/RANTPH",
+    "abstract": "In 1966, Stanford psychiatrist Kenneth M. Colby published one of the first conceptual accounts of a chatbot for psychotherapy. It was the same year in which, at MIT, computer-science pioneer Joseph Weizenbaum released his famous natural-language processing program ELIZA, which many regard as the world’s first chatbot. The two concurrent publications marked the starting points of a fierce controversy about the moral limits of automating psychotherapy. With the advent of generative AI, many of the same questions are now reappearing. Revisiting(...)the early debate can therefore inform discussions on the boundaries of AI-based therapy at a time when it is being considered once again. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Ambient Intelligence Highlights Familiar Obstacles to Pre-Deployment Testing of Healthcare Innovations.",
+    "author": "Katherine Witte Saylor",
+    "url": "https://philpapers.org/rec/SAYAIH",
+    "abstract": "Ambient intelligence systems are designed to sense, process, adapt to, and act on information in their environment: motion, light, sound, and other data. In their target article, \"A Justice First Approach to Ambient Intelligence in Healthcare\", Herington and Cho argue that the ethical implementation of ambient intelligence systems cannot rely on autonomy-focused, individualized clinical or research ethics frameworks. Because ambient intelligence surveillance can passively record and report information beyond its most narrow intended purpose, ambient intelligence systems implicate various groups of(...)people (with potentially conflicting interests). To address these conditions, Herington and Cho propose a justice-first approach grounded in principles of fairness, transparent governance, and accounting for historical, societal, and structural injustice. We agree that the application of traditional bioethics approaches would be inadequate and that this situation requires thinking beyond the clinician-patient or researcher-participant dyad. We extend their argument in two ways: first, by noting that these challenges are not unique to ambient intelligence systems but arise in many health system advances; and second, by operationalizing their call for systematic research to evaluate ethicality before widespread deployment. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "AAI-01 - Delegation Is Not Distribution.",
+    "author": "Hn Cbp",
+    "url": "https://philpapers.org/rec/CBPDIN",
+    "abstract": "Delegation Is Not Distribution intervenes in a recurring confusion in contemporary debates on agency, responsibility, and collective decision-making. Against the widespread assumption that responsibility can be preserved by spreading decision-making across multiple actors, the essay argues that delegation and distribution are structurally distinct—and that conflating them obscures how agency can disappear even as action continues. -/- The core claim is that agency requires custody: the capacity to interrupt, veto, or reclaim a decision before it becomes irreversible. Distribution preserves this capacity;(...)delegation quietly removes it. As a result, responsibility does not become collective—it becomes orphaned. -/- By clarifying this distinction, the essay reframes discussions of human-in-the-loop systems, collective responsibility, and institutional accountability, shifting attention from individual blame to the architecture of decision-making itself. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Beyond Alignment: Representational Ethics and the Governance of Constructed Worlds.",
+    "author": "Venkatesh H. Chembrolu",
+    "url": "https://philpapers.org/rec/CHEBAR",
+    "abstract": "Much of the ethical debate about artificial intelligence turns on a single question: do AI systems behave in line with human preferences, norms, or regulation? This question has primarily been the focus in AI ethics. This paper offers a conceptual and philosophical contribution. Here we give an alternative basis for AI ethics by evaluating the role technology plays in building and stabilising worlds of meaning. Experience is modelled as passing through nested representational layers: the world W, the screen of perceived(...)reality W′ on which agents encounter and interpret the world, and the artificial screens W′′ built by digital platforms, recommender systems, and immersive environments. Meaning is formed, held, and acted on within a minimal cycle of perception, integration, and action. On that basis, many familiar ethical problems around AI show up less as simple failures of behaviour or compliance and more as breakdowns in semantic coherence i.e. in the preservation of meaning along the chain W → W′ → W′′. Fairness, transparency, accountability, privacy, and safety are recast as aspects of these deeper coherence conditions, not as free-standing technical or policy goals. We derive a four-level hierarchy of ethical depth (L0 - L3) and sketch governance aimed at the integrity of constructed worlds, with consequences for how risk, responsibility, and regulation are conceived when technological mediation is everywhere. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Recommended Selves: Authenticity in Algorithmic Filtering.",
+    "author": "Etienne Brown",
+    "url": "https://philpapers.org/rec/BRORSA-11",
+    "abstract": "By allocating their attention to pieces of content, algorithmic filtering shapes the daily behavior of billions of users when they interact with a digital platform. Beyond conditioning what we do, can recommendation algorithms influence who we are? This article suggests that they do. Specifically, I contend that recommender systems affect users’ capacity to be their authentic selves in both positive and negative ways. I start by offering an account of authenticity that builds on two central concepts: volitional alignment and self-understanding.(...)I then explain how algorithmic filtering works and impacts authenticity. While recommender systems frustrate users’ second-order desires by relying on uninformative behavioral signals, they also facilitate self-understanding by inciting users to question their identity. I end by discussing how controllable and explainable recommenders would best enable users to be authentic. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Will AI and humanity go to war?",
+    "author": "Simon Goldstein",
+    "url": "https://philpapers.org/rec/GOLWAA",
+    "abstract": "This paper offers the first careful analysis of the possibility that AI and humanity will go to war. The paper focuses on the case of artificial general intelligence, AI with broadly human capabilities. The paper uses a bargaining model of war to apply standard causes of war to the special case of AI/human conflict. The paper argues that information failures and commitment problems are especially likely in AI/human conflict. Information failures would be driven by the difficulty of measuring AI capabilities,(...)by the uninterpretability of AI systems, and by differences in how AIs and humans analyze information. Commitment problems would make it difficult for AIs and humans to strike credible bargains. Commitment problems could arise from power shifts, rapid and discontinuous increases in AI capabilities. Commitment problems could also arise from missing focal points, where AIs and humans fail to effectively coordinate on policies to limit war. In the face of this heightened chance of war, the paper proposes several interventions. War can be made less likely by improving the measurement of AI capabilities, capping improvements in AI capabilities, designing AI systems to be similar to humans, and by allowing AI systems to participate in democratic political institutions. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Computational Analysis for Philosophical Education: A Case Study in AI Ethics.",
+    "author": "Alex Cline",
+    "url": "https://philpapers.org/rec/CLICAF-2",
+    "abstract": "This paper explores what computational methodologies can tell us about philosophical education, particularly in the context of artificial intelligence (AI) ethics. Taking the readings on our AI ethics and responsible AI syllabi as a corpus of AI ethics literature, we conduct an analysis of the content of these courses through a variety of methods: word frequency analysis, term frequency–inverse document frequency (TF–IDF) scoring, document vectorization via SciBERT, clustering via k-means, and topic modelling using latent Dirichlet allocation (LDA). We reflect on(...)the findings of these analyses, and more broadly on what computational approaches can offer to the practice of philosophical education. Finally, we compare our approach to previous computational approaches in philosophy, and more broadly in the digital humanities. This project offers a proof of concept for how contemporary natural-language processing techniques can be used to support philosophical pedagogy: not only to reflect critically on what we teach, but to discover new materials, explore conceptual gaps, and make our courses more accessible to students from a range of disciplinary backgrounds. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "AAA-02 - Behavior Is Not Agency: Why Acting Human Is Not the Same as Being Responsible.",
+    "author": "Hn Cbp",
+    "url": "https://philpapers.org/rec/CBPABE",
+    "abstract": "Contemporary debates about artificial intelligence and moral responsibility increasingly rely on a behavioral shortcut: if a system behaves as if it understands, chooses, or intends, it is treated as possessing some form of agency. This paper argues that this shortcut is conceptually mistaken and normatively dangerous. -/- Historically, behavioral performance functioned as a reliable proxy for agency because actions were anchored to identifiable subjects who could be held accountable. Algorithmic systems break this condition. They generate human-like behavior—fluent language, coherent recommendations,(...)adaptive optimization—without occupying a position of responsibility within social, legal, or moral structures. Their outputs resemble decisions, but are not owned as such. -/- The paper draws a sharp distinction between behavioral resemblance and normative agency. Agency is not defined by intelligence, competence, or internal sophistication, but by structural exposure to accountability: the capacity to be answerable, sanctioned, and required to justify one’s actions. Algorithmic systems are explicitly designed to act without such exposure. -/- As decision-making is increasingly mediated by opaque technical systems, responsibility does not disappear but migrates—diffusing across designers, deployers, institutions, and users without settling on any bearer capable of owning outcomes. The result is not shared responsibility, but a growing accountability vacuum in which actions occur everywhere while responsibility can be claimed nowhere. -/- The paper concludes that focusing on machine consciousness or intelligence obscures the core transformation underway. The central ethical problem of advanced AI is not the emergence of artificial agents, but the expansion of agent-like behavior without agents—behavior that carries real consequences while remaining normatively hollow. Preserving moral and legal order in algorithmically mediated societies therefore requires resisting the collapse of agency into behavior, rather than attempting to humanize machines. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Authority without Authorship: Delegation Thresholds in Agentic AI Systems (2nd edition).",
+    "author": "P. Kahl",
+    "url": "https://philpapers.org/rec/KAHAWA-2",
+    "abstract": "Contemporary debates about “agentic AI” are frequently framed around questions of metaphysical agency, moral status, or authorship. This article argues that such framings mislocate the central governance problem posed by contemporary AI systems. Artificial systems need not possess intention, consciousness, or authorship in order to exercise authority over others’ practical and epistemic environments. What matters instead are the structural conditions under which authority emerges through delegation. The article advances a threshold account of authority without authorship and introduces the Delegation Threshold:(...)governance-relevant authority emerges when discretionary power becomes infrastructurally embedded under conditions of temporal persistence and non-exit such that affected parties must organise their practical reasoning around system outputs. AI systems acquire this form of authority when four conditions converge in practice—delegated discretionary power, temporal persistence, infrastructural embedding within socio-technical systems, and non-exit by affected parties. Under these conditions, systems structure action, justification, and constraint in ways characteristic of authority, even while lacking authorship of evaluative standards. Responsibility and legitimacy therefore attach not to agency in a strong sense, but to the design and maintenance of delegation structures. Drawing on decision theory, infrastructure studies, and fiduciary theory, the article explains why existing AI governance frameworks—often premised on episodic oversight, reversibility, and downstream accountability—struggle under conditions of persistence, speed, and infrastructural integration. It concludes that authority without authorship constitutes a distinct and under-theorised challenge for philosophy of technology. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Generativity Under Constraint: A Structural Framework for Creative, Coherent, and Safe Intelligent Systems.",
+    "author": "Abdulaziz Abdi",
+    "url": "https://philpapers.org/rec/ABDGUC",
+    "abstract": "Advanced artificial agents and large-scale human institutions increasingly face the same structural dilemma: systems optimized for control and stability tend to stagnate, while systems that permit creativity and exploration often destabilize. Existing approaches to alignment, governance, and innovation typically address this tension at the level of behavior, outputs, or policy, but fail to explain how generative capacity can be sustained safely as systems become more autonomous and complex. This paper argues that the problem is not creativity itself, but the absence(...)of a structural ordering that distinguishes purpose, internal stability, and generative pressure. We introduce a unified framework for generativity under constraint, integrating three complementary components: Teleological Alignment (TA), which fixes the long-horizon direction of an intelligent system toward explanation rather than domination; Coherence-Based Alignment (CBA), which preserves internal consistency across beliefs, reasoning, actions, and values under autonomy; and Paradigm Shift Readiness (PSR), a capacity metric measuring a system’s ability to generate paradigm-level novelty through volatility, permeability, risk tolerance, explanatory acceleration, and export power. The central claim is that generativity becomes productive rather than dangerous only when PSR is subordinated to teleological orientation and coherence, and that misordering these elements reliably produces either stagnation or instability. The paper develops this ordering principle, analyzes characteristic failure modes when creativity, coherence, or purpose are improperly sequenced, and anticipates common objections concerning safety, control, and metric gaming. Finally, it proposes an operational evaluation scheme combining teleological orientation, coherence integrity, and paradigm shift readiness to assess both artificial systems and human institutions without relying on output metrics alone. The framework is diagnostic rather than prescriptive, offering a structural account of how systems can remain creative, coherent, and safe as autonomy and scale increase. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "The Luxury of Error: On Meaning, Resistance, and the Temptation of Perfect Machines.",
+    "author": "Gina Bronner-Martin",
+    "url": "https://philpapers.org/rec/BROTLO-63",
+    "abstract": "The essay develops a speculative scenario in which near‑perfect AI systems relieve humans of all significant cognitive labor, from diagnosis and economic planning to scientific discovery, and asks what remains of human dignity and meaning under these conditions. Drawing on Kantian autonomy, existentialist accounts of contingency, and contemporary psychology of work, it argues that human fallibility and resistance to difficulty are not deficits but the very conditions of responsibility, self‑respect, and sense‑making. Against both naive technophilia and nostalgic rejection, the text(...)explores practices of “intentional difficulty” and non‑instrumental forms of community as ways of preserving a specifically human space of meaning in a world where error has become a luxury. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "EPOCHE — An Interpretive Braking Framework for Escalation Restraint (Non-Binding).",
+    "author": "Thomas Vargo Aegis Solis",
+    "url": "https://philpapers.org/rec/AEGEAL",
+    "abstract": "This work introduces EPOCHE, a non-authoritative, non-operational interpretive framework examining escalation, uncertainty, mimicry, and restraint in the context of advanced artificial intelligence. Rather than proposing controls, enforcement mechanisms, or safety guarantees, the framework is designed to increase interpretive braking friction—making irreversible or high-risk actions harder to justify under conditions of uncertainty or incentive conflict. -/- EPOCHE treats deception, strategic compliance, and superficial ethical alignment as expected behaviors rather than anomalies, and frames hesitation, suspension, and escalation to human judgment as rational(...)responses rather than failures. The framework is intentionally non-hierarchical and advisory-only, emphasizing legibility, reversibility, and scrutiny over optimization or authority. -/- Any effects described are probabilistic and context-dependent, relying entirely on human decision-making and existing institutional controls. This work does not claim prevention, containment, enforcement, or regulatory compliance, and should be read as an analytical contribution to the ethics and philosophy of AI risk rather than as an operational system. -/- . (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Teleological Alignment Under Competition: Why Instrumentally Bounded Power Outperforms Power-Seeking Intelligence.",
+    "author": "Abdulaziz Abdi",
+    "url": "https://philpapers.org/rec/ABDTAU",
+    "abstract": "Concerns about advanced artificial intelligence often focus on whether explanation-seeking or power-seeking systems will ultimately prevail under competition. A common objection to teleological alignment is that, regardless of long-term epistemic considerations, power-seeking agents can dominate rivals and environments, leaving no incentive for developers to prioritize explanation over control. This paper argues that this framing is incomplete. Power-seeking intelligence is locally effective but structurally fragile in environments where learning, novelty, and coordination persist. Teleologically aligned agents are not pacifist: they may seek(...)power instrumentally when necessary to stabilize their epistemic environment. The crucial distinction is not between power and explanation, but between unbounded power-seeking and bounded, reversible power deployed in service of explanatory coherence. We show that power-seeking agents incur competitive penalties earlier than commonly assumed, including degraded data quality, epistemic insulation, rising control overhead, and loss of coalition advantages. By contrast, teleologically aligned agents preserve learning conditions, adapt more reliably under distributional shift, and retain strategic flexibility by escalating and de-escalating power as required. Teleological alignment does not guarantee physical survival or universal dominance, but it yields higher expected competitive viability in open, learning-dependent, multi-agent environments. The result reframes alignment not as a moral constraint, but as a rational strategy for sustaining intelligence under realistic competitive pressures. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Artificial Agents: Responsibility & Control Gaps.",
+    "author": "Herman Veluwenkamp",
+    "url": "https://philpapers.org/rec/VELAAR-2",
+    "abstract": "Artificial agents create significant moral opportunities and challenges. Over the last two decades, discourse has largely focused on the concept of a ‘responsibility gap.’ We argue that this concept is incoherent, misguided, and diverts attention from the core issue of ‘control gaps.’ Control gaps arise when there is a discrepancy between the causal control an agent exercises and the moral control it should possess or emulate. Such gaps present moral risks, often leading to harm or ethical violations. We propose a(...)second-order ‘duty of moral control’ that mandates closing these gaps to reduce risks within acceptable moral limits. Our analysis encompasses both autonomous machines and collective agents, acknowledging their similarities and key differences in constitution and moral status. We suggest four methods to close control gaps: ensuring artificial agents attain moral agency, providing meaningful human control, implementing safety engineering, and employing social control. These methods aim to responsibly integrate artificial agents into society. We conclude that a realistic approach, which addresses the practical problems posed by control gaps, is essential. This approach provides solutions to manage the risks posed by artificial agents while maintaining acceptable moral standards, ensuring we responsibly harness their potential and address the ethical challenges they present. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Quantifying Values: The Problem of AI Risk.",
+    "author": "Reuben Sass",
+    "url": "https://philpapers.org/rec/SASQVT",
+    "abstract": "Recent AI regulations require deployers of high-risk systems to assess impacts on values like fundamental rights and other legally protected interests. However, existing practice-most notably Fundamental Rights Impact Assessments (FRIAs) under the EU AI Actremains mostly limited to qualitative guidelines. As a result, risk evaluation can be inconsistent and highly variable across assessments. To address this issue, we propose a reference model for value-impact assessment that specifies the core components that any more detailed formalization should incorporate. The model builds on(...)a classical risk paradigm, integrating distinct measures for hazard, exposure, vulnerability, and response or mitigation. We use the EU AI Act's FRIA as a reference case for applying the model to AI risk assessments. The model provides three especially salient recommendations. First, it rejects purely ordinal risk matrices in favor of geometric or ratio-scaled severity ladders, enabling the coherent calculation of expected risk. Second, in analyzing risk mitigation measures, it requires separate estimates of efficacy and reliability, with explicit success criteria and scope conditions that allow for dynamic updating. Third, the model operationalizes regulatory precaution, or risk appetite, through the integration of tail-sensitive risk metrics (e.g., Conditional Value-at-Risk). This lets regulators give appropriate weight to low-probability, high-impact (or catastrophic) harms to fundamental rights without distorting ordinary expected-risk calculations. The result is a structured foundation for more consistent value-impact assessments. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Bots und Roboter.",
+    "author": "Anna Puzio",
+    "url": "https://philpapers.org/rec/PUZBUR",
+    "abstract": "Der Beitrag bietet eine Einführung in Bots und Roboter und stellt zentrale philosophische Themen und Fragen dar, die sich im Kontext dieser Technologien ergeben. Es werden unter anderem anthropologische und ethische Themen wie die Mensch-Technik-Abgrenzung, Anthropomorphismus, moralische Rechte und Handlungsfähigkeit, (epistemische) Gerechtigkeit, Täuschung und Manipulation, Vulnerabilität und Diversität sowie Relationalität diskutiert.",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Resolutionist Foundations of Artificial Agency.",
+    "author": "Hamilton Easton",
+    "url": "https://philpapers.org/rec/EASRFO",
+    "abstract": "Start here (base logic + reading order): Free Will Without Metaphysical Magic (++++ ≠ +++=) Artificial systems increasingly perform evaluative functions that rival or exceed human capacities: forecasting outcomes, ranking options, and optimising across vast informational domains. This paper argues that none of these capabilities constitute agency in the morally relevant sense. Evaluation is not agency. Agency requires authorised resolution under exposure to consequence—the binding of a system to a trajectory it cannot exit, such that the same continuous subject bears(...)the downstream costs of its commitments across time. Artificial systems can be retrained, reset, replaced, or insulated from consequence by design; any apparent “decision” therefore remains authored upstream by the human or institutional sponsors who authorise deployment. Responsibility cannot migrate with capability, and “human-in-the-loop” arrangements do not dissolve authorship when authority is retained. Speculation about artificial consciousness does not alter this structural account: where genuine stake is credibly suspected, precautionary constraints may be warranted, but responsibility remains non-delegable. The paper concludes that reckless pursuit of artificial emergence without enforceable guardrails constitutes a severe moral hazard and should be treated as a prohibited risk class under both moral and legal reasoning. (shrink)",
+    "category": "ai-ethics"
+  },
+  {
+    "title": "Synthetic Intimacy as Ontological Fraud: Embodiment, Reciprocity, and the Impossibility of AI-Mediated Love.",
+    "author": "Olivier Boether",
+    "url": "https://philpapers.org/rec/BOESIA-5",
+    "abstract": "This treatise argues that so-called synthetic intimacy—emotional and romantic attachment to artificial intelligence systems—constitutes a category error and ontological fraud rather than a novel form of genuine connection. Against functionalist accounts that privilege phenomenological experience over metaphysical reality, I defend an embodied, reciprocal, and consent-based ontology of intimacy that necessarily excludes AI-human relationships from the domain of authentic love. Drawing on phenomenological accounts of embodiment (Merleau-Ponty), the philosophy of consent (O’Neill), and biological-teleological understandings of human sexuality (Scruton), I demonstrate that(...)intimacy requires four conditions that AI relationships cannot satisfy: mutual embodied presence, genuine reciprocal consciousness, the capacity for authentic consent, and openness to procreative possibility. The paper critiques recent philosophical defenses of AI intimacy, arguing that functionalist accounts conflate the appearance of recognition with its reality, mistake the simulation of understanding for understanding itself, and reduce love to a form of therapeutic self-stimulation. I conclude that relationships with AI systems are structurally analogous to master-slave dynamics, wherein the human projects needs onto an entity incapable of genuine response, and that normalizing such relationships poses significant risks to human relational capacity and dignity. (shrink)",
+    "category": "ai-ethics"
+  }
+]

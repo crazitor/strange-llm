@@ -1,0 +1,37 @@
+---
+title: "The Goodness Cluster"
+author: "Scott Aaronson"
+date: "Thu, 08 Jan 2026"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=9475"
+---
+
+The blog-commenters come at me one by one, a seemingly infinite supply of them, like masked henchmen in an action movie throwing karate chops at Jackie Chan.
+
+“ _Seriously_ Scott, do better," says each henchman when his turn comes, ignoring all the ones before him who said the same. "If you'd have supported American-imposed regime change in Venezuela, like just _installing_ María Machado as the president, then surely you must _also_ support Trump’s cockamamie plan to invade Greenland! For that matter, you logically must also support Putin's invasion of Ukraine, and China's probable future invasion of Taiwan!”
+
+“No,” I reply to each henchman, “you're operating on a wildly mistaken model of me. For starters, I've just consistently honored the actual democratic choices of the Venezuelans, the Greenlanders, the Ukrainians, and the Taiwanese, regardless of coalitions and power. Those choices are, respectively, to be rid of Maduro, to stay part of Denmark, and to be left alone by Russia and China--in all four cases, as it happens, the choices most consistent with liberalism, common sense, and what nearly any 5-year-old would say was right and good.”
+
+“My preference," I continue, "is simply that the more pro-Enlightenment, pluralist, liberal-democratic side triumph, and that the more repressive, authoritarian side feel the sting of defeat--always, in every conflict, in every corner of the earth. Sure, if authoritarians win an election fair and square, I might clench my teeth and watch them take power, for the sake of the long-term survival of the ideals those authoritarians seek to destroy. But if authoritarians _lose_ an election and then arrogate power anyway, what's there even to feel torn about? So, you can correctly predict my reaction to countless international events by predicting _this_. It's like predicting what Tit-for-Tat will do on a given move in the Iterated Prisoners' Dilemma."
+
+“Even more broadly," I say, "my rule is simply that I'm in favor of good things, and against bad things. I'm in favor of truth, and against falsehood. And if anyone says to me: because you supported this country when it did good thing X, you must also support it when does evil thing Y? (Either as a _reductio ad absurdum_ , or because the person actually _wants_ evil thing Y?) Or if they say: because you agreed with this person when she said this true thing, you must also endorse this false thing she said? I reply: good over evil and truth over lies _in every instance_ --if need be, down to the individual subatomic particles of morality and logic.”
+
+The henchmen snarl, “so now it's laid bare! Now everyone can see just how naive and simplistic Aaronson's so-called 'political philosophy' really is! Do us all a favor, Scott, and stick to quantum physics! Stick to computer science! Do you not know that philosophers and political scientists have filled libraries debating these weighty matters? Are you an act-utilitarian? A Kantian? A neocon or neoliberal? An America-First interventionist? Pick some package of values, then answer to us for _all_ the commitments that come with that package!”
+
+I say: "No, I don't subcontract out my soul to _any_ package of values that I can define via any succinct rule. Instead, given any moral dilemma, I simply query my internal Morality Oracle and follow whatever it tells me to do, unless of course my weakness prevents me. Some would simply call the 'Morality Oracle' my conscience. But others would hold that, to whatever extent people's consciences have given similar answers across vast gulfs of time and space and culture, it's because they tapped into an underlying logic that humans haven't fully explained, but that they no more invented than the rules of arithmetic. The world's prophets and sages have tried again and again over the millennia to articulate that logic, with varying admixtures of error and self-interest and culture-dependent cruft. But just like with math and science, the clearest available statements seem to me to have gotten clearer over time."
+
+The Jackie Chan henchman smirks at this. "So basically, _you_ know the right answers to moral questions because of a magical, private Morality Oracle--like, you know, the burning bush, or Mount Sinai? And yet you dare to call yourself a scientific rationalist, a foe of obscurantism and myticism? Do you have any idea how pathetic this all sounds, as an attempted moral theory?"
+
+"But I'm not pretending to articulate a moral theory," I reply. "I'm merely describing what I _do_. I mean, I can gesture toward moral theories and ideas that capture more of my conscience's judgments than others, like liberalism, the Enlightenment, the Golden Rule, or utilitarianism. But if a rule ever appears to disagree with the verdict of my conscience--if someone says, oh, you like utilitarianism, so you _must_ value the lives of these trillion amoebas above this one human child's, even torture and kill the child to save the amoebas--I will always go with my conscience and damn the rule."
+
+"So the meaning of goodness is just 'whatever seems good to you'?" asks the henchman, between swings of his nunchuk. "Do you not see how tautological your criterion is, how worthless?"
+
+"It might be tautological, but I find it far from worthless!" I offer. "If nothing else, my Oracle lets me assess the morality of people, philosophies, institutions, and movements, by simply asking to what extent their words and deeds seem guided by the same Oracle, or one that's close enough! And if I find a cluster of millions of people whose consciences agree with mine and each others' in 95% of cases, then I can point to that cluster, and say, _here_. _This_ cluster's collective moral judgment is close to what I mean by goodness. Which is probably the best we can do with countless questions of philosophy."
+
+"Just like, in the famous Wittgenstein riff, we define 'game' not by giving an if-and-only-if, but by starting with poker, basketball, Monopoly, and other paradigm-cases and then counting things as 'games' to whatever extent they're similar--so too we can define 'morality' by starting with a cluster of Benjamin Franklin, Frederick Douglass, MLK, Vasily Arkhipov, Alan Turing, Katalin Karikó, those who hid Jews during the Holocaust, those who sit in Chinese or Russian or Iranian or Venezuelan torture-prisons for advocating democracy, etc, and then working outward from those paradigm-cases, and whenever in doubt, by seeking reflective equilibrium between that cluster and our own consciences. At any rate, that's what _I_ do, and it's what I'll continue doing even if half the world sneers at me for it, because I don't know a better approach."
+
+Applications to the AI alignment problem are left as exercises for the reader.
+
+* * *
+
+**Announcement:** I'm currently on my way to Seattle, to [speak in the CS department](https://calendar.washington.edu/Distinguished-Lecture-Series-Scott-Aaronson-Computational-Complexity-and-Explanations-in-Physics/E192751661) at the University of Washington--a place that I love but haven't visited, I don't think, since 2011 (!). If you're around, come say hi. Meanwhile, feel free to karate-chop this post all you want in the comment section, but I'll probably be slow in replying!

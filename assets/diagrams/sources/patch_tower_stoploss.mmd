@@ -1,0 +1,31 @@
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1A3A4A', 'primaryTextColor': '#FFFFFF', 'primaryBorderColor': '#4EC9B0', 'lineColor': '#4EC9B0'}}}%%
+graph BT
+    LLM["<b>LLM</b><br/>文字接龙"]
+    PROMPT["<b>Prompt</b><br/>提示词"]
+    CONTEXT["<b>Context</b><br/>上下文"]
+    MEMORY["<b>Memory</b><br/>记忆"]
+    TOOL["<b>Tool</b><br/>工具"]
+    STOPLOSS["<b>止损判断层</b><br/>Stop-Loss Layer<br/>从未被添加"]
+    AGENT["<b>Agent</b><br/>智能体"]
+    RAG["<b>RAG</b><br/>检索增强"]
+    MCP["<b>MCP</b><br/>模型上下文协议"]
+    SKILL["<b>Skill</b><br/>技能"]
+
+    NOTE["<i>责任链的每一环都在往前推</i><br/><i>没有一环负责往后拉</i>"]
+
+    LLM --> PROMPT --> CONTEXT --> MEMORY --> TOOL
+    TOOL -. "缺失" .-> STOPLOSS
+    STOPLOSS -. "缺失" .-> AGENT
+    AGENT --> RAG --> MCP --> SKILL
+
+    style LLM fill:#FFA500,stroke:#FFA500,color:#000000,stroke-width:3px
+    style PROMPT fill:#3BA68A,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style CONTEXT fill:#42B096,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style MEMORY fill:#48B9A1,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style TOOL fill:#4EC9B0,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style STOPLOSS fill:#1A1A2E,stroke:#FF4444,color:#FF4444,stroke-width:3px,stroke-dasharray:8 4
+    style AGENT fill:#5ED1B8,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style RAG fill:#6ED9C0,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style MCP fill:#7EE1C8,stroke:#4EC9B0,color:#000000,stroke-width:2px
+    style SKILL fill:#8EE9D0,stroke:#4EC9B0,color:#000000,stroke-width:2px
+    style NOTE fill:none,stroke:#FF4444,color:#FF4444,stroke-width:1px,stroke-dasharray:5 5

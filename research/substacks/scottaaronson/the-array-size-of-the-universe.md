@@ -1,0 +1,60 @@
+---
+title: "The array size of the universe"
+author: "Scott Aaronson"
+date: "Sat, 24 May 2008"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=328"
+---
+
+I've been increasingly tempted to make this blog into a forum solely for responding to the posts at [Overcoming Bias](http://www.overcomingbias.com). (Possible new name: "Wallowing in Bias.")
+
+Two days ago, Robin Hanson pointed to a [fascinating paper](http://www.overcomingbias.com/2008/05/anthropic-break.html) by Bousso, Harnik, Kribs, and Perez, on predicting the cosmological constant from an "entropic" version of the anthropic principle. [Say what you like](http://www.math.columbia.edu/~woit/blog/) about whether anthropicology is science or not, for me there's something delightfully non-intimidating about any physics paper with "anthropic" in the abstract. Sure, you know it's going to have metric tensors, etc. (after all, it's a physics paper) -- but you also know that in the end, it's going to turn on some core set of assumptions about the number of sentient observers, the prior probability of the universe being one way rather than another, etc., which will be comprehensible (if not necessarily plausible) to anyone familiar with Bayes' Theorem and how to think formally.
+
+So in this post, I'm going to try to extract an "anthropic core" of Bousso et al.'s argument -- one that doesn't depend on detailed calculations of entropy production (or anything else) -- trusting my expert readers to correct me where I'm mistaken. In defense of this task, I can hardly do better than to quote the authors themselves. In explaining why they make what will seem to many like a decidedly dubious assumption -- namely, that the "number of observations" in a given universe should be proportional to the increase in non-gravitational entropy, which is dominated (or so the authors calculate) by starlight hitting dust -- they write:
+
+> We could have … continued to estimate the number of observers by more explicit anthropic criteria. This would not have changed our final result significantly. But why make a strong assumption if a more conservative one suffices? [p. 14]
+
+In this post I'll freely make strong assumptions, since my goal is to understand and explain the argument rather than to defend it.
+
+The basic question the authors want to answer is this: why does our causally-connected patch of the universe have the size it does? Or more accurately: taking everything else we know about physics and cosmology as given, why shouldn't we be _surprised_ that it has the size it does?
+
+From the standpoint of post-1998 cosmology, this is more-or-less equivalent to asking why the cosmological constant Λ ~ 10-122 should have the value it has. For the radius of our causal patch scales like
+
+1/√Λ ~ 1061 Planck lengths ~ 1010 light-years,
+
+while (if you believe the [holographic principle](http://en.wikipedia.org/wiki/Holographic_principle)) its maximum information content scales like 1/Λ ~ 10122 qubits. To put it differently, there might be stars and galaxies and computers that are more than ~1010 light-years away from us, and they might require more than ~10122 qubits to describe. But if so, they're receding from us so quickly that we'll never be able to observe or interact with them.
+
+Of course, to ask why Λ has the value it does is really to ask _two_ questions:
+
+1\. Why isn't Λ smaller than it is, or even zero? (In this post, I'll ignore the possibility of its being negative.)  
+2\. Why isn't Λ bigger than it is?
+
+Presumably, any story that answers both questions simultaneously will have to bring in _some_ actual facts about the universe. Let's face it: 10-122 is just not the sort of answer you expect to get from armchair philosophizing (not that it wouldn't be great if you did). It's a number.
+
+As a first remark, it's easy to understand why Λ isn't _much_ bigger than it is. If it were _really_ big, then matter in the early universe would've flown apart so quickly that stars and galaxies wouldn't have formed, and hence we wouldn't be here to blog about it. But this upper bound is far from tight. Bousso et al. write that, based on current estimates, Λ could be about 2000 times bigger than it is without preventing galaxy formation.
+
+As for why Λ isn't smaller, there's a "naturalness" argument due originally (I think) to Weinberg, before the astronomers even discovered that Λ>0\. One can think of Λ as the energy of empty space; as such, it's a sum of positive and negative contributions from all possible "scalar fields" (or whatever else) that contribute to that energy. That all of these admittedly-unknown contributions would happen to cancel out _exactly_ , yielding Λ=0, seems fantastically "unnatural" if you choose to think of the contributions as more-or-less random. (Attempts to calculate the likely values of Λ, with no "anthropic correction," notoriously give values that are off by 120 orders of magnitude!) From this perspective, the smaller you want Λ to be, the higher the price you have to pay in the unlikelihood of your hypothesis.
+
+Based on the above reasoning, Weinberg predicted that Λ would have close to the largest possible value it _could_ have, consistent with the formation of galaxies. As mentioned before, this gives a prediction that's too big by a factor of 2000 -- a vast _improvement_ over the other approaches, which gave predictions that were off by factors of 10120 or infinity!
+
+Still, can't we do better? One obvious approach to pushing Λ down would be to extend the relatively-uncontroversial argument explaining why Λ can't be enormous. After all, the tinier we make Λ, the bigger the universe (or at least our causal patch of it) will be. And hence, one might argue, the more observers there will be, hence the more likely we'll be to exist in the first place! This form of anthropicizing -- that we're twice as likely to exist in a universe with twice as many observers -- is what philosopher Nick Bostrom calls the [Self-Indication Assumption](http://en.wikipedia.org/wiki/Self-Indication_Assumption).
+
+However, two problems with this idea are evident. First, why should it be our _causal patch_ of the universe that matters, rather than the universe as a whole? For anthropic purposes, who cares if the various civilizations that arise in some universe are in causal contact with each other or not, provided they exist? Bousso et al.'s response is basically just to stress that, from what we know about quantum gravity (in particular, black-hole complementarity), it probably doesn't even make sense to assign a Hilbert space to the entire universe, as opposed to some causal patch of it. Their "Causal-Patch Self-Indication Assumption" still strikes me as profoundly questionable -- but let's be good sports, assume it, and see what the consequences are.
+
+If we do this, we immediately encounter a _second_ problem with the anthropic argument for a low value of Λ: namely, it seems to work too well! On its face, the Self-Indication Assumption wants the number of observers in our causal patch to be _infinite_ , hence the patch itself to be infinite in size, hence Λ=0, in direct conflict with observation.
+
+But wait: what exactly is our _prior_ over the possible values of Λ? Well, it appears Landscapeologists typically just assume a _uniform_ prior over Λ within some range. (Can someone enlighten me on the reasons for this, if there are any? E.g., is it just that the middle part of a Gaussian is roughly uniform?) In that case, the probability that Λ is between ε and 2ε will be of order ε -- and such an event, we might guess, would lead to a universe of "size" 1/ε, with order 1/ε observers. In other words, it seems like the tiny prior probability of a small cosmological constant should precisely cancel out the huge number of observers that such a constant leads to -- Λ(1/Λ)=1 -- leaving us with no prediction whatsoever about the value of Λ. (When I tried to think about this issue years ago, that's about as far as I got.)
+
+So to summarize: Bousso et al. need to explain to us on the one hand why Λ isn't 2000 times bigger than it is, and on the other hand why it's not arbitrarily smaller or 0. Alright, so are you ready for the argument?
+
+The key, which maybe isn't so surprising in retrospect, turns out to be _other stuff_ that's known about physics and astronomy (independent of Λ), together with the assumption that that other stuff stays the same (i.e., that all we're varying is Λ). Sure, say Bousso et al.: in principle a universe with positive cosmological constant Λ could contain up to ~1/Λ bits of information, which corresponds -- or so a computer scientist might estimate! -- to ~1/Λ observers, like maybe ~1/√Λ observers in each of ~1/√Λ time periods. (The 1/√Λ comes from the [Schwarzschild bound](http://en.wikipedia.org/wiki/Schwarzschild_radius) on the amount of matter and energy within a given radius, which is linear in the radius and therefore scales like 1/√Λ.)
+
+But in reality, that 1/Λ upper bound on the number of observers won't be anywhere close to saturated. In reality, what will happen is that after a billion or so years stars will begin to form, radiating light and quickly increasing the universe's entropy, and then after a couple tens of billions more years, those stars will fizzle out and the universe will return to darkness. And this means that, even though you pay a Λ price in prior probability for a universe with 1/Λ information content, as Λ goes to zero what you get for your money is not ~1/√Λ observers in each of ~1/√Λ time periods (hence ~1/Λ observers in total), but rather just ~1/√Λ observers over a length of time independent of Λ (hence ~1/√Λ observers in total). In other words, you get diminishing returns for postulating a bigger and bigger causal patch, once your causal patch exceeds a few tens of billions of light-years in radius.
+
+So that's one direction. In the other direction, why shouldn't we expect Λ to be 2000 times bigger than it is (i.e. the radius of our causal patch to be ~45 times smaller)? Well, Λ _could_ be that big, say the authors, but in that case the galaxies would fly apart from each other before starlight really started to heat things up. So once again you lose out: during the very period when the stars are shining the brightest, entropy production is at its peak, civilizations are presumably arising and killing each other off, etc., the number of galaxies _per causal patch_ is minuscule, and that more than cancels out the larger prior probability that comes with a larger value of Λ.
+
+Putting it all together, then, what you get is a posterior distribution for Λ that's peaked right around 10-122 or so, corresponding to a causal patch a couple tens of light-years across. This, of course, is exactly what's observed. You also get the prediction that _we_ should be living in the era when Λ is "just taking over" from gravity, which again is borne out by observation. According to [another](http://arxiv.org/abs/0709.4443v2) paper, which I haven't yet read, several other predictions of cosmological parameters come out right as well.
+
+On the other hand, it seems to me that there are still few enough data points that physicists' ability to cook up _some_ anthropic explanation to fit them all isn't sufficiently surprising to compel belief. (In learning theory terms, the measurable cosmological parameters still seem [shattered](http://en.wikipedia.org/wiki/Shattering) by the concept class of possible anthropic stories.) For those of us who, [unlike Eliezer Yudkowsky](http://www.overcomingbias.com/2008/05/einsteins-speed.html), still hew to the plodding, non-Bayesian, laughably human norms of traditional science, it seems like what's needed is a successful prediction of a _not_ -yet-observed cosmological parameter.
+
+Until then, I'm happy to adopt a [bullet-dodging](https://scottaaronson.blog/?p=326) attitude toward this and all other proposed anthropic explanations. I assent to none, but wish to understand them all -- the more so if they have a novel conceptual twist that I personally failed to think of.

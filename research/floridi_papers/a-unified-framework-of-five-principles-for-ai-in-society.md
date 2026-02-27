@@ -1,0 +1,12 @@
+---
+title: "A Unified Framework of Five Principles for AI in Society"
+author: "Luciano Floridi"
+date: "2019"
+source: "semantic_scholar"
+url: "https://www.semanticscholar.org/paper/8499e44d42b12518495069a54ae4400baccb7546"
+citations: 1177
+---
+
+## Abstract
+
+Artificial Intelligence (AI) is already having a major impact on society. As a result, many organizations have launched a wide range of initiatives to establish ethical principles for the adoption of socially beneficial AI. Unfortunately, the sheer volume of proposed principles threatens to overwhelm and confuse. How might this problem of ‘principle proliferation’ be solved? In this paper, we report the results of a fine-grained analysis of several of the highest-profile sets of ethical principles for AI. We assess whether these principles converge upon a set of agreed-upon principles, or diverge, with significant disagreement over what constitutes ‘ethical AI.’ Our analysis finds a high degree of overlap among the sets of principles we analyze. We then identify an overarching framework consisting of five core principles for ethical AI. Four of them are core principles commonly used in bioethics: beneficence, non-maleficence, autonomy, and justice. On the basis of our comparative analysis, we argue that a new principle is needed in addition: explicability, understood as incorporating both the epistemological sense of intelligibility (as an answer to the question ‘how does it work?’) and in the ethical sense of accountability (as an answer to the question: ‘who is responsible for the way it works?’). In the ensuing discussion, we note the limitations and assess the implications of this ethical framework for future efforts to create laws, rules, technical standards, and best practices for ethical AI in a wide range of contexts.KeywordsAccountability; Autonomy; Artificial Intelligence; Beneficence; Ethics; Explicability; Fairness; Intelligibility; Justice; Non-maleficence.

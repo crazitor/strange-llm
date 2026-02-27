@@ -1,0 +1,23 @@
+---
+title: "Seven announcements"
+author: "Scott Aaronson"
+date: "Sun, 09 Aug 2020"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=4933"
+---
+
+  1. Good news, everyone! Following years of requests, this blog finally supports rich HTML and basic TeX in comments. Also, the German spam that used to plague the blog (when JavaScript was disabled) is gone. For all this, I owe deep gratitude to a reader and volunteer named [Filip Dimitrovski](https://filiparena.github.io/).  
+
+  2. Filip refused to accept any payment for fixing this blog. Instead, he asked only one favor: namely, that I use my platform to raise public awareness about the plight of the MAOI antidepressant [Nardil](https://en.wikipedia.org/wiki/Phenelzine). Filip tells me that, while tens of thousands of people desperately need Nardil--no other antidepressant ever worked for them--it's become increasingly unavailable because the pharma companies can no longer make money on it. He points me to a [SlateStarCodex post from 2015](https://slatestarcodex.com/2015/04/30/prescriptions-paradoxes-and-perversities/) that explains the problem in more detail (anyone else miss SlateStarCodex?). More recent links about the worsening crisis [here](https://www.sps.nhs.uk/articles/shortage-of-phenelzine-15mg-tablets-nardil/), [here](https://healthycanadians.gc.ca/recall-alert-rappel-avis/hc-sc/2020/73411a-eng.php), and [here](https://www.tga.gov.au/sites/default/files/phenelzine-nardil-discontinuation.pdf).  
+
+  3. Here's a [fantastic interview of Bill Gates by Steven Levy](https://www.wired.com/story/bill-gates-on-covid-most-us-tests-are-completely-garbage/), about the coronavirus debacle in the US. Gates, who's always been notoriously and strategically nonpartisan, is more explicit than I've ever seen him before in explaining how the Trump administration's world-historic incompetence led to where we are.  
+
+  4. Speaking of which, here's [another excellent article](https://www.the-american-interest.com/2020/08/06/getting-from-november-to-january/), this one in _The American Interest_ , about the results of "wargames" trying to simulate what happens in the extremely likely event that Trump contests a loss of the November election. Notably, the article sets out six steps that could be taken over the next few months to decrease the chance of a crisis next to which _all the previous crises of 2020 will pale_.  
+
+  5. A reader asked me to share a link to an [algorithm competition](https://algorithmcompetition.github.io/doc/contest/overview.html), related to cryptographic "proofs of time," that ends on August 31. Apparently, my having shared a link to a predecessor of this competition--at the request of friend-of-the-blog Bram Cohen--played a big role in attracting good entries.  
+
+  6. Huge congratulations to my former PhD student Shalev Ben-David, as well as Eric Blais, for [co-winning the FOCS'2020 Best Paper Award](https://focs2020.cs.duke.edu/index.php/awards/)--along with two other papers--for [highly unconventional work](https://arxiv.org/abs/2002.10802) about a new minimax theorem for randomized algorithms. (Ben-David and Blais also have a [second FOCS paper](https://arxiv.org/abs/2002.10809), which applies their award paper to get the first tight composition theorem for randomized query complexity. Here's the [full list](https://focs2020.cs.duke.edu/index.php/accepted-papers/) of FOCS papers--lots of great stuff, for a conference that of course won't physically convene!) Anyway, a central idea in Ben-David and Blais's new work is to use [proper scoring rules](https://en.wikipedia.org/wiki/Scoring_rule) to measure the performance of randomized algorithms--algorithms that now make statements like "I'm 90% sure that this is a yes-input," rather than just outputting a 1-bit guess. Notably, Shalev tells me that he learned about proper scoring rules by _reading rationalist blogs_. So next time you lament your untold hours sacrificed to that pastime, remind yourself of where it once led!  
+
+  7. What have I been up to lately? Besides Busy Beaver, hanging out with my kids, and just trying to survive? Mostly giving a lot of Zoom lectures! For those interested, [here's a Q&A that I recently did](https://m.youtube.com/watch?v=n2nnY_xLCN4) on the past and present of quantum computing, hosted by Andris Ambainis in Latvia. It did feel a bit surreal when my "interviewer" asked me to explain how I got into quantum computing research, and my answer was basically: "well, _as you know_ , Andris, a lot of it started when I got hold of [your seminal paper](https://arxiv.org/abs/quant-ph/0002066) back in 1999…"
+
+

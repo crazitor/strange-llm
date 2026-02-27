@@ -1,0 +1,13 @@
+---
+title: "Proving Without Explaining, and Verifying Without Understanding"
+author: "Scott Aaronson"
+date: "Sat, 17 Nov 2012"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=1170"
+---
+
+Last Friday, I was at a ["Symposium on the Nature of Proof"](https://www.law.upenn.edu/live/events/45396-nature-of-proof-a-symposium) at UPenn, to give a popular talk about theoretical computer scientists' expansions of the notion of mathematical proof (to encompass things like probabilistic, interactive, zero-knowledge, and quantum proofs).  This really is some of the easiest, best, and most fun material in all of CS theory to popularize.  [Here are iTunes videos](https://itunes.apple.com/us/itunes-u/lectures-events-williams-lecture/id431294044) of my talk and the three others in the symposium: I'm video #2, logician Solomon Feferman is #3, attorney David Rudovsky is #4, and mathematician Dennis DeTurck is #5.  Also, [here are my PowerPoint slides](http://www.scottaaronson.com/talks/proofs.ppt).  Thanks very much to Scott Weinstein at Penn for organizing the symposium.
+
+In other news, the [Complexity Zoo](http://www.scottaaronson.com/writings/plogp.html) went down _yet again_ this week, in a disaster that left vulnerable communities without access to vital resources like nondeterminism and multi-prover interaction.  Luckily, computational power has since been restored: with help from some volunteers, I managed to get the Zoo up and running again on my BlueHost account.  But while the content is there, it _looks_ horrendously ugly; all the formatting seems to be gone.  And the day I agreed to let the Zoo be ported to MediaWiki was the day I lost the ability to fix such problems.  What I really need, going forward, is for **someone else simply to take charge** of maintaining the Zoo: it's become painfully apparent both that it needs to be done and that I lack the requisite IT skills.  If you want to take a crack at it, [here's an XML dump](http://www.scottaaronson.com/Qwiki-20120823175604.xml) of the Zoo from a few months ago (I don't think it's really changed since then).  You don't even need to ask my permission: just **get something running** , and if it looks good, I'll anoint you the next Zookeeper and redirect complexityzoo.com to point to your URL.
+
+**Update (Nov. 18):** The Zoo is back up with the old formatting and graphics!!  Thanks so much to Charles Fu for setting up the new [complexity-zoo.net](http://complexity-zoo.net/) (as well as Ethan, who set up a slower site that tided us over).  I've redirected complexityzoo.com to point to complexity-zoo.net, though it might take some time for your browser cache to clear.

@@ -1,0 +1,40 @@
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1A3A4A', 'primaryTextColor': '#FFFFFF', 'primaryBorderColor': '#4EC9B0', 'lineColor': '#4EC9B0'}}}%%
+graph BT
+    TITLE["<b>所谓智能体 = 所有不需要智能的部分</b>"]
+    BASE["<b>底座：文字接龙</b><br/>LLM - 统计学习的文本预测器"]
+    PROMPT["<b>Prompt</b> - 给模型塞小抄"]
+    CONTEXT["<b>Context</b> - 把对话记住几轮"]
+    MEMORY["<b>Memory</b> - 外挂一个记事本"]
+    TOOL["<b>Tool</b> - 允许调用计算器"]
+    AGENT["<b>Agent</b> - 套一个while循环"]
+    RAG["<b>RAG</b> - 让它能翻书"]
+    MCP["<b>MCP</b> - 给工具统一接口"]
+    SKILL["<b>Skill</b> - 把补丁打包卖"]
+
+    LEFT1["补丁 ↑"]
+    LEFT2["补丁 ↑"]
+    LEFT3["补丁 ↑"]
+
+    BOTTOM["<b>3000个模型名词，底层只有一块砖</b>"]
+
+    BOTTOM ~~~ BASE
+    BASE --> PROMPT --> CONTEXT --> MEMORY --> TOOL --> AGENT --> RAG --> MCP --> SKILL --> TITLE
+
+    LEFT1 ~~~ PROMPT
+    LEFT2 ~~~ TOOL
+    LEFT3 ~~~ MCP
+
+    style TITLE fill:none,stroke:#FFA500,color:#FFA500,stroke-width:2px,stroke-dasharray:5 5
+    style BASE fill:#FFA500,stroke:#FFA500,color:#000000,stroke-width:4px,font-size:22px
+    style PROMPT fill:#2D8A70,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style CONTEXT fill:#339878,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style MEMORY fill:#3AA680,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style TOOL fill:#40B488,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style AGENT fill:#47C290,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style RAG fill:#4EC9B0,stroke:#4EC9B0,color:#FFFFFF,stroke-width:2px
+    style MCP fill:#60D4BC,stroke:#4EC9B0,color:#000000,stroke-width:2px
+    style SKILL fill:#72DFC8,stroke:#4EC9B0,color:#000000,stroke-width:2px
+    style BOTTOM fill:none,stroke:none,color:#FFFFFF
+    style LEFT1 fill:none,stroke:none,color:#FFA500
+    style LEFT2 fill:none,stroke:none,color:#FFA500
+    style LEFT3 fill:none,stroke:none,color:#FFA500

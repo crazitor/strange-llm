@@ -1,0 +1,17 @@
+---
+title: "Superposition your mouse over these five exciting QC links!"
+author: "Scott Aaronson"
+date: "Fri, 03 Nov 2017"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=3528"
+---
+
+(1) My TEDx talk from Dresden, entitled ["What Quantum Computing Isn't,"](https://www.youtube.com/watch?v=JvIbrDR1G_c) is finally up on YouTube. For regular _Shtetl-Optimized_ readers, there's unlikely to be much that's new here: it's basically 15 minutes of my usual spiel, packaged for mass consumption. But while it went over well with the live audience, right now the only comment on the video is--I quote--"uuuuuuuuuuuuuuu," from user "imbatman8472." So if you feel so inclined, go over there, watch it, and try to start a more contentful discussion! Thanks so much to Andrés Goens, and everyone else in Dresden, for inviting me there and hosting a great visit.
+
+(2) On December 4-6, there's going to be a new conference in Mountain View, called [Q2B](https://www.q2b.us/) (Quantum Computing for Business). There, if it interests you, you can hear about the embryonic QC industry, from some of the major players at Google, IBM, Microsoft, academia, and government, as well as some of the QC startups (like IonQ) that have blossomed over the last few years. Oh yes, and D-Wave. The keynote speaker will be John Preskill; Google's John Martinis and IBM's Jerry Chow will also be giving talks. I regret that another commitment will prevent me from attending myself, but I hope to attend next year's iteration. (Full disclosure: I'm a scientific adviser to QC Ware, the firm that's organizing the conference.)
+
+(3) On October 24, the House Science Committee heard three hours of testimony--you can [watch it all here](https://science.house.gov/legislation/hearings/american-leadership-quantum-technology)--about the need for quantum information research and the danger of the US falling behind China. In what I believe is my first entry in the Congressional record, I'm quoted (for something totally incidental) at 1:09. John Preskill was mostly just delighted that the witness, Jim Kurose, referred to me as a "physicist."
+
+(4) For several years, people have been asking me whether Bitcoin is resistant against quantum attack. Now there's finally an [expert analysis](https://arxiv.org/abs/1710.10377), by Aggarwal et al., that looks into exactly that question. Two-sentence summary: the proof-of-work is probably fine, although Grover's algorithm can of course be used against it, which might eventually necessitate adjusting the difficulty parameter to account for that, and/or migrating from a pure preimage search task to collision-finding, where [my result with Yaoyun Shi](https://arxiv.org/abs/quant-ph/0112086) showed that quantum computers offer "only" an n2/3 black-box speedup over classical computers, rather than a square-root speedup. The scheme for _signing_ the transactions, which is currently based on elliptic curve cryptography, is the real danger point, but again one could address that by migrating to a post-quantum signature scheme. My main comment about the matter is that, if I'd invested in Bitcoin when I first learned about it, I'd be rich now.
+
+(5) In the first significant victory for my plan to spend a whole sabbatical year just writing up unwritten papers, I've got a new paper out today: [Shadow Tomography of Quantum States](https://eccc.weizmann.ac.il/report/2017/164/). Comments extremely welcome!

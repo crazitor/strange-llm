@@ -1,0 +1,11 @@
+---
+title: "AAA-02 - Behavior Is Not Agency: Why Acting Human Is Not the Same as Being Responsible."
+author: "Hn Cbp"
+source: "philpapers"
+url: "https://philpapers.org/rec/CBPABE"
+category: "ai-ethics"
+---
+
+## Abstract
+
+Contemporary debates about artificial intelligence and moral responsibility increasingly rely on a behavioral shortcut: if a system behaves as if it understands, chooses, or intends, it is treated as possessing some form of agency. This paper argues that this shortcut is conceptually mistaken and normatively dangerous. -/- Historically, behavioral performance functioned as a reliable proxy for agency because actions were anchored to identifiable subjects who could be held accountable. Algorithmic systems break this condition. They generate human-like behavior—fluent language, coherent recommendations,(...)adaptive optimization—without occupying a position of responsibility within social, legal, or moral structures. Their outputs resemble decisions, but are not owned as such. -/- The paper draws a sharp distinction between behavioral resemblance and normative agency. Agency is not defined by intelligence, competence, or internal sophistication, but by structural exposure to accountability: the capacity to be answerable, sanctioned, and required to justify one’s actions. Algorithmic systems are explicitly designed to act without such exposure. -/- As decision-making is increasingly mediated by opaque technical systems, responsibility does not disappear but migrates—diffusing across designers, deployers, institutions, and users without settling on any bearer capable of owning outcomes. The result is not shared responsibility, but a growing accountability vacuum in which actions occur everywhere while responsibility can be claimed nowhere. -/- The paper concludes that focusing on machine consciousness or intelligence obscures the core transformation underway. The central ethical problem of advanced AI is not the emergence of artificial agents, but the expansion of agent-like behavior without agents—behavior that carries real consequences while remaining normatively hollow. Preserving moral and legal order in algorithmically mediated societies therefore requires resisting the collapse of agency into behavior, rather than attempting to humanize machines. (shrink)

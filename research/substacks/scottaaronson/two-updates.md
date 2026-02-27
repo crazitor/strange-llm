@@ -1,0 +1,13 @@
+---
+title: "Two updates"
+author: "Scott Aaronson"
+date: "Mon, 02 Dec 2019"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=4439"
+---
+
+  1. Two weeks ago, I [blogged about](https://scottaaronson.blog/?p=4414) the [claim](https://arxiv.org/abs/1911.03748) of Nathan Keller and Ohad Klein to have proven the Aaronson-Ambainis Conjecture. Alas, Keller and Klein tell me that they've now withdrawn their preprint (though it may take another day for that to show up on the arXiv), because of what looks for now like a fatal flaw, in Lemma 5.3, discovered by Paata Ivanishvili. (My own embarrassment over having missed this flaw is _slightly_ mitigated by most of the experts in discrete Fourier analysis having missed it as well!) Keller and Klein are now working to fix the flaw, and I wholeheartedly wish them success.
+  2. In unrelated news, I was saddened to read that [Virgil Griffith](https://en.wikipedia.org/wiki/Virgil_Griffith)--cryptocurrency researcher, former Integrated Information Theory researcher, and [onetime contributor to _Shtetl-Optimized_](https://scottaaronson.blog/?p=1893)--was [arrested at LAX](https://www.forbes.com/sites/jasonbrett/2019/11/29/us-authorities-arrest-virgil-griffith-for-teaching-cryptocurrency-and-blockchain/#1a19647142cb) for having traveled to North Korea to teach the DPRK about cryptocurrency, against the admonitions of the US State Department. I didn't know Virgil well, but I did meet him in person at least once, and I liked [his](http://www.scottaaronson.com/response-p1.pdf) [essays](http://www.scottaaronson.com/response-p2.pdf) for this blog about how, after spending years studying IIT under Giulio Tononi himself, he became disillusioned with many aspects of it and evolved to a position not far from mine (though not identical either).  
+Personally, I despise the North Korean regime for the obvious reasons--I regard it as not merely evil, but _cartoonishly_ so--and I'm mystified by Virgil's [apparently sincere belief](https://twitter.com/nicksdjohnson/status/1201212127945605122) that he could bring peace between the North and South by traveling to North Korea to give a lecture about blockchain. Yet, however world-historically naïve he may have been, his intentions appear to have been good. More pointedly--and here I'm asking not in a legal sense but in a human one--if giving aid and comfort to the DPRK is treasonous, then isn't the current occupant of the Oval Office a million times guiltier of that particular treason (to say nothing of others)? It's like, what does "treason" even mean anymore? In any case, I hope some plea deal or other arrangement can be worked out that won't end Virgil's productive career.
+
+

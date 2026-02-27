@@ -1,0 +1,12 @@
+---
+title: "Closing the AI benefits gap: Systems design for population health equity."
+author: "Luciano Floridi"
+date: "2026"
+source: "semantic_scholar"
+url: "https://www.semanticscholar.org/paper/ba8e95597f296ba6ecf9bb1231bd5e37787b6d78"
+citations: 0
+---
+
+## Abstract
+
+Artificial Intelligence (AI) is currently failing to live up to its potential. Its champions promise that it will make healthcare more effective, efficient, and equitable, thereby improving population health. However, these benefits are not consistently materialising. Examples of AI working effectively at scale remain limited, and even when implementation succeeds, group or population-level improvements in outcomes are often not discernible. Drawing on the 2024 Global Health in the Age of AI symposium, we argue that this benefits gap stems from two fundamental problems. First, AI is being built on inadequate foundations. Second, AI has been tasked with optimising individual health; a function incapable of improving population outcomes. The benefits gap cannot, therefore, be closed through ad hoc policy interventions designed to address specific implementation barriers. Instead, AI must first be assigned a new population-level function, then robust foundations must be built through systems design to support it. Crucially, both the function and the foundations must be co-created by those most affected by health inequities, working together with frontline health workers, public health practitioners, AI developers, and governance bodies. Only by taking this approach will it be possible to realise AI's population health potential and avoid a disillusionment-driven healthcare-specific AI winter.

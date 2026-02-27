@@ -1,9 +1,13 @@
 # Large binary files
 pdf/
+*.pdf
 research/corpus.db
 research/chroma_db/
 output/
 assets/diagrams/rendered/
+
+# Node
+node_modules/
 
 # Python
 __pycache__/
@@ -15,3 +19,6 @@ __pycache__/
 
 # Playwright
 .playwright-mcp/
+
+# Environment
+.env

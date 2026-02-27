@@ -1,0 +1,56 @@
+---
+title: "Exclusive: Hegseth gives Anthropic until Friday to back down on AI safeguards"
+author: "Matrice Jacobine"
+date: "2026-02-24"
+source: "lesswrong"
+url: "https://www.lesswrong.com/posts/JdKyWmzfv8EeBuxHC/exclusive-hegseth-gives-anthropic-until-friday-to-back-down-1"
+score: 95
+votes: 32
+---
+
+> Defense Secretary Pete Hegseth gave Anthropic CEO Dario Amodei until Friday evening to give the military unfettered access to its [AI](https://www.axios.com/technology/automation-and-ai) model or face harsh penalties, Axios has learned.
+> 
+> **The big picture:** Hegseth told Amodei in a [tense meeting](https://www.axios.com/2026/02/23/hegseth-dario-pentagon-meeting-antrhopic-claude) on Tuesday that the Pentagon will either cut ties and declare Anthropic a "supply chain risk," or invoke the Defense Production Act to force the company to tailor its model to the military's needs.
+> 
+> **Why it matters:** The Pentagon wants to punish Anthropic as the [feud over AI safeguards](https://www.axios.com/2026/02/19/anthropic-pentagon-ai-fight-openai-google-xai) grows increasingly nasty, but officials are also worried about the consequences of losing access to its industry-leading model, Claude.
+> 
+> *   "The only reason we're still talking to these people is we need them and we need them now. The problem for these guys is they are that good," a Defense official told Axios ahead of the meeting.
+> *   Anthropic has said it is willing to adapt its usage policies for the Pentagon, but not to allow its model to be used for the mass surveillance of Americans or the development of weapons that fire without human involvement.
+> *   Anthropic's Claude is the only AI model currently used for the military's most sensitive work.
+> 
+> **Driving the news:** A senior Defense official said the meeting was "not warm and fuzzy at all." Another source told Axios it remained "cordial" with no voices raised on either side, and that Hegseth praised Claude to Amodei.
+> 
+> *   Hegseth told Amodei he won't let any company dictate the terms under which the Pentagon makes operational decisions, or object to individual use cases.
+> 
+> **The intrigue:** Hegseth specifically mentioned the [Pentagon's claim that Anthropic raised concerns](https://www.axios.com/2026/02/13/anthropic-claude-maduro-raid-pentagon) to its partner Palantir over the use of Claude during the Maduro raid.
+> 
+> *   Amodei denied that Anthropic raised any such concerns or even broached the topic with Palantir beyond standard operating conversations.
+> *   He reiterated that the company's red lines have never prevented the Pentagon from doing its work or posed an issue for anyone operating in the field.
+> 
+> **In the room:** In a sign of how seriously the Pentagon is taking this dispute, Hegseth was joined in the meeting by Deputy Secretary Steve Feinberg, Under Secretary for Research and Engineering Emil Michael, Under Secretary for Acquisition and Sustainment Michael Duffy, Hegseth's chief spokesperson Sean Parnell and general counsel Earl Matthews, the Pentagon's top lawyer.
+> 
+> **The other side:** Anthropic continued to strike a conciliatory tone after the meeting.
+> 
+> *   "During the conversation, Dario expressed appreciation for the Department's work and thanked the Secretary for his service," an Anthropic spokesperson said.
+> *   "We continued good-faith conversations about our usage policy to ensure Anthropic can continue to support the government's national security mission in line with  what our models can reliably and responsibly do."
+> 
+> **How it works:** The Defense Production Act gives the president the authority to compel private companies to accept and prioritize particular contracts as required for national defense.
+> 
+> *   It was used during the COVID-19 pandemic to increase production of vaccines and ventilators, for example.
+> *   The law is rarely used in such a blatantly adversarial way. The idea, the senior Defense official said, would be to force Anthropic to adapt its model to the Pentagon's needs, without any safeguards.
+> 
+> *   Anthropic could theoretically take the administration to court, arguing it's not providing the sort of commercially available product for which the DPA can be used to expedite production, but custom-built software already tailored to sensitive government uses, according to one defense consultant.
+> *   The Pentagon is also considering severing its contract with Anthropic and declaring the company a [supply chain risk](https://www.axios.com/2026/02/16/anthropic-defense-department-relationship-hegseth), which would require a plethora of other companies that work with the Pentagon to certify that Claude isn't used in their workflows.
+> 
+> **Friction point:** Cutting ties would require the Pentagon to have a replacement ready for Claude, which is currently the only model used in classified systems.
+> 
+> *   The use of Claude in the Venezuela operation came through Anthropic's partnership with Palantir, the AI software company.
+> *   It's also used for a wide variety of more bureaucratic functions within the military.
+> 
+> **What to watch:** Elon Musk's [xAI recently signed](https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok) a contract to bring its model, Grok, into classified settings, though it's unclear whether it would be able to fully replace Claude.
+> 
+> *   The Pentagon has been speeding up conversations with OpenAI and Google about moving their models — already available for unclassified uses — into classified systems, sources tell Axios.
+> *   One source familiar with the discussions said that right now, it appears Claude is ahead of the others in a number of applications relevant to the military, such as offensive cyber capabilities.
+> *   The one source said Gemini is seen as a potential replacement if and when a deal is reached. That would require Google to let the Pentagon uses its model for "all lawful purposes," the same terms that Anthropic rejected.
+> 
+> **Go deeper:** [Pentagon-Anthropic battle pushes other AI labs into major dilemma](https://www.axios.com/2026/02/19/anthropic-pentagon-ai-fight-openai-google-xai)

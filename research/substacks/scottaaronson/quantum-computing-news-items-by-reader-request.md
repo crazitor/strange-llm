@@ -1,0 +1,46 @@
+---
+title: "Quantum computing news items (by reader request)"
+author: "Scott Aaronson"
+date: "Mon, 12 Jan 2015"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=2155"
+---
+
+Within the last couple months, there was a major milestone in the quest to build a scalable quantum computer, and also a major milestone in the quest to figure out what you would _do_ with a quantum computer if you had one. As I've admitted many times, _neither_ of those two quests is really the reason why I got into quantum computing--I'm one of the people who would still want to study this field, even if there were no serious prospect either of building a quantum computer or of doing anything useful with it for a thousand years--but for some reason that I don't fully understand, both of those goals do seem to excite other people.
+
+So, OK, the experimental breakthrough was the [Martinis group's use of quantum error-correction with superconducting qubits](http://arxiv.org/abs/1411.7403), to preserve a logical bit for several times longer than the underlying physical qubits survived for. Shortly before this came out, I heard Krysta Svore give a talk at Yale in which she argued that preserving a logical qubit for longer than the physical qubits was the next experimental milestone (the fourth, out of seven she listed) along the way to a scalable, fault-tolerant quantum computer. Well, ~~it looks like that milestone may have been crossed.~~ (**update:** I've since learned from Graeme Smith, in the comments section, that the milestone crossed should really be considered the "3.5th," since even though quantum error-correction was used, the information that was being protected was classical. I also learned from commenter Jacob that the seven milestones Krysta listed came from a _Science_ paper by Schoelkopf and Devorret. She cited the paper; the forgetfulness was entirely mine.)
+
+In more detail, the Martinis group used a linear array of 9 qubits: 5 data qubits interleaved with 4 measurement qubits. The authors describe this setup as a "precursor" to Kitaev's surface code (which would involve a 2-dimensional array). They report that, after 8 cycles of error detection and correction, they were able to suppress the effective error rate compared to the physical qubits by a factor of 8.5. They also use quantum state tomography to verify that their qubits were indeed in entangled states as they did this.
+
+Of course, this is not yet a demonstration of any nontrivial fault-tolerant computation, let alone of scaling such a computation up to where it's hard to simulate with a classical computer. But it pretty clearly lies along the "critical path" to that.
+
+As I [blogged back in September](https://scottaaronson.blog/?p=1988), Google recently hired Martinis's group away from UC Santa Barbara, where they'll work on superconducting quantum annealing, as a step along the way to full universal QC. As I mentioned then, the Martinis group's "Xmon" qubits have maybe 10,000 times the coherence times of D-Wave's qubits, at least when you measure coherence in the usual ways. The fact that Martinis et al. are carefully doing quantum state tomography and demonstrating beneficial error-correction before scaling up are further indications of the differences between their approach and D-Wave's. Of course, even if you do everything right, there's _still_ no guarantee that you'll outperform a classical computer anytime soon: it might simply be that the things you can do in the near future (e.g., quantum annealing for NP-complete problems) are not things where you're going to outperform the best classical algorithms. But it's certainly worth watching closely.
+
+Meanwhile, the quantum algorithms breakthrough came in a [paper last month](http://arxiv.org/abs/1412.6062) by an extremely well-known trio down the Infinite Corridor from me: Farhi, Goldstone, and Gutmann. In [slightly earlier work](http://arxiv.org/abs/1411.4028), Farhi et al. proposed a new quantum algorithm for NP-hard optimization problems. Their algorithm badly needs a name; right now they're just calling it the "QAOA," or Quantum Approximate Optimization Algorithm. But here's what you need to know: their new algorithm is _different_ from their famous adiabatic algorithm, although it does become equivalent to the adiabatic algorithm in a certain infinite limit. Rather than staying in the ground state of some Hamiltonian, the QAOA simply
+
+  1. starts with a uniform superposition over all n-bit strings,
+  2. applies a set of unitary transformations, one for each variable and constraint of the NP-hard instance,
+  3. repeats the set some number of times p (the case p=1 is already interesting), and then
+  4. measures the state in the computational basis to see what solution was obtained.
+
+
+
+The unitary transformations have adjustable real parameters, and a big part of the game is figuring out how to set the parameters to get a good solution.
+
+The original, hyper-ambitious goal of the QAOA was to solve the Unique Games problem in quantum polynomial time--thereby disproving the [Unique Games Conjecture](http://en.wikipedia.org/wiki/Unique_games_conjecture) (which I [previously blogged about here](https://scottaaronson.blog/?p=1958)), unless NP⊆BQP. It hasn't yet succeeded at that goal. In their earlier work, Farhi et al. managed to show that the QAOA solves the MAX-CUT problem on 3-regular graphs with approximation ratio 0.6924, which is better than random guessing, but not as good as the best-known classical algorithms (Goemans-Williamson, or for the degree-3 case, Halperin-Livnat-Zwick), let alone _better_ than those algorithms (which is what would be needed to refute the UGC).
+
+In their new work, Farhi et al. apply the QAOA to a different problem: the poetically-named MAX E3LIN2. Here you're given a collection of linear equations mod 2 in n Boolean variables, where each equation involves exactly 3 variables, and each variable appears in at most D equations. The goal is to satisfy as many of the equations as possible, assuming that they're _not_ all satisfiable (if they were then the problem would be trivial). If you just guess a solution randomly, you'll satisfy a 1/2 fraction of the equations. Håstad gave a polynomial-time classical algorithm that satisfies a 1/2+c/D fraction of the maximum number of satisfiable equations, for some constant c. This remains the best approximation ratio that we know how to achieve classically. Meanwhile, Trevisan showed that if there's a polynomial-time classical algorithm that satisfies a 1/2+c/√D fraction of the max number of satisfiable equations, for a sufficiently large constant c, then P=NP.
+
+OK, so what do Farhi et al. do? They show that the QAOA, with suitably tuned parameters, is able to satisfy a 1/2+c/D3/4 fraction of the _total_ number of equations in polynomial time, for some constant c. (In particular, this implies that a 1/2+c/D3/4 fraction of the equations _are_ satisfiable--assuming, as Farhi et al. do, that two equations directly contradicting each other, like x+y+z=0 and x+y+z=1, never appear in the same instance.)
+
+Now, the above is a bigger fraction than the best-known classical algorithm satisfies! (And not only that, but here the fraction is of the _total_ number of equations, rather than the number of satisfiable equations.) Farhi et al. also show that, if the constraint hypergraph doesn't contain any small cycles, then QAOA can satisfy a 1/2+c/√D fraction of the equations in polynomial time, which is essentially the best possible unless NP⊆BQP.
+
+The importance of this result is not that anyone cares about the MAX E3LIN2 problem for its own sake. Rather it's that, as far as I know, _this is the first time that a quantum algorithm has been proved to achieve a better approximation ratio for a natural NP-hard optimization problem than the best known classical algorithm achieves._ People have discussed that as a hypothetical possibility for 20 years, but (again, unless I'm missing something) we never had a good example until now. The big question now is whether the 1/2+c/D3/4 performance can be matched classically, or whether there truly is an NP-intermediate region of this optimization problem where quantum outperforms classical. (The third possibility, that doing as well as the quantum algorithm is already NP-hard, is one that I won't even speculate about. For, as Boaz Barak rightly points out in the comments section, the quantum algorithm is still being analyzed only in the regime where solutions are combinatorially _guaranteed_ to exist--and that regime can't possibly be NP-hard, unless NP=coNP.)
+
+_[Above, I corrected some errors that appeared in the original version of this post --thanks to Ed Farhi and to the commenters for bringing them to my attention.]_
+
+* * *
+
+**Update (Feb. 3, 2015):** Boaz Barak has [left the following comment](https://scottaaronson.blog/?p=2155#comment-426775):
+
+> in a work with Ankur Moitra, Oded Regev, David Stuerer and Aravindan Vijayaraghavan we were able to match (in fact exceed) the guarantees of the Farhi et al paper via a classical efficient algorithm. (Namely satisfy 1/2 + C/√D fraction of the equations). p.s. we hope to post this on the arxiv soon

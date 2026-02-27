@@ -1,0 +1,44 @@
+---
+title: "Because you asked: the Simulation Hypothesis has not been falsified; remains unfalsifiable"
+author: "Scott Aaronson"
+date: "Tue, 03 Oct 2017"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=3482"
+---
+
+By email, by Twitter, even as the world was convulsed by tragedy, the inquiries poured in yesterday about a different topic entirely: **Scott, did physicists really just prove that the universe is not a computer simulation --that we can't be living in the Matrix?**
+
+What prompted this was a rash of popular articles [like this one](http://www.dailymail.co.uk/sciencetech/article-4941808/Researchers-claim-NOT-living-simulation.html) ("Researchers claim to have found proof we are NOT living in a simulation").  The articles were all spurred by a recent paper in _Science Advances_ : [Quantized gravitational responses, the sign problem, and quantum complexity](http://advances.sciencemag.org/content/3/9/e1701758.full), by Zohar Ringel of Hebrew University and Dmitry L. Kovrizhin of Oxford.
+
+I'll tell you what: before I comment, why don't I just paste the paper's abstract here.  I invite you to read it--not the whole paper, just the abstract, but paying special attention to the sentences--and then make up your own mind about whether it supports the interpretation that all the popular articles put on it.
+
+Ready?  Set?
+
+_Abstract:_ It is believed that not all quantum systems can be simulated efficiently using classical computational resources.  This notion is supported by the fact that it is not known how to express the partition function in a sign-free manner in quantum Monte Carlo (QMC) simulations for a large number of important problems.  The answer to the question—whether there is a fundamental obstruction to such a sign-free representation in generic quantum systems—remains unclear.  Focusing on systems with bosonic degrees of freedom, we show that quantized gravitational responses appear as obstructions to local sign-free QMC.  In condensed matter physics settings, these responses, such as thermal Hall conductance, are associated with fractional quantum Hall effects.  We show that similar arguments also hold in the case of spontaneously broken time-reversal (TR) symmetry such as in the chiral phase of a perturbed quantum Kagome antiferromagnet.  The connection between quantized gravitational responses and the sign problem is also manifested in certain vertex models, where TR symmetry is preserved.
+
+For those tuning in from home, the "sign problem" is an issue that arises when, for example, you're trying to use the clever trick known as [Quantum Monte Carlo](https://en.wikipedia.org/wiki/Quantum_Monte_Carlo) (QMC) to learn about the ground state of a quantum system using a classical computer--but where you needed probabilities, which are real numbers from 0 to 1, your procedure instead spits out numbers some of which are negative, and which you can therefore no longer use to define a sensible sampling process.  (In some sense, it's no surprise that this would happen when you're trying to _simulate quantum mechanics_ , which of course is all about generalizing the rules of probability in a way that involves negative and even complex numbers!  The surprise, rather, is that QMC lets you _avoid_ the sign problem as often as it does.)
+
+Anyway, this is all somewhat far from my expertise, but insofar as I understand the paper, it looks like a serious contribution to our understanding of the sign problem, and why local changes of basis can fail to get rid of it when QMC is used to simulate certain bosonic systems.  It will surely interest QMC experts.
+
+OK, but does any of this _prove that the universe isn 't a computer simulation_, as the popular articles claim (and as the original paper does not)?
+
+It seems to me that, to get from here to there, you'd need to overcome **four huge difficulties** , any one of which would be fatal by itself, and which are logically independent of each other.
+
+  1. As a computer scientist, one thing that leapt out at me, is that Ringel and Kovrizhin's paper is fundamentally about computational complexity--specifically, about which quantum systems can and can't be simulated in polynomial time on a classical computer--yet it's entirely innocent of the _language_ and _tools_ of complexity theory.  There's no BQP, no QMA, no reduction-based hardness argument anywhere in sight, and no clearly-formulated request for one either.  Instead, everything is phrased in terms of the failure of one specific algorithmic framework (namely QMC)--and within that framework, only "local" transformations of the physical degrees of freedom are considered, not nonlocal ones that could still be accessible to polynomial-time algorithms.  Of course, one does whatever one needs to do to get a result.  
+To their credit, the authors do seem aware that a language for discussing _all possible efficient algorithms_  exists.  They write, for example, of a "common understanding related to computational complexity classes" that some quantum systems are hard to simulate, and specifically of the existence of systems that support universal quantum computation.  So rather than criticize the authors for this limitation of their work, I view their paper as a welcome invitation for closer collaboration between the quantum complexity theory and quantum Monte Carlo communities, which approach many of the same questions from extremely different angles.  As official ambassador between the two communities, I nominate Matt Hastings.
+  2. OK, but even if the paper _did_ address computational complexity head-on, about the most it could've said is that computer scientists generally _believe_ that BPP≠BQP (i.e., that quantum computers can solve more decision problems in polynomial time than classical probabilistic ones); and that such separations are provable in the query complexity and communication complexity worlds; and that at any rate, quantum computers can solve _exact sampling problems_ that are classically hard unless the polynomial hierarchy collapses (as pointed out in the [BosonSampling paper](http://theoryofcomputing.org/articles/v009a004/v009a004.pdf), and [independently](https://arxiv.org/abs/1005.1407) by Bremner, Jozsa, Shepherd).  Alas, until someone proves P≠PSPACE, there's no hope for an unconditional proof that quantum computers can't be efficiently simulated by classical ones.  
+(Incidentally, the paper comments, "Establishing an obstruction to a classical simulation is a rather ill-defined task."  I beg to differ: it's not ill-defined; it's just ridiculously hard!)
+  3. OK, but suppose it _were_ proved that BPP≠BQP--and for good measure, suppose it were also experimentally demonstrated that scalable quantum computing is possible in our universe.  Even then, one still wouldn't by any stretch have ruled out that the universe was a computer simulation!  For as many of the people who emailed me asked themselves (but as the popular articles did not), why not just imagine that the universe is being simulated on a _quantum_ computer?  Like, duh?
+  4. Finally: even if, for some reason, we disallowed using a quantum computer to simulate the universe, that _still_ wouldn't rule out the simulation hypothesis.  For why couldn't God, using Her classical computer, spend a trillion years to simulate one second as subjectively perceived by us?  After all, what is exponential time to She for whom all eternity is but an eyeblink?
+
+
+
+Anyway, if it weren't for **all four separate points above** , then sure, physicists would have now proved that we don't live in the Matrix.
+
+I do have a few questions of my own, for anyone who came here looking for my reaction to the 'news': _did you really need me to tell you all this?_   How much of it would you have figured out on your own, just by comparing the headlines of the popular articles to the descriptions (however garbled) of what was actually done?  How obvious does something need to be, before it no longer requires an 'expert' to certify it as such?  If I write 500 posts like this one, will the 501st post basically just write itself?
+
+Asking for a friend.
+
+* * *
+
+**Comment Policy:** I welcome discussion about the Ringel-Dovrizhin paper; what might've gone wrong with its popularization; QMC; the sign problem; the computational complexity of condensed-matter problems more generally; and the relevance or irrelevance of work on these topics to broader questions about the simulability of the universe.  But as a little experiment in blog moderation, I _won 't_ allow comments that just philosophize in general about whether or not the universe is a simulation, without making further contact with the actual content of this post.  We've already had the latter conversation here--probably, like, every week for the last decade--and I'm ready for something new.

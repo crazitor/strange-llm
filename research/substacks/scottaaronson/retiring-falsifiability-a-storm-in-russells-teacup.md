@@ -1,0 +1,26 @@
+---
+title: "Retiring falsifiability?  A storm in Russell’s teacup"
+author: "Scott Aaronson"
+date: "Fri, 17 Jan 2014"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=1653"
+---
+
+My good friend Sean Carroll took a lot of flak recently for answering this year's _Edge_ question, ["What scientific idea is ready for retirement?,"](http://www.edge.org/contributors/what-scientific-idea-is-ready-for-retirement) with ["Falsifiability"](http://www.edge.org/response-detail/25322), and for using string theory and the multiverse as examples of why science needs to break out of its narrow Popperian cage. For more, see [this blog post of Sean's](http://www.preposterousuniverse.com/blog/2014/01/14/what-scientific-ideas-are-ready-for-retirement/), where one commenter after another piles on the beleaguered dude for his abandonment of science and reason themselves.
+
+My take, for whatever it's worth, is that Sean and his critics are both right.
+
+Sean is right that "falsifiability" is a crude slogan that fails to capture what science really aims at. As a doofus example, the theory that zebras exist is presumably both "true" and "scientific," but it's not "falsifiable": if zebras didn't exist, there would be no experiment that proved their nonexistence. (And that's to say nothing of empirical claims involving multiple nested quantifiers: e.g., "for every physical device that tries to solve the Traveling Salesman Problem in polynomial time, there exists an input on which the device fails.") Less doofusly, a huge fraction of all scientific progress really consists of  _mathematical or computational derivations_ from previously-accepted theories--and, as such, has no "falsifiable content" apart from the theories themselves. So, do workings-out of mathematical consequences count as "science"? In practice, the Nobel committee says sure they do, but only if the final results of the derivations are "directly" confirmed by experiment. Far better, it seems to me, to say that science is a search for _explanations_ that do essential and nontrivial work, within the network of abstract ideas whose ultimate purpose to account for our observations. (On this particular question, I endorse everything David Deutsch has to say in  _[The Beginning of Infinity](http://www.amazon.com/The-Beginning-Infinity-Explanations-Transform/dp/0143121359)_ , which you should read if you haven't.)
+
+On the other side, I think Sean's critics are right that falsifiability shouldn't be "retired." Instead, falsifiability's portfolio should be _expanded_ , with full-time assistants (like explanatory power) hired to lighten falsifiability's load.
+
+I also, to be honest, don't see that modern philosophy of science has advanced much beyond Popper in its understanding of these issues. Last year, I did something weird and impulsive: I _read_ Karl Popper. Given all the smack people talk about him these days, I was pleasantly surprised by the amount of nuance, reasonableness, and just general getting-it that I found. Indeed, I found a lot  _more_ of those things in Popper than I found in his latter-day overthrowers Kuhn and Feyerabend. For Popper (if not for some of his later admirers), falsifiability was not a crude bludgeon. Rather, it was the centerpiece of a richly-articulated worldview holding that millennia of human philosophical reflection had gotten it backwards: the question isn't how to arrive at the Truth, but rather how to eliminate error. Which sounds kind of obvious, until I meet yet another person who rails to me about how empirical positivism can't provide its own ultimate justification, and should therefore be replaced by the person's favorite brand of cringe-inducing ugh.
+
+Oh, I also think Sean might have made a tactical error in choosing string theory and the multiverse as his examples for why falsifiability needs to be retired. For it seems overwhelmingly likely to me that the following two propositions are _both_ true:
+
+1\. Falsifiability is too crude of a concept to describe how science works.  
+2\. In the specific cases of string theory and the multiverse, a dearth of novel falsifiable predictions _really is_ a big problem.
+
+As usual, the best bet is to use explanatory power as our criterion--in which case, I'd say string theory emerges as a complex and evolving story. On one end, there are insights like holography and AdS/CFT, which seem clearly to do explanatory work, and which I'd guess will stand as permanent contributions to human knowledge, even if the whole foundations on which they currently rest get superseded by something else. On the other end, there's the idea, championed by a minority of string theorists and widely repeated in the press, that the anthropic principle applied to different patches of multiverse can be invoked as a sort of get-out-of-jail-free card, to rescue a favored theory from earlier hopes of successful empirical predictions that then failed to pan out. I wouldn't know how to answer a layperson who asked why that wasn't _exactly_ the sort of thing Sir Karl was worried about, and for good reason.
+
+Finally, not that _Edge_ asked me, but I'd say the whole notions of "determinism" and "indeterminism" in physics are past ready for retirement. I can't think of any work they do, that isn't better done by predictability and unpredictability.

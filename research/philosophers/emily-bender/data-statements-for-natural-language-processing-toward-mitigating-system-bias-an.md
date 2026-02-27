@@ -1,0 +1,12 @@
+---
+title: "Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science"
+author: "Emily Bender"
+date: "2018"
+source: "semantic_scholar"
+url: "https://www.semanticscholar.org/paper/97bfa89addc6e5d76361e4c1e296949cad887b86"
+citations: 998
+---
+
+## Abstract
+
+In this paper, we propose data statements as a design solution and professional practice for natural language processing technologists, in both research and development. Through the adoption and widespread use of data statements, the field can begin to address critical scientific and ethical issues that result from the use of data from certain populations in the development of technology for other populations. We present a form that data statements can take and explore the implications of adopting them as part of regular practice. We argue that data statements will help alleviate issues related to exclusion and bias in language technology, lead to better precision in claims about how natural language processing research can generalize and thus better engineering results, protect companies from public embarrassment, and ultimately lead to language technology that meets its users in their own preferred linguistic style and furthermore does not misrepresent them to others.

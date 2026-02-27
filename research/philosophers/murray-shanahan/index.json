@@ -1,0 +1,192 @@
+[
+  {
+    "title": "The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs",
+    "author": "Murray Shanahan",
+    "year": 2014,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/e414fc2efa0b64905c7e1378f0ee3b8ca4c2430f",
+    "citations": 1009,
+    "filename": "the-entropic-brain-a-theory-of-conscious-states-informed-by-neuroimaging-researc.pdf",
+    "size_kb": 3293
+  },
+  {
+    "title": "Role play with large language models",
+    "author": "Murray Shanahan",
+    "year": 2023,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/aa23bcf357fc4f890e0a97c27e254d14fbacd460",
+    "citations": 466,
+    "filename": "role-play-with-large-language-models.pdf",
+    "size_kb": 1370
+  },
+  {
+    "title": "Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning",
+    "author": "Murray Shanahan",
+    "date": "2022",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/d48b29889241551e1ee6622fa78c3fa4159255dd",
+    "citations": 441,
+    "filename": "selection-inference-exploiting-large-language-models-for-interpretable-logical-r.md",
+    "length": 1356
+  },
+  {
+    "title": "Talking about Large Language Models",
+    "author": "Murray Shanahan",
+    "date": "2022",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/3eed4de25636ac90f39f6e1ef70e3507ed61a2a6",
+    "citations": 395,
+    "filename": "talking-about-large-language-models.md",
+    "length": 219
+  },
+  {
+    "title": "Large-scale network organization in the avian forebrain: a connectivity matrix and theoretical analysis",
+    "author": "Murray Shanahan",
+    "year": 2013,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/047fa9f1a6df430481e7621e95daf9a8a920dc3a",
+    "citations": 225,
+    "filename": "large-scale-network-organization-in-the-avian-forebrain-a-connectivity-matrix-an.pdf",
+    "size_kb": 2956
+  },
+  {
+    "title": "Reconciling deep learning with symbolic artificial intelligence: representing objects and relations",
+    "author": "Murray Shanahan",
+    "date": "2019",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/8926fe3197a53ec0e08ee4e50b655b4e46c13ccb",
+    "citations": 224,
+    "filename": "reconciling-deep-learning-with-symbolic-artificial-intelligence-representing-obj.md",
+    "length": 933
+  },
+  {
+    "title": "The Control of Global Brain Dynamics: Opposing Actions of Frontoparietal Control and Default Mode Networks on Attention",
+    "author": "Murray Shanahan",
+    "year": 2014,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/1d93357a8e0c60838a11d877aa89963e012498ff",
+    "citations": 211,
+    "filename": "the-control-of-global-brain-dynamics-opposing-actions-of-frontoparietal-control-.pdf",
+    "size_kb": 3207
+  },
+  {
+    "title": "Faithful Reasoning Using Large Language Models",
+    "author": "Murray Shanahan",
+    "date": "2022",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/f0a0e8b6e84207f50db4d24cc4016e40601214ef",
+    "citations": 144,
+    "filename": "faithful-reasoning-using-large-language-models.md",
+    "length": 1081
+  },
+  {
+    "title": "Rethink reporting of evaluation results in AI",
+    "author": "Murray Shanahan",
+    "year": 2023,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/0857e8e6a84a672e64fb060532d6617887cb07f8",
+    "citations": 111,
+    "filename": "rethink-reporting-of-evaluation-results-in-ai.pdf",
+    "size_kb": 384
+  },
+  {
+    "title": "Training a spiking neural network to control a 4-DoF robotic arm based on Spike Timing-Dependent Plasticity",
+    "author": "Murray Shanahan",
+    "year": 2010,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/44cbb124cfcc616a73e5982b2873abe124d6db4e",
+    "citations": 103,
+    "filename": "training-a-spiking-neural-network-to-control-a-4-dof-robotic-arm-based-on-spike-.pdf",
+    "size_kb": 957
+  },
+  {
+    "title": "Artificial Intelligence and the Common Sense of Animals.",
+    "author": "Murray Shanahan",
+    "date": "2020",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/a78c0db118c93b098a09c2c9abb6dbaa211ac315",
+    "citations": 39,
+    "filename": "artificial-intelligence-and-the-common-sense-of-animals.md",
+    "length": 721
+  },
+  {
+    "title": "The Animal-AI Environment: Training and Testing Animal-Like Artificial Cognition",
+    "author": "Murray Shanahan",
+    "date": "2019",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/d919ff2808010e0ef6d33c36fc69173b22761c23",
+    "citations": 39,
+    "filename": "the-animal-ai-environment-training-and-testing-animal-like-artificial-cognition.md",
+    "length": 823
+  },
+  {
+    "title": "Establishing Communication between Neuronal Populations through Competitive Entrainment",
+    "author": "Murray Shanahan",
+    "year": 2012,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/d041953348a137e25476c2037ecd969757caf273",
+    "citations": 22,
+    "filename": "establishing-communication-between-neuronal-populations-through-competitive-entr.pdf",
+    "size_kb": 1815
+  },
+  {
+    "title": "Direct Human-AI Comparison in the Animal-AI Environment",
+    "author": "Murray Shanahan",
+    "year": 2021,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/b55e863998f1adcdfe578ca975ef82e917ae52dd",
+    "citations": 14,
+    "filename": "direct-human-ai-comparison-in-the-animal-ai-environment.pdf",
+    "size_kb": 10201
+  },
+  {
+    "title": "Ascribing Consciousness to Artificial Intelligence",
+    "author": "Murray Shanahan",
+    "date": "2015",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/4109ded67a94471dd01f02fa9cb3e65b09ecb344",
+    "citations": 7,
+    "filename": "ascribing-consciousness-to-artificial-intelligence.md",
+    "length": 880
+  },
+  {
+    "title": "Hierarchical clustering identifies hub nodes in a model of resting-state brain activity",
+    "author": "Murray Shanahan",
+    "year": 2012,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/2e54983da9f62e5249c3a4290e3d28c060633398",
+    "citations": 5,
+    "filename": "hierarchical-clustering-identifies-hub-nodes-in-a-model-of-resting-state-brain-a.pdf",
+    "size_kb": 1337
+  },
+  {
+    "title": "Sparse Relational Reasoning with Object-Centric Representations",
+    "author": "Murray Shanahan",
+    "year": 2022,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/af8af588a0d6c94c3c0d8dbb22d8b969f5d2e9d1",
+    "citations": 3,
+    "filename": "sparse-relational-reasoning-with-object-centric-representations.pdf",
+    "size_kb": 1037
+  },
+  {
+    "title": "Robot Navigation and Map Building with the Event Calculus (abstract)",
+    "author": "Murray Shanahan",
+    "year": 1999,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/b9b63aad2a4167d2d4a61c0ca64b007c7fdf468a",
+    "citations": 3,
+    "filename": "robot-navigation-and-map-building-with-the-event-calculus-abstract.pdf",
+    "size_kb": 48
+  },
+  {
+    "title": "Consciousness as integrated perception, motivation, cognition, and action",
+    "author": "Murray Shanahan",
+    "date": "2016",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/3f6d21a75da51cfaf32a8cac04fb146808c223bb",
+    "citations": 2,
+    "filename": "consciousness-as-integrated-perception-motivation-cognition-and-action.md",
+    "length": 10014
+  }
+]

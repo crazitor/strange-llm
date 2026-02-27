@@ -1,0 +1,21 @@
+---
+title: "Visas for Chinese students: US shoots itself in the foot again"
+author: "Scott Aaronson"
+date: "Tue, 14 Feb 2023"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=7028"
+---
+
+Coming out of blog-hiatus for some important stuff, today, tomorrow, and the rest of the week.
+
+Something distressing happened to me yesterday for the first time, but I fear not the last. We (UT Austin) admitted a PhD student from China who I know to be excellent, and who wanted to work with me. That student, alas, has had to decline our offer of admission, because he's been denied a US visa under Section 212(A)(3)(a)(i), which "prohibits the issuance of a visa to anyone who seeks to enter the United States to violate or evade any law prohibiting the export from the United States of goods, technology, or sensitive information." Quantum computing, you see, is now a "prohibited technology."
+
+This visa denial is actually one that the American embassy in Beijing only just now got around to issuing, from when the student applied for a US visa _a year and a half ago,_ to come visit me for a semester as an undergrad. For context, the last time I had an undergrad from China visit me for a semester, back in 2016, the undergrad's name was [Lijie Chen](https://www.mit.edu/~lijieche/). Lijie just finished his PhD at MIT under Ryan Williams and is now one of the superstars of theoretical computer science. Anyway, in Fall 2021 I got an inquiry from a Chinese student who bowled me over the same way Lijie had, so I invited him to spend a semester with my group in Austin. This time, alas, the student never heard back when he applied for a visa, and was therefore unable to come. He ended up doing an excellent research project with me anyway, working remotely from China, checking in by Zoom, and even participating in our research group meetings (which were on Zoom anyway because of the pandemic).
+
+Anyway, for reasons too complicated to explain, this previous denial means that the student would almost certainly be denied for a _new_ visa to come to the US to do a PhD in quantum computing. (Unless some immigration lawyer reading this can suggest a way out!) The student is not sure what he's going to do next, but it might involve staying in China, or applying in Europe, or applying in the US again after a year but without mentioning the word "quantum."
+
+It should go without saying, to anyone reading this, that the student wants to do basic research in quantum complexity theory that's _extraordinarily_ unlikely to have any direct military or economic importance … just like my own research!  And it should also go without saying that, if the US really wanted to strike a blow against authoritarianism in Beijing, then it could hardly do better than to hand out visas to every Chinese STEM student and researcher who wanted to come here. Yes, some would return to China with their new skills, but a great many would choose to stay in the US … _if we let them_.
+
+And I’ve pointed all this out to a Republican Congressman, and to people in the military and intelligence agencies, when they asked me “what else the US can do to win the quantum computing race against China?” And I’ll continue to say it to anyone who asks. The Congressman, incidentally, even said that he privately agreed with me, but that the issue was politically difficult. I wonder: is there anyone in power in the US, in either party, who _doesn 't_ privately agree that opening the gates to China's STEM talent would be a win/win proposition for the US … _including for the US 's national security_? If so, who are these people? Is this just a naked-emperor situation, where everyone in Congress fears to raise the issue because they fear backlash from someone else, but the someone else is actually thinking the same way?
+
+And to any American who says, "yeah, but China totally deserves it, because of that spy balloon, and their threats against Taiwan, and all the spying they do with TikTok"--I mean, like, imagine if someone tried to get back at the US government for the Iraq War or for CIA psyops or whatever else by punishing _you_ , by curtailing _your_ academic dreams. It would make exactly as much sense.

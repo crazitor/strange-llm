@@ -1,0 +1,16 @@
+---
+title: "Quantum Computing Since Democritus now out in the US!  20% discount for Shtetl-Optimized readers"
+author: "Scott Aaronson"
+date: "Sun, 28 Apr 2013"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=1350"
+---
+
+OK, this will be my last blog post hawking _[Quantum Computing Since Democritus](https://scottaaronson.blog/?p=1277)_ , at least for a while. But I do have four pieces of exciting news about the book that I want to share.
+
+  1. Amazon is finally listing the print version of QCSD as [available for shipment in North America](http://www.amazon.com/Quantum-Computing-since-Democritus-Aaronson/dp/0521199565?tag=lubosmotlsref-20), slightly ahead of schedule! Amazon's price is $35.27.
+  2. Cambridge University Press has very generously offered readers of _Shtetl-Optimized_ a 20% discount off their list price--meaning $31.99 instead of $39.99--if you __[click this link to order directly from them](http://www.cambridge.org/knowledge/discountpromotion?code=L3QCSD). Note that CUP has a shipping charge of $6.50. So ordering from CUP might either be slightly cheaper or slightly more expensive than ordering from Amazon, depending (for example) on whether you get free shipping from Amazon Prime.
+  3. So far, there have been maybe 1000 orders and preorders for QCSD (not counting hundreds of Kindle sales). The book has also spent a month as one of Amazon's top few "Quantum Physics" sellers, with a _fabulous_ average rating of 4.6 / 5 stars from 9 reviews (or 4.9 if we discount the pseudonymous rant by Joy Christian). Thanks so much to everyone who ordered a copy; I hope you like it! Alas, these sales figures also mean that QCSD still has a long way to go before it enters the rarefied echelon of--to pick a few top Amazon science sellers--_Cosmos_ , _A Brief History of Time_ ,  _Proof of Heaven (A Neurosurgeon 's Journey into the Afterlife), __Turn On Your SUPER BRAIN,_ or _The Lemon Book (Natural Recipes and Preparations)._ So, if you believe that QCSD deserves to be with such timeless classics, then put your money where your mouth is and help make it happen!
+  4. The most exciting news of all? Luboš Motl is reading the [free copy of QCSD that I sent him](http://motls.blogspot.com/2013/04/scott-aaronson-quantum-computing-since.html) and blogging his reactions chapter-by-chapter! So, if you'd like to learn about how mathematicians and computer scientists simply lack the brainpower to do physics--which is why we obsess over kindergarten trivialities like the Church-Turing Thesis or the Axiom of Choice, and why we insist idiotically that Nature use only the mathematical structures that _our_ inferior minds can grasp--then check out Luboš's posts about [Chapters 1-3](http://motls.blogspot.com/2013/04/scott-aaronson-prototype-of-some.html) or [Chapters 4-6](http://motls.blogspot.com/2013/04/minds-and-machines.html). If, on the other hand, you want to see our diacritical critic pleasantly surprised by QCSD's later chapters on cryptography, quantum mechanics, and quantum computing, then [here's the post for you](http://motls.blogspot.com/2013/04/democritus-on-qm-operating-system.html). Either way, be sure to scroll down to the comments, where I patiently defend the honor of theoretical computer science against Luboš's hilarious _ad hominem_ onslaughts.
+
+

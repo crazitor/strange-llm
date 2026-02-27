@@ -1,0 +1,38 @@
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "fontSize": "18px"
+  }
+}}%%
+flowchart LR
+    subgraph HumanDiff["🧠 人类难度 (Human Difficulty)"]
+        direction TB
+        H_EASY1["🟢 加减法 / 数手指<br/><i>Arithmetic / Counting</i><br/><b>容易</b>"]
+        H_EASY2["🟢 常识判断<br/><i>Common Sense</i><br/><b>容易</b>"]
+        H_HARD1["🔴 高等数学<br/><i>Advanced Math</i><br/><b>困难</b>"]
+        H_HARD2["🔴 复杂推理<br/><i>Complex Reasoning</i><br/><b>困难</b>"]
+    end
+
+    subgraph AIDiff["🤖 AI 难度 (AI Difficulty)"]
+        direction TB
+        A_HARD1["🔴 加减法 / 数手指<br/><i>Arithmetic / Counting</i><br/><b>困难</b>"]
+        A_HARD2["🔴 常识判断<br/><i>Common Sense</i><br/><b>困难</b>"]
+        A_EASY1["🟢 高等数学<br/><i>Advanced Math</i><br/><b>容易</b>"]
+        A_MED["🟡 复杂推理<br/><i>Complex Reasoning</i><br/><b>中等</b>"]
+    end
+
+    H_EASY1 -- "人类容易 → AI困难" --> A_HARD1
+    H_EASY2 -- "人类容易 → AI困难" --> A_HARD2
+    H_HARD1 -- "人类困难 → AI容易" --> A_EASY1
+    H_HARD2 -- "人类困难 → AI中等" --> A_MED
+
+    classDef easyNode fill:#0A3A2A,stroke:#4EC9B0,stroke-width:2px,color:#FFFFFF
+    classDef hardNode fill:#3A1A1A,stroke:#FF6B35,stroke-width:2px,color:#FFFFFF
+    classDef medNode fill:#3A2A0A,stroke:#FFD700,stroke-width:2px,color:#FFFFFF
+
+    class H_EASY1,H_EASY2,A_EASY1 easyNode
+    class H_HARD1,H_HARD2,A_HARD1,A_HARD2 hardNode
+    class A_MED medNode
+
+    style HumanDiff fill:#0F1729,stroke:#4EC9B0,stroke-width:2px,color:#FFFFFF
+    style AIDiff fill:#0F1729,stroke:#FF6B35,stroke-width:2px,color:#FFFFFF

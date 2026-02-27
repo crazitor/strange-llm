@@ -1,0 +1,27 @@
+---
+title: "Grading Trudeau on quantum computing"
+author: "Scott Aaronson"
+date: "Sun, 17 Apr 2016"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=2694"
+---
+
+**Update (4/19):** Inspired by Trudeau's performance (which they clocked at 35 seconds), _Maclean 's_ magazine asked seven quantum computing researchers--me, Krysta Svore, Aephraim Steinberg, Barry Sanders, Davide Venturelli, Martin Laforest, and Murray Thom--to also explain quantum computing in 35 seconds or fewer. You can see [all the results here](http://www.macleans.ca/society/science/trudeau-versus-the-experts-quantum-computing-in-35-seconds/) ([here's the audio](https://soundcloud.com/macleans-magazine/scott-aaronson-explaining-quantum-computing-in-roughly-35-seconds) from my entry).
+
+* * *
+
+The emails starting hitting me like … a hail of maple syrup from the icy north.  _Had I seen the news?_ Justin Trudeau, the dreamy young Prime Minister of Canada, visited the Perimeter Institute for Theoretical Physics in Waterloo, one of my favorite old haunts. At a news conference at PI, as Trudeau stood in front of a math-filled blackboard, a reporter said to him: "I was going to ask you to explain quantum computing, but — when do you expect Canada's ISIL mission to begin again, and are we not doing anything in the interim?"
+
+Rather than answering immediately about ISIL, Trudeau [took the opportunity to explain quantum computing](http://www.businessinsider.com/justin-trudeau-quantum-computing-2016-4):
+
+"Okay, very simply, normal computers work, uh, by [laughter, applause] … no no no, don't interrupt me. When you walk out of here, you will know more … no, some of you will know far _less_ about quantum computing, but most of you … normal computers work, either there's power going through a wire, or not. It's 1, or a 0, they're binary systems. Uh, what quantum states allow for is much more complex information to be encoded into a single bit. Regular computer bit is either a 1 or a 0, on or off. A quantum state can be much more complex than that, because as we know [speeding up dramatically] things can be both particle and wave at the same times and the uncertainty around quantum states [laughter] allows us to encode more information into a much smaller computer. So, that's what exciting about quantum computing and that's… [huge applause] don't get me going on this or we'll be here all day, trust me."
+
+What marks does Trudeau get for this? On the one hand, the widespread praise for this reply surely says more about how low the usual standards for politicians are, and about Trudeau's fine comic delivery, than about anything intrinsic to what he said. Trudeau doesn't really assert much here: basically, he just says that normal computers work using 1's and 0's, and that quantum computers are more complicated than that in some hard-to-explain way. He gestures toward the uncertainty principle and wave/particle duality, but he doesn't say anything about the aspects of QM most directly relevant to quantum computing--superposition or interference or the exponential size of Hilbert space--nor does he mention what quantum computers would or wouldn't be used for.
+
+On the other hand, I'd grade Trudeau's explanation as substantially  _more_ accurate than what you'd get from a typical popular article. For pay close attention to what the Prime Minister  _never_ says: he never says that a qubit would be "both 0 and 1 at the same time," or any equivalent formulation. (He does say that quantum states would let us "encode more information into a much smaller computer," but while [Holevo's Theorem](https://en.wikipedia.org/wiki/Holevo%27s_theorem) says that's false for a common interpretation of "information," it's true for other reasonable interpretations.) The humorous speeding up as he mentions particle/wave duality and the uncertainty principle clearly suggests that he _knows_ it's more subtle than just "0 and 1 at the same time," and he also knows that he doesn't really get it and that the journalists in the audience don't either. When I'm grading exams, I always give generous partial credit for honest admissions of ignorance. B+.
+
+Anyway, I'd be curious to know who at PI prepped Trudeau for this, and what they said. Those with inside info, feel free to share in the comments (anonymously if you want!).
+
+(One could also compare against Obama's [2008 answer about bubblesort](https://www.youtube.com/watch?v=k4RRi_ntQc8), which was just a mention of a keyword by comparison.)
+
+**Update:** See also a [Motherboard article](http://motherboard.vice.com/read/Justin-Trudeau-quantum-computing) where Romain Alléaume, Amr Helmy, Michele Mosca, and Aephraim Steinberg rate Trudeau's answer, giving it 7/10, no score, 9/10, and 7/10 respectively.

@@ -1,0 +1,12 @@
+---
+title: "BilBOWA: Fast Bilingual Distributed Representations without Word Alignments"
+author: "Yoshua Bengio"
+date: "2014"
+source: "semantic_scholar"
+url: "https://www.semanticscholar.org/paper/fc303b3b0be5b476ae5f3d8414b685e91d0378c6"
+citations: 395
+---
+
+## Abstract
+
+We introduce BilBOWA (Bilingual Bag-of-Words without Alignments), a simple and computationally-efficient model for learning bilingual distributed representations of words which can scale to large monolingual datasets and does not require word-aligned parallel training data. Instead it trains directly on monolingual data and extracts a bilingual signal from a smaller set of raw-text sentence-aligned data. This is achieved using a novel sampled bag-of-words cross-lingual objective, which is used to regularize two noise-contrastive language models for efficient cross-lingual feature learning. We show that bilingual embeddings learned using the proposed model outperform state-of-the-art methods on a cross-lingual document classification task as well as a lexical translation task on WMT11 data.

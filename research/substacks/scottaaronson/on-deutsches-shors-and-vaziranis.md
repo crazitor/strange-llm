@@ -1,0 +1,23 @@
+---
+title: "On Deutsches, Shors, and Vaziranis"
+author: "Scott Aaronson"
+date: "Fri, 28 Sep 2007"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=275"
+---
+
+My friend Robin Hanson kvetches that [scientific contrarians don't get no respect](http://www.overcomingbias.com/2007/09/even-when-contr.html): even if they ultimately turn out to be right, it's the more cautious, Johnny-come-lately "conservative radicals" who get the lion's share of the credit. (Like many of Robin's posts, this one is written in a purely descriptive mode that nevertheless leaves no doubt where his sympathies lie.) And so, as a firmly-entrenched pillar of the hidebound scientific establishment, I thought I'd tell you _our_ side of the story.
+
+In the US, there are companies whose business it is to patent (or buy patents for) every obvious idea they can think of, then sit around and do nothing with those ideas, wait for some other company to build a successful business around one of them, and sue that company for patent infringement. (The textbook example is [NTP's lawsuit against Research In Motion](http://www.eweek.com/article2/0,1759,1931062,00.asp).)
+
+In science, one occasionally sees the intellectual equivalent of these patent-holding companies: people who publish one flaky idea after another with no data or calculations to back them up; and then if, after years of painstaking research, one of their speculations turns out to be right (or even 10% right), scream _" they stole my idea!"_
+
+But in my experience -- and happily for all concerned -- the truth usually lies between this extreme and the opposite extreme described in Robin's post. To illustrate, let's consider the example of Robin's that I know best: that of David Deutsch and quantum computing.
+
+Unlike the patent-holding firms, David Deutsch really _was_ a scientific pioneer, thinking deeply about quantum physics and the Church-Turing Thesis back when basically no one else was. His philosophical insights led him to define the quantum Turing machine model, prove its universality, and realize it might have implications for complexity theory. But his one concrete example of a quantum algorithm -- how shall I say? -- sucked. In particular, he gave an algorithm to compute the XOR of two bits (and know one has done so) using one quantum query and with success probability 1/2. (Later it was realized that success probability 1 is achievable, but that's still only a factor-2 speedup compared to classical computers.) If this was all you'd seen of quantum computing, you would rightly file it away with dozens of other promising ideas that hadn't led anywhere.
+
+Unless, that is, you were Ethan Bernstein and Umesh Vazirani. These "conservative radicals" from Berkeley decided to put quantum computing under the microscope of theoretical computer science. The result of their labor -- besides a bounteous harvest of complexity theorems like BPP ⊆ BQP ⊆ P#P -- was the first example of a black-box problem for which quantum computers gave a superpolynomial speedup over classical randomized ones. Shortly afterward, another conservative, Dan Simon, set out to prove that the speedup of quantum computing was illusory -- and ended up with strong evidence (now called Simon's algorithm) for exactly the opposite conclusion. A year later, yet another conservative -- an expert on combinatorics and discrete geometry by the name of Peter Shor -- took a close look at Simon's algorithm, and realized that if you changed the underlying group from (Z2)n to the cyclic group ZN, then you could efficiently compute the period of a black-box function, and thereby factor integers, and thereby break the RSA cryptosystem, and thereby change the world.
+
+A Hansonian might downplay these later achievements -- arguing that, were it not for Shor, some other "mainstream mathematician" (a strange description of him!) would've sooner or later discovered the factoring algorithm. But it's equally true that, were it not for Deutsch, some other "renegade physicist" would have come up with quantum Turing machines (and indeed Feynman and Benioff were close). My own judgment is that Deutsch and Shor _both_ made creative scientific contributions of the highest order, and are both deservedly celebrated for them. Indeed, if anyone gets short-shrifted in the usual popular accounts, I think it's the people in between -- like Bernstein, Vazirani, and Simon.
+
+So yes, let's remember the first person who struck gold, but also the first to realize it wasn't fools' gold and the first to figure out how to mine it. Science is a big place; there's plenty of room for Deutsches, Shors, and even a Vazirani or two.

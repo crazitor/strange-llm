@@ -1,0 +1,152 @@
+[
+  {
+    "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜",
+    "author": "Emily Bender",
+    "date": "2021",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/ca2f1088d3e581b2c6c75cf0ebc96506d620f64d",
+    "citations": 6462,
+    "filename": "on-the-dangers-of-stochastic-parrots-can-language-models-be-too-big-.md",
+    "length": 1163
+  },
+  {
+    "title": "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data",
+    "author": "Emily Bender",
+    "year": 2020,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/02eaaf87f9cae34cca398fed146079e6eeb1f868",
+    "citations": 1197,
+    "filename": "climbing-towards-nlu-on-meaning-form-and-understanding-in-the-age-of-data.pdf",
+    "size_kb": 472
+  },
+  {
+    "title": "Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science",
+    "author": "Emily Bender",
+    "date": "2018",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/97bfa89addc6e5d76361e4c1e296949cad887b86",
+    "citations": 998,
+    "filename": "data-statements-for-natural-language-processing-toward-mitigating-system-bias-an.md",
+    "length": 998
+  },
+  {
+    "title": "AI and the Everything in the Whole Wide World Benchmark",
+    "author": "Emily Bender",
+    "date": "2021",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/629ae83d63f558e16b530441d765dc822d2949e1",
+    "citations": 414,
+    "filename": "ai-and-the-everything-in-the-whole-wide-world-benchmark.md",
+    "length": 651
+  },
+  {
+    "title": "Linguistically Naïve != Language Independent: Why NLP Needs Linguistic Typology",
+    "author": "Emily Bender",
+    "date": "2009",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/5331c1cfe5fa7f8b4577b345eef2a3690f6546d2",
+    "citations": 122,
+    "filename": "linguistically-naïve-language-independent-why-nlp-needs-linguistic-typology.md",
+    "length": 339
+  },
+  {
+    "title": "Towards Linguistically Generalizable NLP Systems: A Workshop and Shared Task",
+    "author": "Emily Bender",
+    "year": 2017,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/8472e999f723a9ccaffc6089b7be1865d8a1b863",
+    "citations": 96,
+    "filename": "towards-linguistically-generalizable-nlp-systems-a-workshop-and-shared-task.pdf",
+    "size_kb": 163
+  },
+  {
+    "title": "Book Reviews: Linguistic Fundamentals for Natural Language Processing: 100 Essentials from Morphology and Syntax by Emily M. Bender",
+    "author": "Emily Bender",
+    "year": 2013,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/17b5ba3695d263dfd460d5df11e43f979da01d16",
+    "citations": 31,
+    "filename": "book-reviews-linguistic-fundamentals-for-natural-language-processing-100-essenti.pdf",
+    "size_kb": 4276
+  },
+  {
+    "title": "Linguistic Fundamentals for Natural Language Processing II: 100 Essentials from Semantics and Pragmatics",
+    "author": "Emily Bender",
+    "date": "2019",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/32603503638c3a0a2ee81cf4952d7317ee611c20",
+    "citations": 28,
+    "filename": "linguistic-fundamentals-for-natural-language-processing-ii-100-essentials-from-s.md",
+    "length": 214
+  },
+  {
+    "title": "Ethics in Linguistics",
+    "author": "Emily Bender",
+    "year": 2022,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/563e74e5f78aada9e486091f3becd73fe59e9866",
+    "citations": 22,
+    "filename": "ethics-in-linguistics.pdf",
+    "size_kb": 335
+  },
+  {
+    "title": "Integrating Ethics into the NLP Curriculum",
+    "author": "Emily Bender",
+    "year": 2020,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/1ec1a4275efbe3cb27d792d1a548e5fcc44813a6",
+    "citations": 20,
+    "filename": "integrating-ethics-into-the-nlp-curriculum.pdf",
+    "size_kb": 137
+  },
+  {
+    "title": "Socially meaningful syntactic variation in sign-based grammar",
+    "author": "Emily Bender",
+    "date": "2007",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/788d08b5880ac491788f7331e8a878fb5d2bfb70",
+    "citations": 18,
+    "filename": "socially-meaningful-syntactic-variation-in-sign-based-grammar.md",
+    "length": 932
+  },
+  {
+    "title": "Developing a Shared Task for Speech Processing on Endangered Languages",
+    "author": "Emily Bender",
+    "year": 2021,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/87b849b90371661a40f9582c8e1f109750efc97f",
+    "citations": 12,
+    "filename": "developing-a-shared-task-for-speech-processing-on-endangered-languages.pdf",
+    "size_kb": 319
+  },
+  {
+    "title": "Building Analyses from Syntactic Inference in Local Languages: An HPSG Grammar Inference System",
+    "author": "Emily Bender",
+    "year": 2022,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/a23417a47fbe3b6d7b09ff3bef97269baad3df5a",
+    "citations": 4,
+    "filename": "building-analyses-from-syntactic-inference-in-local-languages-an-hpsg-grammar-in.pdf",
+    "size_kb": 3805
+  },
+  {
+    "title": "Individual constraints for information structure",
+    "author": "Emily Bender",
+    "date": "2012",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/b8f043b36a35db651776fc3b85ec0782c6841192",
+    "citations": 4,
+    "filename": "individual-constraints-for-information-structure.md",
+    "length": 555
+  },
+  {
+    "title": "100 Things You Always Wanted to Know about Semantics & Pragmatics But Were Afraid to Ask",
+    "author": "Emily Bender",
+    "year": 2018,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/3d4cd064ce2ec96e900f159f79f27aaa7a39ee15",
+    "citations": 2,
+    "filename": "100-things-you-always-wanted-to-know-about-semantics-pragmatics-but-were-afraid-.pdf",
+    "size_kb": 91
+  }
+]

@@ -1,0 +1,25 @@
+---
+title: "Justice has no faction"
+author: "Scott Aaronson"
+date: "Thu, 18 Jun 2020"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=4859"
+---
+
+(1) To start with some rare good news: I was delighted that the US Supreme Court, in a 5-4 [holding](https://www.supremecourt.gov/opinions/19pdf/18-587_5ifl.pdf) led by Chief Justice Roberts (!), struck down the Trump administration's plan to end DACA (Deferred Action for Childhood Arrivals). Dismantling DACA would've been a first step toward deporting 700,000 overwhelmingly blameless and peaceful people from, in many cases, the only homes they remember, for no particular reason other than to slake the resentment of Trump's base. Better still was the majority's argument: that when, by law, a federal agency has to supply a _reason_  for a policy change (in this case, ending DACA), its reason can't just be blatantly invented _post facto_.
+
+To connect to my [last post](https://scottaaronson.blog/?p=4845): I hope this gives some evidence that, if Trump refuses to accept an electoral loss in November, and if it ends up in the Supreme Court as Bush v. Gore did, then Roberts might once again break from the Court's other four rightists, in favor of the continued survival of the Republic.
+
+(2) Along with Steven Pinker, Scott Alexander, Sam Altman, Jonathan Haidt, Robert Solovay, and others who might be known to this blog's readership, I decided after reflection to sign a [petition](https://sites.google.com/view/petition-letter-stephen-hsu/home?authuser=0) in support of Steve Hsu, a theoretical physicist turned genomics researcher, and the Senior Vice President for Research and Innovation at Michigan State University.
+
+Hsu is the one on the right.
+
+Hsu now faces possible firing, because of a social media campaign apparently started by an MSU grad student and SneerClub poster named Kevin Bird. What are the [charges](https://twitter.com/GradEmpUnion/status/1270829003130261504)? Hsu appeared in 2017 on an alt-right podcast (albeit, one that Noam Chomsky has also appeared on). On Hsu's own podcast, he [interviewed Ron Unz](https://manifoldlearning.com/episode-010-transcript/), who despite Jewish birth has become a [nutcase Holocaust denier](https://www.unz.com/runz/american-pravda-holocaust-denial/)--yet somehow that topic never came up on the podcast. Hsu said that, as a scientist, he doesn't know whether group differences in average IQ have a genetic component, but our commitment to anti-racism should never hinge on questions of biology (a view also espoused by Peter Singer, perhaps the leading liberal moral philosopher of our time). Hsu has championed genomics research that, in addition to medical uses, _might someday_ help enable embryo screening for traits like IQ. Finally, Hsu supports the continued use of standardized tests in university admissions (yes, that's one of the listed charges).
+
+Crucially, **it doesn 't matter** for present purposes if you disagree with many of Hsu's views. The question is more like: _is agreement with Steven Pinker, Jonathan Haidt, and other mild-mannered, Obama-supporting thinkers featured in your local airport bookstore now a firing offense in academia? And will those who affirm that it is, claim in the next breath to be oppressed, marginalized, the Rebel Alliance?_
+
+To be fair to the cancelers, I think they have two reasonable arguments in their favor.
+
+The first that they're "merely" asking for Hsu to step down as vice president, not for him to lose his tenured professorship in physics. Only _professors_ , say the activists, enjoy academic freedom; _administrators_ need to uphold the values and public image of their university, as Larry Summers learned fifteen years ago. (And besides, we might add, what intellectual iconoclast in their right mind would ever _become_ a university VP, or want to stay one??) I'd actually be fine with this if I had any confidence that it was going to end here. But I don't. Given the now-enshrined standards--e.g., that professors hold positions of power, and that the powerful can oppress the powerless, or even do violence to them, just by expressing or entertaining thoughts outside an ever-shrinking range--why should Hsu trust any assurances that he'll be left alone, if he _does_ go back to being a physics professor? If the SneerClubbers can cancel him, then how long until they cancel Pinker, or Haidt, or me? (I _hope_ the SneerClubbers enthusiastically embrace those ideas! If they do, then no one ever again gets to call me paranoid about Red Guards behind every bush.)
+
+The second reasonable argument is that, as far as I can tell, Hsu really did grant undeserved legitimacy to a Holocaust denier, via a friendly interview about other topics on his podcast. I think it would help if, without ceding a word that he doesn't believe, Hsu were now to denounce racism, Holocaust denial, and specifically Ron Unz's flirtation with Holocaust denial in the strongest possible terms, and explain why he didn't bring the topic up with his guest (e.g., did he not know Unz's views?).

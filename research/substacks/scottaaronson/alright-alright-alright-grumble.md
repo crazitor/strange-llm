@@ -1,0 +1,23 @@
+---
+title: "Alright, alright, alright (grumble)"
+author: "Scott Aaronson"
+date: "Sat, 03 Feb 2007"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=195"
+---
+
+If no one else is going to highlight some results from the conference, I guess I'll have to do it myself. ~~More nuggets coming soon (i.e., as soon as I have my layovers in Auckland and LAX en route to Toronto)~~ Nope, I was too lazy. Plus I caught a cold on the plane from which I'm just now recovering.
+
+  * Aram Harrow (joint work with Sean Hallgren) generalized the Recursive Fourier Sampling problem of Bernstein and Vazirani, to give superpolynomial quantum black-box speedups based not only on the Fourier transform, but on almost _any_ unitary transformation.
+  * Falk Unger discussed his [joint result](http://www.arxiv.org/abs/quant-ph/0608146) with Richard Cleve, William Slofstra, and Sarvagya Upadhyay, that if Alice and Bob share unlimited quantum entanglement and are playing n Bell inequality games in parallel, then they might as well just play each game separately (i.e., there's no advantage in correlating their strategies across multiple games). Surprisingly, this is provably _false_ if Alice and Bob don't share entanglement.
+  * Alexandra Kolla discussed her [joint result](http://www.cs.princeton.edu/~szhang/publictions/QZK.pdf) with Sean Hallgren, Pranab Sen, and Shengyu Zhang, that any classical statistical zero-knowledge protocol can be made secure against quantum attacks. This generalizes a previous result of John Watrous (STOC'06), that certain _specific_ SZK protocols can be made secure against quantum attacks. Shengyu was supposed to give the talk; Alexandra had to fill in for him on a few days' notice since he couldn't get a travel visa.
+  * Troy Lee discussed his new [negative-weight adversary method](http://www.arxiv.org/abs/quant-ph/0611054) for proving quantum lower bounds (joint work with Peter Høyer and Robert Špalek), which improves the previous methods of Ambainis, Zhang, and others, and finally breaks through the so-called certificate complexity barrier. Unfortunately, the new method is so non-intuitive that right now the authors can only apply it with the aid of semidefinite programming solvers. But this old lowerboundsgeezer is hoping that, once the young 'uns get a better handle on their new toy, they'll be able to use it to finally demolish some of the old open problems in quantum lower bounds.
+  * Daniel Gottesman proved (joint work with Dorit Aharonov and Julia Kempe) that finding the ground state of a one-dimensional spin chain with nearest-neighbor interactions is already QMA-complete. Since the analogous classical problem is solvable in polynomial time, it had been conjectured that the quantum version is too, but this intuition turns out to be wrong.
+  * Yi-Kai Liu [showed](http://www.arxiv.org/abs/quant-ph/0609125) (joint work with Matthias Christandl and Frank Verstraete) that several problems of longstanding interest to chemists are QMA-complete. These problems include deciding whether a set of local density matrices is compatible with some global density matrix; and the "N-representability" problem (namely, deciding whether a quantum state of two m-mode fermions is extendible to a state of N m-mode fermions, where m=O(poly(N)).
+  * Francois Le Gall gave an [exponential separation](http://www.arxiv.org/abs/quant-ph/0606066) between randomized and quantum space complexity in the online setting (that is, the setting where the input bits are fed to an algorithm one at a time, with no possibility of going backward).
+  * Gus Gutoski [showed](http://www.arxiv.org/abs/quant-ph/0611234) (joint work with John Watrous) that if two omniscient gods are playing a quantum chess game by shuttling qubits back and forth via a polynomial-time intermediary, who will measure the qubits at the end to decide the winner, then it's possible in deterministic exponential time to decide which god will win. Or to say it much more clearly, [QRG](http://qwiki.caltech.edu/wiki/Complexity_Zoo#qrg)=[EXP](http://qwiki.caltech.edu/wiki/Complexity_Zoo#exp).
+  * Iordanis Kerenidis discussed his [joint result](http://www.arxiv.org/abs/quant-ph/0611209) with Dmitry Gavinsky, Julia Kempe, Ran Raz, and Ronald de Wolf, that there exists a partial Boolean function whose quantum one-way communication complexity is exponentially smaller than its randomized one-way communication complexity. Previously this was only known for relation problems.
+  * Ike Chuang gave an update on experimental quantum computing. His talk included a lot of graphs of damped sine curves.
+  * I gave my [tired old talk](http://www.scottaaronson.com/talks/learnbanff.ppt) on learnability of quantum states.
+
+

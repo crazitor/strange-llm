@@ -1,0 +1,23 @@
+---
+title: "On standing up sans backbone"
+author: "Scott Aaronson"
+date: "Tue, 16 Feb 2021"
+source: "scottaaronson_blog"
+url: "https://scottaaronson.blog/?p=5330"
+---
+
+> **Note:** To get myself into the spirit of writing this post, tonight I watched the 2019 movie [Mr. Jones](https://www.amazon.com/Mr-Jones-James-Norton/dp/B089XVJB9S/ref=sr_1_1?dchild=1&keywords=Mr.+Jones+%282019%29&qid=1613446265&s=instant-video&sr=1-1), about the true story of the coverup of Stalin's 1932-3 mass famine by _New York Times_ journalist [Walter Duranty](https://en.wikipedia.org/wiki/Walter_Duranty). Recommended!
+
+In my [last post](https://scottaaronson.blog/?p=5310), I wrote that despite all my problems with Cade Metz's _New York Times_ hit piece on Scott Alexander, I'd continue talking to journalists--even Metz himself, I added, assuming he'd still talk to me after my public disparagement of his work. Over the past few days, though, the many counterarguments in my comments section and elsewhere gradually caused me to change my mind. I now feel like to work with Metz again, even just on some quantum computing piece, would be to reward--and to be seen as rewarding--journalistic practices that are making the world worse, and that this consideration overrides even my extreme commitment to openness.
+
+At the least, before I could talk to Metz again, I'd need a better understanding of how the hit piece happened. What was the role of the editors? How did the original hook--namely, the rationalist community's early rightness about covid-19--disappear entirely from the article? How did the piece manage to evince so little _curiosity_ about such an unusual subculture and such a widely-admired writer? How did it fail so completely to engage with the rationalists' _ideas_ , instead jumping immediately to "six degrees of Peter Thiel" and other reductive games? How did an angry SneerClubber, David Gerard, end up (according to [his own boast](https://twitter.com/davidgerard/status/1360735880466604040)) basically dictating the NYT piece's content?
+
+It's always ripping-off-a-bandage painful to admit when trust in another person was wildly misplaced--for then who _else_ can we not trust? But sometimes that's the truth of it.
+
+I continue to believe passionately in the centrality of good journalism to a free society. I'll continue to talk to journalists often, about quantum computing or whatever else. I also recognize that the NYT is a large, heterogeneous institution (I myself [published](https://www.nytimes.com/2011/12/06/science/scott-aaronson-quantum-computing-promises-new-insights.html) in it [twice](https://www.nytimes.com/2019/10/30/opinion/google-quantum-computer-sycamore.html)); it's not hard to imagine that many of its own staff take issue with the SSC piece.
+
+But let's be clear about the stakes here. In the discussion of my last post, I [described](https://scottaaronson.blog/?p=5310#comment-1878641) the NYT as "still the main vessel of consensus reality in ~~human civilization~~ ” [alright, alright, American civilization!]. What's really at issue, beyond the treatment of a single blogger, is whether the NYT can continue serving that central role in a world reshaped by social media, resurgent fascism, and entitled wokery.
+
+Sure, we all know that the NYT has been disastrously wrong before: it ridiculed Goddard's dream of spaceflight, denied the Holodomor, relegated the Holocaust to the back pages while it was happening, published the fabricated justifications for the Iraq War. But the NYT and a few other publications were still the blockchain of reality, the engine of the consensus of all that is, the last bulwark against the conspiracists and the anti-vaxxers and the empowered fabulists and the horned insurrectionists storming the Capitol, because there was no ability to coordinate around any serious alternative. I'm _still_ skeptical that there's a serious alternative, but I now look more positively than I did just a few days ago on attempts to create one.
+
+To all those who called me naïve or a coward for having cooperated with the NYT: believe me, I'm well aware that I wasn't born with much backbone. (I am, after all, that guy on the Internet who famously once planned on a life of celibate asceticism, or more likely suicide, rather than asking women out and thereby risking eternal condemnation as a misogynistic sexual harasser by the normal, the popular, the socially adept, the … _humanities grads_ and the _journalists_.) But whenever I need a pick-me-up, I tell myself that rather than being ashamed about my lack of a backbone, I can take pride in having occasionally managed to stand even without one.

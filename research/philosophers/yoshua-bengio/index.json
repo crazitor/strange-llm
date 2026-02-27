@@ -1,0 +1,172 @@
+[
+  {
+    "title": "Understanding intermediate layers using linear classifier probes",
+    "author": "Yoshua Bengio",
+    "date": "2016",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/5e23a28063b395bdaf784dc548a046885cb90cf2",
+    "citations": 1235,
+    "filename": "understanding-intermediate-layers-using-linear-classifier-probes.md",
+    "length": 715
+  },
+  {
+    "title": "FigureQA: An Annotated Figure Dataset for Visual Reasoning",
+    "author": "Yoshua Bengio",
+    "date": "2017",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/cb6be69c67b0b15ebbda89a126f4dd62a4d32958",
+    "citations": 423,
+    "filename": "figureqa-an-annotated-figure-dataset-for-visual-reasoning.md",
+    "length": 1334
+  },
+  {
+    "title": "BilBOWA: Fast Bilingual Distributed Representations without Word Alignments",
+    "author": "Yoshua Bengio",
+    "date": "2014",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/fc303b3b0be5b476ae5f3d8414b685e91d0378c6",
+    "citations": 395,
+    "filename": "bilbowa-fast-bilingual-distributed-representations-without-word-alignments.md",
+    "length": 814
+  },
+  {
+    "title": "Speech Model Pre-training for End-to-End Spoken Language Understanding",
+    "author": "Yoshua Bengio",
+    "year": 2019,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/24d7b1487202e3aaf329df3d8135ae6eabefaa45",
+    "citations": 378,
+    "filename": "speech-model-pre-training-for-end-to-end-spoken-language-understanding.pdf",
+    "size_kb": 379
+  },
+  {
+    "title": "A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms",
+    "author": "Yoshua Bengio",
+    "date": "2019",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/492ba3ad3f0cb85f0636bc275fecd7e7960709da",
+    "citations": 365,
+    "filename": "a-meta-transfer-objective-for-learning-to-disentangle-causal-mechanisms.md",
+    "length": 1500
+  },
+  {
+    "title": "Towards Causal Representation Learning",
+    "author": "Yoshua Bengio",
+    "date": "2021",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/8f566001453bc6be0a935bf69ffd90d9db3af32b",
+    "citations": 348,
+    "filename": "towards-causal-representation-learning.md",
+    "length": 926
+  },
+  {
+    "title": "The Consciousness Prior",
+    "author": "Yoshua Bengio",
+    "date": "2017",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/0fff5c49c05c27c22ac7685130197146491f0b36",
+    "citations": 256,
+    "filename": "the-consciousness-prior.md",
+    "length": 1856
+  },
+  {
+    "title": "Towards End-to-end Spoken Language Understanding",
+    "author": "Yoshua Bengio",
+    "year": 2018,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/ae916205cdae8210b147d7637f74186e57d15973",
+    "citations": 241,
+    "filename": "towards-end-to-end-spoken-language-understanding.pdf",
+    "size_kb": 592
+  },
+  {
+    "title": "Learning Neural Causal Models from Unknown Interventions",
+    "author": "Yoshua Bengio",
+    "date": "2019",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/207033829813aadc2f2dca8f93279352d39de759",
+    "citations": 186,
+    "filename": "learning-neural-causal-models-from-unknown-interventions.md",
+    "length": 1183
+  },
+  {
+    "title": "CausalWorld: A Robotic Manipulation Benchmark for Causal Structure and Transfer Learning",
+    "author": "Yoshua Bengio",
+    "date": "2020",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/2342b32e245989103dbc56d6f07f1400f4fd2e06",
+    "citations": 137,
+    "filename": "causalworld-a-robotic-manipulation-benchmark-for-causal-structure-and-transfer-l.md",
+    "length": 1693
+  },
+  {
+    "title": "The Causal-Neural Connection: Expressiveness, Learnability, and Inference",
+    "author": "Yoshua Bengio",
+    "date": "2021",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/219ecc1a813131de0705c25fb2c6d61ed9c1361d",
+    "citations": 131,
+    "filename": "the-causal-neural-connection-expressiveness-learnability-and-inference.md",
+    "length": 1667
+  },
+  {
+    "title": "Learning Causal Models Online",
+    "author": "Yoshua Bengio",
+    "date": "2020",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/eae9978d19998c6dbdffdad9d78aeee778f66856",
+    "citations": 33,
+    "filename": "learning-causal-models-online.md",
+    "length": 1433
+  },
+  {
+    "title": "Compositional Generalization by Factorizing Alignment and Translation",
+    "author": "Yoshua Bengio",
+    "year": 2020,
+    "source": "semantic_scholar_pdf",
+    "url": "https://www.semanticscholar.org/paper/23835438889899885d9f33de2fb2356da10bbc0c",
+    "citations": 23,
+    "filename": "compositional-generalization-by-factorizing-alignment-and-translation.pdf",
+    "size_kb": 1429
+  },
+  {
+    "title": "An Analysis of the Adaptation Speed of Causal Models",
+    "author": "Yoshua Bengio",
+    "date": "2020",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/0c604c8a025ccc29f1a8cadbd58e3dacc041ed1c",
+    "citations": 15,
+    "filename": "an-analysis-of-the-adaptation-speed-of-causal-models.md",
+    "length": 1216
+  },
+  {
+    "title": "Weakly-supervised Knowledge Graph Alignment with Adversarial Learning",
+    "author": "Yoshua Bengio",
+    "date": "2019",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/a184a27061613e31b7b6b9732f7a31a2099fc48c",
+    "citations": 13,
+    "filename": "weakly-supervised-knowledge-graph-alignment-with-adversarial-learning.md",
+    "length": 1190
+  },
+  {
+    "title": "Towards Understanding Generalization via Analytical Learning Theory",
+    "author": "Yoshua Bengio",
+    "date": "2018",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/c23188a10579191a0ca343fa49ef410d65506937",
+    "citations": 10,
+    "filename": "towards-understanding-generalization-via-analytical-learning-theory.md",
+    "length": 857
+  },
+  {
+    "title": "Modularity Matters: Learning Invariant Relational Reasoning Tasks",
+    "author": "Yoshua Bengio",
+    "date": "2018",
+    "source": "semantic_scholar",
+    "url": "https://www.semanticscholar.org/paper/cb475fe9ad25e78414ffbf2c7598b5f1f8979c6e",
+    "citations": 8,
+    "filename": "modularity-matters-learning-invariant-relational-reasoning-tasks.md",
+    "length": 1904
+  }
+]
