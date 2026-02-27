@@ -1,0 +1,17 @@
+# Large binary files
+pdf/
+research/corpus.db
+research/chroma_db/
+output/
+assets/diagrams/rendered/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# Playwright
+.playwright-mcp/
