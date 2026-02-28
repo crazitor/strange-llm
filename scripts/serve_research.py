@@ -14,8 +14,18 @@ CHROMA_DIR = os.path.join(RESEARCH_DIR, 'chroma_db')
 
 app = Flask(__name__)
 
+import re as _re
+def strip_frontmatter(text):
+    """Remove YAML frontmatter (--- ... ---) from markdown content."""
+    if text and text.startswith('---'):
+        m = _re.match(r'^---\s*\n.*?\n---\s*\n?', text, _re.DOTALL)
+        if m:
+            return text[m.end():].lstrip()
+    return text or ''
+
 def get_db():
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_PATH, timeout=10)
+    conn.execute("PRAGMA journal_mode=WAL")
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -232,7 +242,107 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
                            border-radius: 4px; font-size: 12px; cursor: pointer; }
 .ask-answer .source-item:hover { background: var(--border); }
 .ask-loading { color: var(--orange); font-size: 14px; padding: 20px 0; }
+
+/* Progress bar for books */
+.book-progress { height: 3px; background: var(--border); border-radius: 2px; margin-top: 4px; }
+.book-progress-fill { height: 100%; background: var(--accent2); border-radius: 2px; transition: width 0.3s; }
+.book-progress-text { font-size: 10px; color: var(--text-dim); margin-top: 1px; }
+
+/* Overview card */
+.overview-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+                 padding: 16px; margin-bottom: 16px; }
+.overview-card h3 { color: var(--accent); font-size: 14px; margin-bottom: 8px; }
+.overview-card .overview-content { font-size: 13px; line-height: 1.6; }
+
+/* Compare toggle */
+.compare-toggle { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-dim); }
+.compare-toggle input { accent-color: var(--orange); }
+
+/* Related items */
+.related-section { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border); }
+.related-section h3 { color: var(--accent); font-size: 13px; margin-bottom: 8px; }
+.related-card { padding: 8px 12px; margin: 6px 0; background: var(--surface); border-radius: 6px;
+                border-left: 3px solid var(--accent); cursor: pointer; font-size: 12px; }
+.related-card:hover { background: var(--border); }
+.related-card .related-source { color: var(--orange); font-size: 10px; }
+.related-card .related-snippet { color: var(--text-dim); font-size: 11px; margin-top: 2px; }
+
+/* Learning path */
+.learning-path { padding: 12px; }
+.learning-path h3 { color: var(--accent); margin-bottom: 8px; }
+.path-group { margin-bottom: 16px; }
+.path-group-title { font-size: 12px; font-weight: 700; margin-bottom: 6px; padding: 4px 8px;
+                    border-radius: 4px; display: inline-block; }
+.path-group-title.essential { background: var(--essential); color: #000; }
+.path-group-title.important { background: var(--important); color: #000; }
+.path-group-title.useful { background: var(--useful); color: #000; }
+.path-item { padding: 6px 12px; margin: 4px 0; background: var(--surface); border-radius: 4px;
+             cursor: pointer; font-size: 12px; }
+.path-item:hover { background: var(--border); }
+
+/* QA History */
+.qa-history-item { padding: 12px; margin: 8px 0; background: var(--surface); border-radius: 6px;
+                   border-left: 3px solid var(--orange); cursor: pointer; }
+.qa-history-item:hover { background: var(--border); }
+.qa-history-item .qa-question { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+.qa-history-item .qa-meta { font-size: 10px; color: var(--text-dim); }
+.qa-history-item .qa-preview { font-size: 12px; color: var(--text-dim); margin-top: 4px;
+                                display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* Ask tabs */
+.ask-tabs { display: flex; gap: 2px; margin-bottom: 12px; }
+.ask-tab { padding: 6px 14px; border-radius: 4px; cursor: pointer; font-size: 12px; font-weight: 600;
+           background: var(--surface); color: var(--text-dim); border: 1px solid var(--border); }
+.ask-tab.active { background: var(--orange); color: #000; border-color: var(--orange); }
+.ask-tab:hover:not(.active) { background: var(--border); }
+
+/* Follow-up suggestions */
+.followup-section { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
+.followup-item { padding: 4px 10px; margin: 4px 0; border-radius: 14px; border: 1px solid var(--border);
+                 background: var(--surface); color: var(--text-dim); cursor: pointer; font-size: 11px;
+                 display: inline-block; }
+.followup-item:hover { border-color: var(--orange); color: var(--orange); }
+
+/* Knowledge Graph */
+.graph-container { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.graph-container svg { width: 100%; height: 100%; }
+.graph-controls { position: absolute; top: 10px; left: 10px; right: 10px;
+                  display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+                  background: rgba(13,17,23,0.9); padding: 8px 12px; border-radius: 8px;
+                  border: 1px solid var(--border); z-index: 10; }
+.graph-controls label { font-size: 11px; color: var(--text-dim); display: flex; align-items: center; gap: 4px; }
+.graph-controls input[type="range"] { width: 80px; accent-color: var(--accent); }
+.graph-controls input[type="text"] { background: var(--bg); border: 1px solid var(--border);
+                                      color: var(--text); padding: 4px 8px; border-radius: 4px;
+                                      font-size: 11px; width: 140px; }
+.graph-controls select { background: var(--bg); border: 1px solid var(--border);
+                          color: var(--text); padding: 4px; border-radius: 4px; font-size: 11px; }
+.graph-node { cursor: pointer; }
+.graph-node circle { stroke: var(--border); stroke-width: 1.5px; transition: r 0.2s; }
+.graph-node:hover circle { stroke: #fff; stroke-width: 2px; }
+.graph-node text { fill: var(--text); font-size: 10px; pointer-events: none; }
+.graph-edge { stroke: var(--border); stroke-opacity: 0.4; }
+.graph-edge.highlight { stroke: var(--accent); stroke-opacity: 0.8; }
+.graph-node.highlight circle { stroke: var(--accent); stroke-width: 3px; }
+.graph-node.dimmed { opacity: 0.2; }
+.graph-edge.dimmed { stroke-opacity: 0.05; }
+.concept-detail { position: absolute; top: 60px; right: 10px; width: 300px; max-height: calc(100% - 80px);
+                  background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+                  padding: 16px; overflow-y: auto; z-index: 10; font-size: 13px; }
+.concept-detail h2 { font-size: 16px; color: var(--accent); margin-bottom: 4px; }
+.concept-detail .concept-zh { color: var(--text-dim); font-size: 13px; margin-bottom: 8px; }
+.concept-detail .concept-desc { margin-bottom: 12px; color: var(--text); line-height: 1.5; }
+.concept-detail .concept-meta { font-size: 11px; color: var(--text-dim); margin-bottom: 12px; }
+.concept-detail .concept-source { padding: 4px 0; border-bottom: 1px solid var(--border);
+                                   cursor: pointer; font-size: 12px; }
+.concept-detail .concept-source:hover { color: var(--accent); }
+.concept-detail h3 { font-size: 12px; color: var(--accent); margin: 12px 0 6px; }
+.bubble-map { width: 100%; height: 300px; }
+.bubble-map circle { cursor: pointer; stroke: var(--border); stroke-width: 1px; }
+.bubble-map circle:hover { stroke: #fff; }
+.bubble-map text { fill: var(--text); font-size: 9px; pointer-events: none; text-anchor: middle; }
 </style>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
 <div class="app">
@@ -300,7 +410,7 @@ async function init() {
   const resp = await fetch('/api/filters');
   const data = await resp.json();
   renderSidebar(data);
-  loadArticles({sort: 'importance', limit: 100});
+  loadArticles({sort: 'importance'});
 }
 
 function renderSidebar(data) {
@@ -309,6 +419,7 @@ function renderSidebar(data) {
   html += `<div class="mode-tab ${browseMode==='articles'?'active':''}" onclick="switchMode('articles')">Articles</div>`;
   html += `<div class="mode-tab ${browseMode==='books'?'active':''}" onclick="switchMode('books')">Books</div>`;
   html += `<div class="mode-tab" onclick="showMyNotes()" style="background:var(--tag-bg)">Notes</div>`;
+  html += `<div class="mode-tab ${browseMode==='graph'?'active':''}" onclick="switchMode('graph')">Graph</div>`;
   html += '</div>';
 
   if (browseMode === 'books') {
@@ -342,8 +453,17 @@ function renderSidebar(data) {
     html += '<h3>Topics</h3>';
     data.topics.forEach(t => {
       const zh = topicZh[t.name] || t.name;
-      html += `<div class="filter-item" onclick="toggleFilter('topic','${t.name}')">${zh} #${t.name} <span class="count">${t.count}</span></div>`;
+      html += `<div class="filter-item" style="gap:4px">
+        <span onclick="toggleFilter('topic','${t.name}')" style="flex:1;cursor:pointer">${zh} #${t.name}</span>
+        <span class="count" onclick="event.stopPropagation();showLearningPath('${t.name}')" style="cursor:pointer;color:var(--accent)" title="Learning path">&#x1F4DA;</span>
+        <span class="count">${t.count}</span>
+      </div>`;
     });
+  }
+
+  if (browseMode === 'graph') {
+    html += '<h3>Concepts by Topic</h3>';
+    html += '<div id="conceptBubbles"><div style="color:var(--text-dim);font-size:12px">Loading...</div></div>';
   }
   document.getElementById('sidebar').innerHTML = html;
 }
@@ -354,10 +474,16 @@ async function switchMode(mode) {
   const resp = await fetch('/api/filters');
   const data = await resp.json();
   renderSidebar(data);
-  if (mode === 'books') {
-    loadBooks({});
+  if (mode === 'graph') {
+    loadGraph();
   } else {
-    loadArticles({sort: 'importance', limit: 100});
+    document.getElementById('listPanel').style.display = '';
+    document.getElementById('readingPanel').style.gridColumn = '';
+    if (mode === 'books') {
+      loadBooks({});
+    } else {
+      loadArticles({sort: 'importance'});
+    }
   }
 }
 
@@ -375,14 +501,27 @@ function toggleFilter(key, val) {
   if (browseMode === 'books') {
     loadBooks(currentFilters);
   } else {
-    loadArticles({...currentFilters, sort: 'importance', limit: 100});
+    loadArticles({...currentFilters, sort: 'importance'});
   }
 }
 
-async function loadArticles(params) {
+let articleTotal = 0;
+let articleOffset = 0;
+const PAGE_SIZE = 50;
+
+async function loadArticles(params, append) {
+  if (!append) articleOffset = 0;
+  params.limit = PAGE_SIZE;
+  params.offset = articleOffset;
   const qs = new URLSearchParams(params).toString();
   const resp = await fetch('/api/articles?' + qs);
-  allArticles = await resp.json();
+  const data = await resp.json();
+  articleTotal = data.total;
+  if (append) {
+    allArticles = allArticles.concat(data.articles);
+  } else {
+    allArticles = data.articles;
+  }
   renderList(allArticles);
 }
 
@@ -393,6 +532,20 @@ async function loadBooks(params) {
   renderBookList(books);
 }
 
+function getReadProgress(bookId) {
+  try {
+    const key = 'readProgress_' + bookId;
+    return JSON.parse(localStorage.getItem(key)) || {lastChapter: 0, readChapters: []};
+  } catch(e) { return {lastChapter: 0, readChapters: []}; }
+}
+
+function saveReadProgress(bookId, chapterIdx, totalChapters) {
+  const prog = getReadProgress(bookId);
+  prog.lastChapter = chapterIdx;
+  if (!prog.readChapters.includes(chapterIdx)) prog.readChapters.push(chapterIdx);
+  localStorage.setItem('readProgress_' + bookId, JSON.stringify(prog));
+}
+
 function renderBookList(books) {
   if (!books.length) {
     document.getElementById('listPanel').innerHTML = '<div class="empty-state">No books</div>';
@@ -401,6 +554,10 @@ function renderBookList(books) {
   let html = `<div class="list-header"><span>${books.length} books</span></div>`;
   books.forEach(b => {
     const cat = categoryZh[b.category] || b.category || '';
+    const prog = getReadProgress(b.id);
+    const totalCh = b.chapter_count || 0;
+    const readCh = prog.readChapters.length;
+    const pct = totalCh > 0 ? Math.round(readCh / totalCh * 100) : 0;
     html += `<div class="book-item" onclick="loadBook(${b.id},this)">
       <div class="article-title">
         <span class="book-category">${cat}</span>
@@ -412,8 +569,10 @@ function renderBookList(books) {
         <span>${escHtml(b.author||'')}</span>
         <span>${b.year||''}</span>
         <span>${b.page_count||'?'} pages</span>
+        ${totalCh ? '<span>' + totalCh + ' ch</span>' : ''}
         ${b.linked_title ? '<span style="color:var(--orange)">has ' + (b.language==='en'?'ZH':'EN') + ' version</span>' : ''}
       </div>
+      ${totalCh > 0 ? '<div class="book-progress"><div class="book-progress-fill" style="width:'+pct+'%"></div></div><div class="book-progress-text">'+readCh+'/'+totalCh+' chapters read ('+pct+'%)</div>' : ''}
     </div>`;
   });
   document.getElementById('listPanel').innerHTML = html;
@@ -446,7 +605,7 @@ function renderList(articles) {
     document.getElementById('listPanel').innerHTML = '<div class="empty-state">No results</div>';
     return;
   }
-  let html = `<div class="list-header"><span>${articles.length} articles</span></div>`;
+  let html = `<div class="list-header"><span>${articles.length}${articleTotal > articles.length ? '/' + articleTotal : ''} articles</span></div>`;
   articles.forEach(a => {
     const score = a.importance ? a.importance.toFixed(1) : '?';
     const levelCls = a.level ? 'level-' + a.level : '';
@@ -469,7 +628,18 @@ function renderList(articles) {
       ${tags ? '<div class="article-tags">' + tags + '</div>' : ''}
     </div>`;
   });
+  if (articleTotal > articles.length) {
+    html += `<div style="text-align:center;padding:12px">
+      <button onclick="loadMoreArticles()" style="background:var(--accent);color:#000;border:none;padding:6px 16px;border-radius:4px;cursor:pointer">
+        Load more (${articles.length}/${articleTotal})
+      </button></div>`;
+  }
   document.getElementById('listPanel').innerHTML = html;
+}
+
+function loadMoreArticles() {
+  articleOffset = allArticles.length;
+  loadArticles({...currentFilters, sort: 'importance'}, true);
 }
 
 async function loadArticle(id, el) {
@@ -643,7 +813,20 @@ function renderBookDetail() {
     html += `<div style="margin:8px 0"><button class="toolbar button" onclick="loadBook(${b.linked_book_id})" style="padding:4px 12px;border-radius:4px;border:1px solid var(--orange);background:var(--surface);color:var(--orange);cursor:pointer;font-size:12px">View ${b.language==='en'?'Chinese':'English'} version</button></div>`;
   }
 
-  html += `<div class="info-box"><strong>Chapters:</strong> ${bookChapters.length} &nbsp; <strong>Click a chapter on the left to read</strong></div>`;
+  // Overview section
+  if (b.overview) {
+    html += `<div class="overview-card"><h3>AI Overview</h3><div class="overview-content">${b.overview}</div></div>`;
+  } else {
+    html += `<div style="margin:8px 0"><button onclick="generateOverview(${b.id})" id="btnOverview" style="padding:6px 14px;border-radius:6px;border:1px solid var(--accent);background:var(--surface);color:var(--accent);cursor:pointer;font-size:12px">Generate AI Overview</button></div>`;
+    html += '<div id="overviewStatus"></div>';
+  }
+
+  const prog = getReadProgress(b.id);
+  const readCh = prog.readChapters.length;
+  const pct = bookChapters.length > 0 ? Math.round(readCh / bookChapters.length * 100) : 0;
+  html += `<div class="info-box"><strong>Chapters:</strong> ${bookChapters.length} &nbsp; <strong>Progress:</strong> ${readCh}/${bookChapters.length} (${pct}%)
+    ${prog.lastChapter > 0 ? '&nbsp; <button onclick="loadChapter('+prog.lastChapter+')" style="padding:2px 8px;border-radius:4px;border:1px solid var(--accent);background:var(--surface);color:var(--accent);cursor:pointer;font-size:11px">Resume chapter '+(prog.lastChapter+1)+'</button>' : ''}
+  </div>`;
 
   html += renderNotesSection('book', b.id);
 
@@ -657,8 +840,16 @@ async function loadChapter(idx, el) {
   currentChapterIdx = idx;
   const ch = bookChapters[idx];
 
+  // Save reading progress
+  if (currentBook) saveReadProgress(currentBook.id, idx, bookChapters.length);
+
   document.querySelectorAll('.chapter-item').forEach(e => e.classList.remove('selected'));
   if (el) el.classList.add('selected');
+  // Highlight in chapter list
+  if (!el) {
+    const items = document.querySelectorAll('.chapter-item');
+    if (items[idx]) items[idx].classList.add('selected');
+  }
 
   const resp = await fetch(`/api/chapter/${ch.id}`);
   const data = await resp.json();
@@ -702,12 +893,16 @@ function renderChapter(ch) {
     html += '<div class="content"><p style="color:var(--text-dim)">No text content (scanned PDF)</p></div>';
   }
 
+  // Related content from other sources
+  html += '<div class="related-section" id="relatedContent"><h3>Related from other sources</h3><div style="color:var(--text-dim);font-size:12px">Loading...</div></div>';
+
   // Notes
   html += renderNotesSection('chapter', ch.id);
 
   document.getElementById('readingPanel').innerHTML = html;
   document.getElementById('readingPanel').scrollTop = 0;
   loadNotes('chapter', ch.id);
+  loadRelatedContent(ch.id, currentBook ? currentBook.id : null);
 }
 
 async function summarizeChapter(chapterId) {
@@ -754,6 +949,20 @@ function showAskPanel() {
 
   let html = '<div class="ask-panel">';
   html += '<h1 style="margin-bottom:12px">Ask AI</h1>';
+
+  // Tabs: Ask / History
+  html += '<div class="ask-tabs">';
+  html += `<div class="ask-tab ${askTab==='ask'?'active':''}" onclick="askTab='ask';showAskPanel()">Ask</div>`;
+  html += `<div class="ask-tab ${askTab==='history'?'active':''}" onclick="askTab='history';showAskPanel();showQAHistory()">History</div>`;
+  html += '</div>';
+
+  if (askTab === 'history') {
+    html += '<div id="askResult"><div style="color:var(--text-dim)">Loading...</div></div></div>';
+    document.getElementById('readingPanel').innerHTML = html;
+    showQAHistory();
+    return;
+  }
+
   html += '<p style="color:var(--text-dim);font-size:13px;margin-bottom:12px">Ask questions across all articles and books. AI will find relevant sources and answer.</p>';
 
   html += '<div class="ask-templates">';
@@ -767,6 +976,9 @@ function showAskPanel() {
   html += `<button class="btn-ask" onclick="doAsk(document.getElementById(&quot;askInput&quot;).value)">Ask</button>`;
   html += '</div>';
 
+  // Compare toggle
+  html += '<div class="compare-toggle"><label><input type="checkbox" id="compareMode"> Compare &amp; contrast mode (multi-source analysis)</label></div>';
+
   html += '<div id="askResult"></div>';
   html += '</div>';
 
@@ -775,15 +987,16 @@ function showAskPanel() {
 
 async function doAsk(question) {
   if (!question || !question.trim()) return;
-  const resultDiv = document.getElementById('askResult') || document.getElementById('readingPanel');
 
   if (!askMode) {
     askMode = true;
+    askTab = 'ask';
     document.getElementById('btnAskMode').classList.add('active');
     showAskPanel();
     document.getElementById('askInput').value = question;
   }
 
+  const compareMode = document.getElementById('compareMode') && document.getElementById('compareMode').checked;
   const askResult = document.getElementById('askResult');
   askResult.innerHTML = '<div class="ask-loading">Searching and thinking...</div>';
 
@@ -791,15 +1004,24 @@ async function doAsk(question) {
     const resp = await fetch('/api/ask', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({question: question.trim()})
+      body: JSON.stringify({question: question.trim(), mode: compareMode ? 'compare' : 'normal'})
     });
     const data = await resp.json();
 
     let html = '<div class="ask-answer">';
     html += `<div class="content" style="margin-bottom:16px">${data.answer_html || escHtml(data.answer || 'No answer')}</div>`;
 
+    // Follow-up suggestions
+    if (data.followups && data.followups.length) {
+      html += '<div class="followup-section"><strong style="font-size:12px;color:var(--text-dim)">Follow-up questions:</strong><div style="margin-top:6px">';
+      data.followups.forEach(f => {
+        html += `<span class="followup-item" onclick="document.getElementById('askInput').value=this.textContent;doAsk(this.textContent)">${escHtml(f)}</span> `;
+      });
+      html += '</div></div>';
+    }
+
     if (data.sources && data.sources.length) {
-      html += '<h3 style="color:var(--accent);margin-bottom:8px">Sources</h3>';
+      html += '<h3 style="color:var(--accent);margin-bottom:8px;margin-top:16px">Sources</h3>';
       data.sources.forEach(s => {
         const onclick = s.type === 'article'
           ? `loadArticle(${s.id})`
@@ -950,6 +1172,345 @@ function escHtml(s) {
   return d.innerHTML;
 }
 
+// ─── Generate Book Overview ──────────────────────────────
+async function generateOverview(bookId) {
+  const btn = document.getElementById('btnOverview');
+  const status = document.getElementById('overviewStatus');
+  if (btn) btn.disabled = true;
+  if (status) status.innerHTML = '<div class="translate-status">Generating overview... this may take a moment...</div>';
+  try {
+    const resp = await fetch(`/api/book/${bookId}/overview`, {method: 'POST'});
+    const data = await resp.json();
+    if (data.overview) {
+      currentBook.overview = data.overview;
+      renderBookDetail();
+    } else {
+      if (status) status.innerHTML = `<div style="color:var(--essential)">${data.error || 'Failed'}</div>`;
+      if (btn) btn.disabled = false;
+    }
+  } catch(e) {
+    if (status) status.innerHTML = `<div style="color:var(--essential)">Error: ${e.message}</div>`;
+    if (btn) btn.disabled = false;
+  }
+}
+
+// ─── Related Content ─────────────────────────────────────
+async function loadRelatedContent(chapterId, excludeBookId) {
+  try {
+    const resp = await fetch(`/api/chapter/${chapterId}/related?exclude_book=${excludeBookId||''}`);
+    const data = await resp.json();
+    const container = document.getElementById('relatedContent');
+    if (!container) return;
+    if (!data.length) {
+      container.innerHTML = '<h3>Related from other sources</h3><div style="color:var(--text-dim);font-size:12px">No related content found</div>';
+      return;
+    }
+    let html = '<h3>Related from other sources</h3>';
+    data.forEach(r => {
+      const onclick = r.type === 'article' ? `loadArticle(${r.id})` : `loadBook(${r.book_id})`;
+      html += `<div class="related-card" onclick="${onclick}">
+        <span class="related-source">${r.type === 'article' ? 'Article' : 'Book'}</span>
+        <strong>${escHtml(r.title)}</strong>
+        ${r.author ? ' <span style="color:var(--text-dim)">- '+escHtml(r.author)+'</span>' : ''}
+        ${r.chapter ? '<div style="color:var(--accent);font-size:11px">Ch: '+escHtml(r.chapter)+'</div>' : ''}
+        <div class="related-snippet">${escHtml((r.snippet||'').substring(0,150))}</div>
+      </div>`;
+    });
+    container.innerHTML = html;
+  } catch(e) {}
+}
+
+// ─── Learning Path ───────────────────────────────────────
+async function showLearningPath(topic) {
+  const resp = await fetch(`/api/learning-path?topic=${encodeURIComponent(topic)}`);
+  const data = await resp.json();
+  const groups = {essential: [], important: [], useful: []};
+  data.forEach(item => {
+    const g = groups[item.level] || groups.useful;
+    g.push(item);
+  });
+
+  const groupLabels = {essential: 'Core Reading', important: 'Important', useful: 'Useful Background'};
+  let html = `<div class="learning-path"><h1>Learning Path: ${topicZh[topic]||topic}</h1>`;
+  for (const [level, items] of Object.entries(groups)) {
+    if (!items.length) continue;
+    html += `<div class="path-group"><div class="path-group-title ${level}">${groupLabels[level]} (${items.length})</div>`;
+    items.forEach(item => {
+      const onclick = item.type === 'book' ? `loadBook(${item.id})` : `loadArticle(${item.id})`;
+      html += `<div class="path-item" onclick="${onclick}">
+        <strong>${escHtml(item.title)}</strong>
+        <span style="color:var(--text-dim)"> - ${escHtml(item.author||'')}</span>
+        <span style="color:var(--orange);font-size:10px;margin-left:6px">${item.type}</span>
+        ${item.description ? '<div style="color:var(--text-dim);font-size:11px;margin-top:2px">'+escHtml(item.description)+'</div>' : ''}
+      </div>`;
+    });
+    html += '</div>';
+  }
+  if (!data.length) html += '<p style="color:var(--text-dim)">No content found for this topic.</p>';
+  html += '</div>';
+  document.getElementById('readingPanel').innerHTML = html;
+}
+
+// ─── QA History ──────────────────────────────────────────
+let askTab = 'ask'; // 'ask' or 'history'
+
+async function showQAHistory() {
+  const resp = await fetch('/api/qa-history');
+  const items = await resp.json();
+  const container = document.getElementById('askResult') || document.getElementById('readingPanel');
+  if (!items.length) {
+    container.innerHTML = '<p style="color:var(--text-dim);padding:12px">No questions asked yet.</p>';
+    return;
+  }
+  let html = '';
+  items.forEach(item => {
+    html += `<div class="qa-history-item" onclick="expandQAHistory(${item.id})">
+      <div class="qa-question">${escHtml(item.question)}</div>
+      <div class="qa-meta">${item.created_at || ''} ${item.mode === 'compare' ? '<span style="color:var(--orange)">[compare]</span>' : ''}</div>
+      <div class="qa-preview">${(item.answer_preview||'').substring(0,200)}</div>
+    </div>`;
+  });
+  container.innerHTML = html;
+}
+
+async function expandQAHistory(id) {
+  const resp = await fetch(`/api/qa-history/${id}`);
+  const item = await resp.json();
+  const container = document.getElementById('askResult') || document.getElementById('readingPanel');
+  let html = `<div class="ask-answer">
+    <div style="margin-bottom:8px"><button onclick="showAskPanel()" style="padding:4px 10px;border-radius:4px;border:1px solid var(--border);background:var(--surface);color:var(--text);cursor:pointer;font-size:11px">Back</button>
+    <span style="color:var(--text-dim);font-size:11px;margin-left:8px">${item.created_at||''}</span></div>
+    <h3 style="margin-bottom:8px">${escHtml(item.question)}</h3>
+    <div class="content" style="margin-bottom:16px">${item.answer_html || ''}</div>`;
+  if (item.sources && item.sources.length) {
+    html += '<h3 style="color:var(--accent);margin-bottom:8px">Sources</h3>';
+    item.sources.forEach(s => {
+      html += `<div class="source-item"><strong>${escHtml(s.title||'')}</strong></div>`;
+    });
+  }
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+// ─── Knowledge Graph ─────────────────────────────────────
+let graphSimulation = null;
+let graphData = null;
+
+async function loadGraph() {
+  document.getElementById('listPanel').innerHTML = '';
+  document.getElementById('listPanel').style.display = 'none';
+
+  const panel = document.getElementById('readingPanel');
+  panel.style.gridColumn = '2 / -1';
+  panel.innerHTML = `
+    <div class="graph-container" id="graphContainer">
+      <div class="graph-controls">
+        <label>Min mentions: <input type="range" id="graphMinMentions" min="1" max="20" value="3"
+               oninput="this.nextElementSibling.textContent=this.value;refreshGraph()"><span>3</span></label>
+        <label>Category: <select id="graphCategory" onchange="refreshGraph()">
+          <option value="">All</option>
+          <option value="philosophy">Philosophy</option>
+          <option value="ai">AI</option>
+          <option value="science">Science</option>
+          <option value="methodology">Methodology</option>
+          <option value="ethics">Ethics</option>
+        </select></label>
+        <label><input type="text" id="graphSearch" placeholder="Search concept..."
+               oninput="highlightConcept(this.value)"></label>
+      </div>
+      <svg id="graphSvg"></svg>
+    </div>`;
+
+  await refreshGraph();
+  loadConceptMap();
+}
+
+async function refreshGraph() {
+  const min = document.getElementById('graphMinMentions')?.value || 3;
+  const cat = document.getElementById('graphCategory')?.value || '';
+
+  const params = new URLSearchParams({min_mentions: min});
+  if (cat) params.set('category', cat);
+
+  const resp = await fetch('/api/graph?' + params.toString());
+  graphData = await resp.json();
+  renderGraph(graphData);
+}
+
+const categoryColors = {
+  philosophy: '#58a6ff', ai: '#f0883e', science: '#7ee787',
+  methodology: '#d2a8ff', ethics: '#f97583'
+};
+
+function renderGraph(data) {
+  const container = document.getElementById('graphContainer');
+  if (!container) return;
+  const svg = d3.select('#graphSvg');
+  svg.selectAll('*').remove();
+
+  const width = container.clientWidth;
+  const height = container.clientHeight - 50;
+
+  svg.attr('viewBox', [0, 0, width, height]);
+
+  const g = svg.append('g');
+
+  svg.call(d3.zoom().scaleExtent([0.2, 5]).on('zoom', (e) => g.attr('transform', e.transform)));
+
+  const maxMentions = Math.max(...data.nodes.map(n => n.mention_count), 1);
+  const sizeScale = d3.scaleSqrt().domain([1, maxMentions]).range([5, 30]);
+
+  const edgeMap = {};
+  data.edges.forEach(e => {
+    edgeMap[e.source + '-' + e.target] = e;
+    edgeMap[e.target + '-' + e.source] = e;
+  });
+
+  const links = g.append('g')
+    .selectAll('line')
+    .data(data.edges)
+    .join('line')
+    .attr('class', 'graph-edge')
+    .attr('stroke-width', d => Math.max(1, d.strength * 3))
+    .attr('stroke-dasharray', d => {
+      if (d.relation === 'critiques') return '4,4';
+      if (d.relation === 'requires') return '2,2';
+      return null;
+    });
+
+  const nodeGroup = g.append('g')
+    .selectAll('g')
+    .data(data.nodes)
+    .join('g')
+    .attr('class', 'graph-node')
+    .call(d3.drag()
+      .on('start', (e, d) => { if (!e.active) graphSimulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on('drag', (e, d) => { d.fx = e.x; d.fy = e.y; })
+      .on('end', (e, d) => { if (!e.active) graphSimulation.alphaTarget(0); d.fx = null; d.fy = null; })
+    );
+
+  nodeGroup.append('circle')
+    .attr('r', d => sizeScale(d.mention_count))
+    .attr('fill', d => categoryColors[d.category] || '#8b949e');
+
+  nodeGroup.append('text')
+    .attr('dy', d => sizeScale(d.mention_count) + 12)
+    .attr('text-anchor', 'middle')
+    .text(d => d.name);
+
+  nodeGroup.on('mouseover', function(e, d) {
+    const connected = new Set();
+    data.edges.forEach(edge => {
+      if (edge.source.id === d.id || edge.source === d.id) connected.add(edge.target.id || edge.target);
+      if (edge.target.id === d.id || edge.target === d.id) connected.add(edge.source.id || edge.source);
+    });
+    connected.add(d.id);
+
+    nodeGroup.classed('dimmed', n => !connected.has(n.id));
+    links.classed('dimmed', l => {
+      const s = l.source.id || l.source;
+      const t = l.target.id || l.target;
+      return s !== d.id && t !== d.id;
+    });
+    links.classed('highlight', l => {
+      const s = l.source.id || l.source;
+      const t = l.target.id || l.target;
+      return s === d.id || t === d.id;
+    });
+  }).on('mouseout', function() {
+    nodeGroup.classed('dimmed', false);
+    links.classed('dimmed', false).classed('highlight', false);
+  });
+
+  nodeGroup.on('click', (e, d) => showConceptDetail(d.id));
+
+  graphSimulation = d3.forceSimulation(data.nodes)
+    .force('link', d3.forceLink(data.edges).id(d => d.id).distance(100))
+    .force('charge', d3.forceManyBody().strength(-200))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collision', d3.forceCollide().radius(d => sizeScale(d.mention_count) + 5))
+    .on('tick', () => {
+      links
+        .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      nodeGroup.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+}
+
+async function showConceptDetail(conceptId) {
+  document.querySelector('.concept-detail')?.remove();
+
+  const resp = await fetch(`/api/concept/${conceptId}`);
+  const c = await resp.json();
+
+  let html = `<div class="concept-detail">
+    <button onclick="this.parentElement.remove()" style="float:right;background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:16px">&times;</button>
+    <h2>${escHtml(c.name)}</h2>
+    ${c.name_zh ? '<div class="concept-zh">' + escHtml(c.name_zh) + '</div>' : ''}
+    ${c.description ? '<div class="concept-desc">' + escHtml(c.description) + '</div>' : ''}
+    <div class="concept-meta">
+      <span>${c.mention_count} mentions</span>
+      ${c.category ? ' &middot; <span>' + c.category + '</span>' : ''}
+      ${c.first_seen_year ? ' &middot; <span>Since ' + c.first_seen_year + '</span>' : ''}
+    </div>`;
+
+  if (c.related && c.related.length) {
+    html += '<h3>Related Concepts</h3>';
+    c.related.forEach(r => {
+      html += `<div class="concept-source" onclick="showConceptDetail(${r.id})">
+        ${escHtml(r.name)} <span style="color:var(--text-dim)">(${r.relation}, ${r.mention_count})</span></div>`;
+    });
+  }
+
+  if (c.sources && c.sources.length) {
+    html += '<h3>Sources (' + c.sources.length + ')</h3>';
+    c.sources.slice(0, 15).forEach(s => {
+      const onclick = s.source_type === 'article' ? `loadArticle(${s.source_id})` : `loadBook(${s.source_id})`;
+      html += `<div class="concept-source" onclick="switchMode('${s.source_type === 'article' ? 'articles' : 'books'}');${onclick}">
+        <span style="color:var(--orange);font-size:10px">${s.source_type}</span>
+        ${escHtml(s.title || '')} <span style="color:var(--text-dim)">- ${escHtml(s.author || '')}</span>
+      </div>`;
+    });
+    if (c.sources.length > 15) {
+      html += `<div style="color:var(--text-dim);font-size:11px">...and ${c.sources.length - 15} more</div>`;
+    }
+  }
+
+  html += '</div>';
+  document.getElementById('graphContainer').insertAdjacentHTML('beforeend', html);
+}
+
+function highlightConcept(query) {
+  if (!graphData) return;
+  query = query.toLowerCase().trim();
+  d3.selectAll('.graph-node').classed('highlight', function(d) {
+    return query && (d.name.includes(query) || (d.name_zh && d.name_zh.includes(query)));
+  });
+}
+
+async function loadConceptMap() {
+  const resp = await fetch('/api/concept-map');
+  const data = await resp.json();
+  const container = document.getElementById('conceptBubbles');
+  if (!container) return;
+
+  let html = '';
+  data.slice(0, 15).forEach(t => {
+    const zh = topicZh[t.topic] || t.topic;
+    html += `<div style="margin-bottom:8px">
+      <div class="filter-item" onclick="document.getElementById('graphCategory').value='';document.getElementById('graphSearch').value='${t.topic}';highlightConcept('${t.topic}')">
+        <strong>${zh}</strong> <span class="count">${t.count}</span>
+      </div>`;
+    t.concepts.slice(0, 5).forEach(c => {
+      html += `<div style="padding:1px 6px 1px 16px;font-size:11px;color:var(--text-dim);cursor:pointer"
+                   onclick="showConceptDetail(${c.id})">
+        ${escHtml(c.name)} <span style="font-size:9px">(${c.mention_count})</span></div>`;
+    });
+    html += '</div>';
+  });
+  container.innerHTML = html;
+}
+
 init();
 </script>
 </body>
@@ -1011,15 +1572,20 @@ def api_articles():
         where.append('level = ?')
         params.append(level)
 
-    limit = int(request.args.get('limit', 100))
+    limit = int(request.args.get('limit', 50))
+    offset = int(request.args.get('offset', 0))
     where_clause = 'WHERE ' + ' AND '.join(where) if where else ''
     sort = request.args.get('sort', 'importance')
     order = 'importance DESC NULLS LAST' if sort == 'importance' else 'date DESC'
 
+    # Get total count for pagination
+    c.execute(f'SELECT count(*) FROM articles {where_clause}', params)
+    total = c.fetchone()[0]
+
     c.execute(f'''SELECT id, title, title_zh, author, date, source, importance, topics, level,
                          abstract as snippet
                   FROM articles {where_clause}
-                  ORDER BY {order} LIMIT ?''', params + [limit])
+                  ORDER BY {order} LIMIT ? OFFSET ?''', params + [limit, offset])
 
     results = []
     for r in c.fetchall():
@@ -1027,11 +1593,11 @@ def api_articles():
             'id': r['id'], 'title': r['title'], 'title_zh': r['title_zh'],
             'author': r['author'], 'date': r['date'], 'source': r['source'],
             'importance': r['importance'], 'topics': r['topics'], 'level': r['level'],
-            'snippet': (r['snippet'] or '')[:200]
+            'snippet': strip_frontmatter(r['snippet'] or '')[:200]
         })
 
     conn.close()
-    return jsonify(results)
+    return jsonify({'articles': results, 'total': total, 'offset': offset, 'limit': limit})
 
 @app.route('/api/search')
 def api_search():
@@ -1065,7 +1631,7 @@ def api_search():
         for aid in article_ids:
             if aid in rows:
                 r = rows[aid]
-                r['snippet'] = (r['snippet'] or '')[:200]
+                r['snippet'] = strip_frontmatter(r['snippet'] or '')[:200]
                 results.append(r)
         return jsonify(results)
 
@@ -1109,11 +1675,16 @@ def api_article(article_id):
         return jsonify({'error': 'not found'}), 404
 
     result = dict(row)
+    # Strip frontmatter from text fields
+    if result.get('abstract'):
+        result['abstract'] = strip_frontmatter(result['abstract'])
+    if result.get('abstract_zh'):
+        result['abstract_zh'] = strip_frontmatter(result['abstract_zh'])
     # Convert markdown to HTML
     if result.get('content'):
         try:
             result['content_html'] = markdown.markdown(
-                result['content'][:100000],
+                strip_frontmatter(result['content'])[:100000],
                 extensions=['fenced_code', 'tables', 'toc']
             )
         except Exception:
@@ -1126,7 +1697,7 @@ def api_article(article_id):
     if result.get('content_zh'):
         try:
             result['content_zh_html'] = markdown.markdown(
-                result['content_zh'][:100000],
+                strip_frontmatter(result['content_zh'])[:100000],
                 extensions=['fenced_code', 'tables', 'toc']
             )
         except Exception:
@@ -1247,7 +1818,8 @@ def api_books():
     c.execute(f'''SELECT b.id, b.title, b.title_zh, b.author, b.year, b.language,
                          b.page_count, b.category, b.importance, b.topics, b.level,
                          b.linked_book_id,
-                         lb.title as linked_title
+                         lb.title as linked_title,
+                         (SELECT COUNT(*) FROM book_chapters WHERE book_id = b.id) as chapter_count
                   FROM books b
                   LEFT JOIN books lb ON b.linked_book_id = lb.id
                   {where_clause}
@@ -1347,30 +1919,32 @@ def api_ask():
 
     sources = []
     context_parts = []
+    CONTEXT_BUDGET = 12000  # total chars for RAG context
+
+    # Collect all candidates with distances
+    candidates = []
 
     # Search articles via ChromaDB
     if chroma_articles:
         try:
-            results = chroma_articles.query(query_texts=[question], n_results=5)
+            results = chroma_articles.query(query_texts=[question], n_results=5, include=['metadatas', 'documents', 'distances'])
             conn = get_db()
             c = conn.cursor()
-            for sid, meta, doc in zip(results['ids'][0], results['metadatas'][0], results['documents'][0]):
+            for sid, meta, doc, dist in zip(results['ids'][0], results['metadatas'][0], results['documents'][0], results['distances'][0]):
                 try:
                     aid = int(sid.replace('a_', ''))
                 except ValueError:
                     aid = int(sid)
                 c.execute('SELECT abstract, content FROM articles WHERE id = ?', (aid,))
                 row = c.fetchone()
-                snippet = ''
+                full_text = ''
                 if row:
-                    snippet = (row['content'] or row['abstract'] or '')[:1500]
-                sources.append({
-                    'type': 'article', 'id': aid,
-                    'title': meta.get('title', ''),
-                    'author': meta.get('author', ''),
-                    'snippet': snippet[:200]
+                    full_text = strip_frontmatter(row['content'] or row['abstract'] or '')
+                candidates.append({
+                    'type': 'article', 'id': aid, 'distance': dist,
+                    'title': meta.get('title', ''), 'author': meta.get('author', ''),
+                    'full_text': full_text
                 })
-                context_parts.append(f"[Article: {meta.get('title','')} by {meta.get('author','')}]\n{snippet}")
             conn.close()
         except Exception:
             pass
@@ -1378,51 +1952,503 @@ def api_ask():
     # Search books via ChromaDB
     if chroma_books:
         try:
-            results = chroma_books.query(query_texts=[question], n_results=5)
+            results = chroma_books.query(query_texts=[question], n_results=5, include=['metadatas', 'documents', 'distances'])
             conn = get_db()
             c = conn.cursor()
-            for sid, meta, doc in zip(results['ids'][0], results['metadatas'][0], results['documents'][0]):
+            for sid, meta, doc, dist in zip(results['ids'][0], results['metadatas'][0], results['documents'][0], results['distances'][0]):
                 chunk_id = int(sid.replace('bc_', ''))
                 c.execute('SELECT content FROM book_chunks WHERE id = ?', (chunk_id,))
                 row = c.fetchone()
-                snippet = (row['content'] if row else doc)[:1500]
-                sources.append({
-                    'type': 'book_chunk',
+                full_text = (row['content'] if row else doc)
+                candidates.append({
+                    'type': 'book_chunk', 'id': chunk_id, 'distance': dist,
                     'book_id': meta.get('book_id'),
-                    'title': meta.get('book_title', ''),
-                    'chapter': meta.get('chapter_title', ''),
+                    'title': meta.get('book_title', ''), 'chapter': meta.get('chapter_title', ''),
                     'author': meta.get('author', ''),
-                    'snippet': snippet[:200]
+                    'full_text': full_text
                 })
-                context_parts.append(
-                    f"[Book: {meta.get('book_title','')} - Ch: {meta.get('chapter_title','')} by {meta.get('author','')}]\n{snippet}")
             conn.close()
         except Exception:
             pass
+
+    # Sort by distance (lower = more relevant) and allocate context budget
+    candidates.sort(key=lambda x: x['distance'])
+    budget_remaining = CONTEXT_BUDGET
+    for cand in candidates:
+        # Allocate more chars to more relevant results
+        alloc = min(len(cand['full_text']), max(800, budget_remaining // max(1, len(candidates))))
+        snippet = cand['full_text'][:alloc]
+        budget_remaining -= len(snippet)
+
+        if cand['type'] == 'article':
+            sources.append({
+                'type': 'article', 'id': cand['id'],
+                'title': cand['title'], 'author': cand['author'],
+                'snippet': snippet[:200]
+            })
+            context_parts.append(f"[Article: {cand['title']} by {cand['author']}]\n{snippet}")
+        else:
+            sources.append({
+                'type': 'book_chunk', 'book_id': cand.get('book_id'),
+                'title': cand['title'], 'chapter': cand.get('chapter', ''),
+                'author': cand['author'], 'snippet': snippet[:200]
+            })
+            context_parts.append(
+                f"[Book: {cand['title']} - Ch: {cand.get('chapter','')} by {cand['author']}]\n{snippet}")
+
+        if budget_remaining <= 0:
+            break
 
     if not context_parts:
         return jsonify({'answer': 'No relevant sources found.', 'sources': []})
 
     context = '\n\n---\n\n'.join(context_parts)
-    prompt = f"""Based on the following sources, answer the question. Cite sources using [Author, Title] format.
+    mode = data.get('mode', 'normal')
+
+    if mode == 'compare':
+        prompt = f"""Compare and contrast what these sources say about the following question.
+For each source, summarize its position clearly. Then highlight key agreements and disagreements.
+Answer in the same language as the question. Cite sources using [Author, Title] format.
+
+Sources:
+{context}
+
+Question: {question}
+
+After your answer, on a new line starting with "FOLLOWUPS:", suggest 3 follow-up questions (one per line)."""
+    else:
+        prompt = f"""Based on the following sources, answer the question. Cite sources using [Author, Title] format.
 Answer in the same language as the question. Be thorough but concise.
 
 Sources:
 {context}
 
-Question: {question}"""
+Question: {question}
+
+After your answer, on a new line starting with "FOLLOWUPS:", suggest 3 follow-up questions (one per line)."""
 
     try:
         r = deepseek_client.chat.completions.create(
             model='deepseek-chat',
-            max_tokens=2000,
+            max_tokens=2500,
             messages=[{'role': 'user', 'content': prompt}]
         )
-        answer = r.choices[0].message.content.strip()
+        raw_answer = r.choices[0].message.content.strip()
+
+        # Extract follow-ups
+        followups = []
+        answer = raw_answer
+        if 'FOLLOWUPS:' in raw_answer:
+            parts = raw_answer.split('FOLLOWUPS:', 1)
+            answer = parts[0].strip()
+            followup_lines = parts[1].strip().split('\n')
+            for line in followup_lines:
+                line = line.strip().lstrip('0123456789.-) ')
+                if line and len(line) > 5:
+                    followups.append(line)
+            followups = followups[:3]
+
         answer_html = markdown.markdown(answer, extensions=['fenced_code', 'tables'])
-        return jsonify({'answer': answer, 'answer_html': answer_html, 'sources': sources})
+
+        # Save to qa_history
+        try:
+            conn2 = get_db()
+            conn2.execute(
+                "INSERT INTO qa_history (question, answer_html, sources_json, mode, created_at) VALUES (?,?,?,?,datetime('now'))",
+                (question, answer_html, json.dumps(sources), mode))
+            conn2.commit()
+            conn2.close()
+        except Exception:
+            pass
+
+        return jsonify({'answer': answer, 'answer_html': answer_html, 'sources': sources, 'followups': followups})
     except Exception as e:
-        return jsonify({'answer': f'Error: {str(e)}', 'sources': sources})
+        return jsonify({'answer': f'Error: {str(e)}', 'sources': sources, 'followups': []})
+
+# ─── Book Overview endpoint ───────────────────────────────────────
+
+@app.route('/api/book/<int:book_id>/overview', methods=['POST'])
+def api_book_overview(book_id):
+    if not deepseek_client:
+        return jsonify({'error': 'DeepSeek API not configured'})
+
+    conn = get_db()
+    c = conn.cursor()
+
+    c.execute('SELECT overview, title, author FROM books WHERE id = ?', (book_id,))
+    book = c.fetchone()
+    if not book:
+        conn.close()
+        return jsonify({'error': 'Book not found'})
+
+    if book['overview']:
+        conn.close()
+        return jsonify({'overview': book['overview']})
+
+    # Get first 5 chapters content
+    c.execute('SELECT title, content FROM book_chapters WHERE book_id = ? ORDER BY chapter_num LIMIT 5', (book_id,))
+    chapters = c.fetchall()
+    if not chapters:
+        conn.close()
+        return jsonify({'error': 'No chapters found'})
+
+    ch_texts = []
+    for ch in chapters:
+        text = (ch['content'] or '')[:2000]
+        ch_texts.append(f"Chapter: {ch['title']}\n{text}")
+    all_text = '\n\n---\n\n'.join(ch_texts)
+
+    # Count related articles
+    related_count = 0
+    if chroma_articles:
+        try:
+            results = chroma_articles.query(query_texts=[book['title']], n_results=10)
+            related_count = len(results['ids'][0])
+        except Exception:
+            pass
+
+    try:
+        prompt = f"""Based on these excerpts from "{book['title']}" by {book['author']}, generate a concise book overview in the SAME language as the book content:
+
+1. Core arguments (3-5 sentences)
+2. Chapter structure guide (one sentence per chapter shown)
+3. Recommended key chapters to focus on
+
+{all_text}"""
+
+        r = deepseek_client.chat.completions.create(
+            model='deepseek-chat',
+            max_tokens=1500,
+            messages=[{'role': 'user', 'content': prompt}]
+        )
+        overview = r.choices[0].message.content.strip()
+        overview_html = markdown.markdown(overview, extensions=['fenced_code', 'tables'])
+
+        if related_count > 0:
+            overview_html += f'<p style="color:var(--accent);margin-top:12px">This book relates to {related_count} articles in the corpus.</p>'
+
+        c.execute('UPDATE books SET overview = ? WHERE id = ?', (overview_html, book_id))
+        conn.commit()
+        conn.close()
+        return jsonify({'overview': overview_html})
+    except Exception as e:
+        conn.close()
+        return jsonify({'error': str(e)})
+
+# ─── Chapter Related Content endpoint ────────────────────────────
+
+@app.route('/api/chapter/<int:chapter_id>/related')
+def api_chapter_related(chapter_id):
+    conn = get_db()
+    c = conn.cursor()
+
+    c.execute('SELECT content, book_id FROM book_chapters WHERE id = ?', (chapter_id,))
+    row = c.fetchone()
+    if not row or not row['content']:
+        conn.close()
+        return jsonify([])
+
+    query_text = row['content'][:500]
+    exclude_book = request.args.get('exclude_book', type=int) or row['book_id']
+    results_list = []
+
+    # Search articles
+    if chroma_articles:
+        try:
+            results = chroma_articles.query(query_texts=[query_text], n_results=5, include=['metadatas', 'documents', 'distances'])
+            for sid, meta, dist in zip(results['ids'][0], results['metadatas'][0], results['distances'][0]):
+                try:
+                    aid = int(sid.replace('a_', ''))
+                except ValueError:
+                    aid = int(sid)
+                results_list.append({
+                    'type': 'article', 'id': aid, 'distance': dist,
+                    'title': meta.get('title', ''), 'author': meta.get('author', ''),
+                    'snippet': (results['documents'][0][results['ids'][0].index(sid)] or '')[:150]
+                })
+        except Exception:
+            pass
+
+    # Search other books
+    if chroma_books:
+        try:
+            results = chroma_books.query(query_texts=[query_text], n_results=8, include=['metadatas', 'documents', 'distances'])
+            for sid, meta, dist in zip(results['ids'][0], results['metadatas'][0], results['distances'][0]):
+                book_id = meta.get('book_id')
+                if book_id == exclude_book:
+                    continue
+                results_list.append({
+                    'type': 'book', 'id': meta.get('chunk_id'), 'book_id': book_id,
+                    'distance': dist,
+                    'title': meta.get('book_title', ''), 'chapter': meta.get('chapter_title', ''),
+                    'author': meta.get('author', ''),
+                    'snippet': (results['documents'][0][results['ids'][0].index(sid)] or '')[:150]
+                })
+        except Exception:
+            pass
+
+    results_list.sort(key=lambda x: x['distance'])
+    conn.close()
+    return jsonify(results_list[:8])
+
+# ─── Learning Path endpoint ──────────────────────────────────────
+
+@app.route('/api/learning-path')
+def api_learning_path():
+    topic = request.args.get('topic', '').strip()
+    if not topic:
+        return jsonify([])
+
+    conn = get_db()
+    c = conn.cursor()
+
+    items = []
+
+    # Books matching topic
+    c.execute('SELECT id, title, author, topics, importance, level FROM books')
+    for row in c.fetchall():
+        topics = json.loads(row['topics'] or '[]')
+        if topic in topics:
+            items.append({
+                'type': 'book', 'id': row['id'],
+                'title': row['title'], 'author': row['author'],
+                'level': row['level'] or 'useful',
+                'importance': row['importance'] or 0,
+                'description': f"Book, {row['author']}"
+            })
+
+    # Articles matching topic
+    c.execute('SELECT id, title, author, topics, importance, level, abstract FROM articles WHERE topics IS NOT NULL')
+    for row in c.fetchall():
+        try:
+            topics = json.loads(row['topics'] or '[]')
+        except (json.JSONDecodeError, TypeError):
+            continue
+        if topic in topics:
+            desc = (row['abstract'] or '')[:80]
+            items.append({
+                'type': 'article', 'id': row['id'],
+                'title': row['title'], 'author': row['author'] or '',
+                'level': row['level'] or 'useful',
+                'importance': row['importance'] or 0,
+                'description': desc
+            })
+
+    # Sort by importance within each level
+    items.sort(key=lambda x: (-x['importance'],))
+    conn.close()
+    return jsonify(items)
+
+# ─── QA History endpoints ────────────────────────────────────────
+
+@app.route('/api/qa-history')
+def api_qa_history():
+    conn = get_db()
+    c = conn.cursor()
+    try:
+        c.execute('''SELECT id, question, mode, created_at,
+                     substr(answer_html, 1, 300) as answer_preview
+                     FROM qa_history ORDER BY id DESC LIMIT 50''')
+        results = [dict(r) for r in c.fetchall()]
+    except Exception:
+        results = []
+    conn.close()
+    return jsonify(results)
+
+@app.route('/api/qa-history/<int:qa_id>')
+def api_qa_history_detail(qa_id):
+    conn = get_db()
+    c = conn.cursor()
+    c.execute('SELECT * FROM qa_history WHERE id = ?', (qa_id,))
+    row = c.fetchone()
+    conn.close()
+    if not row:
+        return jsonify({'error': 'not found'}), 404
+    result = dict(row)
+    try:
+        result['sources'] = json.loads(result.get('sources_json') or '[]')
+    except Exception:
+        result['sources'] = []
+    return jsonify(result)
+
+# ─── Concept Graph API ────────────────────────────────────────────
+
+@app.route('/api/graph')
+def api_graph():
+    conn = get_db()
+    c = conn.cursor()
+
+    min_mentions = request.args.get('min_mentions', 3, type=int)
+    category = request.args.get('category')
+    year_start = request.args.get('year_start')
+    year_end = request.args.get('year_end')
+
+    where = ['mention_count >= ?']
+    params = [min_mentions]
+
+    if category:
+        where.append('category = ?')
+        params.append(category)
+    if year_start:
+        where.append("(first_seen_year IS NULL OR first_seen_year >= ?)")
+        params.append(year_start)
+    if year_end:
+        where.append("(first_seen_year IS NULL OR first_seen_year <= ?)")
+        params.append(year_end)
+
+    where_clause = ' AND '.join(where)
+
+    c.execute(f'''SELECT id, name, name_zh, category, mention_count,
+                         first_seen_year, peak_year, description
+                  FROM concepts WHERE {where_clause}
+                  ORDER BY mention_count DESC''', params)
+    nodes = [dict(r) for r in c.fetchall()]
+    node_ids = {n['id'] for n in nodes}
+
+    # Get edges between visible nodes
+    edges = []
+    if node_ids:
+        placeholders = ','.join('?' * len(node_ids))
+        c.execute(f'''SELECT concept_a as source, concept_b as target, relation, strength
+                      FROM concept_relations
+                      WHERE concept_a IN ({placeholders}) AND concept_b IN ({placeholders})''',
+                  list(node_ids) + list(node_ids))
+        edges = [dict(r) for r in c.fetchall()]
+
+    conn.close()
+    return jsonify({'nodes': nodes, 'edges': edges})
+
+
+@app.route('/api/concepts')
+def api_concepts():
+    conn = get_db()
+    c = conn.cursor()
+
+    sort = request.args.get('sort', 'mention_count')
+    category = request.args.get('category')
+    limit = request.args.get('limit', 100, type=int)
+
+    where = []
+    params = []
+    if category:
+        where.append('category = ?')
+        params.append(category)
+
+    where_clause = 'WHERE ' + ' AND '.join(where) if where else ''
+    order = 'mention_count DESC' if sort == 'mention_count' else 'name ASC'
+
+    c.execute(f'''SELECT id, name, name_zh, category, mention_count, first_seen_year
+                  FROM concepts {where_clause}
+                  ORDER BY {order} LIMIT ?''', params + [limit])
+    results = [dict(r) for r in c.fetchall()]
+    conn.close()
+    return jsonify(results)
+
+
+@app.route('/api/concept/<int:concept_id>')
+def api_concept_detail(concept_id):
+    conn = get_db()
+    c = conn.cursor()
+
+    c.execute('SELECT * FROM concepts WHERE id = ?', (concept_id,))
+    concept = c.fetchone()
+    if not concept:
+        conn.close()
+        return jsonify({'error': 'not found'}), 404
+
+    result = dict(concept)
+
+    # Sources
+    c.execute('''SELECT cs.source_type, cs.source_id, cs.relevance, cs.context,
+                        CASE WHEN cs.source_type = 'article' THEN a.title
+                             WHEN cs.source_type = 'book' THEN b.title END as title,
+                        CASE WHEN cs.source_type = 'article' THEN a.author
+                             WHEN cs.source_type = 'book' THEN b.author END as author
+                 FROM concept_sources cs
+                 LEFT JOIN articles a ON cs.source_type = 'article' AND cs.source_id = a.id
+                 LEFT JOIN books b ON cs.source_type = 'book' AND cs.source_id = b.id
+                 WHERE cs.concept_id = ?
+                 ORDER BY cs.relevance DESC''', (concept_id,))
+    result['sources'] = [dict(r) for r in c.fetchall()]
+
+    # Related concepts
+    c.execute('''SELECT c2.id, c2.name, c2.name_zh, c2.mention_count, cr.relation, cr.strength
+                 FROM concept_relations cr
+                 JOIN concepts c2 ON (cr.concept_b = c2.id AND cr.concept_a = ?)
+                                  OR (cr.concept_a = c2.id AND cr.concept_b = ?)
+                 ORDER BY cr.strength DESC''', (concept_id, concept_id))
+    result['related'] = [dict(r) for r in c.fetchall()]
+
+    conn.close()
+    return jsonify(result)
+
+
+@app.route('/api/concept-map')
+def api_concept_map():
+    """Return topic -> concept aggregation for sidebar bubble chart."""
+    conn = get_db()
+    c = conn.cursor()
+
+    # Get topics with their article/book counts
+    topic_data = {}
+
+    for row in c.execute('SELECT topics FROM articles WHERE topics IS NOT NULL'):
+        try:
+            for t in json.loads(row['topics']):
+                if t not in topic_data:
+                    topic_data[t] = {'count': 0, 'concepts': {}}
+                topic_data[t]['count'] += 1
+        except (json.JSONDecodeError, TypeError):
+            pass
+
+    for row in c.execute('SELECT topics FROM books WHERE topics IS NOT NULL'):
+        try:
+            for t in json.loads(row['topics']):
+                if t not in topic_data:
+                    topic_data[t] = {'count': 0, 'concepts': {}}
+                topic_data[t]['count'] += 1
+        except (json.JSONDecodeError, TypeError):
+            pass
+
+    # Map concepts to topics via their sources
+    c.execute('''
+        SELECT c.id, c.name, c.name_zh, c.mention_count,
+               cs.source_type, cs.source_id
+        FROM concepts c
+        JOIN concept_sources cs ON c.id = cs.concept_id
+        WHERE c.mention_count >= 2
+    ''')
+    for row in c.fetchall():
+        if row['source_type'] == 'article':
+            src = conn.execute('SELECT topics FROM articles WHERE id = ?', (row['source_id'],)).fetchone()
+        else:
+            src = conn.execute('SELECT topics FROM books WHERE id = ?', (row['source_id'],)).fetchone()
+        if src and src['topics']:
+            try:
+                for t in json.loads(src['topics']):
+                    if t in topic_data:
+                        cname = row['name']
+                        if cname not in topic_data[t]['concepts']:
+                            topic_data[t]['concepts'][cname] = {
+                                'id': row['id'], 'name': row['name'],
+                                'name_zh': row['name_zh'],
+                                'mention_count': row['mention_count']
+                            }
+            except (json.JSONDecodeError, TypeError):
+                pass
+
+    # Format result
+    result = []
+    for topic, data in sorted(topic_data.items(), key=lambda x: -x[1]['count']):
+        result.append({
+            'topic': topic,
+            'count': data['count'],
+            'concepts': sorted(data['concepts'].values(), key=lambda x: -x['mention_count'])[:10]
+        })
+
+    conn.close()
+    return jsonify(result)
+
 
 # ─── Notes API ────────────────────────────────────────────────────
 
