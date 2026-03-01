@@ -56,6 +56,18 @@ try:
 except Exception as e:
     print(f'ChromaDB not available: {e}')
 
+# Ensure plan_progress table exists at startup
+try:
+    _conn = sqlite3.connect(DB_PATH, timeout=10)
+    _conn.execute('''CREATE TABLE IF NOT EXISTS plan_progress (
+        month INTEGER, week INTEGER, task_idx INTEGER,
+        done INTEGER DEFAULT 0, updated_at TEXT,
+        PRIMARY KEY (month, week, task_idx))''')
+    _conn.commit()
+    _conn.close()
+except Exception:
+    pass
+
 # Cross-encoder reranker for RAG
 reranker = None
 try:
@@ -309,6 +321,30 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 .qa-history-item .qa-preview { font-size: 12px; color: var(--text-dim); margin-top: 4px;
                                 display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
+/* Learning plan */
+.plan-container { padding: 20px; overflow-y: auto; }
+.plan-month { margin-bottom: 24px; background: var(--surface); border-radius: 8px; border: 1px solid var(--border); }
+.plan-month-header { padding: 12px 16px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.plan-month-header h2 { font-size: 15px; margin: 0; }
+.plan-month-header .month-progress { font-size: 12px; color: var(--text-dim); }
+.plan-month-body { padding: 0 16px 16px; }
+.plan-week { margin-top: 12px; padding: 10px 12px; background: var(--bg); border-radius: 6px; border-left: 3px solid var(--accent); }
+.plan-week h4 { font-size: 13px; color: var(--accent); margin-bottom: 6px; }
+.plan-week .pw-book { font-size: 12px; color: var(--accent2); cursor: pointer; margin-bottom: 4px; }
+.plan-week .pw-book:hover { text-decoration: underline; }
+.plan-week .pw-tasks { list-style: none; padding: 0; }
+.plan-week .pw-tasks li { font-size: 12px; padding: 3px 0; display: flex; align-items: center; gap: 6px; }
+.plan-week .pw-tasks input[type=checkbox] { accent-color: var(--accent2); }
+.plan-week .pw-tasks .done { text-decoration: line-through; color: var(--text-dim); }
+.plan-search-btn { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 11px;
+                   background: var(--tag-bg); color: var(--accent); cursor: pointer; border: 1px solid var(--border); margin: 2px; }
+.plan-search-btn:hover { background: var(--border); }
+.plan-progress-bar { height: 4px; background: var(--border); border-radius: 2px; margin-top: 4px; overflow: hidden; }
+.plan-progress-fill { height: 100%; background: var(--accent2); border-radius: 2px; transition: width 0.3s; }
+.plan-sidebar-month { padding: 4px 8px; cursor: pointer; border-radius: 4px; font-size: 12px; display: flex; justify-content: space-between; }
+.plan-sidebar-month:hover { background: var(--border); }
+.plan-sidebar-month.current { color: var(--accent2); font-weight: 600; }
+
 /* Ask tabs */
 .ask-tabs { display: flex; gap: 2px; margin-bottom: 12px; }
 .ask-tab { padding: 6px 14px; border-radius: 4px; cursor: pointer; font-size: 12px; font-weight: 600;
@@ -441,9 +477,12 @@ function renderSidebar(data) {
   html += `<div class="mode-tab" onclick="showMyNotes()" style="background:var(--tag-bg)">Notes</div>`;
   html += `<div class="mode-tab ${browseMode==='graph'?'active':''}" onclick="switchMode('graph')">Graph</div>`;
   html += `<div class="mode-tab" onclick="showDebates()" style="background:var(--tag-bg)">Debates</div>`;
+  html += `<div class="mode-tab ${browseMode==='plan'?'active':''}" onclick="switchMode('plan')" style="${browseMode==='plan'?'':'background:var(--tag-bg)'}">Plan</div>`;
   html += '</div>';
 
-  if (browseMode === 'books') {
+  if (browseMode === 'plan') {
+    // Plan sidebar is handled below
+  } else if (browseMode === 'books') {
     html += '<h3>Category</h3>';
     const cats = ['philosophy', 'ai', 'epistemology', 'psychology', 'writing'];
     cats.forEach(c => {
@@ -486,6 +525,16 @@ function renderSidebar(data) {
     html += '<h3>Concepts by Topic</h3>';
     html += '<div id="conceptBubbles"><div style="color:var(--text-dim);font-size:12px">Loading...</div></div>';
   }
+  if (browseMode === 'plan') {
+    html += '<h3>Month Navigation</h3>';
+    const months = ['1: Writing Precision', '2: Argument Analysis', '3: Structured Thinking', '4: Philosophy Reading', '5: Prompt Engineering', '6: Capstone Project'];
+    months.forEach((m, i) => {
+      html += `<div class="plan-sidebar-month" onclick="scrollToPlanMonth(${i+1})">M${i+1} ${m.split(': ')[1]}</div>`;
+    });
+    html += '<h3 style="margin-top:12px">Quick Actions</h3>';
+    html += '<div class="filter-item" onclick="planAsk()">Ask AI about plan</div>';
+    html += '<div id="planOverallProgress" style="margin-top:12px"></div>';
+  }
   document.getElementById('sidebar').innerHTML = html;
 }
 
@@ -497,6 +546,8 @@ async function switchMode(mode) {
   renderSidebar(data);
   if (mode === 'graph') {
     loadGraph();
+  } else if (mode === 'plan') {
+    loadLearningPlan();
   } else {
     document.getElementById('listPanel').style.display = '';
     document.getElementById('readingPanel').style.gridColumn = '';
@@ -1678,6 +1729,160 @@ async function loadConceptMap() {
     html += '</div>';
   });
   container.innerHTML = html;
+}
+
+// ── Learning Plan ──────────────────────────────────────
+let planData = null;
+let planExpandedMonths = new Set();
+
+async function loadLearningPlan() {
+  document.getElementById('listPanel').style.display = 'none';
+  document.getElementById('readingPanel').style.gridColumn = '2 / -1';
+  const panel = document.getElementById('readingPanel');
+  panel.innerHTML = '<div style="padding:20px"><h1>Loading learning plan...</h1></div>';
+
+  const resp = await fetch('/api/plan');
+  planData = await resp.json();
+  renderPlan();
+}
+
+function renderPlan() {
+  const panel = document.getElementById('readingPanel');
+  let totalTasks = 0, doneTasks = 0;
+  planData.forEach(m => m.weeks.forEach(w => {
+    w.progress.forEach(p => { totalTasks++; if (p) doneTasks++; });
+  }));
+  const overallPct = totalTasks ? Math.round(doneTasks / totalTasks * 100) : 0;
+
+  let html = '<div class="plan-container">';
+  html += '<h1 style="margin-bottom:4px">6-Month Learning Plan</h1>';
+  html += '<p style="color:var(--text-dim);font-size:13px;margin-bottom:4px">AI Philosophy + Writing + Structured Thinking</p>';
+  html += `<div style="display:flex;align-items:center;gap:8px;margin-bottom:16px">
+    <div style="flex:1;height:6px;background:var(--border);border-radius:3px;overflow:hidden">
+      <div style="height:100%;width:${overallPct}%;background:var(--accent2);border-radius:3px"></div>
+    </div>
+    <span style="font-size:12px;color:var(--accent2);font-weight:600">${doneTasks}/${totalTasks} (${overallPct}%)</span>
+  </div>`;
+
+  planData.forEach(m => {
+    let mTotal = 0, mDone = 0;
+    m.weeks.forEach(w => w.progress.forEach(p => { mTotal++; if (p) mDone++; }));
+    const mPct = mTotal ? Math.round(mDone / mTotal * 100) : 0;
+    const monthColor = mPct === 100 ? 'var(--accent2)' : mPct > 0 ? 'var(--accent)' : 'var(--orange)';
+
+    html += `<div class="plan-month" id="plan-month-${m.month}">`;
+    html += `<div class="plan-month-header" onclick="togglePlanMonth(${m.month})">
+      <h2 style="color:${monthColor}">M${m.month}: ${m.title_zh} ${m.title}</h2>
+      <div class="month-progress">
+        <span>${mDone}/${mTotal}</span>
+        <div class="plan-progress-bar" style="width:80px;display:inline-block;vertical-align:middle;margin-left:6px">
+          <div class="plan-progress-fill" style="width:${mPct}%"></div>
+        </div>
+      </div>
+    </div>`;
+    html += `<div class="plan-month-body" id="plan-body-${m.month}" style="display:${planExpandedMonths.has(m.month)?'':'none'}">`;
+    html += `<p style="color:var(--text-dim);font-size:12px;margin-bottom:8px;font-style:italic">${escHtml(m.theme)}</p>`;
+
+    m.weeks.forEach(w => {
+      html += '<div class="plan-week">';
+      html += `<h4>W${w.week}: ${escHtml(w.title)}</h4>`;
+
+      // Book link
+      if (w.book_id && w.book_in_corpus) {
+        html += `<div class="pw-book" onclick="openPlanBook(${w.book_id})">&#x1F4D6; ${escHtml(w.book_title)} <span style="color:var(--accent);font-size:10px">[in corpus]</span></div>`;
+      } else {
+        html += `<div style="font-size:12px;color:var(--text-dim);margin-bottom:4px">&#x1F4D6; ${escHtml(w.book_title)}</div>`;
+      }
+
+      // Tasks
+      html += '<ul class="pw-tasks">';
+      w.tasks.forEach((t, i) => {
+        const done = w.progress[i];
+        html += `<li>
+          <input type="checkbox" ${done ? 'checked' : ''} onchange="togglePlanTask(${m.month},${w.week},${i})">
+          <span class="${done ? 'done' : ''}">${escHtml(t)}</span>
+        </li>`;
+      });
+      html += '</ul>';
+
+      // Search shortcuts
+      if (w.searches && w.searches.length) {
+        html += '<div style="margin-top:6px">';
+        w.searches.forEach((s, si) => {
+          html += `<span class="plan-search-btn" data-month="${m.month}" data-week="${w.week}" data-si="${si}" onclick="planSearch(this.textContent)">${escHtml(s)}</span>`;
+        });
+        html += '</div>';
+      }
+
+      html += '</div>'; // plan-week
+    });
+
+    html += '</div></div>'; // plan-month-body, plan-month
+  });
+
+  html += '</div>';
+  panel.innerHTML = html;
+
+  // Update sidebar progress
+  const progEl = document.getElementById('planOverallProgress');
+  if (progEl) {
+    progEl.innerHTML = `<h3>Overall Progress</h3>
+      <div style="font-size:20px;font-weight:700;color:var(--accent2);margin:4px 0">${overallPct}%</div>
+      <div class="plan-progress-bar"><div class="plan-progress-fill" style="width:${overallPct}%"></div></div>
+      <div style="font-size:11px;color:var(--text-dim);margin-top:4px">${doneTasks} of ${totalTasks} tasks done</div>`;
+  }
+}
+
+function togglePlanMonth(month) {
+  const body = document.getElementById('plan-body-' + month);
+  if (body.style.display === 'none') {
+    body.style.display = '';
+    planExpandedMonths.add(month);
+  } else {
+    body.style.display = 'none';
+    planExpandedMonths.delete(month);
+  }
+}
+
+function scrollToPlanMonth(month) {
+  const body = document.getElementById('plan-body-' + month);
+  if (body) { body.style.display = ''; planExpandedMonths.add(month); }
+  const el = document.getElementById('plan-month-' + month);
+  if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'});
+}
+
+async function togglePlanTask(month, week, taskIdx) {
+  const resp = await fetch('/api/plan/toggle', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({month, week, task_idx: taskIdx})
+  });
+  const result = await resp.json();
+  // Update local data
+  const m = planData.find(m => m.month === month);
+  if (m) {
+    const w = m.weeks.find(w => w.week === week);
+    if (w) w.progress[taskIdx] = result.done;
+  }
+  renderPlan();
+}
+
+function planSearch(query) {
+  // Switch to search mode and execute
+  document.getElementById('searchInput').value = query;
+  document.getElementById('searchMode').value = 'semantic';
+  browseMode = 'articles';
+  doSearch();
+}
+
+async function openPlanBook(bookId) {
+  await switchMode('books');
+  loadBook(bookId);
+}
+
+function planAsk() {
+  askMode = true;
+  document.getElementById('btnAskMode').classList.add('active');
+  showAskPanel();
 }
 
 init();
@@ -3199,6 +3404,285 @@ def api_stats():
         'books': books, 'book_chapters': book_chapters,
         'sources': sources, 'topics': topics, 'levels': levels
     })
+
+# ── Learning Plan ──────────────────────────────────────────────
+
+LEARNING_PLAN = [
+    {
+        'month': 1, 'title': 'Writing Precision', 'title_zh': '写作精度',
+        'theme': 'Learn to write with surgical precision',
+        'weeks': [
+            {'week': 1, 'title': 'Elements of Style', 'book_id': 23,
+             'book_title': 'The Elements of Style (Strunk & White)',
+             'tasks': [
+                 'Read chapters 1-5, highlight every rule',
+                 'Rewrite 3 paragraphs from your own writing using the rules',
+                 'Use Ask AI: "According to Strunk & White, how can I improve this paragraph?"',
+             ],
+             'searches': ['omit needless words', 'active voice clarity', 'parallel construction']},
+            {'week': 2, 'title': 'Style: Clarity and Grace', 'book_id': 22,
+             'book_title': 'Style: Lessons in Clarity and Grace (Williams)',
+             'tasks': [
+                 'Read Williams on diagnosis (subject-verb-object pattern)',
+                 'Compare Williams vs Strunk: Ask AI "How do Williams and Strunk differ on active voice?"',
+                 'Rewrite 5 sentences using the subject-verb diagnosis method',
+             ],
+             'searches': ['subject verb diagnosis clarity', 'cohesion coherence writing', 'nominalizations']},
+            {'week': 3, 'title': 'Economist Practice', 'book_id': None,
+             'book_title': 'The Economist (daily reading)',
+             'tasks': [
+                 'Read 1 Economist Leaders article daily',
+                 'Identify the thesis sentence and argument skeleton in each article',
+                 'Write a 100-word summary of each article',
+             ],
+             'searches': ['concise writing journalistic style', 'argument structure editorial']},
+            {'week': 4, 'title': 'Synthesis & Review', 'book_id': None,
+             'book_title': 'Review & integrate',
+             'tasks': [
+                 'Write a 500-word essay applying all writing principles learned',
+                 'Self-review using Strunk & Williams checklists',
+                 'Record 3 most impactful writing rules in your notes',
+             ],
+             'searches': ['writing style self-editing checklist']},
+        ]
+    },
+    {
+        'month': 2, 'title': 'Argument Analysis', 'title_zh': '论证拆解',
+        'theme': 'Master the structure of arguments',
+        'weeks': [
+            {'week': 1, 'title': 'Rulebook for Arguments', 'book_id': 21,
+             'book_title': 'A Rulebook for Arguments (Weston)',
+             'tasks': [
+                 'Read all chapters, take notes on argument patterns',
+                 'Use corpus arguments search to find real examples of each pattern',
+                 'Identify 5 common fallacies in the corpus arguments',
+             ],
+             'searches': ['argument fallacy', 'deductive reasoning premises', 'inductive argument evidence']},
+            {'week': 2, 'title': 'Euthyphro (Plato)', 'book_id': None,
+             'book_title': 'Euthyphro (Plato) — not yet in corpus',
+             'tasks': [
+                 'Read the full dialogue (short, ~30 pages)',
+                 'Map the argument structure: what is Socrates trying to define?',
+                 'Search corpus for "Euthyphro dilemma" in related articles',
+             ],
+             'searches': ['Euthyphro dilemma definition piety', 'Socratic method definition']},
+            {'week': 3, 'title': 'Meno (Plato)', 'book_id': None,
+             'book_title': 'Meno (Plato) — not yet in corpus',
+             'tasks': [
+                 'Read the full dialogue (~30 pages)',
+                 'Analyze the "Meno paradox" of learning',
+                 'Search corpus for articles discussing Meno and knowledge',
+             ],
+             'searches': ['Meno paradox learning knowledge', 'recollection theory Plato']},
+            {'week': 4, 'title': 'Thinking, Fast and Slow', 'book_id': 16,
+             'book_title': 'Thinking, Fast and Slow (Kahneman)',
+             'tasks': [
+                 'Read Part 1 on System 1 vs System 2',
+                 'Search corpus for cognitive bias arguments',
+                 'Write analysis: how do cognitive biases affect AI alignment arguments?',
+             ],
+             'searches': ['cognitive bias anchoring', 'System 1 System 2 heuristic', 'Kahneman prospect theory']},
+        ]
+    },
+    {
+        'month': 3, 'title': 'Structured Thinking', 'title_zh': '结构化思维',
+        'theme': 'Build frameworks for clear reasoning',
+        'weeks': [
+            {'week': 1, 'title': 'Pyramid Principle', 'book_id': 25,
+             'book_title': 'The Pyramid Principle (Minto)',
+             'tasks': [
+                 'Read first 3 chapters on MECE and pyramid structure',
+                 'Restructure one of your previous essays using pyramid structure',
+                 'Practice: classify 10 concepts from the Knowledge Graph into MECE categories',
+             ],
+             'searches': ['MECE mutually exclusive collectively exhaustive', 'pyramid principle structure']},
+            {'week': 2, 'title': 'MECE Practice', 'book_id': 25,
+             'book_title': 'The Pyramid Principle (continued)',
+             'tasks': [
+                 'Use Knowledge Graph to check your MECE classifications',
+                 'Write a structured brief on "Problems of AI consciousness" using pyramid structure',
+                 'Review the Research Dashboard category distribution as a MECE example',
+             ],
+             'searches': ['classification taxonomy AI problems', 'structured analysis framework']},
+            {'week': 3, 'title': 'Prompt Engineering Basics', 'book_id': None,
+             'book_title': 'Prompt practice with Ask AI',
+             'tasks': [
+                 'Write 5 different prompts for the same question, compare results',
+                 'Test structured vs unstructured prompts in Ask AI',
+                 'Document which prompt patterns get better RAG results',
+             ],
+             'searches': ['prompt engineering structured output', 'chain of thought reasoning']},
+            {'week': 4, 'title': 'Integration Week', 'book_id': None,
+             'book_title': 'Review & synthesize',
+             'tasks': [
+                 'Rewrite a complex prompt using pyramid principle structure',
+                 'Test the improved prompt in Ask AI and compare with original',
+                 'Write a 300-word reflection on structured thinking lessons learned',
+             ],
+             'searches': ['structured thinking meta-cognition', 'writing framework analysis']},
+        ]
+    },
+    {
+        'month': 4, 'title': 'Philosophy Reading', 'title_zh': '哲学阅读',
+        'theme': 'Deep engagement with primary philosophical texts',
+        'weeks': [
+            {'week': 1, 'title': 'Meditations (Descartes)', 'book_id': 19,
+             'book_title': 'Meditations on First Philosophy (Descartes)',
+             'tasks': [
+                 'Read Meditations 1-3',
+                 'Map the doubt method: what does Descartes doubt and why?',
+                 'Ask AI: "How does Descartes\' doubt method relate to AI uncertainty?"',
+             ],
+             'searches': ['Descartes methodological doubt cogito', 'skepticism certainty knowledge', 'Cartesian dualism AI']},
+            {'week': 2, 'title': 'Nicomachean Ethics I', 'book_id': 18,
+             'book_title': 'Nicomachean Ethics (Aristotle)',
+             'tasks': [
+                 'Read Books 1-3 on eudaimonia and virtue',
+                 'Search corpus for phronesis discussions',
+                 'Write: Can AI have practical wisdom (phronesis)?',
+             ],
+             'searches': ['phronesis practical wisdom', 'eudaimonia virtue ethics', 'Aristotle AI judgment']},
+            {'week': 3, 'title': 'Nicomachean Ethics II', 'book_id': 18,
+             'book_title': 'Nicomachean Ethics (continued)',
+             'tasks': [
+                 'Read Books 6 and 10 on intellectual virtues',
+                 'Compare Aristotelian and utilitarian approaches in corpus debates',
+                 'Ask AI: "What are the strongest arguments for AI having virtues?"',
+             ],
+             'searches': ['intellectual virtue contemplation', 'virtue ethics vs consequentialism AI']},
+            {'week': 4, 'title': 'Philosophical Investigations', 'book_id': 17,
+             'book_title': 'Philosophical Investigations (Wittgenstein)',
+             'tasks': [
+                 'Read sections 1-100 on language games and family resemblance',
+                 'Search corpus for Wittgenstein + LLM discussions',
+                 'Write: How does the rule-following paradox apply to language models?',
+             ],
+             'searches': ['Wittgenstein language games', 'rule following paradox LLM', 'private language argument AI']},
+        ]
+    },
+    {
+        'month': 5, 'title': 'Prompt & Skill Engineering', 'title_zh': 'Prompt与技能工程',
+        'theme': 'Apply everything to AI interaction design',
+        'weeks': [
+            {'week': 1, 'title': 'Advanced Prompting', 'book_id': None,
+             'book_title': 'Prompt engineering practice',
+             'tasks': [
+                 'Design 3 complex prompts combining writing + argument + structure principles',
+                 'Test each prompt in Ask AI, evaluate result quality',
+                 'Iterate and document your prompt design principles',
+             ],
+             'searches': ['prompt design principles structured', 'RAG query optimization']},
+            {'week': 2, 'title': 'Skill Design', 'book_id': None,
+             'book_title': 'Claude Code skill authoring',
+             'tasks': [
+                 'Study the existing research-query skill as a template',
+                 'Design a new skill for philosophical argument analysis',
+                 'Test the skill with real corpus queries',
+             ],
+             'searches': ['skill design template structured', 'argument analysis automated']},
+            {'week': 3, 'title': 'System Integration', 'book_id': None,
+             'book_title': 'Cross-system practice',
+             'tasks': [
+                 'Create a multi-step research workflow combining search + arguments + concepts',
+                 'Write a comprehensive analysis using all system features',
+                 'Document the optimal research workflow',
+             ],
+             'searches': ['research workflow multi-source', 'comprehensive analysis method']},
+            {'week': 4, 'title': 'Portfolio Review', 'book_id': None,
+             'book_title': 'Review all written work',
+             'tasks': [
+                 'Review QA History for your best prompts and answers',
+                 'Compile your best analyses into a portfolio document',
+                 'Identify areas for improvement in month 6',
+             ],
+             'searches': []},
+        ]
+    },
+    {
+        'month': 6, 'title': 'Capstone Project', 'title_zh': '毕业项目',
+        'theme': 'Produce a substantial piece of original analysis',
+        'weeks': [
+            {'week': 1, 'title': 'Topic Selection', 'book_id': None,
+             'book_title': 'Choose capstone topic',
+             'tasks': [
+                 'Review all notes and QA history for recurring interests',
+                 'Select a topic at the intersection of philosophy + AI',
+                 'Create an outline using pyramid principle structure',
+             ],
+             'searches': ['philosophy AI intersection consciousness', 'original analysis framework']},
+            {'week': 2, 'title': 'Research & Draft', 'book_id': None,
+             'book_title': 'Deep corpus research',
+             'tasks': [
+                 'Conduct comprehensive corpus search on your topic',
+                 'Write a 2000-word first draft',
+                 'Use arguments search to find supporting and opposing views',
+             ],
+             'searches': []},
+            {'week': 3, 'title': 'Revision', 'book_id': None,
+             'book_title': 'Apply all writing principles',
+             'tasks': [
+                 'Revise using Strunk & White and Williams principles',
+                 'Check argument structure using Weston framework',
+                 'Verify MECE structure using Minto framework',
+             ],
+             'searches': []},
+            {'week': 4, 'title': 'Final Polish', 'book_id': None,
+             'book_title': 'Final submission',
+             'tasks': [
+                 'Final editing pass for clarity and concision',
+                 'Add proper citations from corpus sources',
+                 'Write a 200-word abstract',
+                 'Celebrate completing the 6-month plan!',
+             ],
+             'searches': []},
+        ]
+    },
+]
+
+@app.route('/api/plan')
+def api_plan():
+    conn = get_db()
+    # Fetch progress
+    rows = conn.execute('SELECT month, week, task_idx, done FROM plan_progress').fetchall()
+    progress = {}
+    for r in rows:
+        progress[f"{r['month']}-{r['week']}-{r['task_idx']}"] = r['done']
+    # Add book info from DB
+    plan_out = []
+    for m in LEARNING_PLAN:
+        month_data = {**m, 'weeks': []}
+        for w in m['weeks']:
+            week_data = {**w, 'book_in_corpus': False}
+            if w['book_id']:
+                row = conn.execute('SELECT id, title, title_zh, author FROM books WHERE id = ?', (w['book_id'],)).fetchone()
+                if row:
+                    week_data['book_in_corpus'] = True
+                    week_data['book_db_title'] = row['title']
+            # Add progress
+            task_progress = []
+            for i in range(len(w['tasks'])):
+                key = f"{m['month']}-{w['week']}-{i}"
+                task_progress.append(progress.get(key, 0))
+            week_data['progress'] = task_progress
+            month_data['weeks'].append(week_data)
+        plan_out.append(month_data)
+    conn.close()
+    return jsonify(plan_out)
+
+@app.route('/api/plan/toggle', methods=['POST'])
+def api_plan_toggle():
+    data = request.json
+    month, week, task_idx = data['month'], data['week'], data['task_idx']
+    conn = get_db()
+    row = conn.execute('SELECT done FROM plan_progress WHERE month=? AND week=? AND task_idx=?',
+                       (month, week, task_idx)).fetchone()
+    new_val = 0 if (row and row['done']) else 1
+    conn.execute('''INSERT OR REPLACE INTO plan_progress (month, week, task_idx, done, updated_at)
+                    VALUES (?, ?, ?, ?, datetime('now'))''', (month, week, task_idx, new_val))
+    conn.commit()
+    conn.close()
+    return jsonify({'done': new_val})
+
 
 if __name__ == '__main__':
     print('Starting server at http://localhost:8765')
