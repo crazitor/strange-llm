@@ -32,6 +32,7 @@ def get_db():
 # Try to load ChromaDB at startup
 chroma_articles = None
 chroma_books = None
+chroma_article_chunks = None
 try:
     import chromadb
     client = chromadb.PersistentClient(path=CHROMA_DIR)
@@ -42,8 +43,27 @@ try:
         print(f'ChromaDB book_chunks: {chroma_books.count()} embeddings')
     except Exception:
         print('ChromaDB book_chunks not available')
+    try:
+        chroma_article_chunks = client.get_collection('article_chunks')
+        print(f'ChromaDB article_chunks: {chroma_article_chunks.count()} embeddings')
+    except Exception:
+        print('ChromaDB article_chunks not available')
+    try:
+        chroma_arguments = client.get_collection('arguments')
+        print(f'ChromaDB arguments: {chroma_arguments.count()} embeddings')
+    except Exception:
+        chroma_arguments = None
 except Exception as e:
     print(f'ChromaDB not available: {e}')
+
+# Cross-encoder reranker for RAG
+reranker = None
+try:
+    from sentence_transformers import CrossEncoder
+    reranker = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')
+    print('Cross-encoder reranker loaded')
+except Exception as e:
+    print(f'Reranker not available: {e}')
 
 # DeepSeek client for translation & RAG
 deepseek_client = None
@@ -420,6 +440,7 @@ function renderSidebar(data) {
   html += `<div class="mode-tab ${browseMode==='books'?'active':''}" onclick="switchMode('books')">Books</div>`;
   html += `<div class="mode-tab" onclick="showMyNotes()" style="background:var(--tag-bg)">Notes</div>`;
   html += `<div class="mode-tab ${browseMode==='graph'?'active':''}" onclick="switchMode('graph')">Graph</div>`;
+  html += `<div class="mode-tab" onclick="showDebates()" style="background:var(--tag-bg)">Debates</div>`;
   html += '</div>';
 
   if (browseMode === 'books') {
@@ -544,6 +565,11 @@ function saveReadProgress(bookId, chapterIdx, totalChapters) {
   prog.lastChapter = chapterIdx;
   if (!prog.readChapters.includes(chapterIdx)) prog.readChapters.push(chapterIdx);
   localStorage.setItem('readProgress_' + bookId, JSON.stringify(prog));
+  // Sync to server
+  fetch('/api/reading-progress', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({book_id: bookId, last_chapter: chapterIdx, read_chapters: prog.readChapters})
+  }).catch(() => {});
 }
 
 function renderBookList(books) {
@@ -715,6 +741,7 @@ function renderArticle() {
   }
 
   // Notes section
+  html += `<div style="margin:8px 0"><a href="/api/export/article/${a.id}" style="padding:3px 10px;border-radius:4px;border:1px solid var(--text-dim);color:var(--text-dim);font-size:11px;text-decoration:none">Export Markdown</a></div>`;
   html += renderNotesSection('article', a.id);
 
   // Similar
@@ -1004,9 +1031,10 @@ async function doAsk(question) {
     const resp = await fetch('/api/ask', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({question: question.trim(), mode: compareMode ? 'compare' : 'normal'})
+      body: JSON.stringify({question: question.trim(), mode: compareMode ? 'compare' : 'normal', conversation_id: window._conversationId || null})
     });
     const data = await resp.json();
+    if (data.conversation_id) window._conversationId = data.conversation_id;
 
     let html = '<div class="ask-answer">';
     html += `<div class="content" style="margin-bottom:16px">${data.answer_html || escHtml(data.answer || 'No answer')}</div>`;
@@ -1018,6 +1046,29 @@ async function doAsk(question) {
         html += `<span class="followup-item" onclick="document.getElementById('askInput').value=this.textContent;doAsk(this.textContent)">${escHtml(f)}</span> `;
       });
       html += '</div></div>';
+    }
+
+    // Concept graph panel
+    if (data.concepts && data.concepts.length) {
+      html += '<div style="margin-top:12px;padding:8px 12px;background:rgba(255,165,0,0.08);border-radius:8px;border:1px solid rgba(255,165,0,0.2)">';
+      html += '<strong style="font-size:11px;color:var(--orange)">Related Concepts</strong><div style="margin-top:4px;display:flex;flex-wrap:wrap;gap:4px">';
+      data.concepts.forEach(c => {
+        let tags = c.related.map(r => escHtml(r.name || r)).join(', ');
+        html += `<span style="padding:2px 8px;border-radius:10px;background:rgba(255,165,0,0.15);font-size:11px;cursor:pointer" title="Related: ${tags}" onclick="document.getElementById('askInput').value='What is ${escHtml(c.name)}?';doAsk('What is ${escHtml(c.name)}?')">${escHtml(c.name)}</span>`;
+      });
+      html += '</div></div>';
+    }
+
+    // Arguments panel
+    if (data.arguments && data.arguments.length) {
+      html += '<div style="margin-top:8px;padding:8px 12px;background:rgba(100,200,255,0.08);border-radius:8px;border:1px solid rgba(100,200,255,0.2)">';
+      html += '<strong style="font-size:11px;color:var(--accent)">Key Arguments from Corpus</strong>';
+      data.arguments.forEach(a => {
+        html += `<div style="margin-top:4px;font-size:11px;color:var(--text-dim)"><span style="color:var(--text)">&#x2022; ${escHtml(a.claim)}</span>`;
+        if (a.author) html += ` <span style="font-style:italic">- ${escHtml(a.author)}</span>`;
+        html += '</div>';
+      });
+      html += '</div>';
     }
 
     if (data.sources && data.sources.length) {
@@ -1102,6 +1153,10 @@ async function showMyNotes() {
   const notes = await resp.json();
 
   let html = '<h1 style="margin-bottom:12px">My Notes</h1>';
+  html += '<div style="margin-bottom:12px;display:flex;gap:8px">';
+  html += '<a href="/api/export/notes" style="padding:4px 12px;border-radius:4px;border:1px solid var(--accent);color:var(--accent);font-size:11px;text-decoration:none">Export Notes (MD)</a>';
+  html += '<a href="/api/export/qa-history" style="padding:4px 12px;border-radius:4px;border:1px solid var(--orange);color:var(--orange);font-size:11px;text-decoration:none">Export Q&A History (MD)</a>';
+  html += '</div>';
   if (!notes.length) {
     html += '<p style="color:var(--text-dim)">No notes yet. Add notes while reading articles or books.</p>';
   }
@@ -1161,8 +1216,96 @@ async function showStats() {
     });
   }
 
+  // Research Dashboard
+  try {
+    const dashResp = await fetch('/api/dashboard');
+    const dash = await dashResp.json();
+
+    html += '<h2 style="color:var(--orange);margin-top:24px;border-top:1px solid var(--border);padding-top:16px">Research Dashboard</h2>';
+
+    // Category coverage
+    if (dash.categories.length) {
+      html += '<h3 style="color:var(--accent);margin-top:12px">Coverage by Category</h3>';
+      const maxCat = Math.max(...dash.categories.map(c => c.count));
+      dash.categories.forEach(c => {
+        const w = (c.count / maxCat * 100).toFixed(0);
+        html += `<div class="stat-bar"><span class="stat-bar-label">${c.name} <span style="color:var(--text-dim)">(avg imp: ${c.avg_importance})</span></span>
+          <div class="stat-bar-fill" style="width:${w}%;background:var(--orange)"></div><span>${c.count}</span></div>`;
+      });
+    }
+
+    // Knowledge density
+    if (dash.knowledge_density.length) {
+      html += '<h3 style="color:var(--accent);margin-top:16px">Knowledge Density (concepts per category)</h3>';
+      const maxD = Math.max(...dash.knowledge_density.map(d => d.concepts));
+      dash.knowledge_density.forEach(d => {
+        const w = (d.concepts / maxD * 100).toFixed(0);
+        html += `<div class="stat-bar"><span class="stat-bar-label">${d.category}</span>
+          <div class="stat-bar-fill" style="width:${w}%;background:var(--accent2)"></div><span>${d.concepts} concepts</span></div>`;
+      });
+    }
+
+    // Argument topics
+    if (dash.argument_topics.length) {
+      html += '<h3 style="color:var(--accent);margin-top:16px">Arguments by Topic</h3>';
+      const maxA = Math.max(...dash.argument_topics.map(a => a.count));
+      dash.argument_topics.forEach(a => {
+        const w = (a.count / maxA * 100).toFixed(0);
+        html += `<div class="stat-bar"><span class="stat-bar-label">${a.topic}</span>
+          <div class="stat-bar-fill" style="width:${w}%;background:#64c8ff"></div><span>${a.count}</span></div>`;
+      });
+    }
+
+    // Reading progress
+    if (dash.reading_progress.length) {
+      html += '<h3 style="color:var(--accent);margin-top:16px">Reading Progress</h3>';
+      dash.reading_progress.forEach(p => {
+        html += `<div class="stat-bar"><span class="stat-bar-label">${p.book}</span>
+          <div class="stat-bar-fill" style="width:${p.pct}%;background:var(--accent)"></div><span>${p.read}/${p.total} (${p.pct}%)</span></div>`;
+      });
+    }
+
+    html += `<div class="stats-grid" style="margin-top:16px">
+      <div class="stat-card"><h3>Q&A Sessions</h3><div class="number">${dash.qa_count}</div></div>
+      <div class="stat-card"><h3>Notes</h3><div class="number">${dash.notes_count}</div></div>
+    </div>`;
+  } catch(e) {}
+
   document.getElementById('listPanel').innerHTML = '';
   document.getElementById('readingPanel').innerHTML = html;
+}
+
+async function showDebates() {
+  const panel = document.getElementById('readingPanel');
+  panel.innerHTML = '<div style="padding:20px"><h1>Loading debates...</h1></div>';
+  const resp = await fetch('/api/contradictions?limit=30');
+  const data = await resp.json();
+
+  let html = '<h1 style="margin-bottom:4px">Academic Debates & Counterarguments</h1>';
+  html += '<p style="color:var(--text-dim);font-size:12px;margin-bottom:16px">Claims paired with their counterarguments from the corpus.</p>';
+
+  // Group by topic
+  const byTopic = {};
+  data.forEach(d => {
+    const t = d.topic || 'General';
+    if (!byTopic[t]) byTopic[t] = [];
+    byTopic[t].push(d);
+  });
+
+  for (const [topic, items] of Object.entries(byTopic)) {
+    html += `<h3 style="color:var(--orange);margin-top:16px;margin-bottom:8px">${escHtml(topic)}</h3>`;
+    items.forEach(item => {
+      html += `<div style="margin-bottom:12px;padding:10px;background:var(--surface);border-radius:8px;border-left:3px solid var(--accent)">
+        <div style="font-size:13px;margin-bottom:6px"><strong>Claim:</strong> ${escHtml(item.claim)}</div>
+        <div style="font-size:13px;color:var(--orange);margin-bottom:4px"><strong>Counter:</strong> ${escHtml(item.counterargument)}</div>
+        <div style="font-size:10px;color:var(--text-dim)">${escHtml(item.source)}</div>
+      </div>`;
+    });
+  }
+
+  if (!data.length) html += '<p style="color:var(--text-dim)">No counterarguments found yet. Run argument extraction to populate.</p>';
+  panel.innerHTML = html;
+  document.getElementById('listPanel').innerHTML = '';
 }
 
 function escHtml(s) {
@@ -1483,9 +1626,35 @@ async function showConceptDetail(conceptId) {
 function highlightConcept(query) {
   if (!graphData) return;
   query = query.toLowerCase().trim();
-  d3.selectAll('.graph-node').classed('highlight', function(d) {
-    return query && (d.name.includes(query) || (d.name_zh && d.name_zh.includes(query)));
+  if (!query) {
+    // Reset: show all
+    d3.selectAll('.graph-node').classed('highlight', false).style('opacity', 1);
+    d3.selectAll('.graph-link').style('opacity', 0.3);
+    return;
+  }
+  // Find matching nodes
+  const matchIds = new Set();
+  graphData.nodes.forEach(n => {
+    if (n.name.includes(query) || (n.name_zh && n.name_zh.includes(query))) matchIds.add(n.id);
   });
+  // Find neighbor nodes (connected to matches)
+  const neighborIds = new Set(matchIds);
+  graphData.edges.forEach(e => {
+    const src = typeof e.source === 'object' ? e.source.id : e.source;
+    const tgt = typeof e.target === 'object' ? e.target.id : e.target;
+    if (matchIds.has(src)) neighborIds.add(tgt);
+    if (matchIds.has(tgt)) neighborIds.add(src);
+  });
+  // Highlight matches, dim non-neighbors
+  d3.selectAll('.graph-node')
+    .classed('highlight', d => matchIds.has(d.id))
+    .style('opacity', d => neighborIds.has(d.id) ? 1 : 0.1);
+  d3.selectAll('.graph-link')
+    .style('opacity', d => {
+      const src = typeof d.source === 'object' ? d.source.id : d.source;
+      const tgt = typeof d.target === 'object' ? d.target.id : d.target;
+      return (matchIds.has(src) || matchIds.has(tgt)) ? 0.6 : 0.03;
+    });
 }
 
 async function loadConceptMap() {
@@ -1706,25 +1875,30 @@ def api_article(article_id):
     else:
         result['content_zh_html'] = None
 
-    # Similar articles
+    # Similar articles — use article_chunks for better precision
     result['similar'] = []
-    if chroma_articles:
+    search_col = chroma_article_chunks or chroma_articles
+    if search_col:
         try:
-            similar = chroma_articles.query(
-                query_texts=[result['title'] + ' ' + (result.get('abstract') or '')[:200]],
-                n_results=6
-            )
+            query_text = result['title'] + ' ' + (result.get('abstract') or '')[:300]
+            similar = search_col.query(query_texts=[query_text], n_results=20)
+            seen_ids = {article_id}
             for sid, meta in zip(similar['ids'][0], similar['metadatas'][0]):
-                try:
-                    aid = int(sid.replace('a_', ''))
-                except ValueError:
-                    aid = int(sid)
-                if aid != article_id:
+                aid = meta.get('article_id') if chroma_article_chunks else None
+                if aid is None:
+                    try:
+                        aid = int(sid.replace('a_', '').replace('ac_', ''))
+                    except ValueError:
+                        continue
+                if aid not in seen_ids:
+                    seen_ids.add(aid)
                     result['similar'].append({
                         'id': aid,
                         'title': meta.get('title', ''),
                         'source': meta.get('source', '')
                     })
+                if len(result['similar']) >= 5:
+                    break
         except Exception:
             pass
 
@@ -1917,84 +2091,280 @@ def api_ask():
     if not question:
         return jsonify({'error': 'No question provided'})
 
+    conversation_id = data.get('conversation_id')
+    if not conversation_id:
+        import uuid
+        conversation_id = str(uuid.uuid4())[:8]
+
     sources = []
     context_parts = []
-    CONTEXT_BUDGET = 12000  # total chars for RAG context
+    CONTEXT_BUDGET = 16000  # total chars for RAG context
 
-    # Collect all candidates with distances
-    candidates = []
-
-    # Search articles via ChromaDB
-    if chroma_articles:
+    # ── Step 0: Chinese query detection & translation ──
+    import re as _re
+    has_chinese = bool(_re.search(r'[\u4e00-\u9fff]', question))
+    english_query = question
+    if has_chinese:
         try:
-            results = chroma_articles.query(query_texts=[question], n_results=5, include=['metadatas', 'documents', 'distances'])
-            conn = get_db()
-            c = conn.cursor()
-            for sid, meta, doc, dist in zip(results['ids'][0], results['metadatas'][0], results['documents'][0], results['distances'][0]):
-                try:
-                    aid = int(sid.replace('a_', ''))
-                except ValueError:
-                    aid = int(sid)
-                c.execute('SELECT abstract, content FROM articles WHERE id = ?', (aid,))
-                row = c.fetchone()
-                full_text = ''
-                if row:
-                    full_text = strip_frontmatter(row['content'] or row['abstract'] or '')
-                candidates.append({
-                    'type': 'article', 'id': aid, 'distance': dist,
-                    'title': meta.get('title', ''), 'author': meta.get('author', ''),
-                    'full_text': full_text
-                })
-            conn.close()
+            tr_resp = deepseek_client.chat.completions.create(
+                model='deepseek-chat',
+                messages=[{'role': 'user', 'content': f'Translate this question to English. Output ONLY the translation, nothing else:\n{question}'}],
+                max_tokens=200, temperature=0.1
+            )
+            english_query = tr_resp.choices[0].message.content.strip()
         except Exception:
             pass
 
-    # Search books via ChromaDB
-    if chroma_books:
+    # ── Step 0.5: Concept-aware query expansion ──
+    expanded_terms = []
+    concept_context_data = []  # For A3: concept injection
+    try:
+        conn_c = get_db()
+        # Extract words from query, find matching concepts
+        query_words = [w.lower() for w in english_query.split() if len(w) > 3]
+        found_concepts = []
+        for w in query_words:
+            rows = conn_c.execute(
+                'SELECT id, name, description, category FROM concepts WHERE LOWER(name) LIKE ? ORDER BY mention_count DESC LIMIT 2',
+                (f'%{w}%',)
+            ).fetchall()
+            for r in rows:
+                if r['id'] not in [fc['id'] for fc in found_concepts]:
+                    found_concepts.append(dict(r))
+        # Also try full phrase match
+        phrase_rows = conn_c.execute(
+            'SELECT id, name, description, category FROM concepts WHERE LOWER(name) LIKE ? ORDER BY mention_count DESC LIMIT 3',
+            (f'%{english_query.lower()[:50]}%',)
+        ).fetchall()
+        for r in phrase_rows:
+            if r['id'] not in [fc['id'] for fc in found_concepts]:
+                found_concepts.append(dict(r))
+
+        # Get related concepts for expansion
+        for concept in found_concepts[:5]:
+            related = conn_c.execute(
+                '''SELECT c.name, cr.relation FROM concept_relations cr
+                   JOIN concepts c ON (CASE WHEN cr.concept_a = ? THEN cr.concept_b ELSE cr.concept_a END) = c.id
+                   WHERE (cr.concept_a = ? OR cr.concept_b = ?) AND cr.strength >= 0.7
+                   ORDER BY cr.strength DESC LIMIT 4''',
+                (concept['id'], concept['id'], concept['id'])
+            ).fetchall()
+            for rel in related:
+                if rel['name'].lower() not in english_query.lower():
+                    expanded_terms.append(rel['name'])
+            concept_context_data.append({
+                'name': concept['name'],
+                'description': concept.get('description', ''),
+                'category': concept.get('category', ''),
+                'related': [{'name': r['name'], 'relation': r['relation']} for r in related]
+            })
+        conn_c.close()
+    except Exception:
+        pass
+
+    # ── Step 1: Dual-path retrieval (original + HyDE) ──
+    hyde_query = english_query
+    try:
+        hyde_resp = deepseek_client.chat.completions.create(
+            model='deepseek-chat',
+            messages=[{'role': 'user', 'content': f'Write a 200-word academic paragraph answering: {english_query}'}],
+            max_tokens=300, temperature=0.7
+        )
+        hyde_query = hyde_resp.choices[0].message.content.strip()
+    except Exception:
+        pass
+
+    # ── Step 2: Collect candidates from all query paths ──
+    candidates = []
+    seen_chunk_ids = set()
+
+    def _strip_chunk_prefix(text):
+        """Remove [Title by Author] prefix from chunk for cleaner reranking."""
+        if text and text.startswith('['):
+            nl = text.find('\n')
+            if nl != -1 and nl < 200:
+                return text[nl + 1:]
+        return text
+
+    def _search_article_chunks(query_text, n=15):
+        if not chroma_article_chunks:
+            return
         try:
-            results = chroma_books.query(query_texts=[question], n_results=5, include=['metadatas', 'documents', 'distances'])
-            conn = get_db()
-            c = conn.cursor()
+            results = chroma_article_chunks.query(query_texts=[query_text], n_results=n, include=['metadatas', 'documents', 'distances'])
+            for sid, meta, doc, dist in zip(results['ids'][0], results['metadatas'][0], results['documents'][0], results['distances'][0]):
+                cid = meta.get('chunk_id', sid)
+                if cid in seen_chunk_ids:
+                    continue
+                seen_chunk_ids.add(cid)
+                candidates.append({
+                    'type': 'article', 'id': meta.get('article_id', 0), 'distance': dist,
+                    'title': meta.get('title', ''), 'author': meta.get('author', ''),
+                    'full_text': doc or '', 'clean_text': _strip_chunk_prefix(doc or ''),
+                    'importance': 0  # filled later
+                })
+        except Exception:
+            pass
+
+    def _search_book_chunks(query_text, n=10):
+        if not chroma_books:
+            return
+        try:
+            results = chroma_books.query(query_texts=[query_text], n_results=n, include=['metadatas', 'documents', 'distances'])
+            conn2 = get_db()
+            c2 = conn2.cursor()
             for sid, meta, doc, dist in zip(results['ids'][0], results['metadatas'][0], results['documents'][0], results['distances'][0]):
                 chunk_id = int(sid.replace('bc_', ''))
-                c.execute('SELECT content FROM book_chunks WHERE id = ?', (chunk_id,))
-                row = c.fetchone()
+                if chunk_id in seen_chunk_ids:
+                    continue
+                seen_chunk_ids.add(chunk_id)
+                c2.execute('SELECT content FROM book_chunks WHERE id = ?', (chunk_id,))
+                row = c2.fetchone()
                 full_text = (row['content'] if row else doc)
                 candidates.append({
                     'type': 'book_chunk', 'id': chunk_id, 'distance': dist,
                     'book_id': meta.get('book_id'),
                     'title': meta.get('book_title', ''), 'chapter': meta.get('chapter_title', ''),
                     'author': meta.get('author', ''),
-                    'full_text': full_text
+                    'full_text': full_text, 'clean_text': full_text
                 })
-            conn.close()
+            conn2.close()
         except Exception:
             pass
 
-    # Sort by distance (lower = more relevant) and allocate context budget
-    candidates.sort(key=lambda x: x['distance'])
+    # Argument-level search results (structured claims)
+    argument_results = []
+    def _search_arguments(query_text, n=6):
+        if not chroma_arguments:
+            return
+        try:
+            results = chroma_arguments.query(query_texts=[query_text], n_results=n, include=['metadatas', 'distances'])
+            conn_a = get_db()
+            for meta, dist in zip(results['metadatas'][0], results['distances'][0]):
+                aid = meta.get('argument_id', 0)
+                row = conn_a.execute(
+                    'SELECT claim, evidence, counterargument, topic FROM arguments WHERE id = ?', (aid,)
+                ).fetchone()
+                if row and dist < 0.6:  # Only include reasonably close matches
+                    argument_results.append({
+                        'claim': row['claim'],
+                        'evidence': row['evidence'],
+                        'counter': row['counterargument'],
+                        'topic': row['topic'],
+                        'source_title': meta.get('title', ''),
+                        'source_author': meta.get('author', ''),
+                        'distance': dist
+                    })
+            conn_a.close()
+        except Exception:
+            pass
+
+    # Path A: original query (captures exact-match style results)
+    _search_article_chunks(english_query, n=12)
+    _search_book_chunks(english_query, n=8)
+    # Path B: HyDE query (captures semantic/conceptual results)
+    if hyde_query != english_query:
+        _search_article_chunks(hyde_query, n=12)
+        _search_book_chunks(hyde_query, n=8)
+    # Path C: concept-expanded queries (captures related concepts)
+    for term in expanded_terms[:4]:
+        _search_article_chunks(term, n=4)
+        _search_book_chunks(term, n=3)
+    # Path D: argument search
+    _search_arguments(english_query, n=6)
+
+    # ── Step 3: Deduplicate by source ──
+    # Keep best candidate per article_id / (book_id+chapter)
+    deduped = {}
+    for c in candidates:
+        if c['type'] == 'article':
+            key = ('article', c['id'])
+        else:
+            key = ('book', c.get('book_id', 0), c.get('chapter', ''))
+        if key not in deduped or c['distance'] < deduped[key]['distance']:
+            deduped[key] = c
+    candidates = list(deduped.values())
+
+    # ── Step 3.5: Lookup importance scores ──
+    article_ids = [c['id'] for c in candidates if c['type'] == 'article' and c['id']]
+    if article_ids:
+        try:
+            conn_imp = get_db()
+            placeholders = ','.join('?' * len(article_ids))
+            rows = conn_imp.execute(
+                f'SELECT id, importance FROM articles WHERE id IN ({placeholders})', article_ids
+            ).fetchall()
+            imp_map = {r['id']: r['importance'] or 0 for r in rows}
+            for c in candidates:
+                if c['type'] == 'article':
+                    c['importance'] = imp_map.get(c['id'], 0)
+        except Exception:
+            pass
+
+    # ── Step 4: Cross-encoder reranking ──
+    # Use clean_text (no prefix) so reranker sees actual content
+    if candidates and reranker:
+        try:
+            pairs = [(english_query, c['clean_text'][:512]) for c in candidates]
+            scores = reranker.predict(pairs)
+            for c, s in zip(candidates, scores):
+                # Importance boost: up to +0.5 for importance=10
+                imp_boost = (c.get('importance', 0) or 0) * 0.05
+                c['rerank_score'] = float(s) + imp_boost
+            candidates.sort(key=lambda x: x.get('rerank_score', 0), reverse=True)
+        except Exception:
+            candidates.sort(key=lambda x: x['distance'])
+    else:
+        candidates.sort(key=lambda x: x['distance'])
+
+    # ── Step 5: Source diversity enforcement ──
+    # Ensure at least 2 different authors in top results
+    final = []
+    seen_authors = {}
+    for c in candidates:
+        author = c.get('author', 'unknown')
+        author_count = seen_authors.get(author, 0)
+        if author_count >= 3:  # max 3 sources from same author
+            continue
+        seen_authors[author] = author_count + 1
+        final.append(c)
+        if len(final) >= 10:
+            break
+    candidates = final
+
+    # ── Step 6: Build structured context for LLM ──
     budget_remaining = CONTEXT_BUDGET
-    for cand in candidates:
-        # Allocate more chars to more relevant results
-        alloc = min(len(cand['full_text']), max(800, budget_remaining // max(1, len(candidates))))
-        snippet = cand['full_text'][:alloc]
+    for rank, cand in enumerate(candidates):
+        # Top-ranked sources get more budget
+        if rank < 3:
+            max_alloc = 3000
+        elif rank < 6:
+            max_alloc = 2000
+        else:
+            max_alloc = 1000
+        alloc = min(len(cand['clean_text']), max_alloc, budget_remaining)
+        snippet = cand['clean_text'][:alloc]
         budget_remaining -= len(snippet)
+
+        src_num = len(sources) + 1
+        # Include relevance indicator for LLM
+        relevance = 'HIGH' if rank < 3 else ('MED' if rank < 6 else 'LOW')
 
         if cand['type'] == 'article':
             sources.append({
                 'type': 'article', 'id': cand['id'],
                 'title': cand['title'], 'author': cand['author'],
-                'snippet': snippet[:200]
+                'snippet': snippet[:300], 'relevance': relevance
             })
-            context_parts.append(f"[Article: {cand['title']} by {cand['author']}]\n{snippet}")
+            context_parts.append(
+                f"[{src_num}] (Relevance: {relevance}) Article: \"{cand['title']}\" by {cand['author']}\n{snippet}")
         else:
             sources.append({
                 'type': 'book_chunk', 'book_id': cand.get('book_id'),
                 'title': cand['title'], 'chapter': cand.get('chapter', ''),
-                'author': cand['author'], 'snippet': snippet[:200]
+                'author': cand['author'], 'snippet': snippet[:300], 'relevance': relevance
             })
             context_parts.append(
-                f"[Book: {cand['title']} - Ch: {cand.get('chapter','')} by {cand['author']}]\n{snippet}")
+                f"[{src_num}] (Relevance: {relevance}) Book: \"{cand['title']}\" Ch: \"{cand.get('chapter','')}\" by {cand['author']}\n{snippet}")
 
         if budget_remaining <= 0:
             break
@@ -2005,11 +2375,61 @@ def api_ask():
     context = '\n\n---\n\n'.join(context_parts)
     mode = data.get('mode', 'normal')
 
+    # ── Concept graph context ──
+    concept_section = ''
+    if concept_context_data:
+        parts = []
+        for cd in concept_context_data[:3]:
+            desc = cd.get('description', '')[:150]
+            rels = ', '.join(f"{r['relation']}→{r['name']}" for r in cd.get('related', [])[:5])
+            parts.append(f"• {cd['name']} ({cd.get('category','')}) — {desc}" + (f"\n  Relations: {rels}" if rels else ''))
+        concept_section = '\n\nKey concepts from knowledge graph:\n' + '\n'.join(parts) + '\n'
+
+    # ── Structured arguments context ──
+    argument_section = ''
+    if argument_results:
+        # Dedup by claim similarity (simple: skip if claim starts same)
+        seen_claims = set()
+        arg_parts = []
+        for ar in sorted(argument_results, key=lambda x: x['distance'])[:5]:
+            claim_key = ar['claim'][:50].lower()
+            if claim_key in seen_claims:
+                continue
+            seen_claims.add(claim_key)
+            arg_parts.append(
+                f"• CLAIM: {ar['claim']}\n  EVIDENCE: {ar['evidence']}\n  COUNTER: {ar['counter']}\n  Source: {ar['source_title'][:50]} by {ar['source_author']}"
+            )
+        if arg_parts:
+            argument_section = '\n\nExtracted arguments from corpus:\n' + '\n'.join(arg_parts) + '\n'
+
+    # Multi-turn: include conversation history
+    history = data.get('history', [])
+    history_text = ''
+    if not history and conversation_id:
+        # Load from DB
+        try:
+            conn_h = get_db()
+            prev = conn_h.execute(
+                "SELECT question, answer_html FROM qa_history WHERE conversation_id = ? ORDER BY id DESC LIMIT 2",
+                (conversation_id,)
+            ).fetchall()
+            history = [{'question': r['question'], 'answer': r['answer_html'][:500]} for r in reversed(prev)]
+        except Exception:
+            pass
+    if history:
+        history_parts = []
+        for h in history[-2:]:
+            history_parts.append(f"Q: {h.get('question', '')}\nA: {h.get('answer', '')[:500]}")
+        history_text = '\n\nPrevious conversation:\n' + '\n---\n'.join(history_parts) + '\n'
+
+    # ── Build final prompt ──
+    enrichment = concept_section + argument_section + history_text
+
     if mode == 'compare':
         prompt = f"""Compare and contrast what these sources say about the following question.
 For each source, summarize its position clearly. Then highlight key agreements and disagreements.
 Answer in the same language as the question. Cite sources using [Author, Title] format.
-
+{enrichment}
 Sources:
 {context}
 
@@ -2019,7 +2439,8 @@ After your answer, on a new line starting with "FOLLOWUPS:", suggest 3 follow-up
     else:
         prompt = f"""Based on the following sources, answer the question. Cite sources using [Author, Title] format.
 Answer in the same language as the question. Be thorough but concise.
-
+If relevant arguments are provided, integrate them into your analysis showing different positions.
+{enrichment}
 Sources:
 {context}
 
@@ -2053,15 +2474,41 @@ After your answer, on a new line starting with "FOLLOWUPS:", suggest 3 follow-up
         # Save to qa_history
         try:
             conn2 = get_db()
+            # Ensure conversation_id column exists
+            try:
+                conn2.execute("ALTER TABLE qa_history ADD COLUMN conversation_id TEXT")
+            except Exception:
+                pass
             conn2.execute(
-                "INSERT INTO qa_history (question, answer_html, sources_json, mode, created_at) VALUES (?,?,?,?,datetime('now'))",
-                (question, answer_html, json.dumps(sources), mode))
+                "INSERT INTO qa_history (question, answer_html, sources_json, mode, conversation_id, created_at) VALUES (?,?,?,?,?,datetime('now'))",
+                (question, answer_html, json.dumps(sources), mode, conversation_id))
             conn2.commit()
             conn2.close()
         except Exception:
             pass
 
-        return jsonify({'answer': answer, 'answer_html': answer_html, 'sources': sources, 'followups': followups})
+        # Build concept/argument metadata for frontend
+        concepts_used = []
+        for cd in concept_context_data[:5]:
+            concepts_used.append({
+                'name': cd['name'],
+                'related': cd.get('related', [])[:5]
+            })
+        arguments_used = []
+        for ar in sorted(argument_results, key=lambda x: x['distance'])[:5]:
+            arguments_used.append({
+                'claim': ar['claim'][:200],
+                'topic': ar.get('topic', ''),
+                'title': ar.get('title', ''),
+                'author': ar.get('author', ''),
+            })
+
+        return jsonify({
+            'answer': answer, 'answer_html': answer_html,
+            'sources': sources, 'followups': followups,
+            'concepts': concepts_used, 'arguments': arguments_used,
+            'conversation_id': conversation_id
+        })
     except Exception as e:
         return jsonify({'answer': f'Error: {str(e)}', 'sources': sources, 'followups': []})
 
@@ -2491,6 +2938,216 @@ def api_notes_post():
     note_id = c.lastrowid
     conn.close()
     return jsonify({'id': note_id, 'success': True})
+
+# ─── Reading Progress API ─────────────────────────────────────────
+
+@app.route('/api/reading-progress', methods=['GET'])
+def api_reading_progress_get():
+    conn = get_db()
+    try:
+        conn.execute('''CREATE TABLE IF NOT EXISTS reading_progress (
+            id INTEGER PRIMARY KEY, book_id INTEGER UNIQUE,
+            last_chapter INTEGER, read_chapters TEXT, updated_at TEXT
+        )''')
+        conn.commit()
+    except Exception:
+        pass
+    book_id = request.args.get('book_id')
+    if book_id:
+        row = conn.execute('SELECT * FROM reading_progress WHERE book_id = ?', (book_id,)).fetchone()
+        if row:
+            return jsonify(dict(row))
+        return jsonify({})
+    rows = conn.execute('SELECT * FROM reading_progress').fetchall()
+    return jsonify([dict(r) for r in rows])
+
+@app.route('/api/reading-progress', methods=['POST'])
+def api_reading_progress_post():
+    data = request.get_json()
+    conn = get_db()
+    try:
+        conn.execute('''CREATE TABLE IF NOT EXISTS reading_progress (
+            id INTEGER PRIMARY KEY, book_id INTEGER UNIQUE,
+            last_chapter INTEGER, read_chapters TEXT, updated_at TEXT
+        )''')
+    except Exception:
+        pass
+    conn.execute('''INSERT OR REPLACE INTO reading_progress (book_id, last_chapter, read_chapters, updated_at)
+                    VALUES (?, ?, ?, datetime('now'))''',
+                 (data['book_id'], data['last_chapter'], json.dumps(data.get('read_chapters', []))))
+    conn.commit()
+    return jsonify({'success': True})
+
+# ─── Export API ───────────────────────────────────────────────────
+
+@app.route('/api/export/notes')
+def api_export_notes():
+    conn = get_db()
+    notes = conn.execute('''SELECT n.*, a.title as article_title, b.title as book_title, ch.title as chapter_title
+                           FROM notes n
+                           LEFT JOIN articles a ON n.article_id = a.id
+                           LEFT JOIN books b ON n.book_id = b.id
+                           LEFT JOIN book_chapters ch ON n.chapter_id = ch.id
+                           ORDER BY n.created_at DESC''').fetchall()
+    lines = ['# Research Notes\n']
+    for n in notes:
+        source = n['article_title'] or n['book_title'] or 'General'
+        if n['chapter_title']:
+            source += f" / {n['chapter_title']}"
+        lines.append(f"## {source}")
+        lines.append(f"*{n['created_at']}*\n")
+        if n['highlight_text']:
+            lines.append(f"> {n['highlight_text']}\n")
+        lines.append(n['content'] + '\n')
+        if n['tags']:
+            lines.append(f"Tags: {n['tags']}\n")
+        lines.append('---\n')
+    from flask import Response
+    return Response('\n'.join(lines), mimetype='text/markdown',
+                    headers={'Content-Disposition': 'attachment; filename=research_notes.md'})
+
+@app.route('/api/export/article/<int:article_id>')
+def api_export_article(article_id):
+    conn = get_db()
+    a = conn.execute('SELECT * FROM articles WHERE id = ?', (article_id,)).fetchone()
+    if not a:
+        return jsonify({'error': 'not found'}), 404
+    lines = [f"# {a['title']}\n"]
+    if a['author']:
+        lines.append(f"**Author:** {a['author']}")
+    if a['date']:
+        lines.append(f"**Date:** {a['date']}")
+    if a['source']:
+        lines.append(f"**Source:** {a['source']}")
+    lines.append('')
+    if a['abstract']:
+        lines.append(f"## Abstract\n{a['abstract']}\n")
+    if a['content']:
+        lines.append(f"## Content\n{a['content']}")
+    from flask import Response
+    safe_title = (a['title'] or 'article')[:50].replace('/', '-').replace(' ', '_')
+    return Response('\n'.join(lines), mimetype='text/markdown',
+                    headers={'Content-Disposition': f'attachment; filename={safe_title}.md'})
+
+@app.route('/api/export/qa-history')
+def api_export_qa_history():
+    conn = get_db()
+    rows = conn.execute('SELECT question, answer_html, created_at FROM qa_history ORDER BY id DESC LIMIT 100').fetchall()
+    lines = ['# Q&A History\n']
+    for r in rows:
+        lines.append(f"## Q: {r['question']}")
+        lines.append(f"*{r['created_at']}*\n")
+        # Strip HTML tags for markdown
+        import re
+        answer_text = re.sub(r'<[^>]+>', '', r['answer_html'] or '')
+        lines.append(answer_text + '\n---\n')
+    from flask import Response
+    return Response('\n'.join(lines), mimetype='text/markdown',
+                    headers={'Content-Disposition': 'attachment; filename=qa_history.md'})
+
+# ─── Contradiction Detection API ──────────────────────────────────
+
+@app.route('/api/contradictions')
+def api_contradictions():
+    """Find potentially contradicting arguments in the corpus."""
+    conn = get_db()
+    topic = request.args.get('topic', '')
+    limit = int(request.args.get('limit', '20'))
+
+    # Get arguments, optionally filtered by topic
+    if topic:
+        args_rows = conn.execute(
+            "SELECT id, claim, evidence, counterargument, topic, source_type, source_id FROM arguments WHERE topic LIKE ? LIMIT 200",
+            (f'%{topic}%',)
+        ).fetchall()
+    else:
+        args_rows = conn.execute(
+            "SELECT id, claim, evidence, counterargument, topic, source_type, source_id FROM arguments WHERE counterargument IS NOT NULL AND counterargument != '' LIMIT 200"
+        ).fetchall()
+
+    # Group by topic, find claims with counterarguments
+    contradictions = []
+    for row in args_rows:
+        if row['counterargument'] and len(row['counterargument']) > 20:
+            # Look for other arguments that align with the counterargument
+            source_title = ''
+            if row['source_type'] == 'article':
+                src = conn.execute('SELECT title, author FROM articles WHERE id = ?', (row['source_id'],)).fetchone()
+                if src:
+                    source_title = f"{src['title'][:60]} by {src['author'] or 'unknown'}"
+            contradictions.append({
+                'claim': row['claim'],
+                'counterargument': row['counterargument'],
+                'topic': row['topic'],
+                'source': source_title,
+                'argument_id': row['id']
+            })
+
+    # Sort by topic for grouping
+    contradictions.sort(key=lambda x: x['topic'])
+    return jsonify(contradictions[:limit])
+
+# ─── Research Dashboard API ───────────────────────────────────────
+
+@app.route('/api/dashboard')
+def api_dashboard():
+    conn = get_db()
+    c = conn.cursor()
+
+    # Coverage by category
+    categories = c.execute(
+        "SELECT category, count(*) as n, avg(importance) as avg_imp FROM articles WHERE category IS NOT NULL GROUP BY category ORDER BY n DESC"
+    ).fetchall()
+
+    # Reading progress summary
+    progress = []
+    try:
+        c.execute('''CREATE TABLE IF NOT EXISTS reading_progress (
+            id INTEGER PRIMARY KEY, book_id INTEGER UNIQUE,
+            last_chapter INTEGER, read_chapters TEXT, updated_at TEXT
+        )''')
+        rows = c.execute('''SELECT rp.book_id, rp.read_chapters, b.title,
+                            (SELECT count(*) FROM book_chapters WHERE book_id = rp.book_id) as total_chapters
+                           FROM reading_progress rp JOIN books b ON rp.book_id = b.id''').fetchall()
+        for r in rows:
+            read_ch = json.loads(r['read_chapters'] or '[]')
+            progress.append({
+                'book': r['title'][:40],
+                'read': len(read_ch),
+                'total': r['total_chapters'],
+                'pct': round(len(read_ch) / r['total_chapters'] * 100) if r['total_chapters'] else 0
+            })
+    except Exception:
+        pass
+
+    # Knowledge density: concepts per category
+    density = c.execute('''
+        SELECT a.category, count(DISTINCT cs.concept_id) as concept_count
+        FROM concept_sources cs
+        JOIN articles a ON cs.source_type = 'article' AND cs.source_id = a.id
+        WHERE a.category IS NOT NULL
+        GROUP BY a.category ORDER BY concept_count DESC
+    ''').fetchall()
+
+    # Arguments per topic
+    arg_topics = c.execute(
+        "SELECT topic, count(*) as n FROM arguments GROUP BY topic ORDER BY n DESC LIMIT 15"
+    ).fetchall()
+
+    # QA activity
+    qa_count = c.execute('SELECT count(*) FROM qa_history').fetchone()[0]
+
+    # Notes count
+    notes_count = c.execute('SELECT count(*) FROM notes').fetchone()[0]
+
+    return jsonify({
+        'categories': [{'name': r['category'], 'count': r['n'], 'avg_importance': round(r['avg_imp'] or 0, 1)} for r in categories],
+        'reading_progress': progress,
+        'knowledge_density': [{'category': r['category'], 'concepts': r['concept_count']} for r in density],
+        'argument_topics': [{'topic': r['topic'], 'count': r['n']} for r in arg_topics],
+        'qa_count': qa_count,
+        'notes_count': notes_count,
+    })
 
 # ─── Stats ────────────────────────────────────────────────────────
 
